@@ -1,0 +1,91 @@
+---
+Description: 'An access token is an object that describes the security context of a process or thread.'
+ms.assetid: '350159c9-2399-427a-ba44-c897a9664299'
+title: Access Tokens
+---
+
+# Access Tokens
+
+An [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) is an object that describes the [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly) of a [*process*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-process-gly) or thread. The information in a token includes the identity and privileges of the user account associated with the process or thread. When a user logs on, the system verifies the user's password by comparing it with information stored in a security database. If the password is [*authenticated*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-authentication-gly), the system produces an access token. Every process executed on behalf of this user has a copy of this access token.
+
+The system uses an access token to identify the user when a thread interacts with a [securable object](securable-objects.md) or tries to perform a system task that requires privileges. Access tokens contain the following information:
+
+-   The [security identifier](security-identifiers.md) (SID) for the user's account
+-   SIDs for the groups of which the user is a member
+-   A [*logon SID*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-logon-sid-gly) that identifies the current [*logon session*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-logon-session-gly)
+-   A list of the [privileges](privileges.md) held by either the user or the user's groups
+-   An owner SID
+-   The SID for the primary group
+-   The default [DACL](access-control-lists.md) that the system uses when the user creates a securable object without specifying a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly)
+-   The source of the access token
+-   Whether the token is a [*primary*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-primary-token-gly) or [impersonation](client-impersonation.md) token
+-   An optional list of [restricting SIDs](restricted-tokens.md)
+-   Current impersonation levels
+-   Other statistics
+
+Every process has a [*primary token*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-primary-token-gly) that describes the [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly) of the user account associated with the process. By default, the system uses the primary token when a thread of the process interacts with a securable object. Moreover, a thread can impersonate a client account. Impersonation allows the thread to interact with securable objects using the client's security context. A thread that is impersonating a client has both a primary token and an [*impersonation token*](https://msdn.microsoft.com/library/windows/desktop/ms721588#-security-impersonation-token-gly).
+
+Use the [**OpenProcessToken**](openprocesstoken.md) function to retrieve a handle to the primary token of a process. Use the [**OpenThreadToken**](openthreadtoken.md) function to retrieve a handle to the impersonation token of a thread. For more information, see [Impersonation](client-impersonation.md).
+
+You can use the following functions to manipulate access tokens.
+
+
+
+| Function                                               | Description                                                                                                                                                            |
+|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**AdjustTokenGroups**](adjusttokengroups.md)         | Changes the group information in an access token.                                                                                                                      |
+| [**AdjustTokenPrivileges**](adjusttokenprivileges.md) | Enables or disables the privileges in an access token. It does not grant new privileges or revoke existing ones.                                                       |
+| [**CheckTokenMembership**](checktokenmembership.md)   | Determines whether a specified SID is enabled in a specified access token.                                                                                             |
+| [**CreateRestrictedToken**](createrestrictedtoken.md) | Creates a new token that is a restricted version of an existing token. The restricted token can have disabled SIDs, deleted privileges, and a list of restricted SIDs. |
+| [**DuplicateToken**](duplicatetoken.md)               | Creates a new impersonation token that duplicates an existing token.                                                                                                   |
+| [**DuplicateTokenEx**](duplicatetokenex.md)           | Creates a new primary token or impersonation token that duplicates an existing token.                                                                                  |
+| [**GetTokenInformation**](gettokeninformation.md)     | Retrieves information about a token.                                                                                                                                   |
+| [**IsTokenRestricted**](istokenrestricted.md)         | Determines whether a token has a list of restricting SIDs.                                                                                                             |
+| [**OpenProcessToken**](openprocesstoken.md)           | Retrieves a handle to the primary access token for a process.                                                                                                          |
+| [**OpenThreadToken**](openthreadtoken.md)             | Retrieves a handle to the impersonation access token for a thread.                                                                                                     |
+| [**SetThreadToken**](setthreadtoken.md)               | Assigns or removes an impersonation token for a thread.                                                                                                                |
+| [**SetTokenInformation**](settokeninformation.md)     | Changes a token's owner, primary group, or default DACL.                                                                                                               |
+
+
+
+ 
+
+The access token functions use the following structures to describe the parts of an access token.
+
+
+
+| Structure                                            | Description                                                                                           |
+|------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| [**TOKEN\_CONTROL**](token-control.md)              | Information that identifies an access token.                                                          |
+| [**TOKEN\_DEFAULT\_DACL**](token-default-dacl.md)   | The default DACL that the system uses in the security descriptors of new objects created by a thread. |
+| [**TOKEN\_GROUPS**](token-groups.md)                | Specifies the SIDs and attributes of the group SIDs in an access token.                               |
+| [**TOKEN\_OWNER**](token-owner.md)                  | The default owner SID for the security descriptors of new objects.                                    |
+| [**TOKEN\_PRIMARY\_GROUP**](token-primary-group.md) | The default primary group SID for the security descriptors of new objects.                            |
+| [**TOKEN\_PRIVILEGES**](token-privileges.md)        | The privileges associated with an access token. Also determines whether the privileges are enabled.   |
+| [**TOKEN\_SOURCE**](token-source.md)                | The source of an access token.                                                                        |
+| [**TOKEN\_STATISTICS**](token-statistics.md)        | Statistics associated with an access token.                                                           |
+| [**TOKEN\_USER**](token-user.md)                    | The SID of the user associated with an access token.                                                  |
+
+
+
+ 
+
+The access token functions use the following enumeration types.
+
+
+
+| Enumeration type                                             | Specifies                                                                       |
+|--------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [**TOKEN\_INFORMATION\_CLASS**](token-information-class.md) | Identifies the type of information being set or retrieved from an access token. |
+| [**TOKEN\_TYPE**](token-type.md)                            | Identifies an access token as a primary or impersonation token.                 |
+
+
+
+ 
+
+ 
+
+ 
+
+
+

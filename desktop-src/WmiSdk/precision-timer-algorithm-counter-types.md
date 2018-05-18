@@ -1,0 +1,41 @@
+---
+Description: 'The precision timer algorithm counter types obtain more accurate readings than system timers.'
+audience: developer
+author: 'REDMOND\\markl'
+manager: 'REDMOND\\markl'
+ms.assetid: 'f7159645-6287-47a3-895e-20dae6e0892a'
+ms.prod: 'windows-server-dev'
+ms.technology: 'windows-management-instrumentation'
+ms.tgt_platform: multiple
+title: Precision Timer Algorithm Counter Types
+---
+
+# Precision Timer Algorithm Counter Types
+
+The precision timer algorithm counter types obtain more accurate readings than system timers. The service that provides the data also provides a timestamp, which eliminates the errors that can occur because of the small and variable time that elapses between capture of the system timestamp and collection of the data from the performance DLL. This base timestamp for precision timers is a PERF\_PRECISION\_TIMESTAMP property, which must immediately follow the PERF\_PRECISION\_TIMER property.
+
+
+
+| CounterType Constant                                                                                         | Description                                                                                                                  |
+|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [PERF\_PRECISION\_SYSTEM\_TIMER](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 541525248<br/> | Similar to PERF\_COUNTER\_TIMER except that it uses a counter defined time base instead of the system timestamp.             |
+| [PERF\_PRECISION\_100NS\_TIMER](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 542573824<br/>  | Similar to PERF\_100NSEC\_TIMER except that it uses a 100ns counter defined time base instead of the system 100ns timestamp. |
+
+
+
+ 
+
+## Related topics
+
+<dl> <dt>
+
+[WMI Performance Counter Types](wmi-performance-counter-types.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

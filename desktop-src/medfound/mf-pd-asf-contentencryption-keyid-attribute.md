@@ -1,0 +1,64 @@
+﻿---
+Description: 'Specifies the key identifier for an encrypted Advanced Systems Format (ASF) file. This attribute corresponds to the Key ID field of the Content Encryption Header, defined in the ASF specification.'
+ms.assetid: 'ebadd156-28f4-499c-a182-f48a35ecbefb'
+title: 'MF\_PD\_ASF\_CONTENTENCRYPTION\_KEYID attribute'
+---
+
+# MF\_PD\_ASF\_CONTENTENCRYPTION\_KEYID attribute
+
+Specifies the key identifier for an encrypted Advanced Systems Format (ASF) file. This attribute corresponds to the Key ID field of the Content Encryption Header, defined in the ASF specification.
+
+## Data type
+
+Wide-character string
+
+## Remarks
+
+This attribute applies to presentation descriptors for ASF content.
+
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method retrieves the Key ID field, converts it into a wide-character string, and then populates a null-terminated array of **WCHAR**s. The size of the array equals the Key ID Length field of the Content Encryption Header.
+
+## Requirements
+
+
+
+|                                     |                                                                                          |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Header<br/>                   | <dl> <dt>Wmcontainer.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
+</dt> <dt>
+
+[**IMFAttributes::GetString**](imfattributes-getstring.md)
+</dt> <dt>
+
+[**IMFAttributes::SetString**](imfattributes-setstring.md)
+</dt> <dt>
+
+[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+</dt> <dt>
+
+[Presentation Descriptor Attributes](presentation-descriptor-attributes.md)
+</dt> <dt>
+
+[ASF Header Object](asf-file-structure.md#header-object)
+</dt> <dt>
+
+[Presentation Descriptors](presentation-descriptors.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,71 @@
+﻿---
+Description: 'Contains the response to a D3DAUTHENTICATEDQUERY\_CHANNELTYPE query.'
+ms.assetid: '547f7f26-2b9d-48b1-97cc-84a2202c3900'
+title: 'D3DAUTHENTICATEDCHANNEL\_QUERYCHANNELTYPE\_OUTPUT structure'
+---
+
+# D3DAUTHENTICATEDCHANNEL\_QUERYCHANNELTYPE\_OUTPUT structure
+
+Contains the response to a [**D3DAUTHENTICATEDQUERY\_CHANNELTYPE**](d3dauthenticatedquery-channeltype.md) query.
+
+To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md).
+
+## Syntax
+
+
+```C++
+typedef struct _D3DAUTHENTICATEDCHANNEL_QUERYCHANNELTYPE_OUTPUT {
+  D3DAUTHENTICATEDCHANNEL_QUERY_OUTPUT Output;
+  D3DAUTHENTICATEDCHANNELTYPE          ChannelType;
+} D3DAUTHENTICATEDCHANNEL_QUERYCHANNELTYPE_OUTPUT;
+```
+
+
+
+## Members
+
+<dl> <dt>
+
+**Output**
+</dt> <dd>
+
+A [**D3DAUTHENTICATEDCHANNEL\_QUERY\_OUTPUT**](d3dauthenticatedchannel-query-output.md) structure that contains a Message Authentication Code (MAC) and other data.
+
+</dd> <dt>
+
+**ChannelType**
+</dt> <dd>
+
+A [**D3DAUTHENTICATEDCHANNELTYPE**](d3dauthenticatedchanneltype.md) value that specifies the channel type.
+
+</dd> </dl>
+
+## Requirements
+
+
+
+|                                     |                                                                                        |
+|-------------------------------------|----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Header<br/>                   | <dl> <dt>D3d9types.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Direct3D Video Structures](direct3d-video-structures.md)
+</dt> <dt>
+
+[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

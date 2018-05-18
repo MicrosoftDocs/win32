@@ -1,0 +1,105 @@
+---
+title: control attribute
+description: The \ control\ attribute identifies a coclass or library as a COM control, from which a container site will derive additional type libraries or component object classes.
+ms.assetid: c39dd4b6-743f-4888-8954-8b83584bdea5
+keywords: ["control attribute MIDL"]
+topic_type:
+- apiref
+api_name:
+- control
+api_type:
+- NA
+---
+
+# control attribute
+
+The **\[control\]** attribute identifies a [**coclass**](coclass.md) or [**library**](library.md) as a COM control, from which a container site will derive additional type libraries or component object classes.
+
+``` syntax
+[
+    uuid, 
+    control 
+    [, attribute-list]
+] 
+library | coclass lib-or-coclassname 
+{ 
+    definitions 
+}
+```
+
+## Parameters
+
+<dl> <dt>
+
+*attribute-list* 
+</dt> <dd>
+
+Specifies zero or more attributes that apply to the [**library**](library.md) or [**coclass**](coclass.md) statement. Separate multiple attributes with commas.
+
+</dd> <dt>
+
+*lib-or-coclassname* 
+</dt> <dd>
+
+Specifies the name of the [**library**](library.md) or [**coclass**](coclass.md).
+
+</dd> <dt>
+
+*definitions* 
+</dt> <dd>
+
+MIDL statements that specify the members of the [**library**](library.md) or [**coclass**](coclass.md).
+
+</dd> </dl>
+
+## Remarks
+
+This attribute allows you to mark type libraries that describe controls so they will not be displayed in type browsers intended for nonvisual objects.
+
+### Flags
+
+TYPEFLAG\_FCONTROL, LIBFLAG\_FCONTROL
+
+## Examples
+
+``` syntax
+[
+    uuid(12345678-1234-1234-1234-123456789ABC),
+    helpstring("Hello 2.1 COM Control Library"), 
+    control,version(2.1)
+] 
+library Hello 
+{ 
+    /* library definitions */
+}
+```
+
+## See also
+
+<dl> <dt>
+
+[ODL File Syntax](df7aa86f-1453-4409-939e-788d469d611e)
+</dt> <dt>
+
+[ODL File Example](86d64a4f-08eb-422a-bb1d-dfa868094645)
+</dt> <dt>
+
+[Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)
+</dt> <dt>
+
+[TYPEFLAGS](bf34cc90-f772-4562-9d18-7cf35aeed41e)
+</dt> <dt>
+
+[**coclass**](coclass.md)
+</dt> <dt>
+
+[**library**](library.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

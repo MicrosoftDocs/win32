@@ -1,0 +1,20 @@
+---
+title: Version Information Reference
+description: .
+ms.assetid: '8a56573d-5b05-40e7-a95f-bfa249eab4bd'
+---
+
+# Version Information Reference
+
+## In This Section
+
+-   [Version Information Functions](version-information-functions.md)
+-   [Version Information Structures](version-information-structures.md)
+
+ 
+
+ 
+
+
+
+

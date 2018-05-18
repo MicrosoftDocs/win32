@@ -1,0 +1,203 @@
+---
+Description: 'This topic provides information about security considerations related to programming with Windows GDI+.'
+ms.assetid: '411e16e4-ad8f-4567-8964-564f08283ba5'
+title: 'Security Considerations: GDI+'
+---
+
+# Security Considerations: GDI+
+
+This topic provides information about security considerations related to programming with Windows GDI+. This topic doesn't provide all you need to know about security issues—instead, use it as a starting point and reference for this technology area.
+
+-   [Verifying the Success of Constructors](#verifying-the-success-of-constructors)
+-   [Allocating Buffers](#allocating-buffers)
+-   [Error Checking](#error-checking)
+-   [Thread Synchronization](#thread-synchronization)
+-   [Related topics](#related-topics)
+
+## Verifying the Success of Constructors
+
+Many of the GDI+ classes provide a [**Image::GetLastStatus**](-gdiplus-class-image-getlaststatus-.md) method that you can call to determine whether methods invoked on an object are successful. You can also call **Image::GetLastStatus** to determine whether a constructor is successful.
+
+The following example shows how to construct an [**Image**](-gdiplus-class-image-class.md) object and call the [**Image::GetLastStatus**](-gdiplus-class-image-getlaststatus-.md) method to determine whether the constructor was successful. The values **Ok** and **InvalidParameter** are elements of the [**Status**](-gdiplus-enum-status.md) enumeration.
+
+
+```C++
+Image myImage(L"Climber.jpg");
+Status st = myImage.GetLastStatus();
+
+if(Ok == st)
+   // The constructor was successful. Use myImage.
+else if(InvalidParameter == st)
+   // The constructor failed because of an invalid parameter.
+else
+   // Compare st to other elements of the Status 
+   // enumeration or do general error processing.
+```
+
+
+
+## Allocating Buffers
+
+Several GDI+ methods return numeric or character data in a buffer that is allocated by the caller. For each of those methods, there is a companion method that gives the size of the required buffer. For example, the [**GraphicsPath::GetPathPoints**](-gdiplus-class-graphicspath-getpathpoints-point-points-int-count-.md) method returns an array of [**Point**](-gdiplus-class-point-class.md) objects. Before you call **GraphicsPath::GetPathPoints**, you must allocate a buffer large enough to hold that array. You can determine the size of the required buffer by calling the [**GraphicsPath::GetPointCount**](-gdiplus-class-graphicspath-getpointcount-.md) method of a [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object.
+
+The following example shows how to determine the number of points in a [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object, allocate a buffer large enough to hold that many points, and then call [**GraphicsPath::GetPathPoints**](-gdiplus-class-graphicspath-getpathpoints-point-points-int-count-.md) to fill the buffer. Before the code calls **GraphicsPath::GetPathPoints**, it verifies that the buffer allocation was successful by making sure that the buffer pointer is not **NULL**.
+
+
+```C++
+GraphicsPath path;
+path.AddEllipse(10, 10, 200, 100);
+
+INT count = path.GetPointCount();          // get the size
+Point* pointArray = new Point[count];      // allocate the buffer
+
+if(pointArray)  // Check for successful allocation.
+{
+   path.GetPathPoints(pointArray, count);  // get the data
+   ...                                     // use pointArray
+   delete[] pointArray;                    // release the buffer
+   pointArray = NULL;
+}
+```
+
+
+
+The previous example uses the new operator to allocate a buffer. The new operator was convenient because the buffer was filled with a known number of [**Point**](-gdiplus-class-point-class.md) objects. In some cases, GDI+ writes more into buffer than an array of GDI+ objects. Sometimes a buffer is filled with an array of GDI+ objects along with additional data that is pointed to by members of those objects. For example, the [**Image::GetAllPropertyItems**](-gdiplus-class-image-getallpropertyitems-totalbuffersize-numproperties-allitems-.md) method returns an array of [**PropertyItem**](-gdiplus-class-propertyitem-class.md) objects, one for each property item (piece of metadata) stored in the image. But **Image::GetAllPropertyItems** returns more than just the array of **PropertyItem** objects; it appends the array with additional data.
+
+Before you call [**Image::GetAllPropertyItems**](-gdiplus-class-image-getallpropertyitems-totalbuffersize-numproperties-allitems-.md), you must allocate a buffer large enough to hold the array of [**PropertyItem**](-gdiplus-class-propertyitem-class.md) objects along with the additional data. You can call the [**Image::GetPropertySize**](-gdiplus-class-image-getpropertysize-totalbuffersize-numproperties-.md) method of an Image object to determine the total size of the required buffer.
+
+The following example shows how to create an [**Image**](-gdiplus-class-image-class.md) object and later call the [**Image::GetAllPropertyItems**](-gdiplus-class-image-getallpropertyitems-totalbuffersize-numproperties-allitems-.md) method of that **Image** object to retrieve all the property items (metadata) stored in the image. The code allocates a buffer based on a size value returned by the [**Image::GetPropertySize**](-gdiplus-class-image-getpropertysize-totalbuffersize-numproperties-.md) method. **Image::GetPropertySize** also returns a count value that gives the number of property items in the image. Notice that the code does not calculate the buffer size as `count*sizeof(PropertyItem)`. A buffer calculated that way would be too small.
+
+
+```C++
+UINT count = 0;
+UINT size = 0;
+Image myImage(L"FakePhoto.jpg");
+myImage.GetPropertySize(&amp;size, &amp;count);
+
+// GetAllPropertyItems returns an array of PropertyItem objects
+// along with additional data. Allocate a buffer large enough to 
+// receive the array and the additional data.
+PropertyItem* propBuffer =(PropertyItem*)malloc(size);
+
+if(propBuffer)
+{
+   myImage.GetAllPropertyItems(size, count, propBuffer);
+   ...
+   free(propBuffer);
+   propBuffer = NULL;
+}
+```
+
+
+
+## Error Checking
+
+Most of the code examples in the GDI+ documentation do not show error checking. Complete error checking makes a code example much longer and can obscure the point being illustrated by the example. You should not paste examples from the documentation directly into production code; rather, you should enhance the examples by adding your own error checking.
+
+The following example shows one way of implementing error checking with GDI+. Each time a GDI+ object is constructed, the code checks to see whether the constructor was successful. That check is especially important for the [**Image**](-gdiplus-class-image-class.md) constructor, which relies on reading a file. If all four of the GDI+ objects ([**Graphics**](-gdiplus-class-graphics-class.md), [**GraphicsPath**](-gdiplus-class-graphicspath-class.md), **Image**, and [**TextureBrush**](-gdiplus-class-texturebrush-class.md)) are constructed successfully, the code calls methods on those objects. Each method call is checked for success, and in the event of failure, the remaining method calls are skipped.
+
+
+```C++
+Status GdipExample(HDC hdc)
+{
+   Status status = GenericError;
+   INT count = 0;
+   Point* points = NULL;
+
+   Graphics graphics(hdc);
+   status = graphics.GetLastStatus();
+   if(Ok != status)
+      return status;
+
+   GraphicsPath path;
+   status = path.GetLastStatus();
+   if(Ok != status)
+      return status;
+
+   Image image(L"MyTexture.bmp");
+   status = image.GetLastStatus();
+   if(Ok != status)
+      return status;
+
+   TextureBrush brush(&amp;image);
+   status = brush.GetLastStatus();
+   if(Ok != status)
+      return status;
+
+   status = path.AddEllipse(10, 10, 200, 100);
+
+   if(Ok == status)
+   {
+      status = path.AddBezier(40, 130, 200, 130, 200, 200, 60, 200);
+   }
+  
+   if(Ok == status)
+   {
+      count = path.GetPointCount();
+      status = path.GetLastStatus();
+   }
+
+   if(Ok == status)
+   {
+      points = new Point[count];
+
+      if(NULL == points)
+         status = OutOfMemory;
+   }
+
+   if(Ok == status)
+   {
+      status = path.GetPathPoints(points, count);  
+   }
+  
+   if(Ok == status)
+   {
+      status = graphics.FillPath(&amp;brush, &amp;path);
+   }
+   
+   if(Ok == status)
+   {
+      for(int j = 0; j < count; ++j)
+      {
+         status = graphics.FillEllipse(
+         &amp;brush, points[j].X - 5, points[j].Y - 5, 10, 10);
+      }
+   }
+
+   if(points)
+   {
+      delete[] points;
+      points = NULL;
+   }
+
+   return status;
+}
+```
+
+
+
+## Thread Synchronization
+
+It is possible for more than one thread to have access to a single GDI+ object. However, GDI+ does not provide any automatic synchronization mechanism. So if two threads in your application have a pointer to the same GDI+ object, it is your responsibility to synchronize access to that object.
+
+Some GDI+ methods return **ObjectBusy** if a thread attempts to call a method while another thread is executing a method on the same object. Do not try to synchronize access to an object based on the **ObjectBusy** return value. Instead, each time you access a member or call a method of the object, place the call inside a critical section, or use some other standard synchronization technique.
+
+## Related topics
+
+<dl> <dt>
+
+[MSDN Security Developer Center](http://go.microsoft.com/fwlink/p/?linkid=182493)
+</dt> <dt>
+
+[Security How-To Resources](http://go.microsoft.com/fwlink/p/?linkid=182494)
+</dt> <dt>
+
+[TechNet Security Center](http://go.microsoft.com/fwlink/p/?linkid=182496)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

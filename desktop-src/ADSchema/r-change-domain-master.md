@@ -1,0 +1,128 @@
+---
+title: Change-Domain-Master extended right
+description: Extended right needed to change the domain naming FSMO role owner.
+audience: developer
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: '17c849ca-1996-4114-afd5-a5f5997de37d'
+ms.prod: 'windows-server-dev'
+ms.technology: 'active-directory-schema'
+ms.tgt_platform: multiple
+keywords: ["Change-Domain-Master extended right AD Schema"]
+topic_type:
+- apiref
+api_name:
+- Change-Domain-Master
+api_type:
+- Schema
+---
+
+# Change-Domain-Master extended right
+
+Extended right needed to change the domain naming FSMO role owner.
+
+
+
+|              |                                      |
+|--------------|--------------------------------------|
+| CN           | Change-Domain-Master                 |
+| Display-Name | Change Domain Master                 |
+| Rights-GUID  | 014bf69c-7b3b-11d1-85f6-08002be74fab |
+
+
+
+## Implementations
+
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**ADAM**](#adam)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
+
+## Windows 2000 Server
+
+
+
+|                         |                                                               |
+|-------------------------|---------------------------------------------------------------|
+| Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
+| Localization-Display-ID | 36                                                            |
+
+
+
+## Windows Server 2003
+
+
+
+|                         |                                                               |
+|-------------------------|---------------------------------------------------------------|
+| Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
+| Localization-Display-ID | 36                                                            |
+
+
+
+## ADAM
+
+
+
+|                         |                                                               |
+|-------------------------|---------------------------------------------------------------|
+| Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
+| Localization-Display-ID | 36                                                            |
+
+
+
+## Windows Server 2003 R2
+
+
+
+|                         |                                                               |
+|-------------------------|---------------------------------------------------------------|
+| Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
+| Localization-Display-ID | 36                                                            |
+
+
+
+## Windows Server 2008
+
+
+
+|                         |                                                               |
+|-------------------------|---------------------------------------------------------------|
+| Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
+| Localization-Display-ID | 36                                                            |
+
+
+
+## Windows Server 2008 R2
+
+
+
+|                         |                                                               |
+|-------------------------|---------------------------------------------------------------|
+| Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
+| Localization-Display-ID | 36                                                            |
+
+
+
+## Windows Server 2012
+
+
+
+|                         |                                                               |
+|-------------------------|---------------------------------------------------------------|
+| Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
+| Localization-Display-ID | 36                                                            |
+
+
+
+ 
+
+ 
+
+
+
+
+

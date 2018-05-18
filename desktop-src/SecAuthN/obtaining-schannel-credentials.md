@@ -1,0 +1,33 @@
+---
+Description: 'Credentials are required by the Schannel authentication process; both client and server must obtain valid credentials to establish a security context for message exchange. For an example that demonstrates this procedure, see Getting credentials.'
+ms.assetid: 'ee4a9908-7ba8-4701-84a4-c50b6b989e82'
+title: Obtaining Schannel Credentials
+---
+
+# Obtaining Schannel Credentials
+
+Credentials are required by the Schannel authentication process; both client and server must obtain valid credentials to establish a [*security context*](security.s_gly#-security-security-context-gly) for message exchange. For an example that demonstrates this procedure, see [Getting credentials](getting-a-certificate-for-schannel.md).
+
+Your application obtains credentials by calling the [**AcquireCredentialsHandle**](acquirecredentialshandle--general-.md) function, which returns a handle to the requested credentials. Because credentials handles are used to store configuration information, the same handle cannot be used for both client-side and server-side operations. This means that applications that support both client and server connections must obtain a minimum of two credentials handles.
+
+In Windows XP, an [**SCHANNEL\_CRED**](schannel-cred.md) structure specifies the following:
+
+-   A security protocol
+-   The allowable ciphers
+-   Minimum and maximum cipher strengths
+-   An [*X.509*](security.x_gly#-security-x-509-gly) certificate used for authentication — Required for server, optional for client unless server requests client authentication.
+
+Pass the [**SCHANNEL\_CRED**](schannel-cred.md) structure (via the *pAuthData* parameter) to the [**AcquireCredentialsHandle**](acquirecredentialshandle--general-.md) function. This function returns the credentials handle required to establish a [*security context*](security.s_gly#-security-security-context-gly).
+
+For detailed information on setting the ciphers used with Schannel, see [Specifying Schannel Ciphers and Cipher Strengths](specifying-schannel-ciphers-and-cipher-strengths.md).
+
+For information about certificates, see [Certificate and Certificate Store Functions](security.cryptography_functions#certificate-and-certificate-store-functions).
+
+For an example that demonstrates opening a [*certificate store*](security.c_gly#-security-certificate-store-gly) and locating a certificate to use for Schannel authentication, see [Getting a Certificate](getting-a-certificate-for-schannel.md).
+
+ 
+
+ 
+
+
+

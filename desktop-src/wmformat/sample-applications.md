@@ -1,0 +1,154 @@
+---
+title: Sample Applications
+description: Sample Applications
+ms.assetid: '7bbcc238-2858-4a08-a76b-9502fc453f17'
+keywords: ["Windows Media Format SDK,sample applications", "digital rights management (DRM),sample applications", "DRM (digital rights management),sample applications"]
+---
+
+# Sample Applications
+
+The sample code supplied with this SDK is in the form of projects for Microsoft Visual Studio 2005. Most of the samples are in C++, but ManagedWMFSDKWrapper and ManagedMetadataEdit require C#.
+
+These samples will not work unless the Windows Media Format SDK or the Windows Player SDK has been installed.
+
+Usage information for each sample is contained in a readme.txt file in each sample directory.
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Samle</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AudioPlayer</td>
+<td>Plays Windows Media files including DRM-protected files. It is controlled through a GUI, and commands include Play, Pause, Seek and Stop. It can play local files or files read from the Internet (including those output to the Internet by using the WMVNetWrite sample).
+<blockquote>
+[!Note]<br />
+The DRM portions of this sample are not supported on x64-based versions of Windows.
+</blockquote>
+<br/></td>
+</tr>
+<tr class="even">
+<td>DRMHeader</td>
+<td>DRMHeader is a console application that uses the metadata editor's [<strong>IWMDRMEditor</strong>](iwmdrmeditor.md) interface to read DRM attributes of files without linking to the DRM static library.
+<blockquote>
+[!Note]<br />
+This sample is not supported on x64-based versions of Windows.
+</blockquote>
+<br/></td>
+</tr>
+<tr class="odd">
+<td>DRMShow</td>
+<td>DRMShow is a console application that shows how to read [<em>DRM</em>](wmformat-glossary.md#wmformat-digital-rights-management--drm-) properties of a Windows Media file using the <strong>IWMDRMReader::GetDRMProperty</strong> method.This sample demonstrates the use of the <strong>IWMDRMReader::GetDRMProperty</strong> method and the properties that can be retrieved from the DRM reader. It does not demonstrate how to acquire a license for DRM-protected content. This sample requires the DRM stub library WMStubDRM.lib to build.<br/>
+<blockquote>
+[!Note]<br />
+This sample is not supported on x64-based versions of Windows.
+</blockquote>
+<br/> When you acquire the WMStubDRM.lib from Microsoft, the library is assigned an application security level. If the security level of the library you receive is not sufficient to play a protected file, this sample will display an error.<br/></td>
+</tr>
+<tr class="even">
+<td>DirectShowInterop/DSCopy</td>
+<td>Transcodes one or more files to an ASF file using the DirectShow® WM ASF Writer filter. The input file may be any compressed or uncompressed format supported by DirectShow.</td>
+</tr>
+<tr class="odd">
+<td>DirectShowInterop/DSPlay</td>
+<td>This sample is an interactive audio/video media file player with [<em>DRM</em>](wmformat-glossary.md#wmformat-digital-rights-management--drm-) support. It uses DirectShow's WM ASF Reader filter to play Windows Media files (ASF, WMA, WMV) without DRM protection and files which use DRM at a level of 100 or below. See readme.txt in the sample's directory for more information.</td>
+</tr>
+<tr class="even">
+<td>DirectShowInterop/DSSeekFm</td>
+<td>This sample demonstrates how to use the DirectShow WM ASF Reader Filter to play ASF content in a DirectShow filter graph, and also how to use the frame seeking support in the Windows Media Format SDK.</td>
+</tr>
+<tr class="odd">
+<td>Managed/WMFSDKWrapper</td>
+<td>This managed assembly serves as a wrapper used by managed-code samples for accessing some metadata interfaces of this SDK.</td>
+</tr>
+<tr class="even">
+<td>Managed/MetadataEdit</td>
+<td>This C# application can be used to view and edit metadata from Windows Media files.</td>
+</tr>
+<tr class="odd">
+<td>MetaDataEdit</td>
+<td>This is a C++ version of the Managed MetadataEdit application.</td>
+</tr>
+<tr class="even">
+<td>ReadFromStream</td>
+<td>This console application sample shows how to read data from <strong>IStream</strong> with WMReader. <strong>IStream</strong> source has been implemented to use a file in Windows Media Format (WMA/WMV/ASF).
+<blockquote>
+[!Note]<br />
+This sample does not show how to process the media samples coming out of WMReader. For examples on how to process audio/video or other types of media samples, please refer to other samples, for instance AudioPlayer, that are included with the Windows Media Format SDK.
+</blockquote>
+<br/></td>
+</tr>
+<tr class="odd">
+<td>UncompAVIToWMV</td>
+<td>This console application sample shows the necessary code to compress an AVI file to a WMV file. It shows how to merge samples for audio and video streams from several AVI files and either merge these into similar streams or create a new stream based on the source stream profile. It also shows how to create an arbitrary stream, do multipass encoding, add SMPTE time code, and apply DRM version 1 protection.</td>
+</tr>
+<tr class="even">
+<td>WMGenProfile/exe</td>
+<td>This sample has been updated from the 7.1 release. It is now an MFC Dialog application. WMGenProfile sample demonstrates the use of the WMGenProfile static library. It also serves as a tool for the creation of profiles. This tool is meant for developers familiar with the Windows Media Format. The UI has not been tested for user experience and is not meant as a recommendation about how to present this information to a user.</td>
+</tr>
+<tr class="odd">
+<td>WMGenProfile/lib</td>
+<td>The GenProfile library sample demonstrates the creation of profiles. It shows how to create media types and streams for various stream types (audio, video, script, image, file transfer, and Web). It does not demonstrate how to work with system profiles or how to convert system profiles to profiles that specify the Windows Media Audio and Video 9 Series codecs.</td>
+</tr>
+<tr class="even">
+<td>WMProp</td>
+<td>This console application demonstrates how to retrieve attributes by using the metadata editor object and profile information from the reader.</td>
+</tr>
+<tr class="odd">
+<td>WMStats</td>
+<td>This console application displays Reader and Writer statistics. Multiple instances of WMStats can also be used concurrently on one machine. Start one instance as a server to send the stream to the network and then run a second instance as a client to verify that server is streaming correctly.</td>
+</tr>
+<tr class="even">
+<td>WMSyncReader</td>
+<td>This console application sample shows how to read a media file using <strong>IWMSyncReader</strong> without creating any extra thread or using callbacks. The following features are implemented :Reading compressed or decompressed samples<br/> Time-based seeking<br/> Frame-based seeking<br/> <strong>IStream</strong> derived source<br/></td>
+</tr>
+<tr class="odd">
+<td>WMVAppend</td>
+<td>This console application takes two Windows Media files for input, and attempts to create an output file with the contents of the first followed by the second. The sample compares the profiles of the two input files to ensure they are similar enough to be appended. If this is not the case, an error message appears. For example, an error message occurs when one file is audio only and the second is an audio-video file, or when two audio files have different bit rates.The sample accepts variable bit rate (VBR) sources. However, when comparing the profiles of the two VBR sources, the sample ignores the average bit rate difference because two VBR streams will have different average bit rates even if they were created using the same profile. WMVAppend cannot compare the peak bit rate of unconstrained bit-rate-based VBR streams, or the quality level of quality-based VBR streams, because this information does not exist in the source files. It is therefore the user's responsibility to make sure that two source files are created using the same profile. Otherwise, invalid content can be created.<br/></td>
+</tr>
+<tr class="even">
+<td>WMVCopy</td>
+<td>This sample shows the code necessary to copy a WMV file. It shows how to read and write compressed samples, read header attributes and scripts, and modify header attributes.</td>
+</tr>
+<tr class="odd">
+<td>WMVNetWrite</td>
+<td>This console application shows how a Windows Media file is streamed across the Internet. The sample requires a port to be specified, and then the file can be played using a player.</td>
+</tr>
+<tr class="even">
+<td>WMVRecompress</td>
+<td>This console application shows how to recompress a WMV file. It demonstrates reading uncompressed samples, writing uncompressed samples, and doing multi-pass encoding, multi-channel output, and smart recompression.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## Related topics
+
+<dl> <dt>
+
+[**About the Windows Media Format SDK**](about-the-windows-media-format-sdk.md)
+</dt> <dt>
+
+[**Programming Guide**](programming-guide.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

@@ -1,0 +1,54 @@
+﻿---
+Description: 'Sets or retrieves the value of the OID dotted number of the identifier.'
+ms.assetid: 'bb960e65-776e-4ae8-a557-62254dc10558'
+title: 'OID.Value property'
+---
+
+# OID.Value property
+
+\[The **Value** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](T:System.Security.Cryptography.Oid) in the [**System.Security.Cryptography**](frlrfSystemSecurityCryptography) namespace.\]
+
+The **Value** property sets or retrieves the value of the OID dotted number of the identifier.
+
+## Syntax
+
+
+```VB
+OID.Value As String
+```
+
+
+
+## Property value
+
+The value of the OID dotted number of the identifier. For possible values, see Wincrypt.h.
+
+## Remarks
+
+If the **Value** property is set, the [**FriendlyName**](oid-friendlyname.md) property is set to the corresponding display name. If the **FriendlyName** property is set, the **Value** property is set to the corresponding dotted value.
+
+## Requirements
+
+
+
+|                            |                                                                                        |
+|----------------------------|----------------------------------------------------------------------------------------|
+| Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
+| DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**OID**](oid.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

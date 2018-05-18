@@ -1,0 +1,74 @@
+---
+Description: 'Constructor method.'
+ms.assetid: '9d6f40ee-31bf-4334-bee5-4be834f1f269'
+title: 'CRendererPosPassThru.CRendererPosPassThru constructor'
+---
+
+# CRendererPosPassThru.CRendererPosPassThru constructor
+
+Constructor method.
+
+## Syntax
+
+
+```C++
+CRendererPosPassThru(
+   const TCHAR     *pName,
+         LPUNKNOWN pUnk,
+         HRESULT   *phr,
+         IPin      *pPin
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pName* 
+</dt> <dd>
+
+Pointer to the name of the object, for debugging purposes. Allocate this parameter in static memory.
+
+</dd> <dt>
+
+*pUnk* 
+</dt> <dd>
+
+Pointer to the owner of this object. If the object is aggregated, pass a pointer to the aggregating object's **IUnknown** interface. Otherwise, set this parameter to **NULL**.
+
+</dd> <dt>
+
+*phr* 
+</dt> <dd>
+
+Pointer to an **HRESULT** value. Ignored.
+
+</dd> <dt>
+
+*pPin* 
+</dt> <dd>
+
+Pointer to the [**IPin**](ipin.md) interface of the filter's input pin.
+
+</dd> </dl>
+
+## Requirements
+
+
+
+|                    |                                                                                                                                                                                            |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
+| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+

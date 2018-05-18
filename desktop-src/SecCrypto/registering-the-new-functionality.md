@@ -1,0 +1,63 @@
+---
+Description: 'Support for registering the new functionality in a system registry must be provided in the new DLL along with the new function.'
+ms.assetid: '7a6af325-4891-40db-8d33-c9782bd438e5'
+title: Registering the New Functionality
+---
+
+# Registering the New Functionality
+
+Support for registering the new functionality in a system registry must be provided in the new DLL along with the new function. [OID Support Functions](cryptography-functions.md#oid-support-functions) provide assistance with this registration. Regsvr32.exe registers new functions. This tool is included with Windows.
+
+The new DLL must provide [**DllRegisterServer**](_com_dllregisterserver) and [**DllUnregisterServer**](_com_dllunregisterserver) entry points for use by Regsvr32.exe. [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions, such as [**CryptRegisterOIDFunction**](cryptregisteroidfunction.md) or [**CryptUnregisterOIDFunction**](cryptunregisteroidfunction.md), can be used within these entry points, as shown in the following example.
+
+
+```C++
+//  The DllRegisterServer Entry Point
+STDAPI DllRegisterServer(void)
+{
+    if(!CryptRegisterOIDFunction(
+         X509_ASN_ENCODING,                  // Encoding type
+         CRYPT_OID_ENCODE_OBJECT_FUNC,       // Function name
+         szOID_NEW_CERTIFICATE_TYPE,         // OID
+         L"NewCert.dll",                     // Dll name
+         L"NewCertificateTypeEncodeObject"   // Override function
+         ))                                  //   name
+       {
+         return E_FAIL;
+       }
+    else
+       {
+         return S_OK;
+       }
+}
+
+// The DllUnregisterServer Entry Point
+STDAPI DllUnregisterServer(void)
+{
+    HRESULT     hr = S_OK;
+
+    if(!CryptUnregisterOIDFunction(
+          X509_ASN_ENCODING,             // Encoding type
+          CRYPT_OID_ENCODE_OBJECT_FUNC,  // Function name
+          szOID_NEW_CERTIFICATE_TYPE     // OID
+          ))
+    {
+       if(ERROR_FILE_NOT_FOUND != GetLastError())
+               hr = E_FAIL;
+    }
+    return hr;
+}
+```
+
+
+
+This example must be compiled and linked into the new DLL. These two entry points, along with the function entry point, must be exported.
+
+To install the new functionality on a computer, run Regsvr32.exe from a command prompt, specifying the name and path of the new DLL. Regsvr32.exe accesses the [**CryptRegisterOIDFunction**](cryptregisteroidfunction.md) function through the [**DllRegisterServer**](mscs.dllregisterserver) function entry point and registers the new function and DLL.
+
+ 
+
+ 
+
+
+

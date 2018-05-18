@@ -1,0 +1,141 @@
+---
+title: CD3DX12\_BOX structure
+description: A helper structure to enable easy initialization of a D3D12\_BOX structure.
+ms.assetid: '7E1A352C-D664-4538-BA78-91493980559D'
+keywords: ["CD3DX12_BOX structure"]
+topic_type:
+- apiref
+api_name:
+- CD3DX12_BOX
+api_location:
+- d3dx12.h
+api_type:
+- HeaderDef
+---
+
+# CD3DX12\_BOX structure
+
+A helper structure to enable easy initialization of a [**D3D12\_BOX**](d3d12-box.md) structure.
+
+## Syntax
+
+
+```C++
+struct CD3DX12_BOX  : public D3D12_BOX{
+   CD3DX12_BOX();
+   explicit CD3DX12_BOX(const D3D12_BOX&amp; o);
+   explicit CD3DX12_BOX(LONG Left, LONG Right);
+   explicit CD3DX12_BOX(LONG Left, LONG Top, LONG Right, LONG Bottom);
+   explicit CD3DX12_BOX(LONG Left, LONG Top, LONG Front, LONG Right, LONG Bottom, LONG Back);
+   ~CD3DX12_BOX();
+   operator const D3D12_BOX&amp;() const;
+};
+```
+
+
+
+## Members
+
+<dl> <dt>
+
+**CD3DX12\_BOX()**
+</dt> <dd>
+
+Creates a new, uninitialized, instance of a CD3DX12\_BOX.
+
+</dd> <dt>
+
+**explicit CD3DX12\_BOX(const D3D12\_BOX& o)**
+</dt> <dd>
+
+Creates a new instance of a CD3DX12\_BOX, initialized with the contents of another [**D3D12\_BOX**](d3d12-box.md) structure.
+
+</dd> <dt>
+
+**explicit CD3DX12\_BOX(LONG Left, LONG Right)**
+</dt> <dd>
+
+Creates a new instance of a CD3DX12\_BOX, initializing the following parameters:
+
+LONG Left
+
+LONG Right
+
+</dd> <dt>
+
+**explicit CD3DX12\_BOX(LONG Left, LONG Top, LONG Right, LONG Bottom)**
+</dt> <dd>
+
+Creates a new instance of a CD3DX12\_BOX, initializing the following parameters:
+
+LONG Left
+
+LONG Top
+
+LONG Right
+
+LONG Bottom
+
+</dd> <dt>
+
+**explicit CD3DX12\_BOX(LONG Left, LONG Top, LONG Front, LONG Right, LONG Bottom, LONG Back)**
+</dt> <dd>
+
+Creates a new instance of a CD3DX12\_BOX, initializing the following parameters:
+
+LONG Left
+
+LONG Top
+
+LONG Front
+
+LONG Right
+
+LONG Bottom
+
+LONG Back
+
+</dd> <dt>
+
+**~CD3DX12\_BOX()**
+</dt> <dd>
+
+Destroys an instance of a CD3DX12\_BOX.
+
+</dd> <dt>
+
+**operator const D3D12\_BOX&() const**
+</dt> <dd>
+
+Defines the & pass-by-reference operator for the parent structure type.
+
+</dd> </dl>
+
+## Requirements
+
+
+
+|                   |                                                                                     |
+|-------------------|-------------------------------------------------------------------------------------|
+| Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**D3D12\_BOX**](d3d12-box.md)
+</dt> <dt>
+
+[Helper Structures for D3D12](helper-structures-for-d3d12.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

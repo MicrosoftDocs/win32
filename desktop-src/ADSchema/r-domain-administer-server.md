@@ -1,0 +1,116 @@
+---
+title: Domain-Administer-Server extended right
+description: Legacy SAM right.
+audience: developer
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: '64055571-a491-4f94-a802-6a189995e6f0'
+ms.prod: 'windows-server-dev'
+ms.technology: 'active-directory-schema'
+ms.tgt_platform: multiple
+keywords: ["Domain-Administer-Server extended right AD Schema"]
+topic_type:
+- apiref
+api_name:
+- Domain-Administer-Server
+api_type:
+- Schema
+---
+
+# Domain-Administer-Server extended right
+
+Legacy SAM right.
+
+
+
+|              |                                      |
+|--------------|--------------------------------------|
+| CN           | Domain-Administer-Server             |
+| Display-Name | Domain Administer Server             |
+| Rights-GUID  | ab721a52-1e2f-11d0-9819-00aa0040529b |
+
+
+
+## Implementations
+
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
+
+## Windows 2000 Server
+
+
+
+|                         |                                              |
+|-------------------------|----------------------------------------------|
+| Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
+| Localization-Display-ID | 1                                            |
+
+
+
+## Windows Server 2003
+
+
+
+|                         |                                              |
+|-------------------------|----------------------------------------------|
+| Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
+| Localization-Display-ID | 1                                            |
+
+
+
+## Windows Server 2003 R2
+
+
+
+|                         |                                              |
+|-------------------------|----------------------------------------------|
+| Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
+| Localization-Display-ID | 1                                            |
+
+
+
+## Windows Server 2008
+
+
+
+|                         |                                              |
+|-------------------------|----------------------------------------------|
+| Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
+| Localization-Display-ID | 1                                            |
+
+
+
+## Windows Server 2008 R2
+
+
+
+|                         |                                              |
+|-------------------------|----------------------------------------------|
+| Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
+| Localization-Display-ID | 1                                            |
+
+
+
+## Windows Server 2012
+
+
+
+|                         |                                              |
+|-------------------------|----------------------------------------------|
+| Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
+| Localization-Display-ID | 1                                            |
+
+
+
+ 
+
+ 
+
+
+
+
+

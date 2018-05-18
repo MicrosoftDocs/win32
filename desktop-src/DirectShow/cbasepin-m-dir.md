@@ -1,0 +1,44 @@
+---
+Description: 'Direction of the pin.'
+ms.assetid: '57c7e435-9db3-45ef-be83-52d65ff1f7a5'
+title: 'CBasePin::m\_dir member'
+---
+
+# CBasePin::m\_dir member
+
+Direction of the pin.
+
+## Syntax
+
+
+```C++
+PIN_DIRECTION m_dir;
+```
+
+
+
+## Requirements
+
+
+
+|                    |                                                                                                                                                                                            |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
+| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**CBasePin Class**](cbasepin.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

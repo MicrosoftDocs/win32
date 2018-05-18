@@ -1,0 +1,68 @@
+---
+title: TableItem Control Pattern
+description: Describes guidelines and conventions for implementing ITableItemProvider, including information about methods. The TableItem control pattern is used to support child controls of containers that implement ITableProvider.
+ms.assetid: 'e00c7a58-410c-4818-8f61-57ee98527d6e'
+keywords: ["UI Automation,implementing TableItem control pattern", "UI Automation,TableItem control pattern", "UI Automation,ITableItemProvider", "ITableItemProvider", "implementing UI Automation TableItem control patterns", "TableItem control patterns", "control patterns,ITableItemProvider", "control patterns,implementing UI Automation TableItem", "control patterns,TableItem", "interfaces,ITableItemProvider"]
+---
+
+# TableItem Control Pattern
+
+Describes guidelines and conventions for implementing [**ITableItemProvider**](uiauto-itableitemprovider.md), including information about methods. The **TableItem** control pattern is used to support child controls of containers that implement [**ITableProvider**](uiauto-itableprovider.md).
+
+Access to individual cell functionality is provided by the required, concurrent implementation of [**IGridItemProvider**](uiauto-igriditemprovider.md). This control pattern is analogous to **IGridItemProvider** with the distinction that any control implementing [**ITableItemProvider**](uiauto-itableitemprovider.md) must programmatically expose the relationship between the individual cell and its row and column information. For examples of controls that implement this control pattern, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
+
+This topic contains the following sections.
+
+-   [Implementation Guidelines and Conventions](#implementation-guidelines-and-conventions)
+-   [Required Members for **ITableItemProvider**](#required-members-for-itableitemprovider)
+-   [Related topics](#related-topics)
+
+## Implementation Guidelines and Conventions
+
+When implementing the **TableItem** control pattern, note the following guidelines and conventions:
+
+-   For related grid item functionality, see [GridItem Control Pattern](uiauto-implementinggriditem.md).
+
+## Required Members for **ITableItemProvider**
+
+The following methods are required for implementing the [**ITableItemProvider**](uiauto-itableitemprovider.md) interface.
+
+
+
+| Required members                                                               | Member type | Notes |
+|--------------------------------------------------------------------------------|-------------|-------|
+| [**GetColumnHeaderItems**](uiauto-itableitemprovider-getcolumnheaderitems.md) | Method      | None  |
+| [**GetRowHeaderItems**](uiauto-itableitemprovider-getrowheaderitems.md)       | Method      | None  |
+
+
+
+ 
+
+This control pattern has no associated properties or events.
+
+## Related topics
+
+<dl> <dt>
+
+**Conceptual**
+</dt> <dt>
+
+[Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md)
+</dt> <dt>
+
+[Table Control Pattern](uiauto-implementingtable.md)
+</dt> <dt>
+
+[UI Automation Control Patterns Overview](uiauto-controlpatternsoverview.md)
+</dt> <dt>
+
+[UI Automation Tree Overview](uiauto-treeoverview.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

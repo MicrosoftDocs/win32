@@ -1,0 +1,13 @@
+# [Dynamic Access Control developer extensibility](dynamic-access-control-developer-extensibility-roadmap.md)
+## [How to create a custom file classification mechanism](how-to-use-custom-file-classification.md)
+## [How to create a custom storage plug-in](how-to-create-a-custom-storage-plug-in.md)
+## [How to configure a file management task](how-to-configure-a-file-management-task.md)
+## [How to enrich audit reporting](enrich-audit-reporting.md)
+## [How to use central access policies for dynamic access control](how-to-use-central-access-policies-for-dynamic-access-control.md)
+### [Dynamic Access Control objects in Active Directory](dynamic-access-control-containers-in-active-directory.md)
+### [How to read Dynamic Access Control objects using LDAP](how-to-enumerate-active-directory-definitions-for-user-and-device-claims-and-resource-properties.md)
+### [How to set up a claim type](how-to-set-up-a-claim-type.md)
+### [How to set up a resource property](how-to-set-up-a-resource-property.md)
+### [How to setup a central access rule](how-to-setup-a-central-access-rule.md)
+### [How to setup a central access policy](how-to-setup-a-central-access-policy.md)
+

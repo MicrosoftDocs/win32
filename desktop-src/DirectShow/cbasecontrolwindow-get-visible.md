@@ -1,0 +1,65 @@
+---
+Description: 'The get\_Visible method retrieves the current window visibility.'
+ms.assetid: '7e643569-1116-4562-be33-babd12a7e899'
+title: 'CBaseControlWindow.get\_Visible method'
+---
+
+# CBaseControlWindow.get\_Visible method
+
+The `get_Visible` method retrieves the current window visibility.
+
+## Syntax
+
+
+```C++
+HRESULT get_Visible(
+   long *pVisible
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pVisible* 
+</dt> <dd>
+
+Pointer to an Automation Boolean flag (0 is off, –1 is on).
+
+</dd> </dl>
+
+## Return value
+
+Returns an **HRESULT** value.
+
+## Remarks
+
+This member function returns –1 if the window has the WS\_VISIBLE style; 0 otherwise.
+
+## Requirements
+
+
+
+|                    |                                                                                                                                                                                            |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
+| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**CBaseControlWindow Class**](cbasecontrolwindow.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

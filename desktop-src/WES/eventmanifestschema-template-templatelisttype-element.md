@@ -1,0 +1,54 @@
+---
+title: template (TemplateListType) Element
+description: A template that defines the data to include with an event.
+ms.assetid: '97560254-100c-4d2a-bf3f-ca0897ece6c2'
+keywords: ["template element EventLog"]
+topic_type:
+- apiref
+api_name:
+- template
+api_type:
+- Schema
+---
+
+# template (TemplateListType) Element
+
+A template that defines the data to include with an event.
+
+``` syntax
+<xs:element name="template"
+    type="TemplateItemType"
+ />
+```
+
+The **template** element is defined by the [**TemplateListType**](eventmanifestschema-templatelisttype-complextype.md) complex type.
+
+## Requirements
+
+
+
+|                                     |                                                      |
+|-------------------------------------|------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+
+
+
+## See also
+
+<dl> <dt>
+
+**Parent element**
+</dt> <dt>
+
+[**templates (ProviderType)**](eventmanifestschema-templates-providertype-element.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

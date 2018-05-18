@@ -1,0 +1,32 @@
+---
+title: Accepting a Connection
+description: At some point in time, the dynamic virtual channel (DVC) client will request a connection to the DVC listener.
+audience: developer
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 'eab17aa9-590c-4da2-a1a9-6e50a11d1de7'
+ms.prod: 'windows-server-dev'
+ms.technology: 'remote-desktop-services'
+ms.tgt_platform: multiple
+---
+
+# Accepting a Connection
+
+At some point in time, the dynamic virtual channel (DVC) client will request a connection to the DVC listener. When this occurs, the listener can spawn a unique communication channel to the client, which is handled by the [**OnNewChannelConnection**](iwtslistenercallback-onnewchannelconnection.md) method of [**IWTSListenerCallback**](iwtsvirtualchannelcallback.md). For an example, see the implementation of **CDVCSamplePlugin::OnNewChannelConnection** in the [DVC Client Plug-in Example](dvc-client-plug-in-example.md) sample code.
+
+The following figure shows the sequence of events for establishing a DVC connection. The shaded objects are user-supplied (DVC application/service and [**IWTSListenerCallback**](iwtslistenercallback.md)), while the un-shaded objects are part of the framework (Remote Desktop Session Host (RD Session Host) service, listener, and [**IWTSVirtualChannel**](iwtsvirtualchannel.md)).
+
+![sequence of events for establishing a dvc connection](images/acceptingconnection.png)
+
+> [!Note]  
+> This figure assumes that a listener object has been created through a [**CreateListener**](iwtsvirtualchannelmanager-createlistener.md) call to [**IWTSVirtualChannelManager**](iwtsvirtualchannelmanager.md), and that the plug-in has specified [**IWTSListenerCallback**](iwtslistenercallback.md) as a parameter.
+
+ 
+
+ 
+
+ 
+
+
+
+

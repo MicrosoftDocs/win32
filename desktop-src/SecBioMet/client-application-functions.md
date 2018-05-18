@@ -1,0 +1,89 @@
+---
+title: Client Application Functions
+description: Functions supported for client application development by the Windows Biometric Framework API.
+ms.assetid: '57c9378d-b170-4ba8-8eee-8078531540d5'
+keywords: ["Windows Biometric Framework API Windows Biometric Framework API , client application functions"]
+---
+
+# Client Application Functions
+
+The following functions are supported for client application development by the Windows Biometric Framework API.
+
+## In this section
+
+
+
+| Topic                                                                                       | Description                                                                                                                                                                                                                              |
+|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**WinBioAcquireFocus**](winbioacquirefocus.md)<br/>                                 | Acquires window focus.<br/>                                                                                                                                                                                                        |
+| [**WinBioAsyncEnumBiometricUnits**](winbioasyncenumbiometricunits.md)<br/>           | Asynchronously enumerates all attached biometric units that match the input factor type.<br/>                                                                                                                                      |
+| [**WinBioAsyncEnumDatabases**](winbioasyncenumdatabases.md)<br/>                     | Asynchronously enumerates all registered databases that match a specified type.<br/>                                                                                                                                               |
+| [**WinBioAsyncEnumServiceProviders**](winbioasyncenumserviceproviders.md)<br/>       | Asynchronously returns information about installed biometric service providers. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                  |
+| [**WinBioAsyncMonitorFrameworkChanges**](winbioasyncmonitorframeworkchanges.md)<br/> | Starts an asynchronous monitor of changes to the biometric framework.<br/>                                                                                                                                                         |
+| [**WinBioAsyncOpenFramework**](winbioasyncopenframework.md)<br/>                     | Opens a handle to the biometric framework. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                                                       |
+| [**WinBioAsyncOpenSession**](winbioasyncopensession.md)<br/>                         | Asynchronously connects to a biometric service provider and one or more biometric units. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                         |
+| [**WinBioCancel**](winbiocancel.md)<br/>                                             | Cancels all pending biometric operations for a specified session. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                                |
+| [**WinBioCaptureSample**](winbiocapturesample.md)<br/>                               | Captures a biometric sample and fills a biometric information record (BIR) with the raw or processed data.<br/>                                                                                                                    |
+| [**WinBioCaptureSampleWithCallback**](winbiocapturesamplewithcallback.md)<br/>       | Captures a biometric sample asynchronously and returns the raw or processed data in a biometric information record (BIR).<br/>                                                                                                     |
+| [**WinBioCloseFramework**](winbiocloseframework.md)<br/>                             | Closes a framework handle previously opened with [**WinBioAsyncOpenFramework**](winbioasyncopenframework.md). Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                   |
+| [**WinBioCloseSession**](winbioclosesession.md)<br/>                                 | Closes a biometric session and releases associated resources. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                                    |
+| [**WinBioControlUnit**](winbiocontrolunit.md)<br/>                                   | Allows the caller to perform vendor-defined control operations on a biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                              |
+| [**WinBioControlUnitPrivileged**](winbiocontrolunitprivileged.md)<br/>               | Allows the caller to perform privileged vendor-defined control operations on a biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                   |
+| [**WinBioDeleteTemplate**](winbiodeletetemplate.md)<br/>                             | Deletes a biometric template from the template store. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                                            |
+| [**WinBioEnrollBegin**](winbioenrollbegin.md)<br/>                                   | Initiates a biometric enrollment sequence and creates an empty biometric template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                               |
+| [**WinBioEnrollCapture**](winbioenrollcapture.md)<br/>                               | Captures a biometric sample and adds it to a template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                                           |
+| [**WinBioEnrollCaptureWithCallback**](winbioenrollcapturewithcallback.md)<br/>       | Asynchronously captures a biometric sample and adds it to a template.<br/>                                                                                                                                                         |
+| [**WinBioEnrollCommit**](winbioenrollcommit.md)<br/>                                 | Finalizes a pending biometric template and saves it to the database associated with the biometric unit used for enrollment. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>      |
+| [**WinBioEnrollDiscard**](winbioenrolldiscard.md)<br/>                               | Ends the enrollment sequence and discards a pending biometric template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                          |
+| [**WinBioEnrollSelect**](winbioenrollselect.md)<br/>                                 | Specifies the individual that you want to enroll when data that represents multiple individuals is present in the sample buffer. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/> |
+| [**WinBioEnumBiometricUnits**](winbioenumbiometricunits.md)<br/>                     | Enumerates all attached biometric units that match the input type.<br/>                                                                                                                                                            |
+| [**WinBioEnumDatabases**](winbioenumdatabases.md)<br/>                               | Enumerates all registered databases that match a specified type.<br/>                                                                                                                                                              |
+| [**WinBioEnumEnrollments**](winbioenumenrollments.md)<br/>                           | Retrieves the biometric sub-factors enrolled for a specified identity and biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                        |
+| [**WinBioEnumServiceProviders**](winbioenumserviceproviders.md)<br/>                 | Retrieves information about installed biometric service providers. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                               |
+| [**WinBioFree**](winbiofree.md)<br/>                                                 | Releases memory allocated for the client application by an earlier call to a Windows Biometric Framework API function. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>           |
+| [**WinBioGetCredentialState**](winbiogetcredentialstate.md)<br/>                     | Retrieves a value that specifies whether credentials have been set for the specified user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                       |
+| [**WinBioGetDomainLogonSetting**](winbiogetdomainlogonsetting.md)<br/>               | Retrieves a value that specifies whether users can log on to a domain by using biometric information.<br/>                                                                                                                         |
+| [**WinBioGetEnabledSetting**](winbiogetenabledsetting.md)<br/>                       | Retrieves a value that specifies whether the Windows Biometric Framework is currently enabled.<br/>                                                                                                                                |
+| [**WinBioGetEnrolledFactors**](winbiogetenrolledfactors.md)<br/>                     | Gets information about the biometric enrollments that the specified user has on the computer.<br/>                                                                                                                                 |
+| [**WinBioGetLogonSetting**](winbiogetlogonsetting.md)<br/>                           | Retrieves a value that indicates whether users can log on by using biometric information.<br/>                                                                                                                                     |
+| [**WinBioGetProperty**](winbiogetproperty.md)<br/>                                   | Retrieves a session, unit, or template property. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                                                 |
+| [**WinBioIdentify**](winbioidentify.md)<br/>                                         | Captures a biometric sample and determines whether it matches an existing biometric template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                    |
+| [**WinBioIdentifyWithCallback**](winbioidentifywithcallback.md)<br/>                 | Asynchronously captures a biometric sample and determines whether it matches an existing biometric template.<br/>                                                                                                                  |
+| [**WinBioLocateSensor**](winbiolocatesensor.md)<br/>                                 | Retrieves the ID number of a biometric unit selected interactively by a user.<br/>                                                                                                                                                 |
+| [**WinBioLocateSensorWithCallback**](winbiolocatesensorwithcallback.md)<br/>         | Asynchronously retrieves the ID number of the biometric unit selected interactively by a user.<br/>                                                                                                                                |
+| [**WinBioLockUnit**](winbiolockunit.md)<br/>                                         | Locks a biometric unit for exclusive use by a single session. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                                    |
+| [**WinBioLogonIdentifiedUser**](winbiologonidentifieduser.md)<br/>                   | causes a fast user switch to the account associated with the last successful identification operation performed by the biometric session.<br/>                                                                                     |
+| [**WinBioMonitorPresence**](winbiomonitorpresence.md)<br/>                           | Turns on the face-recognition or iris-monitoring mechanism for the specified biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                     |
+| [**WinBioOpenSession**](winbioopensession.md)<br/>                                   | Connects to a biometric service provider and one or more biometric units.<br/>                                                                                                                                                     |
+| [**WinBioRegisterEventMonitor**](winbioregistereventmonitor.md)<br/>                 | Registers a callback function to receive event notifications from the service provider associated with an open session.<br/>                                                                                                       |
+| [**WinBioReleaseFocus**](winbioreleasefocus.md)<br/>                                 | Releases window focus.<br/>                                                                                                                                                                                                        |
+| [**WinBioRemoveAllCredentials**](winbioremoveallcredentials.md)<br/>                 | Removes all credentials from the store. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                                                          |
+| [**WinBioRemoveAllDomainCredentials**](winbioremovealldomaincredentials.md)<br/>     | Removes all user credentials for the current domain from the store. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                              |
+| [**WinBioRemoveCredential**](winbioremovecredential.md)<br/>                         | Deletes a biometric logon credential for a specified user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                                       |
+| [**WinBioSetCredential**](winbiosetcredential.md)<br/>                               | Saves a biometric logon credential for the current user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                                                                         |
+| [**WinBioSetProperty**](winbiosetproperty.md)<br/>                                   | Sets the value of a standard property associated with a biometric session, unit, template, or account. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                           |
+| [**WinBioUnlockUnit**](winbiounlockunit.md)<br/>                                     | Releases the session lock on the specified biometric unit.<br/>                                                                                                                                                                    |
+| [**WinBioUnregisterEventMonitor**](winbiounregistereventmonitor.md)<br/>             | cancels event notifications from the service provider associated with an open biometric session.<br/>                                                                                                                              |
+| [**WinBioVerify**](winbioverify.md)<br/>                                             | Captures a biometric sample and determines whether the sample corresponds to the specified user identity. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                        |
+| [**WinBioVerifyWithCallback**](winbioverifywithcallback.md)<br/>                     | Asynchronously captures a biometric sample and determines whether the sample corresponds to the specified user identity.<br/>                                                                                                      |
+| [**WinBioWait**](winbiowait.md)<br/>                                                 | Blocks caller execution until all pending biometric operations for a session have been completed or canceled. Starting with Windows 10, build 1607, this function is available to use with a mobile image.<br/>                    |
+
+
+
+ 
+
+## Related topics
+
+<dl> <dt>
+
+[Client Application Reference](client-application-reference.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

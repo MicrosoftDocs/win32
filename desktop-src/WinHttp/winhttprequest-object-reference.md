@@ -1,0 +1,27 @@
+---
+Description: 'The following topic contains reference documentation for using WinHTTP.'
+ms.assetid: '991c3c30-8eb5-4927-bc46-cabc36db020c'
+title: WinHttpRequest Object Reference
+---
+
+# WinHttpRequest Object Reference
+
+The following topic contains reference documentation for using WinHTTP from Visual Basic and script languages through the **WinHttpRequest** COM object, along with additional information for Visual Basic developers.
+
+## Objects
+
+<dl> <dt>
+
+[**WinHttpRequest**](winhttprequest.md)
+</dt> <dd>
+
+The WinHTTP COM object for use with scripting languages.
+
+</dd> </dl>
+
+ 
+
+ 
+
+
+

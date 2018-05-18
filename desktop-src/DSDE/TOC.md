@@ -1,0 +1,13 @@
+# [Directory Services Data Exchange](dsde-portal.md)
+## [About DSDE](about-dsde.md)
+### [DSDE Architecture](dsde-architecture.md)
+## [Using DSDE](using-dsde.md)
+### [Exporting Active Directory Objects](exporting-active-directory-objects.md)
+#### [Using Alternate Credentials](using-alternate-credentials.md)
+### [Exporting Active Directory Objects Through DSML Services for Windows](exporting-active-directory-objects-through-dsml-services-for-windows.md)
+### [Exporting LDAP Directory Objects](exporting-ldap-directory-objects.md)
+### [Importing Directory Objects to Active Directory](importing-directory-objects-to-active-directory.md)
+### [Diagnosing Errors with a Log File](getting-help.md)
+## [Installing DSDE](installing-dsde.md)
+## [DSDE Reference](dsde-reference.md)
+

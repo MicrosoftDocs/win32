@@ -1,0 +1,56 @@
+---
+title: \_WMPOCXEvents Interface
+description: The \_WMPOCXEvents interface provides the same events as the IWMPEvents, IWMPEvents2, IWMPEvents3, and IWMPEvents4 interfaces, but inherits from IDispatch rather than IUnknown.
+ms.assetid: '883d538e-19b6-417b-a32d-622c41c24b9c'
+keywords: ["_WMPOCXEvents Interface Windows Media Player"]
+topic_type:
+- apiref
+api_name:
+- _WMPOCXEvents Interface
+api_location:
+- wmp.h
+api_type:
+- HeaderDef
+---
+
+# \_WMPOCXEvents Interface
+
+The **\_WMPOCXEvents** interface provides the same events as the **IWMPEvents**, **IWMPEvents2**, **IWMPEvents3**, and **IWMPEvents4** interfaces, but inherits from **IDispatch** rather than **IUnknown**. This enables you to receive Windows Media Player event notifications through an **IDispatch** event sink.
+
+## Requirements
+
+
+
+|                   |                                                                                  |
+|-------------------|----------------------------------------------------------------------------------|
+| Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**Handling Events in C++**](handling-events-in-c.md)
+</dt> <dt>
+
+[**IWMPEvents Interface**](iwmpevents-interface.md)
+</dt> <dt>
+
+[**IWMPEvents2 Interface**](iwmpevents2-interface.md)
+</dt> <dt>
+
+[**IWMPEvents3 Interface**](iwmpevents3.md)
+</dt> <dt>
+
+[**IWMPEvents4 Interface**](iwmpevents4.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

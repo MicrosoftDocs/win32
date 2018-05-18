@@ -1,0 +1,109 @@
+---
+title: CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO structure
+description: A helper structure used to describe a cached PSO as a single object suitable for a stream description.
+ms.assetid: '86CDC60A-275D-4B71-BE6D-C863C72E9C05'
+keywords: ["CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO structure"]
+topic_type:
+- apiref
+api_name:
+- CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO
+api_location:
+- d3dx12.h
+api_type:
+- HeaderDef
+---
+
+# CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO structure
+
+A helper structure used to describe a cached PSO as a single object suitable for a stream description.
+
+## Syntax
+
+
+```C++
+struct CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO {
+                                           CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO;
+                                           CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO(D3D12_CACHED_PIPELINE_STATE const &amp;i);
+  CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO operator=(D3D12_CACHED_PIPELINE_STATE const&amp; i);
+                                           operator D3D12_CACHED_PIPELINE_STATE() const;
+};
+```
+
+
+
+## Members
+
+<dl> <dt>
+
+**CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO**
+</dt> <dd>
+
+Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO.
+
+</dd> <dt>
+
+**CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO(D3D12\_CACHED\_PIPELINE\_STATE const &i)**
+</dt> <dd>
+
+Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_CACHED\_PSO** and subobject data copied from *i*, a [**D3D12\_CACHED\_PIPELINE\_STATE**](d3d12-cached-pipeline-state.md) structure.
+
+</dd> <dt>
+
+**operator=(D3D12\_CACHED\_PIPELINE\_STATE const& i)**
+</dt> <dd>
+
+Copy-assignment operator.
+
+</dd> <dt>
+
+**operator D3D12\_CACHED\_PIPELINE\_STATE() const**
+</dt> <dd>
+
+Implicit conversion to a [**D3D12\_CACHED\_PIPELINE\_STATE**](d3d12-cached-pipeline-state.md) structure.
+
+</dd> </dl>
+
+## Remarks
+
+CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO is a typedef specialization of the [**CD3DX12\_PIPELINE\_STATE\_STREAM\_SUBOBJECT**](cd3dx12-pipeline-state-stream-subobject.md) template, and is defined as follows:
+
+
+```C++
+typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<D3D12_CACHED_PIPELINE_STATE, D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_CACHED_PSO>
+    CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO;
+          
+```
+
+
+
+## Requirements
+
+
+
+|                   |                                                                                     |
+|-------------------|-------------------------------------------------------------------------------------|
+| Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Helper Structures for D3D12](helper-structures-for-d3d12.md)
+</dt> <dt>
+
+[**CD3DX12\_PIPELINE\_STATE\_STREAM\_SUBOBJECT**](cd3dx12-pipeline-state-stream-subobject.md)
+</dt> <dt>
+
+[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

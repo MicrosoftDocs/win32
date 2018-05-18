@@ -1,0 +1,105 @@
+﻿---
+Description: 'The SetMediaType method sets the uncompressed media type for the group.'
+ms.assetid: '51778563-f119-42e0-826b-966324a85024'
+title: 'IAMTimelineGroup::SetMediaType method'
+---
+
+# IAMTimelineGroup::SetMediaType method
+
+> [!Note]  
+> \[Deprecated. This API may be removed from future releases of Windows.\]
+
+ 
+
+The `SetMediaType` method sets the uncompressed media type for the group.
+
+## Syntax
+
+
+```C++
+HRESULT SetMediaType(
+  [in] AM_MEDIA_TYPE *pmt
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pmt* \[in\]
+</dt> <dd>
+
+Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure describing the format.
+
+</dd> </dl>
+
+## Return value
+
+Returns one of the following **HRESULT** values:
+
+
+
+| Return code                                                                                             | Description                                     |
+|---------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| <dl> <dt>**S\_OK**</dt> </dl>                    | Success.<br/>                             |
+| <dl> <dt>**E\_POINTER**</dt> </dl>               | **NULL** pointer argument.<br/>           |
+| <dl> <dt>**VFW\_E\_INVALIDMEDIATYPE**</dt> </dl> | The specified media type is invalid.<br/> |
+
+
+
+ 
+
+## Remarks
+
+The following media types are supported:
+
+-   Uncompressed RGB video
+-   16 bits per pixel, 555 format (MEDIASUBTYPE\_RGB555)
+-   24 bits per pixel (MEDIASUBTYPE\_RGB24)
+-   32 bits per pixel, with alpha (MEDIASUBTYPE\_ARGB32, not MEDIASUBTYPE\_RGB32)
+-   16-bit stereo PCM audio (MEDIASUBTYPE\_PCM)
+
+Video types must use FORMAT\_VideoInfo for the format type and [**VIDEOINFOHEADER**](videoinfoheader.md) for the format block. The [**VIDEOINFOHEADER2**](videoinfoheader2.md) format is not supported. Also, top-down video formats (*biHeight* &lt; 0) are not supported.
+
+To specify a compression format for the group, call the [**IAMTimelineGroup::SetSmartRecompressFormat**](iamtimelinegroup-setsmartrecompressformat.md) method.
+
+> [!Note]  
+> The header file Qedit.h is not compatible with Direct3D headers later than version 7.
+
+ 
+
+> [!Note]  
+> To obtain Qedit.h, download the [Microsoft Windows SDK Update for Windows Vista and .NET Framework 3.0](http://go.microsoft.com/fwlink/p/?linkid=129787). Qedit.h is not available in the Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 Service Pack 1.
+
+ 
+
+## Requirements
+
+
+
+|                    |                                                                                         |
+|--------------------|-----------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
+| Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**IAMTimelineGroup Interface**](iamtimelinegroup.md)
+</dt> <dt>
+
+[Error and Success Codes](error-and-success-codes.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

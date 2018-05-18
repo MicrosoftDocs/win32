@@ -1,0 +1,82 @@
+---
+title: WaveActiveCountBits function
+description: Counts the number of boolean variables which evaluate to true across all active lanes in the current wave, and replicates the result to all lanes in the wave.
+ms.assetid: '053E100C-7E09-4F9D-9F38-9D5E208A38CE'
+keywords: ["WaveAllBitAnd function HLSL"]
+topic_type:
+- apiref
+api_name:
+- WaveAllBitAnd
+api_type:
+- NA
+---
+
+# WaveActiveCountBits function
+
+Counts the number of boolean variables which evaluate to true across all active lanes in the current wave, and replicates the result to all lanes in the wave.
+
+## Syntax
+
+
+```C++
+uint WaveAllBitAnd(
+   bool bBit
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*bBit* 
+</dt> <dd>
+
+The boolean variables to evaluate. Providing an explicit true Boolean value returns the number of active lanes.
+
+</dd> </dl>
+
+## Return value
+
+The number of which evaluate to true across all active lanes in the current wave.
+
+## Remarks
+
+This function is supported from shader model 6.0, in the following types of shaders:
+
+
+
+| Vertex | Hull | Domain | Geometry | Pixel | Compute |
+|--------|------|--------|----------|-------|---------|
+|        |      |        |          | x     | x       |
+
+
+
+ 
+
+## Examples
+
+This can be implemented more efficiently than a full WaveActiveSum, as described in the following example:
+
+``` syntax
+result = WaveActiveCountBits( waveActiveBallot( bBit ) ); 
+```
+
+## See also
+
+<dl> <dt>
+
+[Overview of Shader Model 6](hlsl-shader-model-6-0-features-for-direct3d-12.md)
+</dt> <dt>
+
+[Shader Model 6](shader-model-6-0.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

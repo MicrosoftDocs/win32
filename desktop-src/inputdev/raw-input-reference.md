@@ -1,0 +1,22 @@
+---
+title: Raw Input Reference
+description: .
+ms.assetid: '85bcce5f-6fe5-43b9-91d1-ef7025f77c3c'
+---
+
+# Raw Input Reference
+
+## In This Section
+
+-   [Raw Input Functions](raw-input-functions.md)
+-   [Raw Input Macros](raw-input-macros.md)
+-   [Raw Input Notifications](raw-input-notifications.md)
+-   [Raw Input Structures](raw-input-structures.md)
+
+ 
+
+ 
+
+
+
+

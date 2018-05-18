@@ -1,0 +1,216 @@
+---
+Description: 'Retrieves information for applications that are imported.'
+ms.assetid: '9ed4bc3f-3490-4c36-ba94-bc803886a4d2'
+title: FilesForImport collection
+---
+
+# FilesForImport collection
+
+Retrieves information for applications that are imported.
+
+This collection supports the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+
+## Members
+
+The **FilesForImport** collection inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface but does not have additional members.
+
+## Related Collections
+
+You can navigate from this collection to any of the following collections:
+
+-   [**ErrorInfo**](errorinfo.md)
+-   [**PropertyInfo**](propertyinfo.md)
+-   [**RelatedCollectionInfo**](relatedcollectioninfo.md)
+
+You can navigate to this collection from the following collections:
+
+-   [**Root**](root.md)
+
+## Properties
+
+The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+
+-   [ApplicationFileName](#applicationfilename)
+-   [ApplicationName](#applicationname)
+-   [Description](#partitiondescription)
+-   [FileName](#applicationfilename)
+-   [HasUsers](#hasusers)
+-   [IsProxy](#isproxy)
+-   [IsService](#isservice)
+-   [PartitionDescription](#partitiondescription)
+-   [PartitionID](#partitionid)
+-   [PartitionName](#partitionname)
+
+### ApplicationFileName
+
+
+
+|                |                                                                              |
+|----------------|------------------------------------------------------------------------------|
+| Description    | The name of the MSI file that contains the application that can be imported. |
+| Access         | ReadOnly                                                                     |
+| Type           | String                                                                       |
+| Default        | N/A                                                                          |
+| Minimum system | Windows XP                                                                   |
+
+
+
+ 
+
+### ApplicationName
+
+
+
+|                |                              |
+|----------------|------------------------------|
+| Description    | The name of the application. |
+| Access         | ReadOnly                     |
+| Type           | String                       |
+| Default        | ""                           |
+| Minimum system | Windows XP                   |
+
+
+
+ 
+
+### Description
+
+
+
+|                |                                   |
+|----------------|-----------------------------------|
+| Description    | A description of the application. |
+| Access         | ReadOnly                          |
+| Type           | String                            |
+| Default        | ""                                |
+| Minimum system | Windows XP                        |
+
+
+
+ 
+
+### FileName
+
+
+
+|                |                                                                                                                                                                                                                                       |
+|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Description    | The name of the DLL or EXE file that contains the application. This property is returned when the [**Key**](icatalogobject-key.md) or [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Access         | ReadOnly                                                                                                                                                                                                                              |
+| Type           | String                                                                                                                                                                                                                                |
+| Default        | ""                                                                                                                                                                                                                                    |
+| Minimum system | Windows XP                                                                                                                                                                                                                            |
+
+
+
+ 
+
+### HasUsers
+
+
+
+|                |                                                  |
+|----------------|--------------------------------------------------|
+| Description    | Indicates whether the application has any users. |
+| Access         | ReadOnly                                         |
+| Type           | Bool                                             |
+| Default        | False                                            |
+| Minimum system | Windows XP                                       |
+
+
+
+ 
+
+### IsProxy
+
+
+
+|                |                                               |
+|----------------|-----------------------------------------------|
+| Description    | Indicates whether the application is a proxy. |
+| Access         | ReadOnly                                      |
+| Type           | Bool                                          |
+| Default        | False                                         |
+| Minimum system | Windows XP                                    |
+
+
+
+ 
+
+### IsService
+
+
+
+|                |                                                 |
+|----------------|-------------------------------------------------|
+| Description    | Indicates whether the application is a service. |
+| Access         | ReadOnly                                        |
+| Type           | Bool                                            |
+| Default        | False                                           |
+| Minimum system | Windows XP                                      |
+
+
+
+ 
+
+### PartitionDescription
+
+
+
+|                |                                               |
+|----------------|-----------------------------------------------|
+| Description    | A description of the application's partition. |
+| Access         | ReadOnly                                      |
+| Type           | String                                        |
+| Default        | ""                                            |
+| Minimum system | Windows Server 2003                           |
+
+
+
+ 
+
+### PartitionID
+
+
+
+|                |                                          |
+|----------------|------------------------------------------|
+| Description    | The GUID of the application's partition. |
+| Access         | ReadOnly                                 |
+| Type           | String                                   |
+| Default        | ""                                       |
+| Minimum system | Windows Server 2003                      |
+
+
+
+ 
+
+### PartitionName
+
+
+
+|                |                                          |
+|----------------|------------------------------------------|
+| Description    | The name of the application's partition. |
+| Access         | ReadOnly                                 |
+| Type           | String                                   |
+| Default        | ""                                       |
+| Minimum system | Windows Server 2003                      |
+
+
+
+ 
+
+## See also
+
+<dl> <dt>
+
+[COM+ Administration Collections](com--administration-collections.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

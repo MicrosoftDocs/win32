@@ -1,0 +1,115 @@
+---
+title: ms-TS-Work-Directory attribute
+description: Terminal Services session Work Directory specifies the working directory path for the user.
+audience: developer
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: '0939c2d3-e8bf-4e96-a357-e2712fa1175b'
+ms.prod: 'windows-server-dev'
+ms.technology: 'active-directory-schema'
+ms.tgt_platform: multiple
+keywords: ["ms-TS-Work-Directory attribute AD Schema", "msTSWorkDirectory attribute AD Schema"]
+topic_type:
+- apiref
+api_name:
+- ms-TS-Work-Directory
+api_type:
+- Schema
+---
+
+# ms-TS-Work-Directory attribute
+
+Terminal Services session Work Directory specifies the working directory path for the user.
+
+
+
+|                   |                                             |
+|-------------------|---------------------------------------------|
+| CN                | ms-TS-Work-Directory                        |
+| Ldap-Display-Name | msTSWorkDirectory                           |
+| Size              | \-                                          |
+| Update Privilege  | \-                                          |
+| Update Frequency  | \-                                          |
+| Attribute-Id      | 1.2.840.113556.1.4.1989                     |
+| System-Id-Guid    | a744f666-3d3c-4cc8-834b-9d4f6f687b8b        |
+| Syntax            | [**String(Unicode)**](s-string-unicode.md) |
+
+
+
+## Implementations
+
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
+
+## Windows Server 2008
+
+
+
+|                        |                                   |
+|------------------------|-----------------------------------|
+| Link-Id                | \-                                |
+| MAPI-Id                | \-                                |
+| System-Only            | False                             |
+| Is-Single-Valued       | True                              |
+| Is Indexed             | False                             |
+| In Global Catalog      | False                             |
+| NT-Security-Descriptor | O:BAG:BAD:S:                      |
+| Range-Lower            | 0                                 |
+| Range-Upper            | 32767                             |
+| Search-Flags           | 0x00000000                        |
+| System-Flags           | 0x00000010                        |
+| Classes used in        | [**User**](c-user.md)<br/> |
+
+
+
+## Windows Server 2008 R2
+
+
+
+|                        |                                   |
+|------------------------|-----------------------------------|
+| Link-Id                | \-                                |
+| MAPI-Id                | \-                                |
+| System-Only            | False                             |
+| Is-Single-Valued       | True                              |
+| Is Indexed             | False                             |
+| In Global Catalog      | False                             |
+| NT-Security-Descriptor | O:BAG:BAD:S:                      |
+| Range-Lower            | 0                                 |
+| Range-Upper            | 32767                             |
+| Search-Flags           | 0x00000000                        |
+| System-Flags           | 0x00000010                        |
+| Classes used in        | [**User**](c-user.md)<br/> |
+
+
+
+## Windows Server 2012
+
+
+
+|                        |                                   |
+|------------------------|-----------------------------------|
+| Link-Id                | \-                                |
+| MAPI-Id                | \-                                |
+| System-Only            | False                             |
+| Is-Single-Valued       | True                              |
+| Is Indexed             | False                             |
+| In Global Catalog      | False                             |
+| NT-Security-Descriptor | O:BAG:BAD:S:                      |
+| Range-Lower            | 0                                 |
+| Range-Upper            | 32767                             |
+| Search-Flags           | 0x00000000                        |
+| System-Flags           | 0x00000010                        |
+| Classes used in        | [**User**](c-user.md)<br/> |
+
+
+
+ 
+
+ 
+
+
+
+
+

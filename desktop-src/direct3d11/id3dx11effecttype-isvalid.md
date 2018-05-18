@@ -1,0 +1,72 @@
+---
+title: ID3DX11EffectType IsValid method
+description: Tests that the effect type is valid.
+ms.assetid: '3c1d93a0-92a1-4969-a561-5156e2cd2f3b'
+keywords: ["IsValid method Direct3D 11", "IsValid method Direct3D 11 , ID3DX11EffectType interface", "ID3DX11EffectType interface Direct3D 11 , IsValid method"]
+topic_type:
+- apiref
+api_name:
+- ID3DX11EffectType.IsValid
+api_location:
+- N/A
+- N/A.dll
+api_type:
+- COM
+---
+
+# ID3DX11EffectType::IsValid method
+
+Tests that the effect type is valid.
+
+## Syntax
+
+
+```C++
+BOOL IsValid();
+```
+
+
+
+## Parameters
+
+This method has no parameters.
+
+## Return value
+
+Type: **[**BOOL**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+
+**TRUE** if it is valid; otherwise **FALSE**.
+
+## Remarks
+
+> [!Note]  
+> The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
+
+ 
+
+## Requirements
+
+
+
+|                    |                                                                                                                                              |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
+| Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[ID3DX11EffectType](id3dx11effecttype.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

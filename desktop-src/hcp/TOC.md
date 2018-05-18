@@ -1,0 +1,13 @@
+# [Hardware Counter Profiling](hardware-counter-profiling-portal.md)
+## [HCP Reference](hcp-reference.md)
+### [HCP Enumerations](hcp-enumerations.md)
+#### [HARDWARE_COUNTER_TYPE](hardware-counter-type.md)
+### [HCP Functions](hcp-functions.md)
+#### [DisableThreadProfiling](disablethreadprofiling.md)
+#### [EnableThreadProfiling](enablethreadprofiling.md)
+#### [QueryThreadProfiling](querythreadprofiling.md)
+#### [ReadThreadProfilingData](readthreadprofilingdata.md)
+### [HCP Structures](hcp-structures.md)
+#### [HARDWARE_COUNTER_DATA](hardware-counter-data.md)
+#### [PERFORMANCE_DATA](performance-data.md)
+

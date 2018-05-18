@@ -1,0 +1,84 @@
+---
+Description: 'Retrieves the autohide and always-on-top states of the Windows taskbar.'
+title: 'ABM\_GETSTATE message'
+---
+
+# ABM\_GETSTATE message
+
+Retrieves the autohide and always-on-top states of the Windows taskbar.
+
+
+```C++
+uState = (UINT) SHAppBarMessage(ABM_GETSTATE, pabd);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pabd* 
+</dt> <dd>
+
+Pointer to an [**APPBARDATA**](appbardata.md) structure. You must specify the **cbSize** member when sending this message; all other members are ignored.
+
+</dd> </dl>
+
+## Return value
+
+Returns zero if the taskbar is neither in the autohide nor always-on-top state. Otherwise, the return value is one or both of the following:
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Return code</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><dl> <dt><strong>ABS_ALWAYSONTOP</strong></dt> </dl></td>
+<td>The taskbar is in the always-on-top state. <br/>
+<blockquote>
+[!Note]<br />
+As of Windows 7, ABS_ALWAYSONTOP is no longer returned because the taskbar is always in that state. Older code should be updated to ignore the absence of this value in not assume that return value to mean that the taskbar is not in the always-on-top state.
+</blockquote>
+<br/></td>
+</tr>
+<tr class="even">
+<td><dl> <dt><strong>ABS_AUTOHIDE</strong></dt> </dl></td>
+<td>The taskbar is in the autohide state.<br/></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## Requirements
+
+
+
+|                                     |                                                                                       |
+|-------------------------------------|---------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Header<br/>                   | <dl> <dt>Shellapi.h</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+

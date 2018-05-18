@@ -1,0 +1,63 @@
+﻿---
+Description: 'Initializes a string table.'
+ms.assetid: '184df85a-6d59-42c5-8ec1-f0c046091645'
+title: pSetupStringTableInitializeEx function
+---
+
+# pSetupStringTableInitializeEx function
+
+\[This function is not available in Windows Vista or Windows Server 2008.\]
+
+Initializes a string table.
+
+## Syntax
+
+
+```C++
+PVOID pSetupStringTableInitializeEx(
+  _In_ UINT ExtraDataSize,
+  _In_ UINT Reserved
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*ExtraDataSize* \[in\]
+</dt> <dd>
+
+Size of extra data object.
+
+</dd> <dt>
+
+*Reserved* \[in\]
+</dt> <dd>
+
+Reserved.
+
+</dd> </dl>
+
+## Remarks
+
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](base.loadlibrary) and [**GetProcAddress**](base.getprocaddress) functions.
+
+## Requirements
+
+
+
+|                |                                                                                         |
+|----------------|-----------------------------------------------------------------------------------------|
+| DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+

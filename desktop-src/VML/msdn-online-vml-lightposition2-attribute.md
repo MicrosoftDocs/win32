@@ -1,0 +1,44 @@
+---
+title: VML LightPosition2 Attribute
+description: VML LightPosition2 Attribute
+ms.assetid: '75ae4154-240f-4981-a527-d9e0a721e8b4'
+---
+
+# VML LightPosition2 Attribute
+
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+
+> [!Note]  
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+
+ 
+
+Specifies the position of the secondary light in a scene. Read/write. **VgVector3D**.
+
+**Applies To**
+
+[Extrusion](msdn-online-vml-extrusion-element.md)
+
+**Tag Syntax**
+
+&lt;o: *element* lightposition2=" *expression* "&gt;
+
+**Script Syntax**
+
+*element* .lightposition2="*expression*"
+
+*expression*=*element*.lightposition2
+
+**Remarks**
+
+Use this value to move the second light source for an extrusion. Different positions will lighten or darken each face of the extrusion. The default value is -50000, 0, 10000.
+
+*Microsoft Office Extensions Attribute*
+
+ 
+
+ 
+
+
+
+

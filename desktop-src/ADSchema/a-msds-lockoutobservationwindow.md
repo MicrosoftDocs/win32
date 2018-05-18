@@ -1,0 +1,115 @@
+---
+title: ms-DS-Lockout-Observation-Window attribute
+description: The period of time that a user account will be locked out.
+audience: developer
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 'c8ade442-33b1-4766-a22c-4d61fc699530'
+ms.prod: 'windows-server-dev'
+ms.technology: 'active-directory-schema'
+ms.tgt_platform: multiple
+keywords: ["ms-DS-Lockout-Observation-Window attribute AD Schema", "msDS-LockoutObservationWindow attribute AD Schema"]
+topic_type:
+- apiref
+api_name:
+- ms-DS-Lockout-Observation-Window
+api_type:
+- Schema
+---
+
+# ms-DS-Lockout-Observation-Window attribute
+
+The period of time that a user account will be locked out.
+
+
+
+|                   |                                      |
+|-------------------|--------------------------------------|
+| CN                | ms-DS-Lockout-Observation-Window     |
+| Ldap-Display-Name | msDS-LockoutObservationWindow        |
+| Size              | \-                                   |
+| Update Privilege  | \-                                   |
+| Update Frequency  | \-                                   |
+| Attribute-Id      | 1.2.840.113556.1.4.2017              |
+| System-Id-Guid    | b05bda89-76af-468a-b892-1be55558ecc8 |
+| Syntax            | [**Interval**](s-interval.md)       |
+
+
+
+## Implementations
+
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
+
+## Windows Server 2008
+
+
+
+|                        |                                                                       |
+|------------------------|-----------------------------------------------------------------------|
+| Link-Id                | \-                                                                    |
+| MAPI-Id                | \-                                                                    |
+| System-Only            | False                                                                 |
+| Is-Single-Valued       | True                                                                  |
+| Is Indexed             | False                                                                 |
+| In Global Catalog      | False                                                                 |
+| NT-Security-Descriptor | O:BAG:BAD:S:                                                          |
+| Range-Lower            | \-                                                                    |
+| Range-Upper            | \-                                                                    |
+| Search-Flags           | 0x00000000                                                            |
+| System-Flags           | 0x00000010                                                            |
+| Classes used in        | [**ms-DS-Password-Settings**](c-msds-passwordsettings.md)<br/> |
+
+
+
+## Windows Server 2008 R2
+
+
+
+|                        |                                                                       |
+|------------------------|-----------------------------------------------------------------------|
+| Link-Id                | \-                                                                    |
+| MAPI-Id                | \-                                                                    |
+| System-Only            | False                                                                 |
+| Is-Single-Valued       | True                                                                  |
+| Is Indexed             | False                                                                 |
+| In Global Catalog      | False                                                                 |
+| NT-Security-Descriptor | O:BAG:BAD:S:                                                          |
+| Range-Lower            | \-                                                                    |
+| Range-Upper            | \-                                                                    |
+| Search-Flags           | 0x00000000                                                            |
+| System-Flags           | 0x00000010                                                            |
+| Classes used in        | [**ms-DS-Password-Settings**](c-msds-passwordsettings.md)<br/> |
+
+
+
+## Windows Server 2012
+
+
+
+|                        |                                                                       |
+|------------------------|-----------------------------------------------------------------------|
+| Link-Id                | \-                                                                    |
+| MAPI-Id                | \-                                                                    |
+| System-Only            | False                                                                 |
+| Is-Single-Valued       | True                                                                  |
+| Is Indexed             | False                                                                 |
+| In Global Catalog      | False                                                                 |
+| NT-Security-Descriptor | O:BAG:BAD:S:                                                          |
+| Range-Lower            | \-                                                                    |
+| Range-Upper            | \-                                                                    |
+| Search-Flags           | 0x00000000                                                            |
+| System-Flags           | 0x00000010                                                            |
+| Classes used in        | [**ms-DS-Password-Settings**](c-msds-passwordsettings.md)<br/> |
+
+
+
+ 
+
+ 
+
+
+
+
+

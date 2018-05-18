@@ -1,0 +1,30 @@
+---
+Description: 'The SWbemMethod object exposes the following properties.'
+audience: developer
+author: 'REDMOND\\markl'
+manager: 'REDMOND\\markl'
+ms.assetid: '455F4715-62CA-46A8-8804-2C83E18916BD'
+ms.prod: 'windows-server-dev'
+ms.technology: 'windows-management-instrumentation'
+ms.tgt_platform: multiple
+title: SWbemMethod Properties
+---
+
+# SWbemMethod Properties
+
+The [**SWbemMethod**](swbemmethod.md) object exposes the following properties.
+
+## In this section
+
+-   [**InParameters property**](swbemmethod-inparameters.md)
+-   [**Name property**](swbemmethod-name.md)
+-   [**Origin property**](swbemmethod-origin.md)
+-   [**OutParameters property**](swbemmethod-outparameters.md)
+-   [**Qualifiers\_ property**](swbemmethod-qualifiers-.md)
+
+ 
+
+ 
+
+
+

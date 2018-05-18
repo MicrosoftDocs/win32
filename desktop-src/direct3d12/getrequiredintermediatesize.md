@@ -1,0 +1,96 @@
+---
+title: GetRequiredIntermediateSize function
+description: Returns the required size of a buffer to be used for data upload.
+ms.assetid: '424B52E9-DE52-40D2-B8B0-C27FD3D3C298'
+keywords: ["GetRequiredIntermediateSize function"]
+topic_type:
+- apiref
+api_name:
+- GetRequiredIntermediateSize
+api_location:
+- D3D12.dll
+api_type:
+- DllExport
+---
+
+# GetRequiredIntermediateSize function
+
+Returns the required size of a buffer to be used for data upload.
+
+## Syntax
+
+
+```C++
+UINT64 inline GetRequiredIntermediateSize(
+  _In_ ID3D12Resource *pDestinationResource,
+  _In_ UINT           FirstSubresource,
+  _In_ UINT           NumSubresources
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pDestinationResource* \[in\]
+</dt> <dd>
+
+Type: **[**ID3D12Resource**](id3d12resource.md)\***
+
+A pointer to the [**ID3D12Resource**](id3d12resource.md) interface that represents the destination resource.
+
+</dd> <dt>
+
+*FirstSubresource* \[in\]
+</dt> <dd>
+
+Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+
+The index of the first subresource in the resource. The range of valid values is 0 to D3D12\_REQ\_SUBRESOURCES.
+
+</dd> <dt>
+
+*NumSubresources* \[in\]
+</dt> <dd>
+
+Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+
+The number of subresources in the resource. The range of valid values is 0 to (D3D12\_REQ\_SUBRESOURCES - *FirstSubresource*).
+
+</dd> </dl>
+
+## Return value
+
+Type: **[**UINT64**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+
+The size of the buffer, in bytes.
+
+## Requirements
+
+
+
+|                    |                                                                                      |
+|--------------------|--------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3dx12.h</dt> </dl>  |
+| Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |
+| DLL<br/>     | <dl> <dt>D3D12.dll</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Helper Functions for D3D12](helper-functions-for-d3d12.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

@@ -1,0 +1,37 @@
+---
+Description: Media Property Bag
+ms.assetid: '06678d57-c00b-4575-84e7-3d09f65f19ba'
+title: Media Property Bag
+---
+
+# Media Property Bag
+
+The Media Property Bag object sets or retrieves INFO and DISP chunks in AVI files. Create this object by calling **CoCreateInstance**.
+
+
+
+|                  |                                                |
+|------------------|------------------------------------------------|
+| Class Identifier | CLSID\_MediaPropertyBag                        |
+| Interfaces       | [**IMediaPropertyBag**](imediapropertybag.md) |
+
+
+
+ 
+
+## Related topics
+
+<dl> <dt>
+
+[DirectShow Objects](directshow-objects.md)
+</dt> <dt>
+
+[**IPersistMediaPropertyBag Interface**](ipersistmediapropertybag.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

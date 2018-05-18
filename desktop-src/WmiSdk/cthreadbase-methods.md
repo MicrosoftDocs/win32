@@ -1,0 +1,33 @@
+---
+Description: 'The CThreadBase class exposes the following methods.'
+audience: developer
+author: 'REDMOND\\markl'
+manager: 'REDMOND\\markl'
+ms.assetid: '94759702-D267-4BC4-80C5-13ABD2D1EFF2'
+ms.prod: 'windows-server-dev'
+ms.technology: 'windows-management-instrumentation'
+ms.tgt_platform: multiple
+title: CThreadBase Methods
+---
+
+# CThreadBase Methods
+
+\[The [**CThreadBase**](cthreadbase.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
+
+The [**CThreadBase**](cthreadbase.md) class exposes the following methods.
+
+## In this section
+
+-   [**BeginRead method**](cthreadbase-beginread.md)
+-   [**BeginWrite method**](cthreadbase-beginwrite.md)
+-   [**CThreadBase method**](cthreadbase-cthreadbase.md)
+-   [**EndRead method**](cthreadbase-endread.md)
+-   [**EndWrite method**](cthreadbase-endwrite.md)
+-   [**OnFinalRelease method**](cthreadbase-onfinalrelease.md)
+
+ 
+
+ 
+
+
+

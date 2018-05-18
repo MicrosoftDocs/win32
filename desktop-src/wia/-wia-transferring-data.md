@@ -1,0 +1,22 @@
+---
+ms.assetid: '34871ff4-7eb0-451b-a62b-85b632af9a47'
+title: Transferring Data
+---
+
+# Transferring Data
+
+> [!Note]  
+> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](http://msdn.microsoft.com/en-us/library/windows/desktop/ms630827.aspx).
+
+ 
+
+Use the [**Transfer**](-wia-iwiadispatchitem-transfer.md) method of an [**Item**](-wia-item.md) object to transfer image or audio data from a device to a file or the clipboard.
+
+Pass a path and filename as the first parameter to save the data to disk, or pass the string "clipboard" to transfer the item to the clipboard.
+
+ 
+
+ 
+
+
+

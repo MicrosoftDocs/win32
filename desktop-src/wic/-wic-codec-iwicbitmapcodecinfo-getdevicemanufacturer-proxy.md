@@ -1,0 +1,91 @@
+---
+Description: 'Proxy function for the GetDeviceManufacturer method.'
+ms.assetid: 'f4dbf67a-eb67-4138-a77a-7386567b95e6'
+title: 'IWICBitmapCodecInfo\_GetDeviceManufacturer\_Proxy function'
+---
+
+# IWICBitmapCodecInfo\_GetDeviceManufacturer\_Proxy function
+
+Proxy function for the [**GetDeviceManufacturer**](-wic-codec-iwicbitmapcodecinfo-getdevicemanufacturer.md) method.
+
+## Syntax
+
+
+```C++
+HRESULT IWICBitmapCodecInfo_GetDeviceManufacturer_Proxy(
+  _In_    IWICBitmapCodecInfo *THIS_PTR,
+  _In_    UINT                cchDeviceManufacturer,
+  _Inout_ WCHAR               *wzDeviceManufacturer,
+  _Inout_ UINT                *pcchActual
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*THIS\_PTR* \[in\]
+</dt> <dd>
+
+Type: **[**IWICBitmapCodecInfo**](-wic-codec-iwicbitmapcodecinfo.md)\***
+
+Pointer to this [**IWICBitmapCodecInfo**](-wic-codec-iwicbitmapcodecinfo.md) object.
+
+</dd> <dt>
+
+*cchDeviceManufacturer* \[in\]
+</dt> <dd>
+
+Type: **UINT**
+
+The size of the device manufacture's name.
+
+</dd> <dt>
+
+*wzDeviceManufacturer* \[in, out\]
+</dt> <dd>
+
+Type: **WCHAR\***
+
+A pointer that receives the device manufacture's name.
+
+</dd> <dt>
+
+*pcchActual* \[in, out\]
+</dt> <dd>
+
+Type: **UINT\***
+
+The actual buffer size needed to retrieve the device manufacture's name.
+
+</dd> </dl>
+
+## Return value
+
+Type: **HRESULT**
+
+If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## Remarks
+
+## Requirements
+
+
+
+|                                     |                                                                                                                                                                  |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,67 @@
+---
+title: ResizingTechnique element
+description: Specifies the resizing technique for the specified text.
+ms.assetid: 'efed6130-06e8-45c7-a1ca-3d4e85dfad52'
+keywords: ["ResizingTechnique element Windows Movie Maker and DVD Maker"]
+topic_type:
+- apiref
+api_name:
+- ResizingTechnique
+api_type:
+- Schema
+---
+
+# ResizingTechnique element
+
+Specifies the resizing technique for the specified text.
+
+## Usage
+
+``` syntax
+<ResizingTechnique/>
+```
+
+## Attributes
+
+There are no attributes.
+
+## Child elements
+
+There are no child elements.
+
+## Parent elements
+
+
+
+| Element                                             |
+|-----------------------------------------------------|
+| [**Properties**](PropertiesElement_MFGV)<br/> |
+
+
+
+## Element information
+
+
+
+|                                     |               |
+|-------------------------------------|---------------|
+| Minimum supported system<br/> | Windows Vista |
+| Can be empty                        | Yes           |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**Elements**](elements.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

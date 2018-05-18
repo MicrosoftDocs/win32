@@ -1,0 +1,26 @@
+---
+title: eapconnectionpropertiesv1 Schema
+description: Defines common configuration schema elements.
+ms.assetid: 'a3a2fe00-56e6-4df5-bb26-1bd5acda12d0'
+---
+
+# eapconnectionpropertiesv1 Schema
+
+The eapconnectionpropertiesv1 schema defines common configuration schema elements.
+
+-   [eapconnectionpropertiesv1 Schema Elements](eapconnectionpropertiesv1schema-elements.md)
+
+## Related topics
+
+<dl> <dt>
+
+[EAPHost and Legacy Schema](eaphost-schemas.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

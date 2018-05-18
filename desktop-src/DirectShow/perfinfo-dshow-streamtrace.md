@@ -1,0 +1,177 @@
+﻿---
+Description: 'The PERFINFO\_DSHOW\_STREAMTRACE structure contains data for a DirectShow trace event of type GUID\_STREAMTRACE.'
+ms.assetid: '41fbf95c-e86c-4c64-898f-01fbf5f8839c'
+title: 'PERFINFO\_DSHOW\_STREAMTRACE structure'
+---
+
+# PERFINFO\_DSHOW\_STREAMTRACE structure
+
+The `PERFINFO_DSHOW_STREAMTRACE` structure contains data for a DirectShow trace event of type GUID\_STREAMTRACE.
+
+## Syntax
+
+
+```C++
+typedef struct _PERFINFO_DSHOW_STREAMTRACE {
+  ULONG     id;
+  ULONG     reserved;
+  ULONGLONG dshowClock;
+  ULONGLONG data[4];
+} PERFINFO_DSHOW_STREAMTRACE, *PPERFINFO_DSHOW_STREAMTRACE;
+```
+
+
+
+## Members
+
+<dl> <dt>
+
+**id**
+</dt> <dd>
+
+Event identifier. See Remarks.
+
+</dd> <dt>
+
+**reserved**
+</dt> <dd>
+
+Reserved. Set to zero.
+
+</dd> <dt>
+
+**dshowClock**
+</dt> <dd>
+
+Stream time for this event, in 100-nanosecond units. This value is optional and can be zero.
+
+</dd> <dt>
+
+**data**
+</dt> <dd>
+
+Optional event data consisting of four **ULONGLONG** values. The meaning of this data depends on the event identifier.
+
+</dd> </dl>
+
+## Remarks
+
+The following event identifiers are defined.
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Event identifier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PERFINFO_STREAMTRACE_MPEG2DEMUX_PTS_TRANSLATION</td>
+<td>Logged when the [MPEG-2 Demultiplexer](mpeg-2-demultiplexer.md) filter converts a presentation time stamp (PTS) to stream time.
+<ul>
+<li><strong>data</strong>[0]: Converted start time.</li>
+<li><strong>data</strong>[1]: Converted stop time.</li>
+<li><strong>data</strong>[2]. Stream identifier for the input pin.</li>
+<li><strong>data</strong>[3]: PTS that was converted.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>PERFINFO_STREAMTRACE_MPEG2DEMUX_SAMPLE_RECEIVE</td>
+<td>Logged when MPEG-2 Demultiplexer receives a sample.
+<ul>
+<li><strong>data</strong>[0]: Current time returned by [<strong>QueryPerformanceCounter</strong>](winui._win32_QueryPerformanceCounter).</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>PERFINFO_STREAMTRACE_VMR_BEGIN_ADVISE</td>
+<td>Logged when the VMR schedules a sample for rendering, immediately before the VMR calls [<strong>IReferenceClock::AdviseTime</strong>](ireferenceclock-advisetime.md).
+<ul>
+<li><strong>data</strong>[0]: Reference time when streaming began, which corresponds to stream time zero.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>PERFINFO_STREAMTRACE_VMR_BEGIN_DECODE</td>
+<td>Logged when the VMR begins a decoding operation—that is, when the decoder calls [<strong>IAMVideoAccelerator::BeginFrame</strong>](iamvideoaccelerator-beginframe.md). No event data.</td>
+</tr>
+<tr class="odd">
+<td>PERFINFO_STREAMTRACE_VMR_BEGIN_DEINTERLACE</td>
+<td>Logged when the VMR begins a deinterlacing or video compositing operation. No event data.</td>
+</tr>
+<tr class="even">
+<td>PERFINFO_STREAMTRACE_VMR_DROPPED_FRAME</td>
+<td>Logged when the VMR drops a frame; for example, if a sample was late.
+<ul>
+<li><strong>data</strong>[0]: Sample start time.</li>
+<li><strong>data</strong>[1]: Sample end time.</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>PERFINFO_STREAMTRACE_VMR_END_ADVISE</td>
+<td>Logged when the VMR receives an advise notification from the reference clock. No event data.</td>
+</tr>
+<tr class="even">
+<td>PERFINFO_STREAMTRACE_VMR_END_DECODE</td>
+<td>Logged when the VMR ends a decoding operation—that is, when the decoder calls [<strong>IAMVideoAccelerator::EndFrame</strong>](iamvideoaccelerator-endframe.md). No event data.</td>
+</tr>
+<tr class="odd">
+<td>PERFINFO_STREAMTRACE_VMR_END_DEINTERLACE</td>
+<td>Logged when the VMR completes a deinterlacing or video compositing operation. No event data.</td>
+</tr>
+<tr class="even">
+<td>PERFINFO_STREAMTRACE_VMR_RECEIVE</td>
+<td>Logged when the VMR receives a new sample. No event data.</td>
+</tr>
+<tr class="odd">
+<td>PERFINFO_STREAMTRACE_VMR_RENDER_TIME</td>
+<td>Logged when the VMR finishes rendering a frame.
+<ul>
+<li><strong>data</strong>[0]: Time that it took to render this frame.</li>
+<li><strong>data</strong>[1]: Running average of frame rendering times.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+To log this event from a DirectShow filter, use the **PERFLOG\_STREAMTRACE** function, which is defined in the header file Dxmperf.h. This header is included in the DirectShow base classes.
+
+## Requirements
+
+
+
+|                   |                                                                                         |
+|-------------------|-----------------------------------------------------------------------------------------|
+| Header<br/> | <dl> <dt>Perfstruct.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[DirectShow Structures](directshow-structures.md)
+</dt> <dt>
+
+[Event Tracing in DirectShow](event-tracing-in-directshow.md)
+</dt> <dt>
+
+[Trace Event GUIDs](trace-guids.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

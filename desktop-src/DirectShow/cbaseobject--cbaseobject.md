@@ -1,0 +1,48 @@
+---
+Description: 'Destructor method.'
+ms.assetid: '3714d030-f0bd-4826-a3c5-fc206bb88561'
+title: 'CBaseObject.~CBaseObject destructor'
+---
+
+# CBaseObject.~CBaseObject destructor
+
+Destructor method.
+
+## Syntax
+
+
+```C++
+~CBaseObject();
+```
+
+
+
+## Remarks
+
+This method decrements the active-object count. (See [**CBaseObject::ObjectsActive**](cbaseobject-objectsactive.md).)
+
+## Requirements
+
+
+
+|                    |                                                                                                                                                                                            |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
+| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**CBaseObject Class**](cbaseobject.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

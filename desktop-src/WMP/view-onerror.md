@@ -1,0 +1,46 @@
+---
+title: VIEW.onerror
+description: The onerror event handles an error event if Settings.enableErrorDialogs is set to false.
+ms.assetid: 'cd3ef682-edf2-47e2-a496-07e38dda824d'
+keywords: ["VIEW.onerror Windows Media Player"]
+topic_type:
+- apiref
+api_name:
+- VIEW.onerror
+api_type:
+- NA
+---
+
+# VIEW.onerror
+
+The **onerror** event handles an error event if **Settings.enableErrorDialogs** is set to false.
+
+``` syntax
+onerror
+```
+
+## Requirements
+
+
+
+|                    |                                                      |
+|--------------------|------------------------------------------------------|
+| Version<br/> | Windows Media Player version 7.0 or later<br/> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**VIEW Element**](view-element.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

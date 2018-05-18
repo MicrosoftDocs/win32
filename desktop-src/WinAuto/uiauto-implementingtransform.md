@@ -1,0 +1,86 @@
+---
+title: Transform Control Pattern
+description: Describes guidelines and conventions for implementing ITransformProvider and ITransformProvider2, including information about properties and methods.
+ms.assetid: 'e1d862a0-8085-42b4-9710-cf11e1a467cf'
+keywords: ["UI Automation,implementing Transform control pattern", "UI Automation,Transform control pattern", "UI Automation,ITransformProvider", "ITransformProvider", "implementing UI Automation Transform control patterns", "Transform control patterns", "control patterns,ITransformProvider", "control patterns,implementing UI Automation Transform", "control patterns,Transform", "interfaces,ITransformProvider"]
+---
+
+# Transform Control Pattern
+
+Describes guidelines and conventions for implementing [**ITransformProvider**](uiauto-itransformprovider.md) and [**ITransformProvider2**](https://msdn.microsoft.com/library/windows/desktop/hh448824), including information about properties and methods. The Transform control pattern is used to support controls that can be moved, resized, or rotated within a two-dimensional space.
+
+For examples of controls that implement this control pattern, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
+
+This topic contains the following sections.
+
+-   [Implementation Guidelines and Conventions](#implementation-guidelines-and-conventions)
+-   [Required Members for **ITransformProvider**](#required-members-for-itransformprovider)
+-   [Related topics](#related-topics)
+
+## Implementation Guidelines and Conventions
+
+When implementing the **Transform** control pattern, note the following guidelines and conventions:
+
+-   Support for this control pattern is not limited to objects on the desktop. This control pattern must also be supported by the children of a container object if the children can be moved, resized, or rotated freely within the boundaries of the container.
+-   An object cannot be moved, resized, or rotated such that its resulting screen location would be completely outside the coordinates of its container and therefore inaccessible to the keyboard or mouse (for example, when a top-level window is moved off-screen or a child object is moved outside the boundaries of the container's viewport). In these cases, the object is placed as close to the requested screen coordinates as possible with the top or left coordinates overridden to be within the container boundaries.
+-   For multi-monitor systems, if an object is moved, resized, or rotated completely outside the combined desktop screen coordinates, the object is placed on the primary monitor as close to the requested coordinates as possible.
+-   All parameters and property values are absolute and independent of locale.
+
+## Required Members for **ITransformProvider**
+
+The following properties and methods are required for implementing the [**ITransformProvider**](uiauto-itransformprovider.md) interface.
+
+
+
+| Required members                                         | Member type | Notes |
+|----------------------------------------------------------|-------------|-------|
+| [**CanMove**](uiauto-itransformprovider-canmove.md)     | Property    | None  |
+| [**CanResize**](uiauto-itransformprovider-canresize.md) | Property    | None  |
+| [**CanRotate**](uiauto-itransformprovider-canrotate.md) | Property    | None  |
+| [**Move**](uiauto-itransformprovider-move.md)           | Method      | None  |
+| [**Resize**](uiauto-itransformprovider-resize.md)       | Method      | None  |
+| [**Rotate**](uiauto-itransformprovider-rotate.md)       | Method      | None  |
+
+
+
+ 
+
+The following additional properties and methods are required for implementing the [**ITransformProvider2**](uiauto-itransformprovider.md) interface.
+
+
+
+| Required members                                              | Member type | Notes |
+|---------------------------------------------------------------|-------------|-------|
+| [**CanZoom**](https://msdn.microsoft.com/library/windows/desktop/hh448826)     | Property    | None  |
+| [**Zoom**](https://msdn.microsoft.com/library/windows/desktop/hh448828)           | Method      | None  |
+| [**ZoomByUnit**](uiauto-itransformprovider2-zoombyunit.md)   | Method      | None  |
+| [**ZoomLevel**](uiauto-itransformprovider2-zoomlevel.md)     | Property    | None  |
+| [**ZoomMaximum**](uiauto-itransformprovider2-zoommaximum.md) | Property    | None  |
+| [**ZoomMinimum**](uiauto-itransformprovider2-zoomminimum.md) | Property    | None  |
+
+
+
+ 
+
+This control pattern has no associated events.
+
+## Related topics
+
+<dl> <dt>
+
+[Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md)
+</dt> <dt>
+
+[UI Automation Control Patterns Overview](uiauto-controlpatternsoverview.md)
+</dt> <dt>
+
+[UI Automation Tree Overview](uiauto-treeoverview.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

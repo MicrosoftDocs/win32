@@ -1,0 +1,52 @@
+---
+Description: 'The OnUpdateRectangles method is called when either the source or destination rectangle changes.'
+ms.assetid: 'a4979ca3-7882-4e63-bc34-9cc6c5b0675d'
+title: 'CBaseControlVideo.OnUpdateRectangles method'
+---
+
+# CBaseControlVideo.OnUpdateRectangles method
+
+The `OnUpdateRectangles` method is called when either the source or destination rectangle changes.
+
+## Syntax
+
+
+```C++
+virtual HRESULT OnUpdateRectangles();
+```
+
+
+
+## Parameters
+
+This method has no parameters.
+
+## Return value
+
+Returns NOERROR.
+
+## Requirements
+
+
+
+|                    |                                                                                                                                                                                            |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
+| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**CBaseControlVideo Class**](cbasecontrolvideo.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

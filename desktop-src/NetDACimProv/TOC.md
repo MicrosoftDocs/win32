@@ -1,0 +1,11 @@
+# [NetDaCim Provider](direct-access-client-components-classes.md)
+## [MSFT_DAClientExperienceConfiguration](msft-daclientexperienceconfiguration.md)
+### [Reset method](reset-msft-daclientexperienceconfiguration.md)
+## [MSFT_DASettingsIndication](msft-dasettingsindication.md)
+## [MSFT_DASiteTableEntry](msft-dasitetableentry.md)
+### [Disable method](disable-msft-dasitetableentry.md)
+### [Enable method](enable-msft-dasitetableentry.md)
+### [Rename method](rename-msft-dasitetableentry.md)
+### [Reset method](reset-msft-dasitetableentry.md)
+## [MSFT_NetSettingData](msft-netsettingdata-netdacim.md)
+

@@ -1,0 +1,126 @@
+---
+title: WinINet Functions
+description: The following list includes all WinINet functions
+ms.assetid: '2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97'
+---
+
+# WinINet Functions
+
+The following list includes all WinINet functions:
+
+<dl>
+
+[**CleanupCredentialCache**](cleanupcredentialcache.md)  
+[**CommitUrlCacheEntryA**](commiturlcacheentrya.md)  
+[**CommitUrlCacheEntryW**](commiturlcacheentryw.md)  
+[**CreateMD5SSOHash**](createmd5ssohash.md)  
+[**CreateUrlCacheContainer**](createurlcachecontainer.md)  
+[**CreateUrlCacheEntry**](createurlcacheentry.md)  
+[**CreateUrlCacheGroup**](createurlcachegroup.md)  
+[**DeleteUrlCacheEntry**](deleteurlcacheentry.md)  
+[**DeleteUrlCacheGroup**](deleteurlcachegroup.md)  
+[**DetectAutoProxyUrl**](detectautoproxyurl.md)  
+[**FindCloseUrlCache**](findcloseurlcache.md)  
+[**FindFirstUrlCacheEntry**](findfirsturlcacheentry.md)  
+[**FindFirstUrlCacheEntryEx**](findfirsturlcacheentryex.md)  
+[**FindFirstUrlCacheGroup**](findfirsturlcachegroup.md)  
+[**FindNextUrlCacheEntry**](findnexturlcacheentry.md)  
+[**FindNextUrlCacheEntryEx**](findnexturlcacheentryex.md)  
+[**FindNextUrlCacheGroup**](findnexturlcachegroup.md)  
+[**FtpCommand**](ftpcommand.md)  
+[**FtpCreateDirectory**](ftpcreatedirectory.md)  
+[**FtpDeleteFile**](ftpdeletefile.md)  
+[**FtpFindFirstFile**](ftpfindfirstfile.md)  
+[**FtpGetCurrentDirectory**](ftpgetcurrentdirectory.md)  
+[**FtpGetFile**](ftpgetfile.md)  
+[**FtpGetFileSize**](ftpgetfilesize.md)  
+[**FtpOpenFile**](ftpopenfile.md)  
+[**FtpPutFile**](ftpputfile.md)  
+[**FtpRemoveDirectory**](ftpremovedirectory.md)  
+[**FtpRenameFile**](ftprenamefile.md)  
+[**FtpSetCurrentDirectory**](ftpsetcurrentdirectory.md)  
+[**GetUrlCacheEntryInfo**](geturlcacheentryinfo.md)  
+[**GetUrlCacheEntryInfoEx**](geturlcacheentryinfoex.md)  
+[**GetUrlCacheGroupAttribute**](geturlcachegroupattribute.md)  
+[*GopherAttributeEnumerator*](gopherattributeenumerator.md)  
+[**GopherCreateLocator**](gophercreatelocator.md)  
+[**GopherFindFirstFile**](gopherfindfirstfile.md)  
+[**GopherGetAttribute**](gophergetattribute.md)  
+[**GopherGetLocatorType**](gophergetlocatortype.md)  
+[**GopherOpenFile**](gopheropenfile.md)  
+[**HttpAddRequestHeaders**](httpaddrequestheaders.md)  
+[**HttpEndRequest**](httpendrequest.md)  
+[**HttpOpenRequest**](httpopenrequest.md)  
+[**HttpQueryInfo**](httpqueryinfo.md)  
+[**HttpSendRequest**](httpsendrequest.md)  
+[**HttpSendRequestEx**](httpsendrequestex.md)  
+[**InternetAttemptConnect**](internetattemptconnect.md)  
+[**InternetAutodial**](internetautodial.md)  
+[**InternetAutodialHangup**](internetautodialhangup.md)  
+[**InternetCanonicalizeUrl**](internetcanonicalizeurl.md)  
+[**InternetCheckConnection**](internetcheckconnection.md)  
+[**InternetCloseHandle**](internetclosehandle.md)  
+[**InternetCombineUrl**](internetcombineurl.md)  
+[**InternetConfirmZoneCrossing**](internetconfirmzonecrossing.md)  
+[**InternetConnect**](internetconnect.md)  
+[**InternetCrackUrl**](internetcrackurl.md)  
+[**InternetCreateUrl**](internetcreateurl.md)  
+[**InternetDeInitializeAutoProxyDll**](internetdeinitializeautoproxydll.md)  
+[**InternetDial**](internetdial.md)  
+[**InternetErrorDlg**](interneterrordlg.md)  
+[**InternetFindNextFile**](internetfindnextfile.md)  
+[**InternetGetConnectedState**](internetgetconnectedstate.md)  
+[**InternetGetConnectedStateEx**](internetgetconnectedstateex.md)  
+[**InternetGetCookie**](internetgetcookie.md)  
+[**InternetGetCookieEx**](internetgetcookieex.md)  
+[**InternetGetLastResponseInfo**](internetgetlastresponseinfo.md)  
+[**InternetGetProxyInfo**](internetgetproxyinfo.md)  
+[**InternetGoOnline**](internetgoonline.md)  
+[**InternetHangUp**](internethangup.md)  
+[**InternetInitializeAutoProxyDll**](internetinitializeautoproxydll.md)  
+[**InternetLockRequestFile**](internetlockrequestfile.md)  
+[**InternetOpen**](internetopen.md)  
+[**InternetOpenUrl**](internetopenurl.md)  
+[**InternetQueryDataAvailable**](internetquerydataavailable.md)  
+[**InternetQueryOption**](internetqueryoption.md)  
+[**InternetReadFile**](internetreadfile.md)  
+[**InternetReadFileEx**](internetreadfileex.md)  
+[**InternetSetCookie**](internetsetcookie.md)  
+[**InternetSetCookieEx**](internetsetcookieex.md)  
+[**InternetSetDialState**](internetsetdialstate.md)  
+[**InternetSetFilePointer**](internetsetfilepointer.md)  
+[**InternetSetOption**](internetsetoption.md)  
+[**InternetSetOptionEx**](internetsetoptionex.md)  
+[**InternetSetStatusCallback**](internetsetstatuscallback.md)  
+[**InternetStatusCallback**](internetstatuscallback.md)  
+[**InternetTimeFromSystemTime**](internettimefromsystemtime.md)  
+[**InternetTimeToSystemTime**](internettimetosystemtime.md)  
+[**InternetUnlockRequestFile**](internetunlockrequestfile.md)  
+[**InternetWriteFile**](internetwritefile.md)  
+[**ReadUrlCacheEntryStream**](readurlcacheentrystream.md)  
+[**ResumeSuspendedDownload**](resumesuspendeddownload.md)  
+[**RetrieveUrlCacheEntryFile**](retrieveurlcacheentryfile.md)  
+[**RetrieveUrlCacheEntryStream**](retrieveurlcacheentrystream.md)  
+[**SetUrlCacheEntryGroup**](seturlcacheentrygroup.md)  
+[**SetUrlCacheEntryInfo**](seturlcacheentryinfo.md)  
+[**SetUrlCacheGroupAttribute**](seturlcachegroupattribute.md)  
+[**UnlockUrlCacheEntryFile**](unlockurlcacheentryfile.md)  
+[**UnlockUrlCacheEntryStream**](unlockurlcacheentrystream.md)  
+</dl>
+
+The following list includes WinInet Privacy and Security functions:
+
+-   [**InternetClearAllPerSiteCookieDecisions**](internetclearallpersitecookiedecisions.md)
+-   [**InternetEnumPerSiteCookieDecisions**](internetenumpersitecookiedecision.md)
+-   [**InternetGetPerSiteCookieDecisions**](internetgetpersitecookiedecision.md)
+-   [**InternetSetPerSiteCookieDecisions**](internetsetpersitecookiedecision.md)
+-   [**PrivacyGetZonePreferenceW**](privacygetzonepreferencew.md)
+-   [**PrivacySetZonePreferenceW**](privacysetzonepreferencew.md)
+
+ 
+
+ 
+
+
+
+

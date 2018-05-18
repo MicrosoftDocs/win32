@@ -1,0 +1,198 @@
+---
+Description: 'Use the methods of the IWiaDataTransfer interface to transfer data from a Windows Image Acquisition (WIA) 1.0 device to an application.'
+ms.assetid: '67fbf3d9-6965-4464-b04c-10989b2fd55d'
+title: 'Transferring Image Data in WIA 1.0'
+---
+
+# Transferring Image Data in WIA 1.0
+
+> [!Note]  
+> This tutorial is about transferring image data in applications that will run Windows XP or earlier. See [Transferring Image Data in WIA 2.0](-wia-transferring-image-data-in-wia2.md) for information about transferring image data in applications that will run on Windows Vista or later.
+
+ 
+
+Use the methods of the [**IWiaDataTransfer**](-wia-iwiadatatransfer.md) interface to transfer data from a Windows Image Acquisition (WIA) 1.0 device to an application. This interface supports a shared memory window to transfer data from the device object to the application and eliminate unnecessary data copies during marshalling.
+
+Applications must query an image item to obtain a pointer to its [**IWiaDataTransfer**](-wia-iwiadatatransfer.md) interface, as in the following code sample:
+
+
+```
+    // Get the IWiaDataTransfer interface
+    //
+    IWiaDataTransfer *pWiaDataTransfer = NULL;
+    hr = pWiaItem->QueryInterface( IID_IWiaDataTransfer, (void**)&amp;pWiaDataTransfer );
+```
+
+
+
+In the previous code, it is assumed that **pWiaItem** is a valid pointer to the [**IWiaItem**](-wia-iwiaitem.md) interface. The call to [IUnknown::QueryInterface](com.iunknown_queryinterface) fills **pWiaDataTransfer** with a pointer to the [**IWiaDataTransfer**](-wia-iwiadatatransfer.md) interface of the item referred to by **pWiaItem**.
+
+The application then sets the [STGMEDIUM](com.stgmedium) structure members. For information, see STGMEDIUM and [TYMED](com.tymed).
+
+
+```
+    // Set storage medium
+    //
+    STGMEDIUM StgMedium = {0};
+    StgMedium.tymed = TYMED_FILE;
+```
+
+
+
+If you supply a filename, it should include the proper file extension; WIA 1.0 does not provide file extensions. If the **lpszFileName** member of **StgMedium** is **NULL**, WIA 1.0 generates a random file name and path for the transferred data. Move or copy this file before calling ReleaseStgMedium, because this function will delete the file.
+
+The application then calls the [**IWiaDataTransfer::idtGetData**](-wia-iwiadatatransfer-idtgetdata.md) method to run the data transfer:
+
+
+```
+    // Perform the transfer
+    //
+    hr = pWiaDataTransfer->idtGetData( &amp;stgMedium, pWiaDataCallback );
+```
+
+
+
+In the call to [**IWiaDataTransfer::idtGetData**](-wia-iwiadatatransfer-idtgetdata.md), the second parameter specifies a pointer to the [**IWiaDataCallback**](-wia-iwiadatacallback.md) interface. Applications must implement this interface to receive callbacks during data transfers. For information about implementing this interface, see [**IWiaDataCallback::BandedDataCallback**](-wia-iwiadatacallback-bandeddatacallback.md).
+
+The application then releases the pointers to the [**IWiaDataTransfer**](-wia-iwiadatatransfer.md) interface and frees any data allocated in the [STGMEDIUM](com.stgmedium) structure.
+
+The application can also transfer the image using in-memory data transfers instead of file transfers. In this case, the application uses the idtGetBandedData method in place of the idtGetData method.
+
+Here is the complete data transfer sample:
+
+
+```
+HRESULT TransferWiaItem( IWiaItem *pWiaItem )
+{
+    //
+    // Validate arguments
+    //
+    if (NULL == pWiaItem)
+    {
+        return E_INVALIDARG;
+    }
+
+    //
+    // Get the IWiaPropertyStorage interface so you can set required properties.
+    //
+    IWiaPropertyStorage *pWiaPropertyStorage = NULL;
+    HRESULT hr = pWiaItem->QueryInterface( IID_IWiaPropertyStorage, (void**)&amp;pWiaPropertyStorage );
+    if (SUCCEEDED(hr))
+    {
+        //
+        // Prepare PROPSPECs and PROPVARIANTs for setting the
+        // media type and format
+        //
+        PROPSPEC PropSpec[2] = {0};
+        PROPVARIANT PropVariant[2] = {0};
+        const ULONG c_nPropCount = sizeof(PropVariant)/sizeof(PropVariant[0]);
+
+        //
+        // Use BMP as the output format
+        //
+        GUID guidOutputFormat = WiaImgFmt_BMP;
+
+        //
+        // Initialize the PROPSPECs
+        //
+        PropSpec[0].ulKind = PRSPEC_PROPID;
+        PropSpec[0].propid = WIA_IPA_FORMAT;
+        PropSpec[1].ulKind = PRSPEC_PROPID;
+        PropSpec[1].propid = WIA_IPA_TYMED;
+
+        //
+        // Initialize the PROPVARIANTs
+        //
+        PropVariant[0].vt = VT_CLSID;
+        PropVariant[0].puuid = &amp;guidOutputFormat;
+        PropVariant[1].vt = VT_I4;
+        PropVariant[1].lVal = TYMED_FILE;
+
+        //
+        // Set the properties
+        //
+        hr = pWiaPropertyStorage->WriteMultiple( c_nPropCount, PropSpec, PropVariant, WIA_IPA_FIRST );
+        if (SUCCEEDED(hr))
+        {
+            //
+            // Get the IWiaDataTransfer interface
+            //
+            IWiaDataTransfer *pWiaDataTransfer = NULL;
+            hr = pWiaItem->QueryInterface( IID_IWiaDataTransfer, (void**)&amp;pWiaDataTransfer );
+            if (SUCCEEDED(hr))
+            {
+                //
+                // Create our callback class
+                //
+                CWiaDataCallback *pCallback = new CWiaDataCallback;
+                if (pCallback)
+                {
+                    //
+                    // Get the IWiaDataCallback interface from our callback class.
+                    //
+                    IWiaDataCallback *pWiaDataCallback = NULL;
+                    hr = pCallback->QueryInterface( IID_IWiaDataCallback, (void**)&amp;pWiaDataCallback );
+                    if (SUCCEEDED(hr))
+                    {
+                        //
+                        // Perform the transfer using default settings
+                        //
+                        STGMEDIUM stgMedium = {0};
+                        StgMedium.tymed = TYMED_FILE;
+                        hr = pWiaDataTransfer->idtGetData( &amp;stgMedium, pWiaDataCallback );
+                        if (S_OK == hr)
+                        {
+                            //
+                            // Print the filename (note that this filename is always
+                            // a WCHAR string, not TCHAR).
+                            //
+                            _tprintf( TEXT("Transferred filename: %ws\n"), stgMedium.lpszFileName );
+
+                            //
+                            // Release any memory associated with the stgmedium
+                            // This will delete the file stgMedium.lpszFileName.
+                            //
+                            ReleaseStgMedium( &amp;stgMedium );
+                        }
+
+                        //
+                        // Release the callback interface
+                        //
+                        pWiaDataCallback->Release();
+                        pWiaDataCallback = NULL;
+                    }
+
+                    //
+                    // Release our callback.  It should now delete itself.
+                    //
+                    pCallback->Release();
+                    pCallback = NULL;
+                }
+
+                //
+                // Release the IWiaDataTransfer
+                //
+                pWiaDataTransfer->Release();
+                pWiaDataTransfer = NULL;
+            }
+        }
+
+        //
+        // Release the IWiaPropertyStorage
+        //
+        pWiaPropertyStorage->Release();
+        pWiaPropertyStorage = NULL;
+    }
+
+    return hr;
+}
+```
+
+
+
+ 
+
+ 
+
+
+

@@ -1,0 +1,70 @@
+﻿---
+Description: 'Returns the version number of the system renewability message (SRM) currently used by the video output.'
+ms.assetid: '65d4b98b-369f-4863-a28c-f9e3b4c2b55d'
+title: 'OPM\_GET\_CURRENT\_HDCP\_SRM\_VERSION'
+---
+
+# OPM\_GET\_CURRENT\_HDCP\_SRM\_VERSION
+
+Returns the version number of the system renewability message (SRM) currently used by the video output.
+
+
+
+|              |                                                                             |
+|--------------|-----------------------------------------------------------------------------|
+| Request GUID | OPM\_GET\_CURRENT\_HDCP\_SRM\_VERSION                                       |
+| Input data   | None                                                                        |
+| Return data  | An [**OPM\_STANDARD\_INFORMATION**](opm-standard-information.md) structure |
+
+
+
+ 
+
+## Remarks
+
+If this query succeeds, the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](opm-standard-information.md) structure contains the SRM version number, in little-endian format.
+
+SRMs are used to update the list of revoked High-Bandwidth Digital Content Protection (HDCP) devices. SRMs are delivered with the video content. To set the SRM, send the [**OPM\_SET\_HDCP\_SRM**](opm-set-hdcp-srm.md) command.
+
+This query can cause the [**IOPMVideoOutput::GetInformation**](iopmvideooutput-iopmvideooutput--getinformation.md) method to return any of the following error codes.
+
+
+
+| Return code                                            | Description                             |
+|--------------------------------------------------------|-----------------------------------------|
+| ERROR\_GRAPHICS\_OPM\_HDCP\_SRM\_NEVER\_SET            | The application did not set an SRM.     |
+| ERROR\_GRAPHICS\_OPM\_OUTPUT\_DOES\_NOT\_SUPPORT\_HDCP | The video output does not support HDCP. |
+
+
+
+ 
+
+## Requirements
+
+
+
+|                                     |                                                                                     |
+|-------------------------------------|-------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Header<br/>                   | <dl> <dt>Opmapi.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**IOPMVideoOutput::GetInformation**](iopmvideooutput-iopmvideooutput--getinformation.md)
+</dt> <dt>
+
+[OPM Status Requests](opm-status-requests.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

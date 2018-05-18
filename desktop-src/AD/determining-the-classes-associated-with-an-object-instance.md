@@ -1,0 +1,67 @@
+---
+title: Determining the Classes Associated With an Object Instance
+description: Every object in Active Directory Domain Services has two attributes whose values identify the hierarchy of object classes of which the object is an instance.
+audience: developer
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 'bb46f165-8c6e-4af1-b387-e0e30a4c6226'
+ms.prod: 'windows-server-dev'
+ms.technology: 'active-directory-domain-services'
+ms.tgt_platform: multiple
+---
+
+# Determining the Classes Associated With an Object Instance
+
+Every object in Active Directory Domain Services has two attributes whose values identify the hierarchy of object classes of which the object is an instance.
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>structuralObjectClass</strong></td>
+<td>Identifies the structural and abstract classes of which the object is an instance. For example, the values for a user object can be:
+<ul>
+<li><strong>top</strong></li>
+<li><strong>person</strong></li>
+<li><strong>organizationalPerson</strong></li>
+<li><strong>user</strong></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>objectClass</strong></td>
+<td>Identifies the classes included in <strong>structuralObjectClass</strong>, plus any auxiliary classes that are dynamically attached. For example, if a &quot;vehicle&quot; auxiliary class is attached to a user object, the values can be:
+<ul>
+<li><strong>top</strong></li>
+<li><strong>vehicle</strong></li>
+<li><strong>person</strong></li>
+<li><strong>organizationalPerson</strong></li>
+<li><strong>user</strong></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+Be aware that neither of these attributes include auxiliary classes that are statically linked with the object classes of which the object is an instance. For example, the **securityPrincipal** auxiliary class is statically linked with the **user** class because it is included in the **systemAuxiliaryClass** values of the user **classSchema** object; it is not included in either the **objectClass** or **structuralObjectClass** attributes of instances of the user class.
+
+ 
+
+ 
+
+
+
+

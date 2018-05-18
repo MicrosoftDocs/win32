@@ -1,0 +1,24 @@
+---
+title: Audio Decoding Properties
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+ms.assetid: '257dcf15-510e-48ef-b2b2-198e9a9b32fe'
+keywords: ["Audio Decoding Properties windows Media Format"]
+topic_type:
+- apiref
+api_name:
+- Audio Decoding Properties
+api_type:
+- NA
+---
+
+# Audio Decoding Properties
+
+For current documentation on Windows Media codecs and digital signal processors, see [Windows Media Audio and Video Codec and DSP APIs.](codecapi-windows_media_audio_and_video_codec_dsp_apis_portal)
+
+ 
+
+ 
+
+
+
+

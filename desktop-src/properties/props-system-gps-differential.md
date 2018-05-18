@@ -1,0 +1,81 @@
+---
+Description: 'Indicates whether differential correction was applied to the GPS receiver.'
+ms.assetid: '9e88e861-b5cd-4f13-9765-b63306bbaa29'
+title: 'System.GPS.Differential'
+---
+
+# System.GPS.Differential
+
+Indicates whether differential correction was applied to the GPS receiver.
+
+## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
+
+```
+propertyDescription
+   name = System.GPS.Differential
+   shellPKey = PKEY_GPS_Differential
+   formatID = AAF4EE25-BD3B-4DD7-BFC4-47F77BB00F6D
+   propID = 100
+   SearchInfo
+      InInvertedIndex = false
+      IsColumn = false
+   typeInfo
+      type = UInt16
+```
+
+## Remarks
+
+PKEY values are defined in Propkey.h.
+
+## Related topics
+
+<dl> <dt>
+
+[propertyDescription](shell.propdesc_schema_propertyDescription)
+</dt> <dt>
+
+[searchInfo](shell.propdesc_schema_searchInfo)
+</dt> <dt>
+
+[labelInfo](shell.propdesc_schema_labelInfo)
+</dt> <dt>
+
+[typeInfo](shell.propdesc_schema_typeInfo)
+</dt> <dt>
+
+[displayInfo](shell.propdesc_schema_displayInfo)
+</dt> <dt>
+
+[stringFormat](shell.propdesc_schema_stringFormat)
+</dt> <dt>
+
+[booleanFormat](shell.propdesc_schema_booleanFormat)
+</dt> <dt>
+
+[numberFormat](shell.propdesc_schema_numberFormat)
+</dt> <dt>
+
+[dateTimeFormat](shell.propdesc_schema_dateTimeFormat)
+</dt> <dt>
+
+[enumeratedList](shell.propdesc_schema_enumeratedList)
+</dt> <dt>
+
+[drawControl](shell.propdesc_schema_drawControl)
+</dt> <dt>
+
+[editControl](shell.propdesc_schema_editControl)
+</dt> <dt>
+
+[filterControl](shell.propdesc_schema_filterControl)
+</dt> <dt>
+
+[queryControl](shell.propdesc_schema_queryControl)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

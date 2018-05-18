@@ -1,0 +1,46 @@
+---
+Description: 'The CIM\_LogicalFile class exposes the following methods.'
+audience: developer
+author: 'REDMOND\\markl'
+manager: 'REDMOND\\markl'
+ms.assetid: '0ACA0C89-BFA6-4B1F-98F1-FB6ACEE65905'
+ms.prod: 'windows-server-dev'
+ms.technology:
+- cimwin32
+- 'windows-management-instrumentation'
+ms.tgt_platform: multiple
+title: 'CIM\_LogicalFile Methods'
+---
+
+# CIM\_LogicalFile Methods
+
+The [**CIM\_LogicalFile**](cim-logicalfile.md) class exposes the following methods.
+
+> \[!Important\]  
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+
+ 
+
+## In this section
+
+-   [**ChangeSecurityPermissions method**](changesecuritypermissions-method-in-class-cim-logicalfile.md)
+-   [**ChangeSecurityPermissionsEx method**](changesecuritypermissionsex-method-in-class-cim-logicalfile.md)
+-   [**Compress method**](compress-method-in-class-cim-logicalfile.md)
+-   [**CompressEx method**](compressex-method-in-class-cim-logicalfile.md)
+-   [**Copy method**](copy-method-in-class-cim-logicalfile.md)
+-   [**CopyEx method**](copyex-method-in-class-cim-logicalfile.md)
+-   [**Delete method**](delete-method-in-class-cim-logicalfile.md)
+-   [**DeleteEx method**](deleteex-method-in-class-cim-logicalfile.md)
+-   [**GetEffectivePermission method**](geteffectivepermission-method-in-class-cim-logicalfile.md)
+-   [**Rename method**](rename-method-in-class-cim-logicalfile.md)
+-   [**TakeOwnerShip method**](takeownership-method-in-class-cim-logicalfile.md)
+-   [**TakeOwnerShipEx method**](takeownershipex-method-in-class-cim-logicalfile.md)
+-   [**Uncompress method**](uncompress-method-in-class-cim-logicalfile.md)
+-   [**UncompressEx method**](uncompressex-method-in-class-cim-logicalfile.md)
+
+ 
+
+ 
+
+
+

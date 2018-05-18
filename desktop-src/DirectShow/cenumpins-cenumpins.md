@@ -1,0 +1,69 @@
+---
+Description: 'Constructor method.'
+ms.assetid: 'f696e433-b051-4de0-80e5-f9cd31fd0f23'
+title: 'CEnumPins.CEnumPins constructor'
+---
+
+# CEnumPins.CEnumPins constructor
+
+Constructor method.
+
+## Syntax
+
+
+```C++
+CEnumPins(
+   CBaseFilter *pFilter,
+   CEnumPins   *pEnumPins
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pFilter* 
+</dt> <dd>
+
+Pointer to the filter on which to enumerate the pins.
+
+</dd> <dt>
+
+*pEnumPins* 
+</dt> <dd>
+
+Pointer to the [**IEnumPins**](ienumpins.md) interface of an enumerator to clone, or **NULL**.
+
+</dd> </dl>
+
+## Remarks
+
+If *pEnumPins* is **NULL**, this method initializes the enumerator to the beginning of the enumeration sequence. Otherwise, it duplicates the internal state of the enumerator specified by *pEnumPins*.
+
+## Requirements
+
+
+
+|                    |                                                                                                                                                                                            |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
+| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**CEnumPins Class**](cenumpins.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

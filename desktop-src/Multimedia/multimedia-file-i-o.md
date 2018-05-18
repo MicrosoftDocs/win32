@@ -1,0 +1,22 @@
+---
+title: Multimedia File I/O
+description: Multimedia File I/O
+ms.assetid: 'd72ba20c-0085-4d5c-9fc6-b9024b575027'
+keywords: ["Windows multimedia,file I/O", "multimedia,file I/O", "multimedia input,file I/O", "multimedia file I/O,about", "file I/O,about", "input and output (I/O),about", "I/O (input and output),about", "buffered I/O", "resource interchange file format (RIFF)", "RIFF (resource interchange file format)", "RIFF I/O", "custom I/O", "memory I/O"]
+---
+
+# Multimedia File I/O
+
+The multimedia file I/O services provide more functionality than the standard operating system services, including support for buffered I/O, resource interchange file format (RIFF) files, memory files, and custom storage systems. In addition, the multimedia file I/O services are optimized for applications sensitive to performance.
+
+-   [About Multimedia File I/O](about-multimedia-file-i-o.md)
+-   [Using Multimedia File I/O](using-multimedia-file-i-o.md)
+-   [Multimedia File I/O Reference](multimedia-file-i-o-reference.md)
+
+ 
+
+ 
+
+
+
+

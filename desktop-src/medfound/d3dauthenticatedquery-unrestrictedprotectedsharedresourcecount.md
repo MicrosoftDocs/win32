@@ -1,0 +1,58 @@
+﻿---
+Description: 'Returns the number of protected shared resources that can be opened by any process without restrictions.'
+ms.assetid: 'afbd7bb9-de71-4992-919e-e1517228dc69'
+title: 'D3DAUTHENTICATEDQUERY\_UNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT'
+---
+
+# D3DAUTHENTICATEDQUERY\_UNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT
+
+Returns the number of protected shared resources that can be opened by any process without restrictions.
+
+
+
+|             |                                                                                                                                                                        |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Query GUID  | **D3DAUTHENTICATEDQUERY\_UNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT**                                                                                                    |
+| Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT**](d3dauthenticatedchannel-query-input.md)                                                                                   |
+| Return data | [**D3DAUTHENTICATEDCHANNEL\_QUERYUNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT\_OUTPUT**](d3dauthenticatedchannel-queryunrestrictedprotectedsharedresourcecount-output.md) |
+
+
+
+ 
+
+## Remarks
+
+The only channel type that supports this query is **D3DAUTHENTICATEDCHANNEL\_DRIVER\_SOFTWARE**.
+
+## Requirements
+
+
+
+|                                     |                                                                                        |
+|-------------------------------------|----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Header<br/>                   | <dl> <dt>D3d9types.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Content Protection Queries](content-protection-queries.md)
+</dt> <dt>
+
+[GPU-Based Content Protection](gpu-based-content-protection.md)
+</dt> <dt>
+
+[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
