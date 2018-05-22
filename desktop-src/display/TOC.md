@@ -1,5 +1,4 @@
 # [Display Devices Reference](display-devices-reference.md)
-# Windows Display Driver Model (WDDM) Reference
 ## New Reference Topics for Windows 8.1
 ## New Reference Topics for Windows 8
 ### [User-Mode Interfaces Implemented By the Direct3D Runtime](user-mode-interfaces-implemented-by-the-direct3d-runtime.md)
