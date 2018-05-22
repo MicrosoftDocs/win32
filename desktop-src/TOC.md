@@ -1,5 +1,5 @@
 #[Windows Desktop Apps](/windows/desktop)
-##[Design basics](designprinciples.md)
+##[Design basics](uxguide/designprinciples.md)
 ##Get Started
 ###[Choose Your Technology](choose-your-technology.md)
 ###[What's new](windows-8.md)
