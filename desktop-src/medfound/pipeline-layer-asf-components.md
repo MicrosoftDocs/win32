@@ -1,5 +1,5 @@
 ---
-Description: 'In Media Foundation''s pipeline model, a media source is connected to a transform which is further connected to a media sink.'
+Description: 'In Media Foundation's pipeline model, a media source is connected to a transform which is further connected to a media sink.'
 ms.assetid: '55ab3a53-d9fd-438c-998c-8888f99958ce'
 title: Pipeline Layer ASF Components
 ---

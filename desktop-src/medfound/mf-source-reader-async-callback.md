@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Contains a pointer to the application''s callback interface for the Source Reader.'
+Description: 'Contains a pointer to the application's callback interface for the Source Reader.'
 ms.assetid: 'de226a5a-03c0-4bfe-bb20-8969ce43cf53'
 title: 'MF\_SOURCE\_READER\_ASYNC\_CALLBACK attribute'
 ---

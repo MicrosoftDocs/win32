@@ -1,0 +1,18 @@
+---
+title: TVM\_GETSELECTEDCOUNT message
+description: Not implemented.
+ms.assetid: '2920f473-522b-4750-82c0-05e9c3307063'
+keywords: ["TVM_GETSELECTEDCOUNT message Windows Controls"]
+---
+
+# TVM\_GETSELECTEDCOUNT message
+
+This message is not implemented.
+
+ 
+
+ 
+
+
+
+

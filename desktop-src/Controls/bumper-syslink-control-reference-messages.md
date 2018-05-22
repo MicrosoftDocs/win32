@@ -1,0 +1,23 @@
+---
+title: SysLink Control Messages
+description: .
+ms.assetid: '51f8d185-067a-4629-9c4f-1ea23a0d5262'
+---
+
+# SysLink Control Messages
+
+## In This Section
+
+-   [**LM\_GETIDEALHEIGHT**](lm-getidealheight.md)
+-   [**LM\_GETIDEALSIZE**](lm-getidealsize.md)
+-   [**LM\_GETITEM**](lm-getitem.md)
+-   [**LM\_HITTEST**](lm-hittest.md)
+-   [**LM\_SETITEM**](lm-setitem.md)
+
+ 
+
+ 
+
+
+
+

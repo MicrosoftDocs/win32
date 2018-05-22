@@ -1,5 +1,5 @@
 ---
-Description: 'The enhanced video renderer (EVR) is a component that displays video on the user''s monitor.'
+Description: 'The enhanced video renderer (EVR) is a component that displays video on the user's monitor.'
 ms.assetid: '1c985558-d25d-4f51-978a-58c05943dab9'
 title: Enhanced Video Renderer
 ---

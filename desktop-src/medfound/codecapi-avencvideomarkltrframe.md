@@ -1,4 +1,4 @@
-ï»¿---
+---
 Description: 'Marks the current frame as a LTR frame.'
 ms.assetid: 'D70A54D6-DA9B-40E5-B130-0AA9C5363DF0'
 title: 'CODECAPI\_AVEncVideoMarkLTRFrame property'
@@ -32,8 +32,8 @@ The CODECAPI\_AVEncVideoMarkLTRFrame property is dynamic and can be set during t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | WindowsÂ 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
-| Minimum supported server<br/> | Windows ServerÂ 2012Â R2 \[desktop apps \| UWP apps\]<br/>                        |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -45,9 +45,9 @@ The CODECAPI\_AVEncVideoMarkLTRFrame property is dynamic and can be set during t
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
-Â 
+ 
 
-Â 
+ 
 
 
 

@@ -1,0 +1,80 @@
+---
+Description: 'This section contains info about the interfaces provided by DXGI.'
+ms.assetid: 'b561b26b-961c-4d5e-8483-56b51b989bf7'
+title: DXGI Interfaces
+---
+
+# DXGI Interfaces
+
+This section contains info about the interfaces provided by DXGI.
+
+## In this section
+
+
+
+| Topic                                                               | Description                                                                                                                                                                                                                                                                   |
+|---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**IDXGIAdapter**](idxgiadapter.md)<br/>                     | The [**IDXGIAdapter**](idxgiadapter.md) interface represents a display subsystem (including one or more GPUs, DACs and video memory). <br/>                                                                                                                            |
+| [**IDXGIAdapter1**](idxgiadapter1.md)<br/>                   | The [**IDXGIAdapter1**](idxgiadapter1.md) interface represents a display sub-system (including one or more GPU's, DACs and video memory). <br/>                                                                                                                        |
+| [**IDXGIAdapter2**](idxgiadapter2.md)<br/>                   | The [**IDXGIAdapter2**](idxgiadapter2.md) interface represents a display subsystem, which includes one or more GPUs, DACs, and video memory. <br/>                                                                                                                     |
+| [**IDXGIAdapter3**](idxgiadapter3.md)<br/>                   | This interface adds some memory residency methods, for budgeting and reserving physical memory.<br/>                                                                                                                                                                    |
+| [**IDXGIAdapter4**](idxgiadapter4.md)<br/>                   | This interface represents a display subsystem, and extends this family of interfaces to expose a method to check for an adapter's compatibility with Arbitrary Code Guard (ACG).<br/>                                                                                   |
+| [**IDXGIDebug**](idxgidebug.md)<br/>                         | This interface controls debug settings, and can only be used if the debug layer is turned on.<br/>                                                                                                                                                                      |
+| [**IDXGIDebug1**](idxgidebug1.md)<br/>                       | Controls debug settings for Microsoft DirectX Graphics Infrastructure (DXGI). You can use the [**IDXGIDebug1**](idxgidebug1.md) interface in Windows Store apps. <br/>                                                                                                 |
+| [**IDXGIDecodeSwapChain**](idxgidecodeswapchain.md)<br/>     | Represents a swap chain that is used by desktop media apps to decode video data and show it on a [DirectComposition](https://msdn.microsoft.com/library/windows/desktop/hh449188) surface. <br/>                                                                                                               |
+| [**IDXGIDevice**](idxgidevice.md)<br/>                       | An [**IDXGIDevice**](idxgidevice.md) interface implements a derived class for DXGI objects that produce image data. <br/>                                                                                                                                              |
+| [**IDXGIDevice1**](idxgidevice1.md)<br/>                     | An [**IDXGIDevice1**](idxgidevice1.md) interface implements a derived class for DXGI objects that produce image data. <br/>                                                                                                                                            |
+| [**IDXGIDevice2**](idxgidevice2.md)<br/>                     | The [**IDXGIDevice2**](idxgidevice2.md) interface implements a derived class for DXGI objects that produce image data. The interface exposes methods to block CPU processing until the GPU completes processing, and to offer resources to the operating system. <br/> |
+| [**IDXGIDevice3**](idxgidevice3.md)<br/>                     | The [**IDXGIDevice3**](idxgidevice3.md) interface implements a derived class for DXGI objects that produce image data. The interface exposes a method to trim graphics memory usage by the DXGI device. <br/>                                                          |
+| [**IDXGIDevice4**](idxgidevice4.md)<br/>                     | This interface provides updated methods to offer and reclaim resources.<br/>                                                                                                                                                                                            |
+| [**IDXGIDeviceSubObject**](idxgidevicesubobject.md)<br/>     | Inherited from objects that are tied to the device so that they can retrieve a pointer to it.<br/>                                                                                                                                                                      |
+| [**IDXGIDisplayControl**](idxgidisplaycontrol.md)<br/>       | The [**IDXGIDisplayControl**](idxgidisplaycontrol.md) interface exposes methods to indicate user preference for the operating system's stereoscopic 3D display behavior and to set stereoscopic 3D display status to enable or disable. <br/>                          |
+| [**IDXGIFactory**](idxgifactory.md)<br/>                     | An [**IDXGIFactory**](idxgifactory.md) interface implements methods for generating DXGI objects (which handle full screen transitions). <br/>                                                                                                                          |
+| [**IDXGIFactory1**](idxgifactory1.md)<br/>                   | The [**IDXGIFactory1**](idxgifactory1.md) interface implements methods for generating DXGI objects.<br/>                                                                                                                                                               |
+| [**IDXGIFactory2**](idxgifactory2.md)<br/>                   | The [**IDXGIFactory2**](idxgifactory2.md) interface includes methods to create a newer version swap chain with more features than [**IDXGISwapChain**](idxgiswapchain.md) and to monitor stereoscopic 3D capabilities. <br/>                                          |
+| [**IDXGIFactory3**](idxgifactory3.md)<br/>                   | Enables creating DXGI objects. <br/>                                                                                                                                                                                                                                    |
+| [**IDXGIFactory4**](idxgifactory4.md)<br/>                   | Enables creating DXGI objects. <br/>                                                                                                                                                                                                                                    |
+| [**IDXGIFactory5**](idxgifactory5.md)<br/>                   | This interface enables a single method to support variable refresh rate displays.<br/>                                                                                                                                                                                  |
+| [**IDXGIFactory6**](idxgifactory6.md)<br/>                   | This interface enables a single method that enumerates graphics adapters based on a given GPU preference.<br/>                                                                                                                                                          |
+| [**IDXGIFactoryMedia**](idxgifactorymedia.md)<br/>           | Creates swap chains for desktop media apps that use [DirectComposition](https://msdn.microsoft.com/library/windows/desktop/hh449188) surfaces to decode and display video. <br/>                                                                                                                               |
+| [**IDXGIInfoQueue**](idxgiinfoqueue.md)<br/>                 | This interface controls the debug information queue, and can only be used if the debug layer is turned on.<br/>                                                                                                                                                         |
+| [**IDXGIKeyedMutex**](idxgikeyedmutex.md)<br/>               | Represents a keyed mutex, which allows exclusive access to a shared resource that is used by multiple devices.<br/>                                                                                                                                                     |
+| [**IDXGIObject**](idxgiobject.md)<br/>                       | An [**IDXGIObject**](idxgiobject.md) interface is a base interface for all DXGI objects; **IDXGIObject** supports associating caller-defined (private data) with an object and retrieval of an interface to the parent object. <br/>                                   |
+| [**IDXGIOutput**](idxgioutput.md)<br/>                       | An [**IDXGIOutput**](idxgioutput.md) interface represents an adapter output (such as a monitor).<br/>                                                                                                                                                                  |
+| [**IDXGIOutput1**](idxgioutput1.md)<br/>                     | An [**IDXGIOutput1**](idxgioutput1.md) interface represents an adapter output (such as a monitor).<br/>                                                                                                                                                                |
+| [**IDXGIOutput2**](idxgioutput2.md)<br/>                     | Represents an adapter output (such as a monitor). The [**IDXGIOutput2**](idxgioutput2.md) interface exposes a method to check for multiplane overlay support on the primary output adapter.<br/>                                                                       |
+| [**IDXGIOutput3**](idxgioutput3.md)<br/>                     | Represents an adapter output (such as a monitor). The [**IDXGIOutput3**](idxgioutput3.md) interface exposes a method to check for overlay support.<br/>                                                                                                                |
+| [**IDXGIOutput4**](idxgioutput4.md)<br/>                     | Represents an adapter output (such as a monitor). The [**IDXGIOutput4**](idxgioutput4.md) interface exposes a method to check for overlay color space support.<br/>                                                                                                    |
+| [**IDXGIOutput5**](idxgioutput5.md)<br/>                     | Represents an adapter output (such as a monitor). The [**IDXGIOutput5**](idxgioutput5.md) interface exposes a single method to specify a list of supported formats for fullscreen surfaces.<br/>                                                                       |
+| [**IDXGIOutput6**](idxgioutput6.md)<br/>                     | Represents an adapter output (such as a monitor). The [**IDXGIOutput6**](idxgioutput6.md) interface exposes methods to provide specific monitor capabilities.<br/>                                                                                                     |
+| [**IDXGIOutputDuplication**](idxgioutputduplication.md)<br/> | The [**IDXGIOutputDuplication**](idxgioutputduplication.md) interface accesses and manipulates the duplicated desktop image. <br/>                                                                                                                                     |
+| [**IDXGIResource**](idxgiresource.md)<br/>                   | An [**IDXGIResource**](idxgiresource.md) interface allows resource sharing and identifies the memory that a resource resides in. <br/>                                                                                                                                 |
+| [**IDXGIResource1**](idxgiresource1.md)<br/>                 | An [**IDXGIResource1**](idxgiresource1.md) interface extends the [**IDXGIResource**](idxgiresource.md) interface by adding support for creating a subresource surface object and for creating a handle to a shared resource. <br/>                                    |
+| [**IDXGISurface**](idxgisurface.md)<br/>                     | The [**IDXGISurface**](idxgisurface.md) interface implements methods for image-data objects.<br/>                                                                                                                                                                      |
+| [**IDXGISurface1**](idxgisurface1.md)<br/>                   | The [**IDXGISurface1**](idxgisurface1.md) interface extends the [**IDXGISurface**](idxgisurface.md) by adding support for using Windows Graphics Device Interface (GDI) to render to a DXGI surface.<br/>                                                             |
+| [**IDXGISurface2**](idxgisurface2.md)<br/>                   | The [**IDXGISurface2**](idxgisurface2.md) interface extends the [**IDXGISurface1**](idxgisurface1.md) interface by adding support for subresource surfaces and getting a handle to a shared resource.<br/>                                                            |
+| [**IDXGISwapChain**](idxgiswapchain.md)<br/>                 | An [**IDXGISwapChain**](idxgiswapchain.md) interface implements one or more [**surfaces**](idxgisurface.md) for storing rendered data before presenting it to an output.<br/>                                                                                         |
+| [**IDXGISwapChain1**](idxgiswapchain1.md)<br/>               | Provides presentation capabilities that are enhanced from [**IDXGISwapChain**](idxgiswapchain.md). These presentation capabilities consist of specifying dirty rectangles and scroll rectangle to optimize the presentation.<br/>                                      |
+| [**IDXGISwapChain2**](idxgiswapchain2.md)<br/>               | Extends [**IDXGISwapChain1**](idxgiswapchain1.md) with methods to support swap back buffer scaling and lower-latency swap chains.<br/>                                                                                                                                 |
+| [**IDXGISwapChain3**](idxgiswapchain3.md)<br/>               | Extends [**IDXGISwapChain2**](idxgiswapchain2.md) with methods to support getting the index of the swap chain's current back buffer and support for color space.<br/>                                                                                                  |
+| [**IDXGISwapChain4**](idxgiswapchain4.md)<br/>               | This interface exposes a single method for setting video metadata.<br/>                                                                                                                                                                                                 |
+| [**IDXGISwapChainMedia**](idxgiswapchainmedia.md)<br/>       | This swap chain interface allows desktop media applications to request a seamless change to a specific refresh rate.<br/>                                                                                                                                               |
+
+
+
+ 
+
+## Related topics
+
+<dl> <dt>
+
+[DXGI Reference](d3d10-graphics-reference-dxgi.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

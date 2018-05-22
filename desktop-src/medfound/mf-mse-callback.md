@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Contains a pointer to the application''s callback interface for the IMFMediaSourceExtensionNotify.'
+Description: 'Contains a pointer to the application's callback interface for the IMFMediaSourceExtensionNotify.'
 ms.assetid: 'A5783F9B-6261-4384-9484-275F550709E2'
 title: 'MF\_MSE\_CALLBACK attribute'
 ---

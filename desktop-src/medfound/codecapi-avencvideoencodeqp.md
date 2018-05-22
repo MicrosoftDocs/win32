@@ -1,4 +1,4 @@
-ï»¿---
+---
 Description: 'Specifies the quantization parameter (QP) for video encoding.'
 ms.assetid: '9E3B5E2D-3583-4C89-BC2A-4AC3C5545673'
 title: 'CODECAPI\_AVEncVideoEncodeQP property'
@@ -39,8 +39,8 @@ To insure consistent usage across different encoders, you should assume encoders
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | WindowsÂ 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows ServerÂ 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -52,12 +52,12 @@ To insure consistent usage across different encoders, you should assume encoders
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](dshow.icodecapi)
+[**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
 </dt> </dl>
 
-Â 
+ 
 
-Â 
+ 
 
 
 

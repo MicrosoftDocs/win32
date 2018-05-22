@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Raised by a stream sink when the sink''s media type is no longer valid.'
+Description: 'Raised by a stream sink when the sink's media type is no longer valid.'
 ms.assetid: '9eeb4262-1593-4c5f-9341-ebd328b586e7'
 title: MEStreamSinkFormatChanged event
 ---

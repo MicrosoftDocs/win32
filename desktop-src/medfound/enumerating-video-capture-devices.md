@@ -1,5 +1,5 @@
 ---
-Description: 'This topic describes how to enumerate the video capture devices on the user''s system, and how create an instance of a device.'
+Description: 'This topic describes how to enumerate the video capture devices on the user's system, and how create an instance of a device.'
 ms.assetid: 'b1267478-329b-4e46-a2ed-1ec11d2e2e6d'
 title: Enumerating Video Capture Devices
 ---

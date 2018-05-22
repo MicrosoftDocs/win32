@@ -1,0 +1,10 @@
+# [Input Source Identification](input-source-identification-portal.md)
+## [Input Source Identification Reference](input-source-identification-reference.md)
+### [Enumerations](enumerations.md)
+#### [INPUT_MESSAGE_DEVICE_TYPE](input-message-device-type.md)
+#### [INPUT_MESSAGE_ORIGIN_ID](input-message-origin-id.md)
+### [Functions](functions.md)
+#### [GetCIMSSM](getcimssm.md)
+#### [GetCurrentInputMessageSource](getcurrentinputmessagesource.md)
+### [INPUT_MESSAGE_SOURCE](input-message-source.md)
+

@@ -1,4 +1,4 @@
-ï»¿---
+---
 Description: 'Sets the video temporal layer count for a video encoder.'
 ms.assetid: '36E1C86B-86D0-40CB-8F96-061FC653E9C3'
 title: 'CODECAPI\_AVEncVideoTemporalLayerCount property'
@@ -20,7 +20,7 @@ Sets the video temporal layer count for a video encoder.
 
 This property is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-h264-uvc-1-5.md).
 
-CODECAPI\_AVEncVideoTemporalLayerCount, [CODECAPI\_AVEncVideoUsage](codecapi-avencvideousage.md), and [CODECAPI\_AVEncCommonRateControlMode](dshow.avenccommonratecontrolmode_property) are static encoder properties. Once set, these will only take effect after a set media type is called on the cameraâ€™s output pin.
+CODECAPI\_AVEncVideoTemporalLayerCount, [CODECAPI\_AVEncVideoUsage](codecapi-avencvideousage.md), and [CODECAPI\_AVEncCommonRateControlMode](https://msdn.microsoft.com/library/windows/desktop/dd317842) are static encoder properties. Once set, these will only take effect after a set media type is called on the camera’s output pin.
 
 ## Requirements
 
@@ -28,8 +28,8 @@ CODECAPI\_AVEncVideoTemporalLayerCount, [CODECAPI\_AVEncVideoUsage](codecapi-ave
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | WindowsÂ 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows ServerÂ 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,9 +41,9 @@ CODECAPI\_AVEncVideoTemporalLayerCount, [CODECAPI\_AVEncVideoUsage](codecapi-ave
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
-Â 
+ 
 
-Â 
+ 
 
 
 

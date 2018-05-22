@@ -1,0 +1,11 @@
+# [Get Connected Wizard API](get-connected-wizard-api-portal.md)
+## [Get Connected Wizard API Reference](get-connected-wizard-api-reference.md)
+### [CreateVPNConnection](createvpnconnection.md)
+### [GetInternetConnected](getinternetconnected.md)
+### [GetNetworkConnected](getnetworkconnected.md)
+### [GetVPNConnected](getvpnconnected.md)
+### [IsInternetConnected](isinternetconnected.md)
+### [RegisterPageWithPage](registerpagewithpage.md)
+### [UnregisterPage](unregisterpage.md)
+### [UnregisterPagesLink](unregisterpageslink.md)
+

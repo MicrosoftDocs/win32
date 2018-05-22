@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Raised by a content enabler object when the object''s enabling action is completed.'
+Description: 'Raised by a content enabler object when the object's enabling action is completed.'
 ms.assetid: '5162800c-9c55-40de-be66-a98765324f76'
 title: MEEnablerCompleted event
 ---

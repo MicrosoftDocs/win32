@@ -1,0 +1,101 @@
+﻿---
+Description: 'The Microsoft Windows security model enables you to control access to process objects. For more information about security, see Access-Control Model.'
+ms.assetid: '508a17c4-88cd-431a-a102-00180a7f7ab5'
+title: Process Security and Access Rights
+---
+
+# Process Security and Access Rights
+
+The Microsoft Windows security model enables you to control access to process objects. For more information about security, see [Access-Control Model](security.access_control_model).
+
+When a user logs in, the system collects a set of data that uniquely identifies the user during the authentication process, and stores it in an [access token](security.access_tokens). This access token describes the security context of all processes associated with the user. The security context of a process is the set of credentials given to the process or the user account that created the process.
+
+You can use a token to specify the current security context for a process using the [**CreateProcessWithTokenW**](createprocesswithtokenw.md) function. You can specify a [security descriptor](security.security_descriptors) for a process when you call the [**CreateProcess**](createprocess.md), [**CreateProcessAsUser**](createprocessasuser.md), or [**CreateProcessWithLogonW**](createprocesswithlogonw.md) function. If you specify **NULL**, the process gets a default security descriptor. The ACLs in the default security descriptor for a process come from the primary or impersonation token of the creator.
+
+To retrieve a process's security descriptor, call the [**GetSecurityInfo**](security.getsecurityinfo) function. To change a process's security descriptor, call the [**SetSecurityInfo**](security.setsecurityinfo) function.
+
+The valid access rights for process objects include the [standard access rights](security.standard_access_rights) and some process-specific access rights. The following table lists the standard access rights used by all objects.
+
+| Value                           | Meaning                                                                                                                                                                                                                                                                                  |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **DELETE** (0x00010000L)        | Required to delete the object.                                                                                                                                                                                                                                                           |
+| **READ\_CONTROL** (0x00020000L) | Required to read information in the security descriptor for the object, not including the information in the SACL. To read or write the SACL, you must request the **ACCESS\_SYSTEM\_SECURITY** access right. For more information, see [SACL Access Right](security.sacl_access_right). |
+| **SYNCHRONIZE** (0x00100000L)   | The right to use the object for synchronization. This enables a thread to wait until the object is in the signaled state.                                                                                                                                                                |
+| **WRITE\_DAC** (0x00040000L)    | Required to modify the DACL in the security descriptor for the object.                                                                                                                                                                                                                   |
+| **WRITE\_OWNER** (0x00080000L)  | Required to change the owner in the security descriptor for the object.                                                                                                                                                                                                                  |
+
+
+
+ 
+
+The following table lists the process-specific access rights.
+
+
+
+| Value                                             | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **PROCESS\_ALL\_ACCESS**                          | All possible access rights for a process object.**Windows Server 2003 and Windows XP:** The size of the **PROCESS\_ALL\_ACCESS** flag increased on Windows Server 2008 and Windows Vista. If an application compiled for Windows Server 2008 and Windows Vista is run on Windows Server 2003 or Windows XP, the **PROCESS\_ALL\_ACCESS** flag is too large and the function specifying this flag fails with **ERROR\_ACCESS\_DENIED**. To avoid this problem, specify the minimum set of access rights required for the operation. If **PROCESS\_ALL\_ACCESS** must be used, set \_WIN32\_WINNT to the minimum operating system targeted by your application (for example, `#define _WIN32_WINNT _WIN32_WINNT_WINXP`). For more information, see [Using the Windows Headers](winprog.using_the_windows_headers). <br/> |
+| **PROCESS\_CREATE\_PROCESS** (0x0080)             | Required to create a process.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **PROCESS\_CREATE\_THREAD** (0x0002)              | Required to create a thread.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **PROCESS\_DUP\_HANDLE** (0x0040)                 | Required to duplicate a handle using [**DuplicateHandle**](base.duplicatehandle).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **PROCESS\_QUERY\_INFORMATION** (0x0400)          | Required to retrieve certain information about a process, such as its token, exit code, and priority class (see [**OpenProcessToken**](security.openprocesstoken)).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **PROCESS\_QUERY\_LIMITED\_INFORMATION** (0x1000) | Required to retrieve certain information about a process (see [**GetExitCodeProcess**](getexitcodeprocess.md), [**GetPriorityClass**](getpriorityclass.md), [**IsProcessInJob**](isprocessinjob.md), [**QueryFullProcessImageName**](queryfullprocessimagename.md)). A handle that has the **PROCESS\_QUERY\_INFORMATION** access right is automatically granted **PROCESS\_QUERY\_LIMITED\_INFORMATION**.**Windows Server 2003 and Windows XP:** This access right is not supported.<br/>                                                                                                                                                                                                                                                                                                                         |
+| **PROCESS\_SET\_INFORMATION** (0x0200)            | Required to set certain information about a process, such as its priority class (see [**SetPriorityClass**](setpriorityclass.md)).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **PROCESS\_SET\_QUOTA** (0x0100)                  | Required to set memory limits using [**SetProcessWorkingSetSize**](setprocessworkingsetsize.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **PROCESS\_SUSPEND\_RESUME** (0x0800)             | Required to suspend or resume a process.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **PROCESS\_TERMINATE** (0x0001)                   | Required to terminate a process using [**TerminateProcess**](terminateprocess.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **PROCESS\_VM\_OPERATION** (0x0008)               | Required to perform an operation on the address space of a process (see [**VirtualProtectEx**](base.virtualprotectex) and [**WriteProcessMemory**](base.writeprocessmemory)).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **PROCESS\_VM\_READ** (0x0010)                    | Required to read memory in a process using [**ReadProcessMemory**](base.readprocessmemory).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **PROCESS\_VM\_WRITE** (0x0020)                   | Required to write to memory in a process using [**WriteProcessMemory**](base.writeprocessmemory).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **SYNCHRONIZE** (0x00100000L)                     | Required to wait for the process to terminate using the [wait functions](base.wait_functions).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+
+
+ 
+
+To open a handle to another process and obtain full access rights, you must enable the **SeDebugPrivilege** privilege. For more information, see [Changing Privileges in a Token](security.changing_privileges_in_a_token).
+
+The handle returned by the [**CreateProcess**](createprocess.md) function has **PROCESS\_ALL\_ACCESS** access to the process object. When you call the [**OpenProcess**](openprocess.md) function, the system checks the requested [access rights](security.access_rights_and_access_masks) against the DACL in the process's security descriptor. When you call the [**GetCurrentProcess**](getcurrentprocess.md) function, the system returns a pseudohandle with the maximum access that the DACL allows to the caller.
+
+You can request the **ACCESS\_SYSTEM\_SECURITY** access right to a process object if you want to read or write the object's SACL. For more information, see [Access-Control Lists (ACLs)](security.access_control_lists_acls_) and [SACL Access Right](security.sacl_access_right).
+
+> \[!Warning\]  
+> A process that has some of the access rights noted here can use them to gain other access rights. For example, if process A has a handle to process B with **PROCESS\_DUP\_HANDLE** access, it can duplicate the pseudo handle for process B. This creates a handle that has maximum access to process B. For more information on pseudo handles, see [**GetCurrentProcess**](getcurrentprocess.md).
+
+ 
+
+## Protected Processes
+
+Windows Vista introduces *protected processes* to enhance support for Digital Rights Management. The system restricts access to protected processes and the threads of protected processes.
+
+The following standard access rights are not allowed from a process to a protected process:
+
+<dl> **DELETE**  
+**READ\_CONTROL**  
+**WRITE\_DAC**  
+**WRITE\_OWNER**  
+</dl>
+
+The following specific access rights are not allowed from a process to a protected process:
+
+<dl> **PROCESS\_ALL\_ACCESS**  
+**PROCESS\_CREATE\_PROCESS**  
+**PROCESS\_CREATE\_THREAD**  
+**PROCESS\_DUP\_HANDLE**  
+**PROCESS\_QUERY\_INFORMATION**  
+**PROCESS\_SET\_INFORMATION**  
+**PROCESS\_SET\_QUOTA**  
+**PROCESS\_VM\_OPERATION**  
+**PROCESS\_VM\_READ**  
+**PROCESS\_VM\_WRITE**  
+</dl>
+
+The **PROCESS\_QUERY\_LIMITED\_INFORMATION** right was introduced to provide access to a subset of the information available through **PROCESS\_QUERY\_INFORMATION**.
+
+ 
+
+ 
+
+
+
+

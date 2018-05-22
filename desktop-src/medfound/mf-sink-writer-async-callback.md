@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Contains a pointer to the application''s callback interface for the sink writer.'
+Description: 'Contains a pointer to the application's callback interface for the sink writer.'
 ms.assetid: '22df1fa0-469d-4501-aaf0-a0379b7ed096'
 title: 'MF\_SINK\_WRITER\_ASYNC\_CALLBACK attribute'
 ---

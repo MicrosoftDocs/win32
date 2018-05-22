@@ -1,4 +1,4 @@
-ï»¿---
+---
 Description: 'Specifies the common transcode encoding profile.'
 ms.assetid: '25315E05-2988-4E1A-8128-8420C8DBBB7C'
 title: 'CODECAPI\_AVEncCommonTranscodeEncodingProfile property'
@@ -22,8 +22,8 @@ Specifies the common transcode encoding profile.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | WindowsÂ 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows ServerÂ 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -35,9 +35,9 @@ Specifies the common transcode encoding profile.
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
-Â 
+ 
 
-Â 
+ 
 
 
 

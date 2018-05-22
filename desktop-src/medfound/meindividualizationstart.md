@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Raised by the policy engine when individualization is about to begin. Individualization is performed using the application''s implementation of the IMFContentProtectionManager interface.'
+Description: 'Raised by the policy engine when individualization is about to begin. Individualization is performed using the application's implementation of the IMFContentProtectionManager interface.'
 ms.assetid: 'a3ba98ee-4d2e-466d-be9a-c7e3b5f920a7'
 title: MEIndividualizationStart event
 ---

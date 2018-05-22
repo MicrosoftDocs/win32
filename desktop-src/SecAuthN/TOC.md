@@ -1004,7 +1004,7 @@
 #### [SecPkgContext_NegotiationInfo](/windows/win32/content/Sspi/ns-sspi-_secpkgcontext_negotiationinfoa?branch=dev)
 #### [SecPkgContext_PackageInfo](/windows/win32/content/Sspi/ns-sspi-_secpkgcontext_packageinfoa?branch=dev)
 #### [SecPkgContext_PasswordExpiry](/windows/win32/content/Sspi/ns-sspi-_secpkgcontext_passwordexpiry?branch=dev)
-#### [SecPkgContext_ProtoInfo](secpkgcontext-protoinfo.md)
+#### [SecPkgContext_ProtoInfo](/windows/win32/content/Schannel/ns-ntifs-_secpkgcontext_protoinfow?branch=dev)
 #### [SecPkgContext_SessionAppData](/windows/win32/content/Schannel/ns-schannel-_secpkgcontext_sessionappdata?branch=dev)
 #### [SecPkgContext_SessionInfo](/windows/win32/content/Schannel/ns-schannel-_secpkgcontext_sessioninfo?branch=dev)
 #### [SecPkgContext_SessionKey](/windows/win32/content/Sspi/ns-sspi-_secpkgcontext_sessionkey?branch=dev)

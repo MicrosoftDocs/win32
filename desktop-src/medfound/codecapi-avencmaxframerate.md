@@ -1,4 +1,4 @@
-ï»¿---
+---
 Description: 'Sets the maximum real-time input rate of video frames being fed to the encoder.'
 ms.assetid: 'ACBE8799-A81C-44C3-B985-88ADFB1E51B4'
 title: 'CODECAPI\_AVEncMaxFrameRate property'
@@ -28,8 +28,8 @@ The frame rate is expressed as a ratio. The upper 32 bits of the attribute value
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | WindowsÂ 10 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows ServerÂ 2016 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +41,12 @@ The frame rate is expressed as a ratio. The upper 32 bits of the attribute value
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](dshow.icodecapi)
+[**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
 </dt> </dl>
 
-Â 
+ 
 
-Â 
+ 
 
 
 

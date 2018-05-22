@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Indicates that ''moov'' will be written before ''mdat'' box in the generated file.'
+Description: 'Indicates that 'moov' will be written before 'mdat' box in the generated file.'
 ms.assetid: '97B68B0A-8266-4FCF-8CD9-35890E1AC774'
 title: 'MF\_MPEG4SINK\_MOOV\_BEFORE\_MDAT attribute'
 ---

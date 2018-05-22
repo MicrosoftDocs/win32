@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Contains a pointer to the proxy object for the application''s presentation descriptor.'
+Description: 'Contains a pointer to the proxy object for the application's presentation descriptor.'
 ms.assetid: '0cd83204-0d32-417c-8911-1d3358eb0802'
 title: 'MF\_PD\_PMPHOST\_CONTEXT attribute'
 ---

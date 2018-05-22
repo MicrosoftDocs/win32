@@ -66,7 +66,7 @@
 #### [CdromEnableDigitalPlayback](/windows/win32/content/StorProp/nf-storprop-cdromenabledigitalplayback?branch=dev)
 #### [CdromIsDigitalPlaybackEnabled](/windows/win32/content/StorProp/nf-storprop-cdromisdigitalplaybackenabled?branch=dev)
 #### [CdromKnownGoodDigitalPlayback](/windows/win32/content/Storprop/nf-storprop-cdromknowngooddigitalplayback?branch=dev)
-#### [DeviceIoControl](deviceiocontrol.md)
+#### [DeviceIoControl](/windows/win32/content/Winbase/nf-classpnp-classsenddeviceiocontrolsynchronous?branch=dev)
 #### [DvdLauncher](dvdlauncher.md)
 #### [InstallNewDevice](installnewdevice.md)
 #### [RegisterDeviceNotification](/windows/win32/content/Winuser/nf-winuser-registerdevicenotificationa?branch=dev)

@@ -675,7 +675,6 @@
 #### [WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE](/windows/win32/content/WebServices/ns-webservices-_ws_ncrypt_asymmetric_security_key_handle?branch=dev)
 #### [WS_NETPIPE_URL](/windows/win32/content/WebServices/ns-webservices-_ws_netpipe_url?branch=dev)
 #### [WS_NETTCP_URL](/windows/win32/content/WebServices/ns-webservices-_ws_nettcp_url?branch=dev)
-#### [WS_OPAQUE_WINDOWS_CREDENTIAL](/windows/win32/content/WebServices/?branch=dev)
 #### [WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL](/windows/win32/content/WebServices/ns-webservices-_ws_opaque_windows_integrated_auth_credential?branch=dev)
 #### [WS_OPERATION_DESCRIPTION](/windows/win32/content/WebServices/ns-webservices-_ws_operation_description?branch=dev)
 #### [WS_PARAMETER_DESCRIPTION](/windows/win32/content/WebServices/ns-webservices-_ws_parameter_description?branch=dev)

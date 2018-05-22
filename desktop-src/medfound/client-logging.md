@@ -1,4 +1,4 @@
-ï»¿---
+---
 Description: Client Logging
 ms.assetid: 'f91b48ae-3989-4c1d-929c-8ab28d7c8177'
 title: Client Logging
@@ -71,7 +71,7 @@ The following table describes the log fields and the corresponding properties th
 
 
 
-Â 
+ 
 
 The following code example shows how a client application configures the network source. This example sets the "c-hostexe" log field.
 
@@ -185,7 +185,7 @@ The following list describes some of the network statistics identifiers defined 
 
 
 
-Â 
+ 
 
 ## Related topics
 
@@ -197,9 +197,9 @@ The following list describes some of the network statistics identifiers defined 
 [Networking in Media Foundation](networking-in-media-foundation.md)
 </dt> </dl>
 
-Â 
+ 
 
-Â 
+ 
 
 
 

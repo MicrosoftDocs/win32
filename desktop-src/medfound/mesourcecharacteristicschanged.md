@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Raised by a media source when the source''s characteristics change.'
+Description: 'Raised by a media source when the source's characteristics change.'
 ms.assetid: 'df7bb9a3-5949-4a4a-8835-c5b1d01b5cb3'
 title: MESourceCharacteristicsChanged event
 ---

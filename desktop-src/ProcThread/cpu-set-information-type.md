@@ -1,0 +1,51 @@
+---
+Description: 'Represents the type of information in the SYSTEM\_CPU\_SET\_INFORMATION structure.'
+ms.assetid: 'B42CB8E8-0010-4B11-AB0D-6D196DCCC90A'
+title: 'CPU\_SET\_INFORMATION\_TYPE enumeration'
+---
+
+# CPU\_SET\_INFORMATION\_TYPE enumeration
+
+Represents the type of information in the [**SYSTEM\_CPU\_SET\_INFORMATION**](system-cpu-set-information.md) structure.
+
+## Syntax
+
+
+```C++
+typedef enum _CPU_SET_INFORMATION_TYPE { 
+  CpuSetInformation
+} CPU_SET_INFORMATION_TYPE, *PCPU_SET_INFORMATION_TYPE;
+```
+
+
+
+## Constants
+
+<dl> <dt>
+
+<span id="CpuSetInformation"></span><span id="cpusetinformation"></span><span id="CPUSETINFORMATION"></span>**CpuSetInformation**
+</dt> <dd>
+
+The structure contains CPU Set information.
+
+</dd> </dl>
+
+## Requirements
+
+
+
+|                                     |                                                                                                                   |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                              |
+| Header<br/>                   | <dl> <dt>Processthreadapi.h (include Windows.h)</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+

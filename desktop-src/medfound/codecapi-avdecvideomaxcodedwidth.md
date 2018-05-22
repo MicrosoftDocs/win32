@@ -1,4 +1,4 @@
-ï»¿---
+---
 Description: 'Sets the maximum picture width that a video decoder will accept as an input type.'
 ms.assetid: 'A6D70AD0-0B40-4AC8-A25A-89865BF5F5C1'
 title: 'CODECAPI\_AVDecVideoMaxCodedWidth property'
@@ -22,8 +22,8 @@ CODECAPI\_AVDecVideoMaxCodedWidth
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | WindowsÂ 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows ServerÂ 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -35,12 +35,12 @@ CODECAPI\_AVDecVideoMaxCodedWidth
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](dshow.icodecapi)
+[**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
 </dt> </dl>
 
-Â 
+ 
 
-Â 
+ 
 
 
 

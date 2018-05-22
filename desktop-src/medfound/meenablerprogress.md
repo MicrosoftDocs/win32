@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Signals the progress of a content enabler object. Objects that expose the IMFContentEnabler interface can raise this event to notify the application about the progress of the content enabler''s actions.'
+Description: 'Signals the progress of a content enabler object. Objects that expose the IMFContentEnabler interface can raise this event to notify the application about the progress of the content enabler's actions.'
 ms.assetid: 'ec14ba9b-cfb6-4e32-870e-2436e11c308b'
 title: MEEnablerProgress event
 ---

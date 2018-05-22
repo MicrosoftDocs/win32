@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Specifies whether a toplogy node''s underlying object is a decrypter.'
+Description: 'Specifies whether a toplogy node's underlying object is a decrypter.'
 ms.assetid: '211789d8-5e51-485c-b8f1-cd0ae3e39250'
 title: 'MF\_TOPONODE\_DECRYPTOR attribute'
 ---

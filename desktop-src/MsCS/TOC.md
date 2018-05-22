@@ -732,7 +732,7 @@
 ####### [CLUSCTL_CLUSTER_GET_STORAGE_CONFIGURATION](clusctl-cluster-get-storage-configuration.md)
 ####### [CLUSCTL_CLUSTER_REMOVE_NODE](clusctl-cluster-remove-node.md)
 ####### [CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS](clusctl-cluster-set-account-access.md)
-<!-- NOT-BUILT####### [CLUSCTL_CLUSTER_SET_DNS_DOMAIN](clusctl-cluster-set-dns-domain.md)-->
+<!-- ERROR:####### [CLUSCTL_CLUSTER_SET_DNS_DOMAIN](clusctl-cluster-set-dns-domain.md)-->
 ####### [CLUSCTL_CLUSTER_SET_CLUSTER_S2D_CACHE_METADATA_RESERVE_BYTES](clusctl-cluster-set-cluster-s2d-cache-metadata-reserve-bytes.md)
 ####### [CLUSCTL_CLUSTER_SET_CLUSTER_S2D_ENABLED](clusctl-cluster-set-cluster-das-mode-enabled.md)
 ####### [CLUSCTL_CLUSTER_SET_COMMON_PROPERTIES](clusctl-cluster-set-common-properties.md)

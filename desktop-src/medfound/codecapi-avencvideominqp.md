@@ -1,4 +1,4 @@
-ï»¿---
+---
 Description: 'Specifies the minimum quantization parameter (QP) for video encoding.'
 ms.assetid: 'C9004A40-ECC9-45C3-BBDE-0A179B838AFE'
 title: 'CODECAPI\_AVEncVideoMinQP property'
@@ -26,8 +26,8 @@ The value is the minimum QP that is used in variable-QP encoding.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | WindowsÂ 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows ServerÂ 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -39,12 +39,12 @@ The value is the minimum QP that is used in variable-QP encoding.
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](dshow.icodecapi)
+[**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
 </dt> </dl>
 
-Â 
+ 
 
-Â 
+ 
 
 
 

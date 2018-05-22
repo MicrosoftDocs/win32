@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Contains a pointer to the application''s callback interface for the IMFBufferListNotify.'
+Description: 'Contains a pointer to the application's callback interface for the IMFBufferListNotify.'
 ms.assetid: '9A68B650-97C0-4323-ACBF-5C8E496E8566'
 title: 'MF\_MSE\_BUFFERLIST\_CALLBACK attribute'
 ---

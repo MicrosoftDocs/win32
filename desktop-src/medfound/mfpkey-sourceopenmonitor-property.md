@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Contains a pointer to the application''s IMFSourceOpenMonitor interface.'
+Description: 'Contains a pointer to the application's IMFSourceOpenMonitor interface.'
 ms.assetid: '5b94ae87-91fc-49d6-9355-83327cfdb3f3'
 title: 'MFPKEY\_SourceOpenMonitor property'
 ---

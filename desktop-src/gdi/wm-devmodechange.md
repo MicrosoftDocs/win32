@@ -1,0 +1,93 @@
+﻿---
+Description: 'The WM\_DEVMODECHANGE message is sent to all top-level windows whenever the user changes device-mode settings.'
+ms.assetid: '06b625a8-7584-4a98-b8e7-f1de668c274e'
+title: 'WM\_DEVMODECHANGE message'
+---
+
+# WM\_DEVMODECHANGE message
+
+The **WM\_DEVMODECHANGE** message is sent to all top-level windows whenever the user changes device-mode settings.
+
+A window receives this message through its [**WindowProc**](_win32_windowproc_cpp) function.
+
+
+```C++
+LRESULT CALLBACK WindowProc(
+  HWND hwnd, 
+  UINT  uMsg, 
+  WPARAM wParam, 
+  LPARAM lParam     
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*hwnd* 
+</dt> <dd>
+
+A handle to a window.
+
+</dd> <dt>
+
+*uMsg* 
+</dt> <dd>
+
+WM\_DEVMODECHANGE
+
+</dd> <dt>
+
+*wParam* 
+</dt> <dd>
+
+This parameter is not used.
+
+</dd> <dt>
+
+*lParam* 
+</dt> <dd>
+
+A pointer to a string that specifies the device name.
+
+</dd> </dl>
+
+## Return value
+
+An application should return zero if it processes this message.
+
+## Remarks
+
+This message cannot be sent directly to a window. To send the **WM\_DEVMODECHANGE** message to all top-level windows, use the [**SendMessageTimeout**](_win32_sendmessagetimeout_cpp) function with the *hWnd* parameter set to HWND\_BROADCAST.
+
+## Requirements
+
+
+
+|                                     |                                                                                                          |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Device Contexts Overview](device-contexts.md)
+</dt> <dt>
+
+[Device Context Messages](device-context-messages.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

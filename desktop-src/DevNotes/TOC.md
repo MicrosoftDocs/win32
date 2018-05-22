@@ -145,7 +145,7 @@
 #### [Cabinet API Structures](cabinet-api-structures.md)
 ##### [CABINETDLLVERSIONINFO](cabinetdllversioninfo.md)
 ##### [CCAB](/windows/win32/content/Fci/ns-fci-ccab?branch=dev)
-##### [ERF](erf.md)
+##### [ERF](/windows/win32/content/Fdi/ns-acpitabl-_firmware_boot_performance_table?branch=dev)
 ##### [FDICABINETINFO](/windows/win32/content/Fdi/ns-fdi-fdicabinetinfo?branch=dev)
 ##### [FDINOTIFICATION](/windows/win32/content/Fdi/ns-fdi-fdinotification?branch=dev)
 ##### [SESSION](session.md)

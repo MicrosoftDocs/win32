@@ -1,5 +1,5 @@
 ﻿---
-Description: 'Specifies a device''s type, such as audio capture or video capture.'
+Description: 'Specifies a device's type, such as audio capture or video capture.'
 ms.assetid: 'c6c05267-1c93-48e2-b463-b5a1514f1b7b'
 title: 'MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE attribute'
 ---
