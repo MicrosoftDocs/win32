@@ -27,19 +27,19 @@ Create Windows desktop applications that your customers can use at work and play
                     <div class="cardText">
                         <h3>Get started</h3>
                         <p>
-                            <a href="">Desktop programming</a>
+                            <a href="desktop-programming">Desktop programming</a>
                         </p>
                         <p>
-                            <a href="">Learn to program for Windows</a>
+                            <a href="learnwin32/learn-to-program-for-windows">Learn to program for Windows</a>
                         </p>
                         <p>
-                            <a href="">Create your first app using DirectX</a>
+                            <a href="direct3dgetstarted/building-your-first-directx-app">Create your first app using DirectX</a>
                         </p>
                         <p>
-                            <a href="">Programming guide for 64-bit Windows</a>
+                            <a href="winprog64/programming-guide-for-64-bit-windows">Programming guide for 64-bit Windows</a>
                         </p>
                         <p>
-                            <a href="">Using the Windows headers</a>
+                            <a href="winprog/using-the-windows-headers">Using the Windows headers</a>
                         </p>
                     </div>
                 </div>
@@ -58,16 +58,16 @@ Create Windows desktop applications that your customers can use at work and play
                     <div class="cardText">
                         <h3>Design</h3>
                         <p>
-                            <a href="">Design basics</a>
+                            <a href="uxguide/designprinciples">Design basics</a>
                         </p>
                          <p>
-                            <a href="">Design guidelines</a>
+                            <a href="uxguide/guidelines">Design guidelines</a>
                         </p>
                         <p>
-                            <a href="">Visual index</a>
+                            <a href="uxguide/visual-index">Visual index</a>
                         </p>
                         <p>
-                            <a href="">Glossary</a>
+                            <a href="uxguide/glossary">Glossary</a>
                         </p>                      
                     </div>
                 </div>
@@ -86,19 +86,19 @@ Create Windows desktop applications that your customers can use at work and play
                     <div class="cardText">
                         <h3>Develop</h3>
                         <p>
-                            <a href="">Desktop app technologies</a>
+                            <a href="desktop-app-technologies">Desktop app technologies</a>
                         </p>
                         <p>
-                            <a href="">API index</a>
+                            <a href="apiindex/api-index-portal">API index</a>
                         </p>
                         <p>
-                            <a href="">Windows Runtime C++ reference</a>
+                            <a href="winrt/reference">Windows Runtime C++ reference</a>
                         </p>
                         <p>
-                            <a href="">Develop with server technologies</a>
+                            <a href="server-and-system-technologies">Develop with server technologies</a>
                         </p>
                         <p>
-                            <a href="">Windows certification</a>
+                            <a href="win_cert/windows-certification-portal">Windows certification</a>
                         </p>
                     </div>
                 </div>
