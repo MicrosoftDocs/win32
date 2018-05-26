@@ -27,11 +27,11 @@ ms.author: windowssdkdev
 
 The **MMCN\_SNAPINHELP** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when the user requests help about the snap-in.
 
-**MMCN\_SNAPINHELP** is only sent to snap-ins that do not support HTML Help by implementing the [**ISnapinHelp2**](isnapinhelp2.md) interface.
+**MMCN\_SNAPINHELP** is only sent to snap-ins that do not support HTML Help by implementing the [**ISnapinHelp2**](/windows/win32/Mmc/nn-mmc-isnapinhelp2?branch=master) interface.
 
-Be aware that snap-ins that provide Help should implement [**ISnapinHelp2**](isnapinhelp2.md).
+Be aware that snap-ins that provide Help should implement [**ISnapinHelp2**](/windows/win32/Mmc/nn-mmc-isnapinhelp2?branch=master).
 
-If a snap-in does not support HTML Help ([**ISnapinHelp2**](isnapinhelp2.md)), when that snap-in's scope or result item is selected, MMC places a special menu item for it under the console's **Help** menu. The item is named "Help on &lt;snap-in name&gt;". If the user clicks this menu item, MMC sends the **MMCN\_SNAPINHELP** notification to the snap-in. The snap-in should respond by that displays whatever Help information it has.
+If a snap-in does not support HTML Help ([**ISnapinHelp2**](/windows/win32/Mmc/nn-mmc-isnapinhelp2?branch=master)), when that snap-in's scope or result item is selected, MMC places a special menu item for it under the console's **Help** menu. The item is named "Help on &lt;snap-in name&gt;". If the user clicks this menu item, MMC sends the **MMCN\_SNAPINHELP** notification to the snap-in. The snap-in should respond by that displays whatever Help information it has.
 
 ## Parameters
 

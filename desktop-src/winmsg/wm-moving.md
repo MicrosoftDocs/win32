@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent to a window that the user is moving. By processing this message, an application can monitor the position of the drag rectangle and, if needed, change its position.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++

@@ -17,7 +17,7 @@ The following are the Hardware Counter Profiling (HCP) enumerations.
 
 | Enumeration                                              | Description                                                       |
 |----------------------------------------------------------|-------------------------------------------------------------------|
-| [**HARDWARE\_COUNTER\_TYPE**](hardware-counter-type.md) | Defines the types of hardware counters being profiled.<br/> |
+| [**HARDWARE\_COUNTER\_TYPE**](/windows/win32/Winnt/ne-winnt-_hardware_counter_type?branch=master) | Defines the types of hardware counters being profiled.<br/> |
 
 
 

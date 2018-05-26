@@ -43,59 +43,59 @@ The following items are new in MMC version 1.1, which shipped with Microsoft SQL
 
 ## New Interfaces
 
-[**IConsole2**](iconsole2.md)
+[**IConsole2**](/windows/win32/Mmc/nn-mmc-iconsole2?branch=master)
 
-[**IConsoleNameSpace2**](iconsolenamespace2.md)
+[**IConsoleNameSpace2**](/windows/win32/Mmc/nn-mmc-iconsolenamespace2?branch=master)
 
-[**IDisplayHelp**](idisplayhelp.md)
+[**IDisplayHelp**](/windows/win32/Mmc/nn-mmc-idisplayhelp?branch=master)
 
-[**IEnumTASK**](ienumtask.md)
+[**IEnumTASK**](/windows/win32/Mmc/nn-mmc-ienumtask?branch=master)
 
-[**IExtendPropertySheet2**](iextendpropertysheet2.md)
+[**IExtendPropertySheet2**](/windows/win32/Mmc/nn-mmc-iextendpropertysheet2?branch=master)
 
-[**IExtendTaskPad**](iextendtaskpad.md)
+[**IExtendTaskPad**](/windows/win32/Mmc/nn-mmc-iextendtaskpad?branch=master)
 
-[**IHeaderCtrl2**](iheaderctrl2.md)
+[**IHeaderCtrl2**](/windows/win32/Mmc/nn-mmc-iheaderctrl2?branch=master)
 
-[**IRequiredExtensions**](irequiredextensions.md)
+[**IRequiredExtensions**](/windows/win32/Mmc/nn-mmc-irequiredextensions?branch=master)
 
-[**ISnapinHelp2**](isnapinhelp2.md)
+[**ISnapinHelp2**](/windows/win32/Mmc/nn-mmc-isnapinhelp2?branch=master)
 
-[**IStringTable**](istringtable.md)
+[**IStringTable**](/windows/win32/Mmc/nn-mmc-istringtable?branch=master)
 
 ## New Exported Functions
 
-[**MMCPropertyHelp**](mmcpropertyhelp.md)
+[**MMCPropertyHelp**](/windows/win32/Mmc/nf-mmc-mmcpropertyhelp?branch=master)
 
 ## New Structures
 
-[**MMC\_EXPANDSYNC\_STRUCT**](mmc-expandsync-struct.md)
+[**MMC\_EXPANDSYNC\_STRUCT**](/windows/win32/Mmc/ns-mmc-_mmc_expandsync_struct?branch=master)
 
-[**MMC\_LISTPAD\_INFO**](mmc-listpad-info.md)
+[**MMC\_LISTPAD\_INFO**](/windows/win32/Mmc/ns-mmc-_mmc_listpad_info?branch=master)
 
-[**MMC\_RESTORE\_VIEW**](mmc-restore-view.md)
+[**MMC\_RESTORE\_VIEW**](/windows/win32/Mmc/ns-mmc-_mmc_restore_view?branch=master)
 
-[**MMC\_TASK**](mmc-task.md)
+[**MMC\_TASK**](/windows/win32/Mmc/ne-mmc-_mmc_task_display_type?branch=master)
 
-[**MMC\_TASK\_DISPLAY\_BITMAP**](mmc-task-display-bitmap.md)
+[**MMC\_TASK\_DISPLAY\_BITMAP**](/windows/win32/Mmc/ns-mmc-_mmc_task_display_bitmap?branch=master)
 
-[**MMC\_TASK\_DISPLAY\_OBJECT**](mmc-task-display-object.md)
+[**MMC\_TASK\_DISPLAY\_OBJECT**](/windows/win32/Mmc/ns-mmc-_mmc_task_display_object?branch=master)
 
-[**MMC\_TASK\_DISPLAY\_SYMBOL**](mmc-task-display-symbol.md)
+[**MMC\_TASK\_DISPLAY\_SYMBOL**](/windows/win32/Mmc/ns-mmc-_mmc_task_display_symbol?branch=master)
 
 [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master)
 
 [**SMMCDynamicExtensions**](smmcdynamicextensions.md)
 
-[**SNodeID**](snodeid.md)
+[**SNodeID**](/windows/win32/Mmc/ns-mmc-_snodeid?branch=master)
 
 ## New Enumerations
 
-[**MMC\_ACTION\_TYPE**](mmc-action-type.md)
+[**MMC\_ACTION\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_action_type?branch=master)
 
-[**MMC\_CONSOLE\_VERB**](mmc-console-verb.md) (Values added to the existing enumeration)
+[**MMC\_CONSOLE\_VERB**](/windows/win32/Mmc/ne-mmc-_mmc_console_verb?branch=master) (Values added to the existing enumeration)
 
-[**MMC\_TASK\_DISPLAY\_TYPE**](mmc-task-display-type.md)
+[**MMC\_TASK\_DISPLAY\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_task_display_type?branch=master)
 
 ## New Notifications
 
@@ -119,7 +119,7 @@ The following items are new in MMC version 1.1, which shipped with Microsoft SQL
 
 ## New View Options
 
-[**MMC\_VIEW\_OPTIONS\_USEFONTLINKING**](icomponent-getresultviewtype.md)
+[**MMC\_VIEW\_OPTIONS\_USEFONTLINKING**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master)
 
  
 

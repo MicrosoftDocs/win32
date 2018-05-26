@@ -86,7 +86,7 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 <dl> <dt>
 
-[**IComponent::Notify**](icomponent-notify.md)
+[**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
 </dt> </dl>
 
  

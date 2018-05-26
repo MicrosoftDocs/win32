@@ -50,7 +50,7 @@ The **MMCCtrl Control** object has these methods.
 | [**GetListPadInfo**](getlistpadinfo.md)         | Returns an **MMCListPadInfo** object that represents list pad information.<br/>                                                                            |
 | [**GetNextTask**](getnexttask.md)               | Returns an **MMCTask** object that represents the next task.<br/>                                                                                          |
 | [**GetTitle**](gettitle.md)                     | Returns the string to be used for the taskpad's title.<br/>                                                                                                |
-| [**TaskNotify**](tasknotify.md)                 | Sends a notification and data to the specified snap-in through that snap-in's [**IExtendTaskPad::TaskNotify**](iextendtaskpad-tasknotify.md) method.<br/> |
+| [**TaskNotify**](tasknotify.md)                 | Sends a notification and data to the specified snap-in through that snap-in's [**IExtendTaskPad::TaskNotify**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-tasknotify?branch=master) method.<br/> |
 
 
 

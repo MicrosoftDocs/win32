@@ -11,8 +11,8 @@ ms.technology: desktop
 
 # Hook Functions
 
--   [**CallMsgFilter**](callmsgfilter.md)
--   [**CallNextHookEx**](callnexthookex.md)
+-   [**CallMsgFilter**](/windows/win32/Winuser/nf-winuser-callmsgfiltera?branch=master)
+-   [**CallNextHookEx**](/windows/win32/Winuser/nf-winuser-callnexthookex?branch=master)
 -   [*CallWndProc*](callwndproc.md)
 -   [*CallWndRetProc*](callwndretproc.md)
 -   [*CBTProc*](cbtproc.md)
@@ -24,12 +24,12 @@ ms.technology: desktop
 -   [*KeyboardProc*](keyboardproc.md)
 -   [*LowLevelKeyboardProc*](lowlevelkeyboardproc.md)
 -   [*LowLevelMouseProc*](lowlevelmouseproc.md)
--   [*MessageProc*](messageproc.md)
+-   [*MessageProc*](/windows/win32/Winuser/nc-dbghelp-psymbolservermessageproc?branch=master)
 -   [*MouseProc*](mouseproc.md)
--   [**SetWindowsHookEx**](setwindowshookex.md)
+-   [**SetWindowsHookEx**](/windows/win32/Winuser/nf-winuser-setwindowshookexa?branch=master)
 -   [*ShellProc*](shellproc.md)
 -   [*SysMsgProc*](sysmsgproc.md)
--   [**UnhookWindowsHookEx**](unhookwindowshookex.md)
+-   [**UnhookWindowsHookEx**](/windows/win32/Winuser/nf-winuser-unhookwindowshookex?branch=master)
 
  
 

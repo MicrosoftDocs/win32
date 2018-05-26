@@ -74,7 +74,7 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 When all the items in a virtual list are deselected, MMC sends an **MMCN\_DESELECT\_ALL** notification rather than an [**MMCN\_SELECT**](mmcn-select.md) that identifies all the deselected items. **MMCN\_DESELECT\_ALL** is not sent for standard (non-virtual) lists.
 
-For snap-ins that have a custom result pane (OCX or web), MMC sends an [**MMCN\_SELECT**](mmcn-select.md) or **MMCN\_DESELECT\_ALL** notification with a special data object (DOBJ\_CUSTOMOCX or DOBJ\_CUSTOMWEB) when the result pane is selected or deselected. The notification is sent to the snap-in's [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md) and [**IComponent::Notify**](icomponent-notify.md) method. The only way for snap-ins to identify the corresponding scope item is to use the cookie (of the scope item) cached during [**MMCN\_SHOW**](mmcn-show.md).
+For snap-ins that have a custom result pane (OCX or web), MMC sends an [**MMCN\_SELECT**](mmcn-select.md) or **MMCN\_DESELECT\_ALL** notification with a special data object (DOBJ\_CUSTOMOCX or DOBJ\_CUSTOMWEB) when the result pane is selected or deselected. The notification is sent to the snap-in's [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master) and [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) method. The only way for snap-ins to identify the corresponding scope item is to use the cookie (of the scope item) cached during [**MMCN\_SHOW**](mmcn-show.md).
 
 ## Requirements
 

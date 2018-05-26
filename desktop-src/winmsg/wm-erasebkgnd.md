@@ -46,7 +46,7 @@ An application should return nonzero if it erases the background; otherwise, it 
 
 ## Remarks
 
-The [**DefWindowProc**](defwindowproc.md) function erases the background by using the class background brush specified by the **hbrBackground** member of the [**WNDCLASS**](wndclass.md) structure. If **hbrBackground** is **NULL**, the application should process the **WM\_ERASEBKGND** message and erase the background.
+The [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function erases the background by using the class background brush specified by the **hbrBackground** member of the [**WNDCLASS**](/windows/win32/Winuser/ns-winuser-tagwndclassa?branch=master) structure. If **hbrBackground** is **NULL**, the application should process the **WM\_ERASEBKGND** message and erase the background.
 
 An application should return nonzero in response to **WM\_ERASEBKGND** if it processes the message and erases the background; this indicates that no further erasing is required. If the application returns zero, the window will remain marked for erasing. (Typically, this indicates that the **fErase** member of the [**PAINTSTRUCT**](gdi.paintstruct) structure will be **TRUE**.)
 
@@ -69,10 +69,10 @@ An application should return nonzero in response to **WM\_ERASEBKGND** if it pro
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](defwindowproc.md)
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
 </dt> <dt>
 
-[**WNDCLASS**](wndclass.md)
+[**WNDCLASS**](/windows/win32/Winuser/ns-winuser-tagwndclassa?branch=master)
 </dt> <dt>
 
 **Conceptual**

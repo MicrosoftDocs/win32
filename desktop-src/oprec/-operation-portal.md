@@ -30,16 +30,16 @@ On Windows 8, this functionality requires the Superfetch service to be enabled.
 
 </dt> <dt>
 
-[**OperationStart**](operationstart.md)
+[**OperationStart**](/windows/win32/WinBase/nf-winbase-operationstart?branch=master)
 </dt> <dt>
 
-[**OperationEnd**](operationend.md)
+[**OperationEnd**](/windows/win32/WinBase/nf-winbase-operationend?branch=master)
 </dt> <dt>
 
-[**OPERATION\_START\_PARAMETERS**](operation-start-parameters.md)
+[**OPERATION\_START\_PARAMETERS**](/windows/win32/WinBase/ns-winbase-_operation_start_parameters?branch=master)
 </dt> <dt>
 
-[**OPERATION\_END\_PARAMETERS**](operation-end-parameters.md)
+[**OPERATION\_END\_PARAMETERS**](/windows/win32/WinBase/ns-winbase-_operation_end_parameters?branch=master)
 </dt> <dt>
 
 [**OPERATION\_ID**](operation-id.md)

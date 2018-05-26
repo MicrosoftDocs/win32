@@ -23,7 +23,7 @@ When MMC displays the property sheet for the selected user object, it calls the 
 
 For more information about how to extract the ADsPath string associated with a particular user object, see [**CFSTR\_DSOBJECTNAMES clipboard format**](cfstr-dsobjectnames-clipboard-format.md).
 
-After the snap-in has the ADsPath string of the selected directory object, the snap-in can use one of several ways to bind to that object. For example, an application can use the [**ADsGetObject**](https://msdn.microsoft.com/library/aa772184) function for the binding operation. The following code example shows how this can be done in a dialog box procedure for an application that implements the [**IExtendPropertySheet2**](iextendpropertysheet2.md) interface.
+After the snap-in has the ADsPath string of the selected directory object, the snap-in can use one of several ways to bind to that object. For example, an application can use the [**ADsGetObject**](https://msdn.microsoft.com/library/aa772184) function for the binding operation. The following code example shows how this can be done in a dialog box procedure for an application that implements the [**IExtendPropertySheet2**](/windows/win32/Mmc/nn-mmc-iextendpropertysheet2?branch=master) interface.
 
 
 ```C++

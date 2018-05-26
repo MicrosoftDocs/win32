@@ -13,9 +13,9 @@ ms.technology: desktop
 
 An application can use the WNet functions to browse, add, or cancel network connections anywhere in the network hierarchy.
 
-A *persistent connection* is a network connection that the system automatically restores when the user logs on. You can call the [**WNetAddConnection2**](wnetaddconnection2.md) (or [**WNetAddConnection3**](wnetaddconnection3.md)) and [**WNetCancelConnection2**](wnetcancelconnection2.md) functions to control whether a network connection is persistent from one session to the next.
+A *persistent connection* is a network connection that the system automatically restores when the user logs on. You can call the [**WNetAddConnection2**](/windows/win32/Winnetwk/nf-winnetwk-wnetaddconnection2a?branch=master) (or [**WNetAddConnection3**](/windows/win32/Winnetwk/nf-winnetwk-wnetaddconnection3a?branch=master)) and [**WNetCancelConnection2**](/windows/win32/Winnetwk/nf-winnetwk-wnetcancelconnection2a?branch=master) functions to control whether a network connection is persistent from one session to the next.
 
-To find the default user name or the user name used to establish a network connection, call the [**WNetGetUser**](wnetgetuser.md) function.
+To find the default user name or the user name used to establish a network connection, call the [**WNetGetUser**](/windows/win32/Winnetwk/nf-winnetwk-wnetgetusera?branch=master) function.
 
 In addition to calling the WNet functions, a process can also use mailslots and named pipes to communicate with another process. For more information, see [Mailslots](https://msdn.microsoft.com/library/windows/desktop/aa365576) and [Pipes](https://msdn.microsoft.com/library/windows/desktop/aa365780).
 

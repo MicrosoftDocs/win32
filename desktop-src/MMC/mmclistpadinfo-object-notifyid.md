@@ -42,7 +42,7 @@ MMCListPadInfo.NotifyID
 
 ## Property value
 
-The returned property is the long integer specified in the nCommandID member of MMC\_LISTPAD\_INFO returned in the [**IExtendTaskPad::GetListPadInfo**](iextendtaskpad-getlistpadinfo.md) method.
+The returned property is the long integer specified in the nCommandID member of MMC\_LISTPAD\_INFO returned in the [**IExtendTaskPad::GetListPadInfo**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-getlistpadinfo?branch=master) method.
 
 ## Remarks
 

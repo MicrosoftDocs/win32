@@ -45,13 +45,13 @@ The following methods are listed in Vtable order:
 
 | INetCfg method                                                  | Description                                                                                             |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [**Initialize**](inetcfg-initialize.md)<br/>             | Initializes network configuration by loading into memory all basic networking information.<br/>   |
-| [**Uninitialize**](inetcfg-uninitialize.md)<br/>         | Unloads from memory all basic networking information.<br/>                                        |
-| [**Apply**](inetcfg-apply.md)<br/>                       | Applies all changes made to the configuration state of the network to the registry.<br/>          |
-| [**Cancel**](inetcfg-cancel.md)<br/>                     | Disregards any proposed changes to the configuration state of the network.<br/>                   |
-| [**EnumComponents**](inetcfg-enumcomponents.md)<br/>     | Retrieves an enumeration containing a collection of network components of a particular type.<br/> |
-| [**FindComponent**](inetcfg-findcomponent.md)<br/>       | Retrieves the first network component that matches the specified component identifier.<br/>       |
-| [**QueryNetCfgClass**](inetcfg-querynetcfgclass.md)<br/> | Retrieves a pointer to a specific class of network component.<br/>                                |
+| [**Initialize**](/windows/win32/netcfgx/nf-netcfgx-inetcfg-initialize?branch=master)<br/>             | Initializes network configuration by loading into memory all basic networking information.<br/>   |
+| [**Uninitialize**](/windows/win32/Netcfgx/nf-netcfgx-inetcfg-uninitialize?branch=master)<br/>         | Unloads from memory all basic networking information.<br/>                                        |
+| [**Apply**](/windows/win32/Netcfgx/nf-netcfgx-inetcfg-apply?branch=master)<br/>                       | Applies all changes made to the configuration state of the network to the registry.<br/>          |
+| [**Cancel**](/windows/win32/Netcfgx/nf-netcfgx-inetcfg-cancel?branch=master)<br/>                     | Disregards any proposed changes to the configuration state of the network.<br/>                   |
+| [**EnumComponents**](/windows/win32/netcfgx/nf-netcfgx-inetcfg-enumcomponents?branch=master)<br/>     | Retrieves an enumeration containing a collection of network components of a particular type.<br/> |
+| [**FindComponent**](/windows/win32/netcfgx/nf-netcfgx-inetcfg-findcomponent?branch=master)<br/>       | Retrieves the first network component that matches the specified component identifier.<br/>       |
+| [**QueryNetCfgClass**](/windows/win32/netcfgx/nf-netcfgx-inetcfg-querynetcfgclass?branch=master)<br/> | Retrieves a pointer to a specific class of network component.<br/>                                |
 
 
 

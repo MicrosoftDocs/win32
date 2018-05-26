@@ -11,9 +11,9 @@ ms.technology: desktop
 
 # Using the Connections Dialog Box
 
-The [**WNetConnectionDialog**](wnetconnectiondialog.md) function creates a dialog box that allows the user to browse and connect to network resources. You can also call the [**WNetConnectionDialog1**](wnetconnectiondialog1.md) function to create a connections dialog box. **WNetConnectionDialog1** requires a [**CONNECTDLGSTRUCT**](connectdlgstruct-str.md) structure.
+The [**WNetConnectionDialog**](/windows/win32/Winnetwk/nf-winnetwk-wnetconnectiondialog?branch=master) function creates a dialog box that allows the user to browse and connect to network resources. You can also call the [**WNetConnectionDialog1**](/windows/win32/Winnetwk/nf-winnetwk-wnetconnectiondialog1a?branch=master) function to create a connections dialog box. **WNetConnectionDialog1** requires a [**CONNECTDLGSTRUCT**](/windows/win32/Winnetwk/ns-winnetwk-_connectdlgstructa?branch=master) structure.
 
-The [**WNetDisconnectDialog**](wnetdisconnectdialog.md) function creates a dialog box that allows the user to disconnect from network resources.
+The [**WNetDisconnectDialog**](/windows/win32/Winnetwk/nf-winnetwk-wnetdisconnectdialog?branch=master) function creates a dialog box that allows the user to disconnect from network resources.
 
 The following code sample demonstrates how to call the **WNetConnectionDialog** function to create a dialog box that displays disk resources. If the call fails, the sample calls an application-defined error handler.
 

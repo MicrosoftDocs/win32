@@ -11,9 +11,9 @@ ms.technology: desktop
 
 # WM\_EXITSIZEMOVE message
 
-Sent one time to a window, after it has exited the moving or sizing modal loop. The window enters the moving or sizing modal loop when the user clicks the window's title bar or sizing border, or when the window passes the [**WM\_SYSCOMMAND**](menurc.wm_syscommand) message to the [**DefWindowProc**](defwindowproc.md) function and the *wParam* parameter of the message specifies the **SC\_MOV**E or **SC\_SIZE** value. The operation is complete when [**DefWindowProc**](defwindowproc.md) returns.
+Sent one time to a window, after it has exited the moving or sizing modal loop. The window enters the moving or sizing modal loop when the user clicks the window's title bar or sizing border, or when the window passes the [**WM\_SYSCOMMAND**](menurc.wm_syscommand) message to the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function and the *wParam* parameter of the message specifies the **SC\_MOV**E or **SC\_SIZE** value. The operation is complete when [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) returns.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -65,7 +65,7 @@ An application should return zero if it processes this message.
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](defwindowproc.md)
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
 </dt> <dt>
 
 [**WM\_ENTERSIZEMOVE**](wm-entersizemove.md)

@@ -27,9 +27,9 @@ ms.author: windowssdkdev
 
 The **MMCN\_COLUMNS\_CHANGED** notification is introduced in MMC 1.2.
 
-The **MMCN\_COLUMNS\_CHANGED** notification is sent to the snap-in's [**IComponent::Notify**](icomponent-notify.md) method when the user hides columns or makes columns visible in the list view using the **Modify Columns** dialog box.
+The **MMCN\_COLUMNS\_CHANGED** notification is sent to the snap-in's [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) method when the user hides columns or makes columns visible in the list view using the **Modify Columns** dialog box.
 
-The notification tells the snap-in which columns in the list view are visible. The *param* parameter passed to the snap-in in the [**IComponent::Notify**](icomponent-notify.md) method is a pointer to the [**MMC\_VISIBLE\_COLUMNS**](mmc-visible-columns.md) structure that contains the visible columns data.
+The notification tells the snap-in which columns in the list view are visible. The *param* parameter passed to the snap-in in the [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) method is a pointer to the [**MMC\_VISIBLE\_COLUMNS**](/windows/win32/Mmc/ns-mmc-_mmc_visible_columns?branch=master) structure that contains the visible columns data.
 
 ## Parameters
 
@@ -52,7 +52,7 @@ Zero.
 *param* \[in\]
 </dt> <dd>
 
-A pointer to an [**MMC\_VISIBLE\_COLUMNS**](mmc-visible-columns.md) structure that contains the list of visible columns.
+A pointer to an [**MMC\_VISIBLE\_COLUMNS**](/windows/win32/Mmc/ns-mmc-_mmc_visible_columns?branch=master) structure that contains the list of visible columns.
 
 </dd> </dl>
 
@@ -87,7 +87,7 @@ MMC only updates and persists new column configuration data after the snap-in re
 
 The **MMCN\_COLUMNS\_CHANGED** notification is particularly useful in situations in which there is a concern about the performance impact of populating data in columns that aren't being displayed. A snap-in can choose to update only visible columns and can use information from **MMCN\_COLUMNS\_CHANGED** to do so.
 
-Be aware that the **MMCN\_COLUMNS\_CHANGED** notification is not generated for column width changes or sorted column and sort direction changes made by the user or by the snap-in (using the [**IColumnData::SetColumnConfigData**](icolumndata-setcolumnconfigdata.md) and [**IColumnData::SetColumnSortData**](icolumndata-setcolumnsortdata.md) methods).
+Be aware that the **MMCN\_COLUMNS\_CHANGED** notification is not generated for column width changes or sorted column and sort direction changes made by the user or by the snap-in (using the [**IColumnData::SetColumnConfigData**](/windows/win32/Mmc/nf-mmc-icolumndata-setcolumnconfigdata?branch=master) and [**IColumnData::SetColumnSortData**](/windows/win32/Mmc/nf-mmc-icolumndata-setcolumnsortdata?branch=master) methods).
 
 Also, the **MMCN\_COLUMNS\_CHANGED** notification is not generated for any changes made by the snap-in using the [**IHeaderCtrl2::SetColumnWidth**](iheaderctrl2-setcolumnwidth.md), [**IHeaderCtrl2::InsertColumn**](iheaderctrl2-insertcolumn.md), and [**IHeaderCtrl2::DeleteColumn**](iheaderctrl2-deletecolumn.md) methods.
 
@@ -107,7 +107,7 @@ Also, the **MMCN\_COLUMNS\_CHANGED** notification is not generated for any chang
 
 <dl> <dt>
 
-[**IColumnData**](icolumndata.md)
+[**IColumnData**](/windows/win32/Mmc/nn-mmc-icolumndata?branch=master)
 </dt> <dt>
 
 [Using Column Persistence](using-column-persistence.md)

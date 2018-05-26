@@ -15,22 +15,22 @@ ms.author: windowssdkdev
 
 # TBSTATE\_WRAP Change
 
-The TBSTATE\_WRAP flag is not supported by MMC. The [**MMCBUTTON**](mmcbutton.md) structure should not have its **fsType** member set to include the TBSTATE\_WRAP flag. The [**IToolbar::AddButtons**](itoolbar-addbuttons.md), [**IToolbar::InsertButton**](itoolbar-insertbutton.md), and [**IToolbar::SetButtonState**](itoolbar-setbuttonstate.md) methods use the caller's **fsType** value when managing a toolbar button. In MMC 2.0, setting the TBSTATE\_WRAP flag is ignored; in earlier versions of MMC, setting the TBSTATE\_WRAP flag for a button causes the next toolbar button to appear in the next line.
+The TBSTATE\_WRAP flag is not supported by MMC. The [**MMCBUTTON**](/windows/win32/Mmc/ns-mmc-_mmcbutton?branch=master) structure should not have its **fsType** member set to include the TBSTATE\_WRAP flag. The [**IToolbar::AddButtons**](/windows/win32/Mmc/nf-mmc-itoolbar-addbuttons?branch=master), [**IToolbar::InsertButton**](/windows/win32/Mmc/nf-mmc-itoolbar-insertbutton?branch=master), and [**IToolbar::SetButtonState**](/windows/win32/Mmc/nf-mmc-itoolbar-setbuttonstate?branch=master) methods use the caller's **fsType** value when managing a toolbar button. In MMC 2.0, setting the TBSTATE\_WRAP flag is ignored; in earlier versions of MMC, setting the TBSTATE\_WRAP flag for a button causes the next toolbar button to appear in the next line.
 
 ## Related topics
 
 <dl> <dt>
 
-[**MMCBUTTON**](mmcbutton.md)
+[**MMCBUTTON**](/windows/win32/Mmc/ns-mmc-_mmcbutton?branch=master)
 </dt> <dt>
 
-[**IToolbar::AddButtons**](itoolbar-addbuttons.md)
+[**IToolbar::AddButtons**](/windows/win32/Mmc/nf-mmc-itoolbar-addbuttons?branch=master)
 </dt> <dt>
 
-[**IToolbar::InsertButton**](itoolbar-insertbutton.md)
+[**IToolbar::InsertButton**](/windows/win32/Mmc/nf-mmc-itoolbar-insertbutton?branch=master)
 </dt> <dt>
 
-[**IToolbar::SetButtonState**](itoolbar-setbuttonstate.md)
+[**IToolbar::SetButtonState**](/windows/win32/Mmc/nf-mmc-itoolbar-setbuttonstate?branch=master)
 </dt> </dl>
 
  

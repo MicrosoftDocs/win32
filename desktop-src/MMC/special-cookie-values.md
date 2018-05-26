@@ -17,9 +17,9 @@ ms.author: windowssdkdev
 
 # Special Cookie Values
 
-In certain situations, the **MMC\_COOKIE** value that MMC passes in a call to the snap-in's [**IComponent::QueryDataObject**](icomponent-querydataobject.md) method is a special type of cookie.
+In certain situations, the **MMC\_COOKIE** value that MMC passes in a call to the snap-in's [**IComponent::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponent-querydataobject?branch=master) method is a special type of cookie.
 
-To determine if the cookie value is that of a special cookie, the snap-in can use the [**IS\_SPECIAL\_COOKIE**](is-special-cookie.md) macro. A return value of **TRUE** indicates that the cookie value is that of a special cookie type. The snap-in can then handle the data object appropriately based on the specific value of the cookie.
+To determine if the cookie value is that of a special cookie, the snap-in can use the [**IS\_SPECIAL\_COOKIE**](/windows/win32/Mmc/nf-mmc-is_special_cookie?branch=master) macro. A return value of **TRUE** indicates that the cookie value is that of a special cookie type. The snap-in can then handle the data object appropriately based on the specific value of the cookie.
 
 The special cookie can take two values: MMC\_MULTI\_SELECT\_COOKIE and MMC\_WINDOW\_COOKIE. These values are reserved by MMC and should never be used by snap-ins to identify any scope or result items that they insert. These values are defined in the mmc.idl file.
 

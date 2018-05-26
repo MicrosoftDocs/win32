@@ -19,10 +19,10 @@ ms.author: windowssdkdev
 
 MMC provides snap-in developers with the following interfaces for working with toolbars and menu buttons:
 
--   [**IExtendControlbar**](iextendcontrolbar.md)
--   [**IControlbar**](icontrolbar.md)
--   [**IToolbar**](itoolbar.md)
--   [**IMenuButton**](imenubutton.md)
+-   [**IExtendControlbar**](/windows/win32/Mmc/nn-mmc-iextendcontrolbar?branch=master)
+-   [**IControlbar**](/windows/win32/Mmc/nn-mmc-icontrolbar?branch=master)
+-   [**IToolbar**](/windows/win32/Mmc/nn-mmc-itoolbar?branch=master)
+-   [**IMenuButton**](/windows/win32/Mmc/nn-mmc-imenubutton?branch=master)
 
 ## Other Toolbar and Menu Button Constructs
 
@@ -32,9 +32,9 @@ The following constructs are also used for working with toolbars and menu button
 -   [**MMCN\_MENU\_BTNCLICK**](mmcn-menu-btnclick.md) notification
 -   [**MMCN\_SELECT**](mmcn-select.md) notification
 -   [**MMCN\_DESELECT\_ALL**](mmcn-deselect-all.md) notification
--   [**MMCBUTTON**](mmcbutton.md) structure
--   [**MENUBUTTONDATA**](menubuttondata.md) structure
--   [**MMC\_CONSOLE\_VERB**](mmc-console-verb.md) enumeration
+-   [**MMCBUTTON**](/windows/win32/Mmc/ns-mmc-_mmcbutton?branch=master) structure
+-   [**MENUBUTTONDATA**](/windows/win32/Mmc/ns-mmc-_menubuttondata?branch=master) structure
+-   [**MMC\_CONSOLE\_VERB**](/windows/win32/Mmc/ne-mmc-_mmc_console_verb?branch=master) enumeration
 
 ## Related topics
 

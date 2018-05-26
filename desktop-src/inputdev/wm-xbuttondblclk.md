@@ -140,25 +140,25 @@ Unlike the [**WM\_LBUTTONDBLCLK**](wm-lbuttondblclk.md), [**WM\_MBUTTONDBLCLK**]
 [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
 </dt> <dt>
 
-[**GET\_KEYSTATE\_WPARAM**](get-keystate-wparam.md)
+[**GET\_KEYSTATE\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_keystate_wparam?branch=master)
 </dt> <dt>
 
 [**GET\_X\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)
 </dt> <dt>
 
-[**GET\_XBUTTON\_WPARAM**](get-xbutton-wparam.md)
+[**GET\_XBUTTON\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_xbutton_wparam?branch=master)
 </dt> <dt>
 
 [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)
 </dt> <dt>
 
-[**GetCapture**](getcapture.md)
+[**GetCapture**](/windows/win32/Winuser/nf-winuser-getcapture?branch=master)
 </dt> <dt>
 
-[**GetDoubleClickTime**](getdoubleclicktime.md)
+[**GetDoubleClickTime**](/windows/win32/Winuser/nf-winuser-getdoubleclicktime?branch=master)
 </dt> <dt>
 
-[**SetDoubleClickTime**](setdoubleclicktime.md)
+[**SetDoubleClickTime**](/windows/win32/Winuser/nf-winuser-setdoubleclicktime?branch=master)
 </dt> <dt>
 
 [**WM\_XBUTTONDOWN**](wm-xbuttondown.md)

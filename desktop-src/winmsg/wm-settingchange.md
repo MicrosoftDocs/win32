@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # WM\_SETTINGCHANGE message
 
-A message that is sent to all top-level windows when the [**SystemParametersInfo**](systemparametersinfo.md) function changes a system-wide setting or when policy settings have changed.
+A message that is sent to all top-level windows when the [**SystemParametersInfo**](/windows/win32/Winuser/nf-winuser-systemparametersinfoa?branch=master) function changes a system-wide setting or when policy settings have changed.
 
 Applications should send **WM\_SETTINGCHANGE** to all top-level windows when they make changes to system parameters. (This message cannot be sent directly to a window.) To send the **WM\_SETTINGCHANGE** message to all top-level windows, use the [**SendMessageTimeout**](_win32_sendmessagetimeout_cpp) function with the *hwnd* parameter set to **HWND\_BROADCAST**.
 
@@ -32,7 +32,7 @@ A window receives this message through its [**WindowProc**](_win32_windowproc_cp
 *wParam* 
 </dt> <dd>
 
-When the system sends this message as a result of a [**SystemParametersInfo**](systemparametersinfo.md) call, the *wParam* parameter is the value of the *uiAction* parameter passed to the **SystemParametersInfo** function. For a list of values, see **SystemParametersInfo**.
+When the system sends this message as a result of a [**SystemParametersInfo**](/windows/win32/Winuser/nf-winuser-systemparametersinfoa?branch=master) call, the *wParam* parameter is the value of the *uiAction* parameter passed to the **SystemParametersInfo** function. For a list of values, see **SystemParametersInfo**.
 
 When the system sends this message as a result of a change in policy settings, this parameter indicates the type of policy that was applied. This value is 1 if computer policy was applied or zero if user policy was applied.
 
@@ -45,7 +45,7 @@ When an application sends this message, this parameter must be **NULL**.
 *lParam* 
 </dt> <dd>
 
-When the system sends this message as a result of a [**SystemParametersInfo**](systemparametersinfo.md) call, *lParam* is a pointer to a string that indicates the area containing the system parameter that was changed. This parameter does not usually indicate which specific system parameter changed. (Note that some applications send this message with *lParam* set to **NULL**.) In general, when you receive this message, you should check and reload any system parameter settings that are used by your application.
+When the system sends this message as a result of a [**SystemParametersInfo**](/windows/win32/Winuser/nf-winuser-systemparametersinfoa?branch=master) call, *lParam* is a pointer to a string that indicates the area containing the system parameter that was changed. This parameter does not usually indicate which specific system parameter changed. (Note that some applications send this message with *lParam* set to **NULL**.) In general, when you receive this message, you should check and reload any system parameter settings that are used by your application.
 
 This string can be the name of a registry key or the name of a section in the Win.ini file. When the string is a registry name, it typically indicates only the leaf node in the registry, not the full path.
 
@@ -89,7 +89,7 @@ The *lParam* parameter indicates which system metric has changed, for example, "
 [**SendMessageTimeout**](_win32_sendmessagetimeout_cpp)
 </dt> <dt>
 
-[**SystemParametersInfo**](systemparametersinfo.md)
+[**SystemParametersInfo**](/windows/win32/Winuser/nf-winuser-systemparametersinfoa?branch=master)
 </dt> </dl>
 
  

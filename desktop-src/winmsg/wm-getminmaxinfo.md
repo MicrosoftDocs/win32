@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent to a window when the size or position of the window is about to change. An application can use this message to override the window's default maximized size and position, or its default minimum or maximum tracking size.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -36,7 +36,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**MINMAXINFO**](minmaxinfo.md) structure that contains the default maximized position and dimensions, and the default minimum and maximum tracking sizes. An application can override the defaults by setting the members of this structure.
+A pointer to a [**MINMAXINFO**](/windows/win32/Winuser/ns-winuser-tagminmaxinfo?branch=master) structure that contains the default maximized position and dimensions, and the default minimum and maximum tracking sizes. An application can override the defaults by setting the members of this structure.
 
 </dd> </dl>
 
@@ -69,13 +69,13 @@ The maximum tracking size is the largest window size that can be produced by usi
 **Reference**
 </dt> <dt>
 
-[**MoveWindow**](movewindow.md)
+[**MoveWindow**](/windows/win32/Winuser/nf-winuser-movewindow?branch=master)
 </dt> <dt>
 
-[**SetWindowPos**](setwindowpos.md)
+[**SetWindowPos**](/windows/win32/Winuser/nf-winuser-setwindowpos?branch=master)
 </dt> <dt>
 
-[**MINMAXINFO**](minmaxinfo.md)
+[**MINMAXINFO**](/windows/win32/Winuser/ns-winuser-tagminmaxinfo?branch=master)
 </dt> <dt>
 
 **Conceptual**

@@ -72,7 +72,7 @@ If an application specifies a **NULL** window handle, the message is posted to t
 [*JournalPlaybackProc*](journalplaybackproc.md)
 </dt> <dt>
 
-[**SetWindowsHookEx**](setwindowshookex.md)
+[**SetWindowsHookEx**](/windows/win32/Winuser/nf-winuser-setwindowshookexa?branch=master)
 </dt> <dt>
 
 **Conceptual**

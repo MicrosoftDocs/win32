@@ -45,10 +45,10 @@ The following methods are listed in Vtable order:
 
 | IEnumNetCfgBindingPath method                            | Description                                                                           |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [**Next**](ienumnetcfgbindingpath-next.md)<br/>   | Retrieves the next specified number of items in the enumeration sequence.<br/>  |
-| [**Skip**](ienumnetcfgbindingpath-skip.md)<br/>   | Skips over the next specified number of items in the enumeration sequence.<br/> |
-| [**Reset**](ienumnetcfgbindingpath-reset.md)<br/> | Resets the enumeration sequence to the beginning item.<br/>                     |
-| [**Clone**](ienumnetcfgbindingpath-clone.md)<br/> | The **Clone**method is not implemented. Do not use it in your driver.<br/>      |
+| [**Next**](/windows/win32/netcfgx/nf-netcfgx-ienumnetcfgbindingpath-next?branch=master)<br/>   | Retrieves the next specified number of items in the enumeration sequence.<br/>  |
+| [**Skip**](/windows/win32/netcfgx/nf-netcfgx-ienumnetcfgbindingpath-skip?branch=master)<br/>   | Skips over the next specified number of items in the enumeration sequence.<br/> |
+| [**Reset**](/windows/win32/Netcfgx/nf-netcfgx-ienumnetcfgbindingpath-reset?branch=master)<br/> | Resets the enumeration sequence to the beginning item.<br/>                     |
+| [**Clone**](/windows/win32/Netcfgx/nf-netcfgx-ienumnetcfgbindingpath-clone?branch=master)<br/> | The **Clone**method is not implemented. Do not use it in your driver.<br/>      |
 
 
 
@@ -58,11 +58,11 @@ The following methods are listed in Vtable order:
 
 The [**INetCfgBindingPath**](inetcfgbindingpath.md)interface is a standard COM enumerator. To locate more information about COM enumerators and their methods, see the IEnum*XXXX* topic in the Microsoft Windows SDK.
 
-To obtain a pointer to [**INetCfgBindingPath**](inetcfgbindingpath.md), notify objects call the [**INetCfgComponentBindings::EnumBindingPaths**](inetcfgcomponentbindings-enumbindingpaths.md)method.
+To obtain a pointer to [**INetCfgBindingPath**](inetcfgbindingpath.md), notify objects call the [**INetCfgComponentBindings::EnumBindingPaths**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-enumbindingpaths?branch=master)method.
 
 ### See Also
 
-[**INetCfgBindingPath**](inetcfgbindingpath.md), [**INetCfgComponentBindings::EnumBindingPaths**](inetcfgcomponentbindings-enumbindingpaths.md)
+[**INetCfgBindingPath**](inetcfgbindingpath.md), [**INetCfgComponentBindings::EnumBindingPaths**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-enumbindingpaths?branch=master)
 
 
 ## Requirements

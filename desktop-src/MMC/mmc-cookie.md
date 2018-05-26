@@ -28,7 +28,7 @@ typedef LONG_PTR MMC_COOKIE;
 
 ## Remarks
 
-An **MMC\_COOKIE** value is provided by a snap-in, and is passed by MMC to methods such as [**IComponent::QueryDataObject**](icomponent-querydataobject.md).
+An **MMC\_COOKIE** value is provided by a snap-in, and is passed by MMC to methods such as [**IComponent::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponent-querydataobject?branch=master).
 
 ## Requirements
 
@@ -53,7 +53,7 @@ An **MMC\_COOKIE** value is provided by a snap-in, and is passed by MMC to metho
 [Cookies](cookies.md)
 </dt> <dt>
 
-[**IS\_SPECIAL\_COOKIE**](is-special-cookie.md)
+[**IS\_SPECIAL\_COOKIE**](/windows/win32/Mmc/nf-mmc-is_special_cookie?branch=master)
 </dt> </dl>
 
  

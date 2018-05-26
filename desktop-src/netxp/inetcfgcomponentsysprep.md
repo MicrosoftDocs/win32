@@ -43,8 +43,8 @@ The following methods are listed in Vtable order:
 
 | INetCfgComponentSysPrep method                                                                  | Description                                                        |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| [**SaveAdapterParameters**](inetcfgcomponentsysprep-saveadapterparameters.md)<br/>       | Saves parameters for a network adapter in the registry.<br/> |
-| [**RestoreAdapterParameters**](inetcfgcomponentsysprep-restoreadapterparameters.md)<br/> | Restores parameters for a network adapter.<br/>              |
+| [**SaveAdapterParameters**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentsysprep-saveadapterparameters?branch=master)<br/>       | Saves parameters for a network adapter in the registry.<br/> |
+| [**RestoreAdapterParameters**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentsysprep-restoreadapterparameters?branch=master)<br/> | Restores parameters for a network adapter.<br/>              |
 
 
 

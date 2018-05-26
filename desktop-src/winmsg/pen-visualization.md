@@ -13,7 +13,7 @@ ms.technology: desktop
 
 The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed pen gestures is detected.
 
-These constants are used with the **SPI\_GETPENVISUALIZATION** and **SPI\_SETPENVISUALIZATION** parameters and the [**SystemParametersInfo**](systemparametersinfo.md) function.
+These constants are used with the **SPI\_GETPENVISUALIZATION** and **SPI\_SETPENVISUALIZATION** parameters and the [**SystemParametersInfo**](/windows/win32/Winuser/nf-winuser-systemparametersinfoa?branch=master) function.
 
 <dl> <dt>
 
@@ -104,7 +104,7 @@ Specifies UI feedback for the pen cursor.
 [**Contact Visualization**](contact-visualization.md)
 </dt> <dt>
 
-[**SystemParametersInfo**](systemparametersinfo.md)
+[**SystemParametersInfo**](/windows/win32/Winuser/nf-winuser-systemparametersinfoa?branch=master)
 </dt> <dt>
 
 [Input Feedback Configuration](https://msdn.microsoft.com/library/windows/desktop/hh707352)

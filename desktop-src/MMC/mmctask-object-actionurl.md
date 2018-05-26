@@ -42,7 +42,7 @@ MMCTask.ActionURL
 
 ## Property value
 
-The returned property is the string specified in the szActionURL member of the MMC\_TASK structure returned in the [**IEnumTASK::Next**](ienumtask-next.md) method.
+The returned property is the string specified in the szActionURL member of the MMC\_TASK structure returned in the [**IEnumTASK::Next**](/windows/win32/Mmc/nf-mmc-ienumtask-next?branch=master) method.
 
 ## Requirements
 

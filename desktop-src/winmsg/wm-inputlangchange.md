@@ -11,9 +11,9 @@ ms.technology: desktop
 
 # WM\_INPUTLANGCHANGE message
 
-Sent to the topmost affected window after an application's input language has been changed. You should make any application-specific settings and pass the message to the [**DefWindowProc**](defwindowproc.md) function, which passes the message to all first-level child windows. These child windows can pass the message to [**DefWindowProc**](defwindowproc.md) to have it pass the message to their child windows, and so on.
+Sent to the topmost affected window after an application's input language has been changed. You should make any application-specific settings and pass the message to the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function, which passes the message to all first-level child windows. These child windows can pass the message to [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) to have it pass the message to their child windows, and so on.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -65,7 +65,7 @@ An application should return nonzero if it processes this message.
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](defwindowproc.md)
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
 </dt> <dt>
 
 [**WM\_INPUTLANGCHANGEREQUEST**](wm-inputlangchangerequest.md)

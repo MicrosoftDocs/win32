@@ -53,7 +53,7 @@ To specify the title bar name for the snap-in's static node, the snap-in must su
 
 <dl> <dt>
 
-[**IS\_SPECIAL\_COOKIE**](is-special-cookie.md)
+[**IS\_SPECIAL\_COOKIE**](/windows/win32/Mmc/nf-mmc-is_special_cookie?branch=master)
 </dt> </dl>
 
  

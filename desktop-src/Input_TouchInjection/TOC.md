@@ -2,6 +2,6 @@
 ## [Touch Injection Reference](touch-injection-reference.md)
 ### [Constants](constants.md)
 ### [Functions](functions.md)
-#### [InitializeTouchInjection](initializetouchinjection.md)
-#### [InjectTouchInput](injecttouchinput.md)
+#### [InitializeTouchInjection](/windows/win32/Winuser/nf-winuser-initializetouchinjection?branch=master)
+#### [InjectTouchInput](/windows/win32/Winuser/nf-winuser-injecttouchinput?branch=master)
 

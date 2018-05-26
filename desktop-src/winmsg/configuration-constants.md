@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # Configuration Constants
 
-This section provides the reference specifications for [**SystemParametersInfo**](systemparametersinfo.md) constants related to [Configuration](configuration.md) system attributes.
+This section provides the reference specifications for [**SystemParametersInfo**](/windows/win32/Winuser/nf-winuser-systemparametersinfoa?branch=master) constants related to [Configuration](configuration.md) system attributes.
 
 ## In this section
 

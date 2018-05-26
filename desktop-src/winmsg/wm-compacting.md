@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent to all top-level windows when the system detects more than 12.5 percent of system time over a 30- to 60-second interval is being spent compacting memory. This indicates that system memory is low.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 > [!Note]  
 > This message is provided only for compatibility with 16-bit Windows-based applications.

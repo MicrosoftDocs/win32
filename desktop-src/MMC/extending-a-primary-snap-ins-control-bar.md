@@ -20,7 +20,7 @@ ms.author: windowssdkdev
 
 This section discusses the specific Steps necessary for an extension snap-in to extend the control bar of an extendable node type owned by a primary snap-in. For more information about working with extension snap-ins, see [Working with Extension Snap-ins](working-with-extension-snap-ins.md).
 
-A primary snap-in registers the extendable node types that it adds to its namespace. An extension snap-in can extend the control bar of a primary snap-in node type by adding the appropriate registration code and then implementing the [**IExtendControlBar**](iextendcontrolbar.md) interface. The snap-in can then associate either a toolbar or menu button with the control bar and add items accordingly.
+A primary snap-in registers the extendable node types that it adds to its namespace. An extension snap-in can extend the control bar of a primary snap-in node type by adding the appropriate registration code and then implementing the [**IExtendControlBar**](/windows/win32/Mmc/nn-mmc-iextendcontrolbar?branch=master) interface. The snap-in can then associate either a toolbar or menu button with the control bar and add items accordingly.
 
 In the following procedure, be aware that {CLSID}, {snapinCLSID}, and {nodetypeGUID} all denote string representations of the specified CLSIDs and GUIDs. The strings must begin with an open brace ({) and end with a close brace (}).
 
@@ -32,7 +32,7 @@ In the following procedure, be aware that {CLSID}, {snapinCLSID}, and {nodetypeG
 
 2.  All snap-ins must be registered under the HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\MMC\\SnapIns key in the {snapinCLSID} key. For more information about the SnapIns key, see [Registering and Unregistering a Snap-in](registering-and-unregistering-a-snap-in.md).
 3.  Register the CLSID of the extension snap-in under the HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\MMC\\NodeTypes\\{nodetypeGUID}\\Extensions\\ToolBar subkey, where nodetypeGUID is the node type GUID of the node type whose control bar is extended. For more information about the NodeTypes key, see [Registration Requirements for Extension Snap-ins](registration-requirements-for-extension-snap-ins.md).
-4.  Implement the [**IExtendControlBar**](iextendcontrolbar.md) interface as you would for adding a toolbar or menu button to the control bar of a primary snap-in. For more information and specific instructions, see [Working with Toolbars: Implementation Details](working-with-toolbars-implementation-details.md) or [Working with Menu Buttons: Implementation Details](working-with-menu-buttons-implementation-details.md).
+4.  Implement the [**IExtendControlBar**](/windows/win32/Mmc/nn-mmc-iextendcontrolbar?branch=master) interface as you would for adding a toolbar or menu button to the control bar of a primary snap-in. For more information and specific instructions, see [Working with Toolbars: Implementation Details](working-with-toolbars-implementation-details.md) or [Working with Menu Buttons: Implementation Details](working-with-menu-buttons-implementation-details.md).
 
 ## Related topics
 

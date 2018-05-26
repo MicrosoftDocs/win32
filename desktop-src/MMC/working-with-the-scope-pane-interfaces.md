@@ -19,9 +19,9 @@ ms.author: windowssdkdev
 
 The MMC SDK specifies several interfaces and other language constructs for working with the scope pane. The following interfaces and methods are available for working with scope items:
 
--   [**IComponentData**](icomponentdata.md)
-    -   [**IComponentData::GetDisplayInfo**](icomponentdata-getdisplayinfo.md)
--   [**IConsoleNamespace2**](iconsolenamespace2.md)
+-   [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master)
+    -   [**IComponentData::GetDisplayInfo**](/windows/win32/Mmc/nf-mmc-icomponentdata-getdisplayinfo?branch=master)
+-   [**IConsoleNamespace2**](/windows/win32/Mmc/nn-mmc-iconsolenamespace2?branch=master)
     -   [**IConsoleNamespace2::InsertItem**](iconsolenamespace2-insertitem.md)
     -   [**IConsoleNamespace2::DeleteItem**](iconsolenamespace2-deleteitem.md)
     -   [**IConsoleNamespace2::SetItem**](iconsolenamespace2-setitem.md)
@@ -29,10 +29,10 @@ The MMC SDK specifies several interfaces and other language constructs for worki
     -   [**IConsoleNamespace2::GetChildItem**](iconsolenamespace2-getchilditem.md)
     -   [**IConsoleNamespace2::GetNextItem**](iconsolenamespace2-getnextitem.md)
     -   [**IConsoleNamespace2::GetParentItem**](iconsolenamespace2-getparentitem.md)
-    -   [**IConsoleNamespace2::Expand**](iconsolenamespace2-expand.md)
-    -   [**IConsoleNamespace2::AddExtension**](iconsolenamespace2-addextension.md)
--   [**IConsole2**](iconsole2.md)
-    -   [**IConsole2::Expand**](iconsole2-expand.md)
+    -   [**IConsoleNamespace2::Expand**](/windows/win32/Mmc/nf-mmc-iconsolenamespace2-expand?branch=master)
+    -   [**IConsoleNamespace2::AddExtension**](/windows/win32/Mmc/nf-mmc-iconsolenamespace2-addextension?branch=master)
+-   [**IConsole2**](/windows/win32/Mmc/nn-mmc-iconsole2?branch=master)
+    -   [**IConsole2::Expand**](/windows/win32/Mmc/nf-mmc-iconsole2-expand?branch=master)
     -   [**IConsole2::SelectScopeItem**](iconsole2-selectscopeitem.md)
     -   [**IConsole2::NewWindow**](iconsole2-newwindow.md)
 
@@ -47,8 +47,8 @@ The following notifications are available for working with scope items:
 
 The following structures are available for working with scope items:
 
--   [**SCOPEDATAITEM**](scopedataitem.md)
--   [**MMC\_EXPANDSYNC\_STRUCT**](mmc-expandsync-struct.md)
+-   [**SCOPEDATAITEM**](/windows/win32/Mmc/ns-mmc-_scopedataitem?branch=master)
+-   [**MMC\_EXPANDSYNC\_STRUCT**](/windows/win32/Mmc/ns-mmc-_mmc_expandsync_struct?branch=master)
 
 ## Related topics
 

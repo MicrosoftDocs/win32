@@ -19,69 +19,69 @@ ms.author: windowssdkdev
 
 The following structures are available for building MMC snap-in components:
 
-[**CONTEXTMENUITEM**](contextmenuitem.md)
+[**CONTEXTMENUITEM**](/windows/win32/Mmc/ns-mmc-_contextmenuitem?branch=master)
 
-[**CONTEXTMENUITEM2**](contextmenuitem2.md)
+[**CONTEXTMENUITEM2**](/windows/win32/Mmc/ns-mmc-_contextmenuitem2?branch=master)
 
-[**MENUBUTTONDATA**](menubuttondata.md)
+[**MENUBUTTONDATA**](/windows/win32/Mmc/ns-mmc-_menubuttondata?branch=master)
 
-[**MMCBUTTON**](mmcbutton.md)
+[**MMCBUTTON**](/windows/win32/Mmc/ns-mmc-_mmcbutton?branch=master)
 
-[**MMC\_COLUMN\_DATA**](mmc-column-data.md)
+[**MMC\_COLUMN\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_column_data?branch=master)
 
-[**MMC\_COLUMN\_SET\_DATA**](mmc-column-set-data.md)
+[**MMC\_COLUMN\_SET\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_column_set_data?branch=master)
 
-[**MMC\_EXPANDSYNC\_STRUCT**](mmc-expandsync-struct.md)
+[**MMC\_EXPANDSYNC\_STRUCT**](/windows/win32/Mmc/ns-mmc-_mmc_expandsync_struct?branch=master)
 
-[**MMC\_EXT\_VIEW\_DATA**](mmc-ext-view-data.md)
+[**MMC\_EXT\_VIEW\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_ext_view_data?branch=master)
 
-[**MMC\_FILTERDATA**](mmc-filterdata.md)
+[**MMC\_FILTERDATA**](/windows/win32/Mmc/ns-mmc-_mmc_filterdata?branch=master)
 
-[**MMC\_LISTPAD\_INFO**](mmc-listpad-info.md)
+[**MMC\_LISTPAD\_INFO**](/windows/win32/Mmc/ns-mmc-_mmc_listpad_info?branch=master)
 
-[**MMC\_RESTORE\_VIEW**](mmc-restore-view.md)
+[**MMC\_RESTORE\_VIEW**](/windows/win32/Mmc/ns-mmc-_mmc_restore_view?branch=master)
 
-[**MMC\_SNAPIN\_PROPERTY**](mmc-snapin-property.md)
+[**MMC\_SNAPIN\_PROPERTY**](/windows/win32/Mmcobj/ns-mmcobj-_mmc_snapin_property?branch=master)
 
-[**MMC\_SORT\_DATA**](mmc-sort-data.md)
+[**MMC\_SORT\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_sort_data?branch=master)
 
-[**MMC\_SORT\_SET\_DATA**](mmc-sort-set-data.md)
+[**MMC\_SORT\_SET\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_sort_set_data?branch=master)
 
-[**MMC\_TASK**](mmc-task.md)
+[**MMC\_TASK**](/windows/win32/Mmc/ne-mmc-_mmc_task_display_type?branch=master)
 
-[**MMC\_TASK\_DISPLAY\_BITMAP**](mmc-task-display-bitmap.md)
+[**MMC\_TASK\_DISPLAY\_BITMAP**](/windows/win32/Mmc/ns-mmc-_mmc_task_display_bitmap?branch=master)
 
-[**MMC\_TASK\_DISPLAY\_OBJECT**](mmc-task-display-object.md)
+[**MMC\_TASK\_DISPLAY\_OBJECT**](/windows/win32/Mmc/ns-mmc-_mmc_task_display_object?branch=master)
 
-[**MMC\_TASK\_DISPLAY\_SYMBOL**](mmc-task-display-symbol.md)
+[**MMC\_TASK\_DISPLAY\_SYMBOL**](/windows/win32/Mmc/ns-mmc-_mmc_task_display_symbol?branch=master)
 
-[**MMC\_VISIBLE\_COLUMNS**](mmc-visible-columns.md)
+[**MMC\_VISIBLE\_COLUMNS**](/windows/win32/Mmc/ns-mmc-_mmc_visible_columns?branch=master)
 
 [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master)
 
-[**RDCOMPARE**](rdcompare.md)
+[**RDCOMPARE**](/windows/win32/Mmc/ns-mmc-_rdcompare?branch=master)
 
 [**RDITEMHDR**](rditemhdr.md)
 
-[**RESULTDATAITEM**](resultdataitem.md)
+[**RESULTDATAITEM**](/windows/win32/Mmc/ns-mmc-_resultdataitem?branch=master)
 
-[**RESULTFINDINFO**](resultfindinfo.md)
+[**RESULTFINDINFO**](/windows/win32/Mmc/ns-mmc-_resultfindinfo?branch=master)
 
-[**RESULT\_VIEW\_TYPE\_INFO**](result-view-type-info.md)
+[**RESULT\_VIEW\_TYPE\_INFO**](/windows/win32/Mmc/ns-mmc-_result_view_type_info?branch=master)
 
-[**SCOPEDATAITEM**](scopedataitem.md)
+[**SCOPEDATAITEM**](/windows/win32/Mmc/ns-mmc-_scopedataitem?branch=master)
 
-[**SMMCDataObjects**](smmcdataobjects.md)
+[**SMMCDataObjects**](/windows/win32/Mmc/ns-mmc-_smmcdataobjects?branch=master)
 
 [**SMMCDynamicExtensions**](smmcdynamicextensions.md)
 
-[**SMMCObjectTypes**](smmcobjecttypes.md)
+[**SMMCObjectTypes**](/windows/win32/Mmc/ns-mmc-_smmcobjecttypes?branch=master)
 
-[**SColumnSetID**](scolumnsetid.md)
+[**SColumnSetID**](/windows/win32/Mmc/ns-mmc-_scolumnsetid?branch=master)
 
-[**SNodeID**](snodeid.md)
+[**SNodeID**](/windows/win32/Mmc/ns-mmc-_snodeid?branch=master)
 
-[**SNodeID2**](snodeid2.md)
+[**SNodeID2**](/windows/win32/Mmc/ns-mmc-_snodeid2?branch=master)
 
  
 

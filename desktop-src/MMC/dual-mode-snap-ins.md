@@ -17,7 +17,7 @@ ms.author: windowssdkdev
 
 # Dual-Mode Snap-ins
 
-Dual-mode snap-ins must implement the interfaces required by both stand-alone and extension snap-ins; that is, they must implement the [**IComponentData**](icomponentdata.md) interface for stand-alone behavior and the appropriate interfaces necessary to support the desired extension behavior.
+Dual-mode snap-ins must implement the interfaces required by both stand-alone and extension snap-ins; that is, they must implement the [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) interface for stand-alone behavior and the appropriate interfaces necessary to support the desired extension behavior.
 
  
 

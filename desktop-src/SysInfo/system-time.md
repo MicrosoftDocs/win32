@@ -13,7 +13,7 @@ ms.technology: desktop
 
 *System time* is the current date and time of day. The system keeps time so that your applications have ready access to accurate time. The system bases system time on *coordinated universal time* (UTC). UTC-based time is loosely defined as the current date and time of day in Greenwich, England.
 
-When the system first starts, it sets the system time to a value based on the real-time clock of the computer and then regularly updates the time. To retrieve the system time, use the [**GetSystemTime**](/windows/win32/Winbase/?branch=master) function. **GetSystemTime** copies the time to a [**SYSTEMTIME**](systemtime-str.md) structure that contains individual members for month, day, year, weekday, hour, minute, second, and milliseconds. It is easy to display this format to a user.
+When the system first starts, it sets the system time to a value based on the real-time clock of the computer and then regularly updates the time. To retrieve the system time, use the [**GetSystemTime**](/windows/win32/Winbase/?branch=master) function. **GetSystemTime** copies the time to a [**SYSTEMTIME**](/windows/win32/Winbase/?branch=master) structure that contains individual members for month, day, year, weekday, hour, minute, second, and milliseconds. It is easy to display this format to a user.
 
 You can also obtain the system time in file time format using the [**GetSystemTimeAsFileTime**](/windows/win32/Winbase/?branch=master) function. **GetSystemTimeAsFileTime** copies the time to a [**FILETIME**](filetime-str.md) structure.
 

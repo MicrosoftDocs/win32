@@ -27,8 +27,8 @@ The topics in this section provide the reference specifications for [Input Feedb
 
 | Topic                                                                   | Description                                                   |
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
-| [**GetWindowFeedbackSetting**](getwindowfeedbacksetting.md)<br/> | Retrieves the feedback configuration for a window.<br/> |
-| [**SetWindowFeedbackSetting**](setwindowfeedbacksetting.md)<br/> | Sets the feedback configuration for a window.<br/>      |
+| [**GetWindowFeedbackSetting**](/windows/win32/Winuser/nf-winuser-getwindowfeedbacksetting?branch=master)<br/> | Retrieves the feedback configuration for a window.<br/> |
+| [**SetWindowFeedbackSetting**](/windows/win32/Winuser/nf-winuser-setwindowfeedbacksetting?branch=master)<br/> | Sets the feedback configuration for a window.<br/>      |
 
 
 

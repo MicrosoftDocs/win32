@@ -46,7 +46,7 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 
 Contains the pointer identifier and wheel delta. Use the following macros to retrieve this information.
 
-[**GET\_POINTERID\_WPARAM**](get-pointerid-wparam.md)(wParam): pointer identifier.
+[**GET\_POINTERID\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_pointerid_wparam?branch=master)(wParam): pointer identifier.
 
 [**GET\_WHEEL\_DELTA\_WPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms646254)(wParam): wheel delta as a signed short value.
 
@@ -77,7 +77,7 @@ If the application does not process this message, it should call [**DefWindowPro
 
 ## Remarks
 
-To retrieve the wheel scroll units, use the **inputData** filed of the [**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master) structure returned by calling [**GetPointerInfo**](getpointerinfo.md) function. This field contains a signed value and is expressed in a multiple of **WHEEL\_DELTA**. A positive value indicates a rotation forward and a negative value indicates a rotation backward.
+To retrieve the wheel scroll units, use the **inputData** filed of the [**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master) structure returned by calling [**GetPointerInfo**](/windows/win32/Winuser/nf-winuser-getpointerinfo?branch=master) function. This field contains a signed value and is expressed in a multiple of **WHEEL\_DELTA**. A positive value indicates a rotation forward and a negative value indicates a rotation backward.
 
 Note that the wheel inputs may be delivered even if the mouse cursor is located outside of application s window. The wheel messages are delivered in a way very similar to the keyboard inputs. The focus window of the foregournd message queue receives the wheel messages.
 

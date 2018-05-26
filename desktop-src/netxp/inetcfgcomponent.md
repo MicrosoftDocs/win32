@@ -45,18 +45,18 @@ The following methods are listed in Vtable order:
 
 | INetCfgComponent method                                                      | Description                                                                                            |
 |------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [**GetDisplayName**](inetcfgcomponent-getdisplayname.md)<br/>         | Retrieves the name of a component that displays in a network connection's property sheet.<br/>   |
-| [**SetDisplayName**](inetcfgcomponent-setdisplayname.md)<br/>         | Sets the name of a component that displays in a network connection's property sheet.<br/>        |
-| [**GetHelpText**](inetcfgcomponent-gethelptext.md)<br/>               | Retrieves a component's description that displays in a network connection's property sheet.<br/> |
-| [**GetId**](inetcfgcomponent-getid.md)<br/>                           | Retrieves a component's identifier.<br/>                                                         |
-| [**GetCharacteristics**](inetcfgcomponent-getcharacteristics.md)<br/> | Retrieves a component's characteristics.<br/>                                                    |
-| [**GetInstanceGuid**](inetcfgcomponent-getinstanceguid.md)<br/>       | Retrieves a component's instance GUID.<br/>                                                      |
-| [**GetPnpDevNodeId**](inetcfgcomponent-getpnpdevnodeid.md)<br/>       | Retrieves the identifier of a component's Plug and Play device node.<br/>                        |
-| [**GetClassGuid**](inetcfgcomponent-getclassguid.md)<br/>             | Retrieves the class GUID for a component's type.<br/>                                            |
-| [**GetBindName**](inetcfgcomponent-getbindname.md)<br/>               | Retrieves a component's description for binding operations.<br/>                                 |
-| [**GetDeviceStatus**](inetcfgcomponent-getdevicestatus.md)<br/>       | Retrieves the status of a network card.<br/>                                                     |
-| [**OpenParamKey**](inetcfgcomponent-openparamkey.md)<br/>             | Opens and retrieves the registry key that contains parameters for a network component.<br/>      |
-| [**RaisePropertyUi**](inetcfgcomponent-raisepropertyui.md)<br/>       | Displays a component's property sheet so users can modify the component's properties.<br/>       |
+| [**GetDisplayName**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-getdisplayname?branch=master)<br/>         | Retrieves the name of a component that displays in a network connection's property sheet.<br/>   |
+| [**SetDisplayName**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-setdisplayname?branch=master)<br/>         | Sets the name of a component that displays in a network connection's property sheet.<br/>        |
+| [**GetHelpText**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-gethelptext?branch=master)<br/>               | Retrieves a component's description that displays in a network connection's property sheet.<br/> |
+| [**GetId**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-getid?branch=master)<br/>                           | Retrieves a component's identifier.<br/>                                                         |
+| [**GetCharacteristics**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-getcharacteristics?branch=master)<br/> | Retrieves a component's characteristics.<br/>                                                    |
+| [**GetInstanceGuid**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-getinstanceguid?branch=master)<br/>       | Retrieves a component's instance GUID.<br/>                                                      |
+| [**GetPnpDevNodeId**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-getpnpdevnodeid?branch=master)<br/>       | Retrieves the identifier of a component's Plug and Play device node.<br/>                        |
+| [**GetClassGuid**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-getclassguid?branch=master)<br/>             | Retrieves the class GUID for a component's type.<br/>                                            |
+| [**GetBindName**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-getbindname?branch=master)<br/>               | Retrieves a component's description for binding operations.<br/>                                 |
+| [**GetDeviceStatus**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-getdevicestatus?branch=master)<br/>       | Retrieves the status of a network card.<br/>                                                     |
+| [**OpenParamKey**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-openparamkey?branch=master)<br/>             | Opens and retrieves the registry key that contains parameters for a network component.<br/>      |
+| [**RaisePropertyUi**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponent-raisepropertyui?branch=master)<br/>       | Displays a component's property sheet so users can modify the component's properties.<br/>       |
 
 
 
@@ -70,7 +70,7 @@ A notify object can call the **QueryInterface** method of **INetCfgComponent** t
 
 A notify object can call the following methods to retrieve binding paths to which the network component belongs:
 
--   [**INetCfgComponentBindings::EnumBindingPaths**](inetcfgcomponentbindings-enumbindingpaths.md)
+-   [**INetCfgComponentBindings::EnumBindingPaths**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-enumbindingpaths?branch=master)
 
 -   Methods of the [**IEnumNetCfgBindingPath**](ienumnetcfgbindingpath.md) interface that enumerate the [**INetCfgBindingPath**](inetcfgbindingpath.md) interfaces
 

@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent to cancel certain modes, such as mouse capture. For example, the system sends this message to the active window when a dialog box or message box is displayed. Certain functions also send this message explicitly to the specified window regardless of whether it is the active window. For example, the [**EnableWindow**](inputdev.enablewindow) function sends this message when disabling the specified window.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -48,7 +48,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](defwindowproc.md) function cancels internal processing of standard scroll bar input, cancels internal menu processing, and releases the mouse capture.
+When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function cancels internal processing of standard scroll bar input, cancels internal menu processing, and releases the mouse capture.
 
 ## Requirements
 
@@ -69,7 +69,7 @@ When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](defwindowpr
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](defwindowproc.md)
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
 </dt> <dt>
 
 [**EnableWindow**](inputdev.enablewindow)

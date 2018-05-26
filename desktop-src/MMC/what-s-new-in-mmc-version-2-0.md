@@ -47,31 +47,31 @@ The following items are part of MMC version 2.0, that is included with the Windo
 
 ## New Interfaces
 
-[**IComponent2**](icomponent2.md)
+[**IComponent2**](/windows/win32/Mmc/nn-mmc-icomponent2?branch=master)
 
-[**IComponentData2**](icomponentdata2.md)
+[**IComponentData2**](/windows/win32/Mmc/nn-mmc-icomponentdata2?branch=master)
 
-[**IConsole3**](iconsole3.md)
+[**IConsole3**](/windows/win32/Mmc/nn-mmc-iconsole3?branch=master)
 
-[**IConsolePower**](iconsolepower.md)
+[**IConsolePower**](/windows/win32/Mmc/nn-mmc-iconsolepower?branch=master)
 
-[**IConsolePowerSink**](iconsolepowersink.md)
+[**IConsolePowerSink**](/windows/win32/Mmc/nn-mmc-iconsolepowersink?branch=master)
 
-[**IContextMenuCallback2**](icontextmenucallback2.md)
+[**IContextMenuCallback2**](/windows/win32/Mmc/nn-mmc-icontextmenucallback2?branch=master)
 
-[**IExtendView**](iextendview.md)
+[**IExtendView**](/windows/win32/Mmc/nn-mmc-iextendview?branch=master)
 
-[**IMMCVersionInfo**](immcversioninfo.md)
+[**IMMCVersionInfo**](/windows/win32/Mmc/nn-mmc-immcversioninfo?branch=master)
 
-[**INodeProperties**](inodeproperties.md)
+[**INodeProperties**](/windows/win32/Mmc/nn-mmc-inodeproperties?branch=master)
 
-[**IResultData2**](iresultdata2.md)
+[**IResultData2**](/windows/win32/Mmc/nn-mmc-iresultdata2?branch=master)
 
-[**ISnapinProperties**](isnapinproperties.md)
+[**ISnapinProperties**](/windows/win32/Mmcobj/nn-mmcobj-isnapinproperties?branch=master)
 
-[**ISnapinPropertiesCallback**](isnapinpropertiescallback.md)
+[**ISnapinPropertiesCallback**](/windows/win32/Mmcobj/nn-mmcobj-isnapinpropertiescallback?branch=master)
 
-[**IViewExtensionCallback**](iviewextensioncallback.md)
+[**IViewExtensionCallback**](/windows/win32/Mmc/nn-mmc-iviewextensioncallback?branch=master)
 
 ## New Automation Objects and Collections
 
@@ -115,32 +115,32 @@ The following items are part of MMC version 2.0, that is included with the Windo
 
 ## New Structures
 
-[**CONTEXTMENUITEM2**](contextmenuitem2.md)
+[**CONTEXTMENUITEM2**](/windows/win32/Mmc/ns-mmc-_contextmenuitem2?branch=master)
 
-[**MMC\_EXT\_VIEW\_DATA**](mmc-ext-view-data.md)
+[**MMC\_EXT\_VIEW\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_ext_view_data?branch=master)
 
-[**MMC\_SNAPIN\_PROPERTY**](mmc-snapin-property.md)
+[**MMC\_SNAPIN\_PROPERTY**](/windows/win32/Mmcobj/ns-mmcobj-_mmc_snapin_property?branch=master)
 
-[**RESULT\_VIEW\_TYPE\_INFO**](result-view-type-info.md)
+[**RESULT\_VIEW\_TYPE\_INFO**](/windows/win32/Mmc/ns-mmc-_result_view_type_info?branch=master)
 
 ## New Enumerations
 
 [**ColumnSortOrder**](/windows/win32/MmcObj/ne-mmcobj-columnsortorder?branch=master)
 
-[**DocumentMode**](documentmode.md)
+[**DocumentMode**](/windows/win32/MmcObj/ne-mmcobj-documentmode?branch=master)
 
-[**ExportListOptions**](exportlistoptions.md)
+[**ExportListOptions**](/windows/win32/MmcObj/ne-mmcobj-exportlistoptions?branch=master)
 
-[**ListViewMode**](listviewmode.md)
+[**ListViewMode**](/windows/win32/MmcObj/ne-mmcobj-listviewmode?branch=master)
 
-[**MMC\_PROPERTY\_ACTION**](mmc-property-action.md)
+[**MMC\_PROPERTY\_ACTION**](/windows/win32/Mmcobj/ne-mmcobj-_mmc_property_action?branch=master)
 
-[**MMC\_VIEW\_TYPE**](mmc-view-type.md)
+[**MMC\_VIEW\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_view_type?branch=master)
 
-[**ViewOptions**](viewoptions.md)
+[**ViewOptions**](/windows/win32/MmcObj/ne-mmcobj-viewoptions?branch=master)
 
 > [!Note]  
-> The [**ColumnSortOrder**](/windows/win32/MmcObj/ne-mmcobj-columnsortorder?branch=master), [**DocumentMode**](documentmode.md), [**ExportListOptions**](exportlistoptions.md), [**ListViewMode**](listviewmode.md) and [**ViewOptions**](viewoptions.md) enumerations are part of the [MMC 2.0 Automation Object Model](mmc-2-0-automation-object-model.md).
+> The [**ColumnSortOrder**](/windows/win32/MmcObj/ne-mmcobj-columnsortorder?branch=master), [**DocumentMode**](/windows/win32/MmcObj/ne-mmcobj-documentmode?branch=master), [**ExportListOptions**](/windows/win32/MmcObj/ne-mmcobj-exportlistoptions?branch=master), [**ListViewMode**](/windows/win32/MmcObj/ne-mmcobj-listviewmode?branch=master) and [**ViewOptions**](/windows/win32/MmcObj/ne-mmcobj-viewoptions?branch=master) enumerations are part of the [MMC 2.0 Automation Object Model](mmc-2-0-automation-object-model.md).
 
  
 

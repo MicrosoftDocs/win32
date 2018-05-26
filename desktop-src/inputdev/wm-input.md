@@ -57,7 +57,7 @@ The input code. This parameter can be one of the following values.
 *lParam* 
 </dt> <dd>
 
-A handle to the [**RAWINPUT**](rawinput.md) structure that contains the raw input from the device.
+A handle to the [**RAWINPUT**](/windows/win32/Winuser/nf-winuser-defrawinputproc?branch=master) structure that contains the raw input from the device.
 
 </dd> </dl>
 
@@ -67,11 +67,11 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-To get the *wParam* value, use the [**GET\_RAWINPUT\_CODE\_WPARAM**](get-rawinput-code-wparam.md) macro.
+To get the *wParam* value, use the [**GET\_RAWINPUT\_CODE\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_rawinput_code_wparam?branch=master) macro.
 
-Note that *lParam* has the handle to the [**RAWINPUT**](rawinput.md) structure, not a pointer to it. To get the raw data, use the handle in the call to [**GetRawInputData**](getrawinputdata.md).
+Note that *lParam* has the handle to the [**RAWINPUT**](/windows/win32/Winuser/nf-winuser-defrawinputproc?branch=master) structure, not a pointer to it. To get the raw data, use the handle in the call to [**GetRawInputData**](/windows/win32/Winuser/nf-winuser-getrawinputdata?branch=master).
 
-Raw input is available only when the application calls [**RegisterRawInputDevices**](registerrawinputdevices.md) with valid device specifications
+Raw input is available only when the application calls [**RegisterRawInputDevices**](/windows/win32/Winuser/nf-winuser-registerrawinputdevices?branch=master) with valid device specifications
 
 ## Requirements
 
@@ -92,16 +92,16 @@ Raw input is available only when the application calls [**RegisterRawInputDevice
 **Reference**
 </dt> <dt>
 
-[**GetRawInputData**](getrawinputdata.md)
+[**GetRawInputData**](/windows/win32/Winuser/nf-winuser-getrawinputdata?branch=master)
 </dt> <dt>
 
-[**RegisterRawInputDevices**](registerrawinputdevices.md)
+[**RegisterRawInputDevices**](/windows/win32/Winuser/nf-winuser-registerrawinputdevices?branch=master)
 </dt> <dt>
 
-[**RAWINPUT**](rawinput.md)
+[**RAWINPUT**](/windows/win32/Winuser/nf-winuser-defrawinputproc?branch=master)
 </dt> <dt>
 
-[**GET\_RAWINPUT\_CODE\_WPARAM**](get-rawinput-code-wparam.md)
+[**GET\_RAWINPUT\_CODE\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_rawinput_code_wparam?branch=master)
 </dt> <dt>
 
 **Conceptual**

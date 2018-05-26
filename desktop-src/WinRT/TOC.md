@@ -445,7 +445,7 @@
 #### [GetUInt64Array method](ipropertyvalue-getuint64array.md)
 #### [GetUInt8 method](ipropertyvalue-getuint8.md)
 #### [GetUInt8Array method](ipropertyvalue-getuint8array.md)
-#### [Type property](ipropertyvalue-type.md)
+#### [Type property](/windows/win32/Windows.Foundation/?branch=master)
 ### [IPropertyValueStatics](ipropertyvaluestatics.md)
 #### [CreateBoolean method](ipropertyvaluestatics-createboolean.md)
 #### [CreateBooleanArray method](ipropertyvaluestatics-createbooleanarray.md)

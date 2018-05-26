@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # Retrieving the User Name
 
-To retrieve the name of the user associated either with a local device connected to a network resource or with the name of a network, an application can call the [**WNetGetUser**](wnetgetuser.md) function.
+To retrieve the name of the user associated either with a local device connected to a network resource or with the name of a network, an application can call the [**WNetGetUser**](/windows/win32/Winnetwk/nf-winnetwk-wnetgetusera?branch=master) function.
 
 The following example uses the device name to retrieve the name of the user. The sample calls an application-defined error handler to process errors, and the [**TextOut**](https://msdn.microsoft.com/library/windows/desktop/dd145133) function for printing.
 

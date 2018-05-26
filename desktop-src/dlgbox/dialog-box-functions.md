@@ -22,7 +22,7 @@ ms.technology: desktop
 -   [**DialogBoxIndirect**](/windows/win32/Winuser/nf-winuser-dialogboxindirecta?branch=master)
 -   [**DialogBoxIndirectParam**](/windows/win32/Winuser/nf-winuser-dialogboxindirectparama?branch=master)
 -   [**DialogBoxParam**](/windows/win32/Winuser/nf-winuser-dialogboxparama?branch=master)
--   [*DialogProc*](dialogproc.md)
+-   [*DialogProc*](/windows/win32/Winuser/nf-winuser-defdlgproca?branch=master)
 -   [**EndDialog**](/windows/win32/Winuser/nf-winuser-enddialog?branch=master)
 -   [**GetDialogBaseUnits**](/windows/win32/Winuser/nf-winuser-getdialogbaseunits?branch=master)
 -   [**GetDlgCtrlID**](/windows/win32/Winuser/nf-winuser-getdlgctrlid?branch=master)

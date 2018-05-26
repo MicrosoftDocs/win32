@@ -21,7 +21,7 @@ ms.technology: desktop
 
 # WM\_NCMOUSEHOVER message
 
-Posted to a window when the cursor hovers over the nonclient area of the window for the period of time specified in a prior call to [**TrackMouseEvent**](trackmouseevent.md).
+Posted to a window when the cursor hovers over the nonclient area of the window for the period of time specified in a prior call to [**TrackMouseEvent**](/windows/win32/Winuser/nf-winuser-trackmouseevent?branch=master).
 
 A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
 
@@ -56,7 +56,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-Hover tracking stops when this message is generated. The application must call [**TrackMouseEvent**](trackmouseevent.md) again if it requires further tracking of mouse hover behavior.
+Hover tracking stops when this message is generated. The application must call [**TrackMouseEvent**](/windows/win32/Winuser/nf-winuser-trackmouseevent?branch=master) again if it requires further tracking of mouse hover behavior.
 
 You can also use the [**GET\_X\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654) and [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655) macros to extract the values of the x- and y- coordinates from *lParam*.
 
@@ -101,10 +101,10 @@ yPos = GET_Y_LPARAM(lParam);
 [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)
 </dt> <dt>
 
-[**TrackMouseEvent**](trackmouseevent.md)
+[**TrackMouseEvent**](/windows/win32/Winuser/nf-winuser-trackmouseevent?branch=master)
 </dt> <dt>
 
-[**TRACKMOUSEEVENT**](trackmouseevent-str.md)
+[**TRACKMOUSEEVENT**](/windows/win32/Winuser/nf-winuser-trackmouseevent?branch=master)
 </dt> <dt>
 
 [**WM\_NCHITTEST**](wm-nchittest.md)

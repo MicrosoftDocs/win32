@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Performs no operation. An application sends the **WM\_NULL** message if it wants to post a message that the recipient window will ignore.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -50,7 +50,7 @@ An application returns zero if it processes this message.
 
 For example, if an application has installed a **WH\_GETMESSAGE** hook and wants to prevent a message from being processed, the [**GetMsgProc**](getmsgproc.md) callback function can change the message number to **WM\_NULL** so the recipient will ignore it.
 
-As another example, an application can check if a window is responding to messages by sending the **WM\_NULL** message with the [**SendMessageTimeout**](sendmessagetimeout.md) function.
+As another example, an application can check if a window is responding to messages by sending the **WM\_NULL** message with the [**SendMessageTimeout**](/windows/win32/Winuser/nf-winuser-sendmessagetimeouta?branch=master) function.
 
 ## Requirements
 

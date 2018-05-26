@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # MMCN\_RENAME message
 
-The **MMCN\_RENAME** notification message is sent to either the snap-in's [**IComponentData**](icomponentdata.md) or [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation depending on the type of item (scope or result) that must be renamed.
+The **MMCN\_RENAME** notification message is sent to either the snap-in's [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) or [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation depending on the type of item (scope or result) that must be renamed.
 
 ## Parameters
 

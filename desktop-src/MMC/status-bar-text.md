@@ -23,7 +23,7 @@ MMC enables a snap-in to change the text in the status bar of each MDI child win
 
 In MMC 1.1 and later, each view has a status bar. In addition, the Status Bar menu item is added to the **View** menu of each child window and its context menu.
 
-The [**IConsole2::SetStatusText**](iconsole2-setstatustext.md) method enables a snap-in to change the text in the status bar.
+The [**IConsole2::SetStatusText**](/windows/win32/Mmc/nf-mmc-iconsole2-setstatustext?branch=master) method enables a snap-in to change the text in the status bar.
 
  
 

@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # MMCN\_DELETE message
 
-The **MMCN\_DELETE** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) and [**IComponentData**](icomponentdata.md) implementations to inform the snap-in that the object should be deleted.
+The **MMCN\_DELETE** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) and [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) implementations to inform the snap-in that the object should be deleted.
 
 ## Parameters
 
@@ -92,10 +92,10 @@ The snap-in should delete the items specified in the data object.
 
 <dl> <dt>
 
-[**IComponent::Notify**](icomponent-notify.md)
+[**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
 </dt> <dt>
 
-[**IComponentData::Notify**](icomponentdata-notify.md)
+[**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master)
 </dt> </dl>
 
  

@@ -23,63 +23,63 @@ MMC creates instances of your snap-in as required and calls the methods of the i
 
 MMC implements the following interfaces:
 
-[**IColumnData**](icolumndata.md) (new in MMC 1.2)
+[**IColumnData**](/windows/win32/Mmc/nn-mmc-icolumndata?branch=master) (new in MMC 1.2)
 
-[**IConsole2**](iconsole2.md)
+[**IConsole2**](/windows/win32/Mmc/nn-mmc-iconsole2?branch=master)
 
-[**IConsoleNameSpace2**](iconsolenamespace2.md)
+[**IConsoleNameSpace2**](/windows/win32/Mmc/nn-mmc-iconsolenamespace2?branch=master)
 
-[**IConsoleVerb**](iconsoleverb.md)
+[**IConsoleVerb**](/windows/win32/Mmc/nn-mmc-iconsoleverb?branch=master)
 
-[**IContextMenuCallback**](icontextmenucallback.md)
+[**IContextMenuCallback**](/windows/win32/Mmc/nn-mmc-icontextmenucallback?branch=master)
 
-[**IContextMenuProvider**](icontextmenuprovider.md)
+[**IContextMenuProvider**](/windows/win32/Mmc/nn-mmc-icontextmenuprovider?branch=master)
 
-[**IControlbar**](icontrolbar.md)
+[**IControlbar**](/windows/win32/Mmc/nn-mmc-icontrolbar?branch=master)
 
-[**IDisplayHelp**](idisplayhelp.md)
+[**IDisplayHelp**](/windows/win32/Mmc/nn-mmc-idisplayhelp?branch=master)
 
-[**IHeaderCtrl2**](iheaderctrl2.md) (new in MMC 1.2)
+[**IHeaderCtrl2**](/windows/win32/Mmc/nn-mmc-iheaderctrl2?branch=master) (new in MMC 1.2)
 
-[**IImageList**](iimagelist.md)
+[**IImageList**](/windows/win32/Mmc/nn-mmc-iimagelist?branch=master)
 
-[**IMenuButton**](imenubutton.md)
+[**IMenuButton**](/windows/win32/Mmc/nn-mmc-imenubutton?branch=master)
 
-[**IPropertySheetCallback**](ipropertysheetcallback.md)
+[**IPropertySheetCallback**](/windows/win32/Mmc/nn-mmc-ipropertysheetcallback?branch=master)
 
-[**IPropertySheetProvider**](ipropertysheetprovider.md)
+[**IPropertySheetProvider**](/windows/win32/Mmc/nn-mmc-ipropertysheetprovider?branch=master)
 
-[**IResultData**](iresultdata.md)
+[**IResultData**](/windows/win32/Mmc/nn-mmc-iresultdata?branch=master)
 
-[**IToolbar**](itoolbar.md)
+[**IToolbar**](/windows/win32/Mmc/nn-mmc-itoolbar?branch=master)
 
 Snap-ins implement the following interfaces:
 
 [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master)
 
-[**IComponentData**](icomponentdata.md)
+[**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master)
 
-[**IEnumTASK**](ienumtask.md)
+[**IEnumTASK**](/windows/win32/Mmc/nn-mmc-ienumtask?branch=master)
 
-[**IExtendContextMenu**](iextendcontextmenu.md)
+[**IExtendContextMenu**](/windows/win32/Mmc/nn-mmc-iextendcontextmenu?branch=master)
 
-[**IExtendControlbar**](iextendcontrolbar.md)
+[**IExtendControlbar**](/windows/win32/Mmc/nn-mmc-iextendcontrolbar?branch=master)
 
-[**IExtendPropertySheet2**](iextendpropertysheet2.md)
+[**IExtendPropertySheet2**](/windows/win32/Mmc/nn-mmc-iextendpropertysheet2?branch=master)
 
-[**IExtendTaskPad**](iextendtaskpad.md)
+[**IExtendTaskPad**](/windows/win32/Mmc/nn-mmc-iextendtaskpad?branch=master)
 
-[**IRequiredExtensions**](irequiredextensions.md)
+[**IRequiredExtensions**](/windows/win32/Mmc/nn-mmc-irequiredextensions?branch=master)
 
-[**IResultDataCompare**](iresultdatacompare.md)
+[**IResultDataCompare**](/windows/win32/Mmc/nn-mmc-iresultdatacompare?branch=master)
 
-[**IResultDataCompareEx**](iresultdatacompareex.md) (new in MMC 1.2)
+[**IResultDataCompareEx**](/windows/win32/Mmc/nn-mmc-iresultdatacompareex?branch=master) (new in MMC 1.2)
 
-[**IResultOwnerData**](iresultownerdata.md)
+[**IResultOwnerData**](/windows/win32/Mmc/nn-mmc-iresultownerdata?branch=master)
 
-[**ISnapinAbout**](isnapinabout.md)
+[**ISnapinAbout**](/windows/win32/Mmc/nn-mmc-isnapinabout?branch=master)
 
-[**ISnapinHelp2**](isnapinhelp2.md)
+[**ISnapinHelp2**](/windows/win32/Mmc/nn-mmc-isnapinhelp2?branch=master)
 
 Depending on the features you want, you may not need to use or implement all of these interfaces in your snap-in. Other sections of this overview refer to these interfaces and their methods frequently, so familiarizing yourself with them now may be helpful.
 

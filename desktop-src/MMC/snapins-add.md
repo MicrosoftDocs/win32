@@ -66,7 +66,7 @@ Optional [**SnapIn object**](snapin-object.md) under which the new **SnapIn** ob
 *Properties* 
 </dt> <dd>
 
-Optional properties to be used by the snap-in. The snap-in must implement the [**ISnapinProperties**](isnapinproperties.md) interface for the *Properties* parameter to be useful. The *Properties* parameter can be created by the [**Document.CreateProperties**](document-createproperties.md) method.
+Optional properties to be used by the snap-in. The snap-in must implement the [**ISnapinProperties**](/windows/win32/Mmcobj/nn-mmcobj-isnapinproperties?branch=master) interface for the *Properties* parameter to be useful. The *Properties* parameter can be created by the [**Document.CreateProperties**](document-createproperties.md) method.
 
 </dd> </dl>
 
@@ -113,7 +113,7 @@ Set objSnap = Nothing
 [**Application.OnSnapInAdded**](application-onsnapinadded.md)
 </dt> <dt>
 
-[**ISnapinProperties**](isnapinproperties.md)
+[**ISnapinProperties**](/windows/win32/Mmcobj/nn-mmcobj-isnapinproperties?branch=master)
 </dt> <dt>
 
 [**Document.CreateProperties**](document-createproperties.md)

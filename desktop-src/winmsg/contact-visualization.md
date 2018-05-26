@@ -13,7 +13,7 @@ ms.technology: desktop
 
 The following constants are used by applications or UI frameworks to identify how UI feedback is processed when an input contact is detected.
 
-These constants are used with the **SPI\_GETCONTACTVISUALIZATION** and **SPI\_SETCONTACTVISUALIZATION** parameters and the [**SystemParametersInfo**](systemparametersinfo.md) function.
+These constants are used with the **SPI\_GETCONTACTVISUALIZATION** and **SPI\_SETCONTACTVISUALIZATION** parameters and the [**SystemParametersInfo**](/windows/win32/Winuser/nf-winuser-systemparametersinfoa?branch=master) function.
 
 <dl> <dt>
 
@@ -78,7 +78,7 @@ Specifies UI feedback for all contacts is on with presentation mode visuals.
 [**Gesture Visualization**](gesture-visualization.md)
 </dt> <dt>
 
-[**SystemParametersInfo**](systemparametersinfo.md)
+[**SystemParametersInfo**](/windows/win32/Winuser/nf-winuser-systemparametersinfoa?branch=master)
 </dt> <dt>
 
 [Input Feedback Configuration](https://msdn.microsoft.com/library/windows/desktop/hh707352)

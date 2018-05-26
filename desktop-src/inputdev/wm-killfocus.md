@@ -77,7 +77,7 @@ While processing this message, do not make any function calls that display or ac
 **Reference**
 </dt> <dt>
 
-[**SetFocus**](setfocus.md)
+[**SetFocus**](/windows/win32/Winuser/nf-winuser-setfocus?branch=master)
 </dt> <dt>
 
 [**WM\_SETFOCUS**](wm-setfocus.md)

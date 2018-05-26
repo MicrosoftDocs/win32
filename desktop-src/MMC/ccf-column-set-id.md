@@ -35,7 +35,7 @@ For more information about how **CCF\_COLUMN\_SET\_ID** is used in column persis
 
 ## Data Format
 
-The **CCF\_COLUMN\_SET\_ID** clipboard format uses the [**SColumnSetID**](scolumnsetid.md) structure. The **dwFlags** member is reserved for future use. The id member holds the start of a byte array of length **cBytes**, which acts as the column set ID.
+The **CCF\_COLUMN\_SET\_ID** clipboard format uses the [**SColumnSetID**](/windows/win32/Mmc/ns-mmc-_scolumnsetid?branch=master) structure. The **dwFlags** member is reserved for future use. The id member holds the start of a byte array of length **cBytes**, which acts as the column set ID.
 
 ## Remarks
 

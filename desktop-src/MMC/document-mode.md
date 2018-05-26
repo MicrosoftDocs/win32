@@ -43,7 +43,7 @@ Property Mode As DocumentMode
 
 ## Property value
 
-The document's mode. This can be one of the following [**DocumentMode**](documentmode.md) values.
+The document's mode. This can be one of the following [**DocumentMode**](/windows/win32/MmcObj/ne-mmcobj-documentmode?branch=master) values.
 
 <dt>
 
@@ -140,7 +140,7 @@ objDoc.Mode = DocumentMode_User
 
 <dl> <dt>
 
-[**DocumentMode**](documentmode.md)
+[**DocumentMode**](/windows/win32/MmcObj/ne-mmcobj-documentmode?branch=master)
 </dt> <dt>
 
 [Console File and User Mode Changes](console-file-and-user-mode-changes.md)

@@ -110,7 +110,7 @@ TextOut(hdc, 10, 10, tchBuffer, *nSize);
 
 ## Listing Window Properties for a Given Window
 
-In the following example, the [**EnumPropsEx**](enumpropsex.md) function lists the string identifiers of the window properties for the window identified by the application-defined hwndSubclass variable. This function relies on the application-defined callback function WinPropProc to display the strings in the window's client area.
+In the following example, the [**EnumPropsEx**](/windows/win32/Winuser/nf-winuser-enumpropsexa?branch=master) function lists the string identifiers of the window properties for the window identified by the application-defined hwndSubclass variable. This function relies on the application-defined callback function WinPropProc to display the strings in the window's client area.
 
 
 ```
@@ -155,7 +155,7 @@ BOOL CALLBACK WinPropProc(
 
 ## Deleting a Window Property
 
-When a window is destroyed, it must destroy any window properties it set. The following example uses the [**EnumPropsEx**](enumpropsex.md) function and the application-defined callback function DelPropProc to destroy the properties associated with the window identified by the application-defined hwndSubclass variable. The callback function, which uses the [**RemoveProp**](removeprop.md) function, is also shown.
+When a window is destroyed, it must destroy any window properties it set. The following example uses the [**EnumPropsEx**](/windows/win32/Winuser/nf-winuser-enumpropsexa?branch=master) function and the application-defined callback function DelPropProc to destroy the properties associated with the window identified by the application-defined hwndSubclass variable. The callback function, which uses the [**RemoveProp**](/windows/win32/Winuser/nf-winuser-removepropa?branch=master) function, is also shown.
 
 
 ```

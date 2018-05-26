@@ -15,7 +15,7 @@ Sent when a window is being destroyed. It is sent to the window procedure of the
 
 This message is sent first to the window being destroyed and then to the child windows (if any) as they are destroyed. During the processing of the message, it can be assumed that all child windows still exist.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -74,10 +74,10 @@ If the window being destroyed is part of the clipboard viewer chain (set by call
 [**ChangeClipboardChain**](dataxchg.changeclipboardchain)
 </dt> <dt>
 
-[**DestroyWindow**](destroywindow.md)
+[**DestroyWindow**](/windows/win32/Winuser/nf-winuser-destroywindow?branch=master)
 </dt> <dt>
 
-[**PostQuitMessage**](postquitmessage.md)
+[**PostQuitMessage**](/windows/win32/Winuser/nf-winuser-postquitmessage?branch=master)
 </dt> <dt>
 
 [**SetClipboardViewer**](dataxchg.setclipboardviewer)

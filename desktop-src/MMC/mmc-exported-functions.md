@@ -19,13 +19,13 @@ ms.author: windowssdkdev
 
 The following functions are available for building MMC snap-in components:
 
-[**MMCFreeNotifyHandle**](mmcfreenotifyhandle.md)
+[**MMCFreeNotifyHandle**](/windows/win32/Mmc/nf-mmc-mmcfreenotifyhandle?branch=master)
 
-[**MMCPropertyChangeNotify**](mmcpropertychangenotify.md)
+[**MMCPropertyChangeNotify**](/windows/win32/Mmc/nf-mmc-mmcpropertychangenotify?branch=master)
 
-[**MMCPropertyHelp**](mmcpropertyhelp.md)
+[**MMCPropertyHelp**](/windows/win32/Mmc/nf-mmc-mmcpropertyhelp?branch=master)
 
-[**MMCPropPageCallback**](mmcproppagecallback.md)
+[**MMCPropPageCallback**](/windows/win32/Mmc/nf-mmc-mmcproppagecallback?branch=master)
 
  
 

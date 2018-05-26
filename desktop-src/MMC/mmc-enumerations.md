@@ -21,43 +21,43 @@ The following enumerations contain values used for building MMC snap-in componen
 
 [**ColumnSortOrder**](/windows/win32/MmcObj/ne-mmcobj-columnsortorder?branch=master)
 
-[**DATA\_OBJECT\_TYPES**](data-object-types.md)
+[**DATA\_OBJECT\_TYPES**](/windows/win32/Mmc/ne-mmc-_data_object_types?branch=master)
 
-[**DocumentMode**](documentmode.md)
+[**DocumentMode**](/windows/win32/MmcObj/ne-mmcobj-documentmode?branch=master)
 
-[**ExportListOptions**](exportlistoptions.md)
+[**ExportListOptions**](/windows/win32/MmcObj/ne-mmcobj-exportlistoptions?branch=master)
 
-[**IconIdentifier**](iconidentifier.md)
+[**IconIdentifier**](/windows/win32/Mmc/ne-mmc-tagiconidentifier?branch=master)
 
-[**ListViewMode**](listviewmode.md)
+[**ListViewMode**](/windows/win32/MmcObj/ne-mmcobj-listviewmode?branch=master)
 
-[**MMC\_ACTION\_TYPE**](mmc-action-type.md)
+[**MMC\_ACTION\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_action_type?branch=master)
 
-[**MMC\_BUTTON\_STATE**](mmc-button-state.md)
+[**MMC\_BUTTON\_STATE**](/windows/win32/Mmc/ne-mmc-_mmc_button_state?branch=master)
 
-[**MMC\_CONSOLE\_VERB**](mmc-console-verb.md)
+[**MMC\_CONSOLE\_VERB**](/windows/win32/Mmc/ne-mmc-_mmc_console_verb?branch=master)
 
-[**MMC\_CONTROL\_TYPE**](mmc-control-type.md)
+[**MMC\_CONTROL\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_control_type?branch=master)
 
-[**MMC\_FILTER\_TYPE**](mmc-filter-type.md)
+[**MMC\_FILTER\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_filter_type?branch=master)
 
-[**MMC\_FILTER\_CHANGE\_CODE**](mmc-filter-change-code.md)
+[**MMC\_FILTER\_CHANGE\_CODE**](/windows/win32/Mmc/ne-mmc-_mmc_filter_change_code?branch=master)
 
-[**MMC\_MENU\_COMMAND\_IDS**](mmc-menu-command-ids.md)
+[**MMC\_MENU\_COMMAND\_IDS**](/windows/win32/Mmc/ne-mmc-_mmc_menu_command_ids?branch=master)
 
-[**MMC\_NOTIFY\_TYPE**](mmc-notify-type.md)
+[**MMC\_NOTIFY\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_notify_type?branch=master)
 
-[**MMC\_PROPERTY\_ACTION**](mmc-property-action.md)
+[**MMC\_PROPERTY\_ACTION**](/windows/win32/Mmcobj/ne-mmcobj-_mmc_property_action?branch=master)
 
-[**MMC\_RESULT\_VIEW\_STYLE**](mmc-result-view-style.md)
+[**MMC\_RESULT\_VIEW\_STYLE**](/windows/win32/Mmc/ne-mmc-_mmc_result_view_style?branch=master)
 
-[**MMC\_SCOPE\_ITEM\_STATE**](mmc-scope-item-state.md)
+[**MMC\_SCOPE\_ITEM\_STATE**](/windows/win32/Mmc/ne-mmc-_mmc_scope_item_state?branch=master)
 
-[**MMC\_TASK\_DISPLAY\_TYPE**](mmc-task-display-type.md)
+[**MMC\_TASK\_DISPLAY\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_task_display_type?branch=master)
 
-[**MMC\_VIEW\_TYPE**](mmc-view-type.md)
+[**MMC\_VIEW\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_view_type?branch=master)
 
-[**ViewOptions**](viewoptions.md)
+[**ViewOptions**](/windows/win32/MmcObj/ne-mmcobj-viewoptions?branch=master)
 
  
 

@@ -27,11 +27,11 @@ An extension snap-in can support any or all of the following extension types:
 -   Taskpad extension
 -   View extension (requires MMC 2.0)
 
-Namespace extensions add scope items to a primary snap-in's scope pane. Namespace extensions must implement [**IComponentData**](icomponentdata.md). Non-namespace extensions — context menu, toolbar, menu button, property page, and taskpad extensions — do not add scope items to a primary snap-in's scope pane, and consequently they do not need to implement **IComponentData**.
+Namespace extensions add scope items to a primary snap-in's scope pane. Namespace extensions must implement [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master). Non-namespace extensions — context menu, toolbar, menu button, property page, and taskpad extensions — do not add scope items to a primary snap-in's scope pane, and consequently they do not need to implement **IComponentData**.
 
-Context menu extensions must implement [**IExtendContextMenu**](iextendcontextmenu.md), toolbar and menu button extensions implement [**IControlbar**](icontrolbar.md), property page extensions implement [**IExtendPropertySheet2**](iextendpropertysheet2.md), and taskpad extensions implement [**IExtendTaskpad**](iextendtaskpad.md).
+Context menu extensions must implement [**IExtendContextMenu**](/windows/win32/Mmc/nn-mmc-iextendcontextmenu?branch=master), toolbar and menu button extensions implement [**IControlbar**](/windows/win32/Mmc/nn-mmc-icontrolbar?branch=master), property page extensions implement [**IExtendPropertySheet2**](/windows/win32/Mmc/nn-mmc-iextendpropertysheet2?branch=master), and taskpad extensions implement [**IExtendTaskpad**](/windows/win32/Mmc/nn-mmc-iextendtaskpad?branch=master).
 
-View extensions must implement the [**IExtendView**](iextendview.md) interface.
+View extensions must implement the [**IExtendView**](/windows/win32/Mmc/nn-mmc-iextendview?branch=master) interface.
 
 Details about writing extensions are provided in the following topics:
 

@@ -42,7 +42,7 @@ MMCListPadInfo.Title
 
 ## Property value
 
-The returned property is the string specified in the szTitle member of [**MMC\_LISTPAD\_INFO**](mmc-listpad-info.md) returned in the [**IExtendTaskPad::GetListPadInfo**](iextendtaskpad-getlistpadinfo.md) method of the snap-in.
+The returned property is the string specified in the szTitle member of [**MMC\_LISTPAD\_INFO**](/windows/win32/Mmc/ns-mmc-_mmc_listpad_info?branch=master) returned in the [**IExtendTaskPad::GetListPadInfo**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-getlistpadinfo?branch=master) method of the snap-in.
 
 ## Remarks
 

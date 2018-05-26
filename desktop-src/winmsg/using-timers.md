@@ -77,7 +77,7 @@ SetTimer(hwnd,                // handle to main window
 
 
 
-The calling convention for **MyTimerProc** must be based on the [*TimerProc*](timerproc.md) callback function.
+The calling convention for **MyTimerProc** must be based on the [*TimerProc*](/windows/win32/Winuser/nc-winuser-timerproc?branch=master) callback function.
 
 If your application creates a timer without specifying a window handle, your application must monitor the message queue for [**WM\_TIMER**](wm-timer.md) messages and dispatch them to the appropriate window.
 
@@ -108,7 +108,7 @@ MSG msg;          // message structure
 
 ## Destroying a Timer
 
-Applications should use the [**KillTimer**](killtimer.md) function to destroy timers that are no longer necessary. The following example destroys the timers identified by the constants IDT\_TIMER1, IDT\_TIMER2, and IDT\_TIMER3.
+Applications should use the [**KillTimer**](/windows/win32/Winuser/nf-winuser-killtimer?branch=master) function to destroy timers that are no longer necessary. The following example destroys the timers identified by the constants IDT\_TIMER1, IDT\_TIMER2, and IDT\_TIMER3.
 
 
 ```
@@ -125,7 +125,7 @@ KillTimer(hwnd, IDT_TIMER3);
 
 Sometimes it is necessary to prevent more input while you have a mouse pointer on the screen. One way to accomplish this is to create a special routine that traps mouse input until a specific event occurs. Many developers refer to this routine as "building a mousetrap."
 
-The following example uses the [**SetTimer**](/windows/win32/Winuser/nf-ndis-ndismsettimer?branch=master) and [**KillTimer**](killtimer.md) functions to trap mouse input. **SetTimer** creates a timer that sends a [**WM\_TIMER**](wm-timer.md) message every 10 seconds. Each time the application receives a **WM\_TIMER** message, it records the mouse pointer location. If the current location is the same as the previous location and the application's main window is minimized, the application moves the mouse pointer to the icon. When the application closes, **KillTimer** stops the timer.
+The following example uses the [**SetTimer**](/windows/win32/Winuser/nf-ndis-ndismsettimer?branch=master) and [**KillTimer**](/windows/win32/Winuser/nf-winuser-killtimer?branch=master) functions to trap mouse input. **SetTimer** creates a timer that sends a [**WM\_TIMER**](wm-timer.md) message every 10 seconds. Each time the application receives a **WM\_TIMER** message, it records the mouse pointer location. If the current location is the same as the previous location and the application's main window is minimized, the application moves the mouse pointer to the icon. When the application closes, **KillTimer** stops the timer.
 
 
 ```

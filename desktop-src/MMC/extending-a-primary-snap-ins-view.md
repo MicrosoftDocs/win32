@@ -17,22 +17,22 @@ ms.author: windowssdkdev
 
 Before building your own view extension, determine whether the Extended View extension provides the capability required by your application. For more information about the Extended View extension and how to determine if a custom view extension is necessary for your application, see [Using the Extended View Extension](using-the-extended-view-extension.md).
 
-A view extension must implement the [**IExtendView**](iextendview.md) interface. Other than the methods inherited from the IUnknown interface, the **IExtendView** interface contains a single method, [**IExtendView::GetViews**](iextendview-getviews.md). The following C++ example code shows an implementation of IExtendView::GetViews.
+A view extension must implement the [**IExtendView**](/windows/win32/Mmc/nn-mmc-iextendview?branch=master) interface. Other than the methods inherited from the IUnknown interface, the **IExtendView** interface contains a single method, [**IExtendView::GetViews**](/windows/win32/Mmc/nf-mmc-iextendview-getviews?branch=master). The following C++ example code shows an implementation of IExtendView::GetViews.
 
 ## Related topics
 
 <dl> <dt>
 
-[**IExtendView**](iextendview.md)
+[**IExtendView**](/windows/win32/Mmc/nn-mmc-iextendview?branch=master)
 </dt> <dt>
 
-[**IExtendView::GetViews**](iextendview-getviews.md)
+[**IExtendView::GetViews**](/windows/win32/Mmc/nf-mmc-iextendview-getviews?branch=master)
 </dt> <dt>
 
-[**IViewExtensionCallback**](iviewextensioncallback.md)
+[**IViewExtensionCallback**](/windows/win32/Mmc/nn-mmc-iviewextensioncallback?branch=master)
 </dt> <dt>
 
-[**IViewExtensionCallback::AddView**](iviewextensioncallback-addview.md)
+[**IViewExtensionCallback::AddView**](/windows/win32/Mmc/nf-mmc-iviewextensioncallback-addview?branch=master)
 </dt> </dl>
 
  

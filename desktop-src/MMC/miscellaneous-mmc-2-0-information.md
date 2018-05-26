@@ -22,7 +22,7 @@ The following information is provided for developers programming for MMC 2.0:
 -   The Active Template Library (ATL) Snap-in Wizard does not support the new MMC 2.0 features. The ATL Snap-in Wizard is no longer supported, and new snap-ins, even those targeting MMC 1.1 or MMC 1.2, should not be written with this wizard.
 -   Custom icons in taskpad views are now supported when using the New Task Wizard.
 -   The "Enable context menus on taskpads in this console" option has been removed from the **File+Options** property page; the context menus will always be enabled.
--   In MMC 2.0, the [**IConsoleVerb**](iconsoleverb.md) methods fully support the [**MMC\_BUTTON\_STATE**](mmc-button-state.md) enumeration values. In MMC 1.2, MMC\_BUTTON\_STATE's INDETERMINATE, BUTTONPRESSED, and CHECKED values were not used.
+-   In MMC 2.0, the [**IConsoleVerb**](/windows/win32/Mmc/nn-mmc-iconsoleverb?branch=master) methods fully support the [**MMC\_BUTTON\_STATE**](/windows/win32/Mmc/ne-mmc-_mmc_button_state?branch=master) enumeration values. In MMC 1.2, MMC\_BUTTON\_STATE's INDETERMINATE, BUTTONPRESSED, and CHECKED values were not used.
 -   MMC 2.0 removes the ability to create a new window by dragging a node to the main window background. This feature is allowed in MMC 1.2, but it is removed from MMC 2.0 to facilitate the expanded drag-and-drop functionality for snap-ins. An MMC 2.0 user can still achieve the new window effect by invoking the **New Window from Here** menu command.
 -   The Visual Basic Snap-in Designer does not support MMC 2.0 features.
 

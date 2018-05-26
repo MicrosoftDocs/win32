@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # MDI Structures
 
--   [**MDICREATESTRUCT**](mdicreatestruct.md)
+-   [**MDICREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagmdicreatestructa?branch=master)
 
  
 

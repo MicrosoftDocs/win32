@@ -13,8 +13,8 @@ ms.technology: desktop
 
 ## In This Section
 
--   [**MOUSEMOVEPOINT**](mousemovepoint.md)
--   [**TRACKMOUSEEVENT**](trackmouseevent-str.md)
+-   [**MOUSEMOVEPOINT**](/windows/win32/Winuser/nf-winuser-getmousemovepointsex?branch=master)
+-   [**TRACKMOUSEEVENT**](/windows/win32/Winuser/nf-winuser-trackmouseevent?branch=master)
 
  
 

@@ -27,9 +27,9 @@ ms.author: windowssdkdev
 
 For MMC 2.0 and later, the CCF\_HTML\_DETAILS clipboard format is provided by snap-ins using the [Extended View extension](using-the-extended-view-extension.md). A node that supports this clipboard format can support HTML processing within the view. Specifically, the HTML can be used to add user interface elements to the view, and the script can use [MMC 2.0 Automation Object Model](mmc-2-0-automation-object-model.md).
 
-Be aware that CCF\_HTML\_DETAILS is also the name of a property recognized by the Extended View extension. Instead of supporting CCF\_HTML\_DETAILS as a clipboard format, a snap-in can support the CCF\_HTML\_DETAILS property by implementing the [**INodeProperties**](inodeproperties.md) interface.
+Be aware that CCF\_HTML\_DETAILS is also the name of a property recognized by the Extended View extension. Instead of supporting CCF\_HTML\_DETAILS as a clipboard format, a snap-in can support the CCF\_HTML\_DETAILS property by implementing the [**INodeProperties**](/windows/win32/Mmc/nn-mmc-inodeproperties?branch=master) interface.
 
-If the Extended View is unable to retrieve the CCF\_HTML\_DETAILS property using the [**INodeProperties**](inodeproperties.md) interface, then the Extended View will query for the CCF\_HTML\_DETAILS clipboard format using the HGLOBAL medium in a call to [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere). If this medium is not supported, then the Extended View will query for the CCF\_HTML\_DETAILS clipboard format using the IStream medium in a call to **IDataObject::GetDataHere**.
+If the Extended View is unable to retrieve the CCF\_HTML\_DETAILS property using the [**INodeProperties**](/windows/win32/Mmc/nn-mmc-inodeproperties?branch=master) interface, then the Extended View will query for the CCF\_HTML\_DETAILS clipboard format using the HGLOBAL medium in a call to [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere). If this medium is not supported, then the Extended View will query for the CCF\_HTML\_DETAILS clipboard format using the IStream medium in a call to **IDataObject::GetDataHere**.
 
 ## Data Format
 

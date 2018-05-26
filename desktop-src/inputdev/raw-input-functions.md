@@ -13,13 +13,13 @@ ms.technology: desktop
 
 ## In This Section
 
--   [**DefRawInputProc**](defrawinputproc.md)
--   [**GetRawInputBuffer**](getrawinputbuffer.md)
--   [**GetRawInputData**](getrawinputdata.md)
--   [**GetRawInputDeviceInfo**](getrawinputdeviceinfo.md)
--   [**GetRawInputDeviceList**](getrawinputdevicelist.md)
--   [**GetRegisteredRawInputDevices**](getregisteredrawinputdevices.md)
--   [**RegisterRawInputDevices**](registerrawinputdevices.md)
+-   [**DefRawInputProc**](/windows/win32/Winuser/nf-winuser-defrawinputproc?branch=master)
+-   [**GetRawInputBuffer**](/windows/win32/Winuser/nf-winuser-getrawinputbuffer?branch=master)
+-   [**GetRawInputData**](/windows/win32/Winuser/nf-winuser-getrawinputdata?branch=master)
+-   [**GetRawInputDeviceInfo**](/windows/win32/Winuser/nf-winuser-getrawinputdeviceinfoa?branch=master)
+-   [**GetRawInputDeviceList**](/windows/win32/Winuser/nf-winuser-getrawinputdevicelist?branch=master)
+-   [**GetRegisteredRawInputDevices**](/windows/win32/Winuser/nf-winuser-getregisteredrawinputdevices?branch=master)
+-   [**RegisterRawInputDevices**](/windows/win32/Winuser/nf-winuser-registerrawinputdevices?branch=master)
 
  
 

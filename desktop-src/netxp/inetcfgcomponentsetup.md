@@ -45,10 +45,10 @@ The following methods are listed in Vtable order:
 
 | INetCfgComponentSetup method                                              | Description                                                                                           |
 |---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**Install**](inetcfgcomponentsetup-install.md)<br/>               | Performs operations required to install the network component that owns the notify object.<br/> |
-| [**Upgrade**](inetcfgcomponentsetup-upgrade.md)<br/>               | Modifies the network component, if required, when the operating system upgrades.<br/>           |
-| [**ReadAnswerFile**](inetcfgcomponentsetup-readanswerfile.md)<br/> | Retrieves parameters from a file to configure the network component.<br/>                       |
-| [**Removing**](inetcfgcomponentsetup-removing.md)<br/>             | Performs operations required to remove the network component that owns the notify object.<br/>  |
+| [**Install**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentsetup-install?branch=master)<br/>               | Performs operations required to install the network component that owns the notify object.<br/> |
+| [**Upgrade**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentsetup-upgrade?branch=master)<br/>               | Modifies the network component, if required, when the operating system upgrades.<br/>           |
+| [**ReadAnswerFile**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentsetup-readanswerfile?branch=master)<br/> | Retrieves parameters from a file to configure the network component.<br/>                       |
+| [**Removing**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentsetup-removing?branch=master)<br/>             | Performs operations required to remove the network component that owns the notify object.<br/>  |
 
 
 

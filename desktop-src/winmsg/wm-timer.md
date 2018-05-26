@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # WM\_TIMER message
 
-Posted to the installing thread's message queue when a timer expires. The message is posted by the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function.
+Posted to the installing thread's message queue when a timer expires. The message is posted by the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](/windows/win32/Winuser/nf-winuser-peekmessagea?branch=master) function.
 
 
 ```C++
@@ -46,9 +46,9 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-You can process the message by providing a **WM\_TIMER** case in the window procedure. Otherwise, [**DispatchMessage**](dispatchmessage.md) will call the [*TimerProc*](timerproc.md) callback function specified in the call to the [**SetTimer**](/windows/win32/Winuser/nf-ndis-ndismsettimer?branch=master) function used to install the timer.
+You can process the message by providing a **WM\_TIMER** case in the window procedure. Otherwise, [**DispatchMessage**](/windows/win32/Winuser/nf-winuser-dispatchmessage?branch=master) will call the [*TimerProc*](/windows/win32/Winuser/nc-winuser-timerproc?branch=master) callback function specified in the call to the [**SetTimer**](/windows/win32/Winuser/nf-ndis-ndismsettimer?branch=master) function used to install the timer.
 
-The **WM\_TIMER** message is a low-priority message. The [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) and [**PeekMessage**](peekmessage.md) functions post this message only when no other higher-priority messages are in the thread's message queue.
+The **WM\_TIMER** message is a low-priority message. The [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) and [**PeekMessage**](/windows/win32/Winuser/nf-winuser-peekmessagea?branch=master) functions post this message only when no other higher-priority messages are in the thread's message queue.
 
 ## Requirements
 
@@ -72,13 +72,13 @@ The **WM\_TIMER** message is a low-priority message. The [**GetMessage**](/windo
 [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master)
 </dt> <dt>
 
-[**PeekMessage**](peekmessage.md)
+[**PeekMessage**](/windows/win32/Winuser/nf-winuser-peekmessagea?branch=master)
 </dt> <dt>
 
 [**SetTimer**](/windows/win32/Winuser/nf-ndis-ndismsettimer?branch=master)
 </dt> <dt>
 
-[**TimerProc**](timerproc.md)
+[**TimerProc**](/windows/win32/Winuser/nc-winuser-timerproc?branch=master)
 </dt> <dt>
 
 **Conceptual**

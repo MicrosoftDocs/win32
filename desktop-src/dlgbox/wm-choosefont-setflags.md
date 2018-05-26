@@ -55,7 +55,7 @@ No return value.
 
 ## Remarks
 
-The [**ChooseFont**](choosefont.md) function creates a **Font** dialog box and uses a [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure to specify the initial values for the **Flags** member. Use the **WM\_CHOOSEFONT\_SETFLAGS** message to specify different values for the **Flags** member while the **Font** dialog box is open.
+The [**ChooseFont**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) function creates a **Font** dialog box and uses a [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure to specify the initial values for the **Flags** member. Use the **WM\_CHOOSEFONT\_SETFLAGS** message to specify different values for the **Flags** member while the **Font** dialog box is open.
 
 Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CFHookProc**](cfhookproc.md) hook procedure.
 
@@ -81,7 +81,7 @@ Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CF
 [**CFHookProc**](cfhookproc.md)
 </dt> <dt>
 
-[**ChooseFont**](choosefont.md)
+[**ChooseFont**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)
 </dt> <dt>
 
 [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)

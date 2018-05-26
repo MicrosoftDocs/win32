@@ -13,17 +13,17 @@ ms.technology: desktop
 
 ## In This Section
 
--   [**RAWHID**](rawhid.md)
--   [**RAWINPUT**](rawinput.md)
--   [**RAWINPUTDEVICE**](rawinputdevice.md)
--   [**RAWINPUTDEVICELIST**](rawinputdevicelist.md)
--   [**RAWINPUTHEADER**](rawinputheader.md)
--   [**RAWKEYBOARD**](rawkeyboard.md)
--   [**RAWMOUSE**](rawmouse.md)
--   [**RID\_DEVICE\_INFO**](rid-device-info.md)
--   [**RID\_DEVICE\_INFO\_HID**](rid-device-info-hid.md)
--   [**RID\_DEVICE\_INFO\_KEYBOARD**](rid-device-info-keyboard.md)
--   [**RID\_DEVICE\_INFO\_MOUSE**](rid-device-info-mouse.md)
+-   [**RAWHID**](/windows/win32/Winuser/ns-winuser-tagrawhid?branch=master)
+-   [**RAWINPUT**](/windows/win32/Winuser/nf-winuser-defrawinputproc?branch=master)
+-   [**RAWINPUTDEVICE**](/windows/win32/Winuser/nf-winuser-getrawinputdeviceinfoa?branch=master)
+-   [**RAWINPUTDEVICELIST**](/windows/win32/Winuser/nf-winuser-getrawinputdevicelist?branch=master)
+-   [**RAWINPUTHEADER**](/windows/win32/Winuser/ns-winuser-tagrawinputheader?branch=master)
+-   [**RAWKEYBOARD**](/windows/win32/Winuser/ns-winuser-tagrawkeyboard?branch=master)
+-   [**RAWMOUSE**](/windows/win32/Winuser/ns-winuser-tagrawmouse?branch=master)
+-   [**RID\_DEVICE\_INFO**](/windows/win32/Winuser/ns-winuser-tagrid_device_info?branch=master)
+-   [**RID\_DEVICE\_INFO\_HID**](/windows/win32/Winuser/ns-winuser-tagrid_device_info_hid?branch=master)
+-   [**RID\_DEVICE\_INFO\_KEYBOARD**](/windows/win32/Winuser/ns-winuser-tagrid_device_info_keyboard?branch=master)
+-   [**RID\_DEVICE\_INFO\_MOUSE**](/windows/win32/Winuser/ns-winuser-tagrid_device_info_mouse?branch=master)
 
  
 

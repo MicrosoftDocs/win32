@@ -11,16 +11,16 @@ ms.technology: desktop
 
 # Hook Structures
 
--   [**CBT\_CREATEWND**](cbt-createwnd.md)
--   [**CBTACTIVATESTRUCT**](cbtactivatestruct.md)
--   [**CWPRETSTRUCT**](cwpretstruct.md)
--   [**CWPSTRUCT**](cwpstruct.md)
--   [**DEBUGHOOKINFO**](debughookinfo.md)
--   [**EVENTMSG**](eventmsg.md)
--   [**KBDLLHOOKSTRUCT**](kbdllhookstruct.md)
--   [**MOUSEHOOKSTRUCT**](mousehookstruct.md)
--   [**MOUSEHOOKSTRUCTEX**](mousehookstructex.md)
--   [**MSLLHOOKSTRUCT**](msllhookstruct.md)
+-   [**CBT\_CREATEWND**](/windows/win32/Winuser/ns-winuser-tagcbt_createwnda?branch=master)
+-   [**CBTACTIVATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagcbtactivatestruct?branch=master)
+-   [**CWPRETSTRUCT**](/windows/win32/Winuser/ns-winuser-tagcwpretstruct?branch=master)
+-   [**CWPSTRUCT**](/windows/win32/Winuser/ns-winuser-tagcwpstruct?branch=master)
+-   [**DEBUGHOOKINFO**](/windows/win32/Winuser/ns-winuser-tagdebughookinfo?branch=master)
+-   [**EVENTMSG**](/windows/win32/Winuser/ns-winuser-tageventmsg?branch=master)
+-   [**KBDLLHOOKSTRUCT**](/windows/win32/Winuser/ns-winuser-tagkbdllhookstruct?branch=master)
+-   [**MOUSEHOOKSTRUCT**](/windows/win32/Winuser/ns-winuser-tagmousehookstruct?branch=master)
+-   [**MOUSEHOOKSTRUCTEX**](/windows/win32/Winuser/ns-winuser-tagmousehookstructex?branch=master)
+-   [**MSLLHOOKSTRUCT**](/windows/win32/Winuser/ns-winuser-tagmsllhookstruct?branch=master)
 
  
 

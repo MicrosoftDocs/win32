@@ -17,8 +17,8 @@ ms.author: windowssdkdev
 
 Perform these tests to ensure that Help is available for your end users:
 
--   Call the MMC [**IDisplayHelp**](idisplayhelp.md) interface to properly display context-sensitive Help in the merged MMC HTML Help collections file.
--   Start Help to ensure that [**ISnapInHelp2**](isnapinhelp2.md) is implemented to give MMC the name of your Help file.
+-   Call the MMC [**IDisplayHelp**](/windows/win32/Mmc/nn-mmc-idisplayhelp?branch=master) interface to properly display context-sensitive Help in the merged MMC HTML Help collections file.
+-   Start Help to ensure that [**ISnapInHelp2**](/windows/win32/Mmc/nn-mmc-isnapinhelp2?branch=master) is implemented to give MMC the name of your Help file.
 -   For Microsoft Visual Basic developers, test Help by pressing F1 on a scope item and on a list item. If you are using merged Help, ensure that your ShowHelpTopic calls display the correct topics.
 -   Turn on the "autosync" option in Help. (This option is automatically set on Windows Server, but is not set on clients.)
 -   Ensure that an extension snap-in provides its own Help file and exposes all fields of the About information.

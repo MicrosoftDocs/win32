@@ -19,11 +19,11 @@ ms.author: windowssdkdev
 
 HTML Help requires the implementation or use of the following interfaces and methods:
 
--   [**ISnapinHelp2**](isnapinhelp2.md)
+-   [**ISnapinHelp2**](/windows/win32/Mmc/nn-mmc-isnapinhelp2?branch=master)
     -   [**ISnapinHelp2::GetHelpTopic**](isnapinhelp2-gethelptopic.md)
-    -   [**ISnapinHelp2::GetLinkedTopics**](isnapinhelp2-getlinkedtopics.md)
--   [**IDisplayHelp**](idisplayhelp.md)
-    -   [**IDisplayHelp::ShowTopic**](idisplayhelp-showtopic.md)
+    -   [**ISnapinHelp2::GetLinkedTopics**](/windows/win32/Mmc/nf-mmc-isnapinhelp2-getlinkedtopics?branch=master)
+-   [**IDisplayHelp**](/windows/win32/Mmc/nn-mmc-idisplayhelp?branch=master)
+    -   [**IDisplayHelp::ShowTopic**](/windows/win32/Mmc/nf-mmc-idisplayhelp-showtopic?branch=master)
 
 ## Other Additions
 
@@ -33,9 +33,9 @@ MMC sends the following notification in response to the user's request for conte
 
 The following function enables you to call an HTML Help topic from a property sheet:
 
--   [**MMCPropertyHelp**](mmcpropertyhelp.md)
+-   [**MMCPropertyHelp**](/windows/win32/Mmc/nf-mmc-mmcpropertyhelp?branch=master)
 
-MMC sends the following notification in response to the user's request for Help to snap-ins that do not provide HTML Help by implementing [**ISnapinHelp2**](isnapinhelp2.md):
+MMC sends the following notification in response to the user's request for Help to snap-ins that do not provide HTML Help by implementing [**ISnapinHelp2**](/windows/win32/Mmc/nn-mmc-isnapinhelp2?branch=master):
 
 -   [**MMCN\_SNAPINHELP**](mmcn-snapinhelp.md)
 

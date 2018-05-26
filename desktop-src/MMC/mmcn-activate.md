@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # MMCN\_ACTIVATE message
 
-The **MMCN\_ACTIVATE** notification message is sent to the snap-in's [**IComponent::Notify**](icomponent-notify.md) method when a window for which the snap-in owns the result view is being activated or deactivated.
+The **MMCN\_ACTIVATE** notification message is sent to the snap-in's [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) method when a window for which the snap-in owns the result view is being activated or deactivated.
 
 ## Parameters
 
@@ -86,7 +86,7 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 <dl> <dt>
 
-[**IComponent::Notify**](icomponent-notify.md)
+[**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
 </dt> </dl>
 
  

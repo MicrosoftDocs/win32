@@ -66,7 +66,7 @@ The property value corresponding to the property specified by *PropertyName*.
 
 <dl> <dt>
 
-[**INodeProperties**](inodeproperties.md)
+[**INodeProperties**](/windows/win32/Mmc/nn-mmc-inodeproperties?branch=master)
 </dt> </dl>
 
  

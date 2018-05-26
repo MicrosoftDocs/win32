@@ -92,7 +92,7 @@ When the user presses the hot key, the system generates a [**WM\_SYSCOMMAND**](h
 
 A window can only have one hot key. If the window already has a hot key associated with it, the new hot key replaces the old one. If more than one window has the same hot key, the window that is activated by the hot key is random.
 
-These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](registerhotkey.md).
+These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](/windows/win32/Winuser/nf-winuser-registerhotkey?branch=master).
 
 ## Requirements
 
@@ -113,7 +113,7 @@ These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](registe
 **Reference**
 </dt> <dt>
 
-[**RegisterHotKey**](registerhotkey.md)
+[**RegisterHotKey**](/windows/win32/Winuser/nf-winuser-registerhotkey?branch=master)
 </dt> <dt>
 
 [**WM\_GETHOTKEY**](wm-gethotkey.md)

@@ -42,7 +42,7 @@ Message numbers in the second range ([**WM\_USER**](wm-user.md) through 0x7FFF) 
 
 Message numbers in the third range (0x8000 through 0xBFFF) are available for applications to use as private messages. Messages in this range do not conflict with system messages.
 
-Message numbers in the fourth range (0xC000 through 0xFFFF) are defined at run time when an application calls the [**RegisterWindowMessage**](registerwindowmessage.md) function to retrieve a message number for a string. All applications that register the same string can use the associated message number for exchanging messages. The actual message number, however, is not a constant and cannot be assumed to be the same between different sessions.
+Message numbers in the fourth range (0xC000 through 0xFFFF) are defined at run time when an application calls the [**RegisterWindowMessage**](/windows/win32/Winuser/nf-winuser-registerwindowmessagea?branch=master) function to retrieve a message number for a string. All applications that register the same string can use the associated message number for exchanging messages. The actual message number, however, is not a constant and cannot be assumed to be the same between different sessions.
 
 Message numbers in the fifth range (greater than 0xFFFF) are reserved by the system.
 
@@ -65,7 +65,7 @@ Message numbers in the fifth range (greater than 0xFFFF) are reserved by the sys
 **Reference**
 </dt> <dt>
 
-[**RegisterWindowMessage**](registerwindowmessage.md)
+[**RegisterWindowMessage**](/windows/win32/Winuser/nf-winuser-registerwindowmessagea?branch=master)
 </dt> <dt>
 
 [**WM\_APP**](wm-app.md)

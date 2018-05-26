@@ -21,7 +21,7 @@ ms.technology: desktop
 
 # WM\_NCMOUSELEAVE message
 
-Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to [**TrackMouseEvent**](trackmouseevent.md).
+Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to [**TrackMouseEvent**](/windows/win32/Winuser/nf-winuser-trackmouseevent?branch=master).
 
 A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
 
@@ -56,7 +56,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-All tracking requested by [**TrackMouseEvent**](trackmouseevent.md) is canceled when this message is generated. The application must call **TrackMouseEvent** when the mouse reenters its window if it requires further tracking of mouse hover behavior.
+All tracking requested by [**TrackMouseEvent**](/windows/win32/Winuser/nf-winuser-trackmouseevent?branch=master) is canceled when this message is generated. The application must call **TrackMouseEvent** when the mouse reenters its window if it requires further tracking of mouse hover behavior.
 
 ## Requirements
 
@@ -77,10 +77,10 @@ All tracking requested by [**TrackMouseEvent**](trackmouseevent.md) is canceled 
 **Reference**
 </dt> <dt>
 
-[**TrackMouseEvent**](trackmouseevent.md)
+[**TrackMouseEvent**](/windows/win32/Winuser/nf-winuser-trackmouseevent?branch=master)
 </dt> <dt>
 
-[**TRACKMOUSEEVENT**](trackmouseevent-str.md)
+[**TRACKMOUSEEVENT**](/windows/win32/Winuser/nf-winuser-trackmouseevent?branch=master)
 </dt> <dt>
 
 [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms646360)

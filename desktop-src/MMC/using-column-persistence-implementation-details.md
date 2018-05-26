@@ -17,7 +17,7 @@ ms.author: windowssdkdev
 
 # Using Column Persistence: Implementation Details
 
-This section includes information about how to add snap-in support for the [**CCF\_COLUMN\_SET\_ID**](ccf-column-set-id.md) clipboard format and how to access column configuration data using the [**IColumnData**](icolumndata.md) interface.
+This section includes information about how to add snap-in support for the [**CCF\_COLUMN\_SET\_ID**](ccf-column-set-id.md) clipboard format and how to access column configuration data using the [**IColumnData**](/windows/win32/Mmc/nn-mmc-icolumndata?branch=master) interface.
 
 **To add snap-in support for CCF\_COLUMN\_SET\_ID**
 
@@ -37,13 +37,13 @@ This section includes information about how to add snap-in support for the [**CC
 
 3.  Include support for the CCF\_COLUMN\_SET\_ID format in the snap-in's implementation of the [**IDataObject::GetData**](_ole_idataobject_getdata) method.
 
-Before using the [**IColumnData**](icolumndata.md) interface, review the topics [Using IColumnData](using-icolumndata.md) and [IHeaderCtrl2 and Column Persistence](iheaderctrl2-and-column-persistence.md).
+Before using the [**IColumnData**](/windows/win32/Mmc/nn-mmc-icolumndata?branch=master) interface, review the topics [Using IColumnData](using-icolumndata.md) and [IHeaderCtrl2 and Column Persistence](iheaderctrl2-and-column-persistence.md).
 
 **To access column configuration data using IColumnData**
 
-1.  The [**IColumnData**](icolumndata.md) interface can be queried from the [**IConsole2**](iconsole2.md) passed into [**IComponent::Initialize**](icomponent-initialize.md) during the component's creation.
-2.  To retrieve and set the current width, order, and hidden status of columns in a column set, use the [**GetColumnConfigData**](icolumndata-getcolumnconfigdata.md) and [**SetColumnConfigData**](icolumndata-setcolumnconfigdata.md) methods. To retrieve and set the sorted column and sorting direction for columns in a column set, use the [**GetColumnSortData**](icolumndata-getcolumnsortdata.md) and [**SetColumnSortData**](icolumndata-setcolumnsortdata.md) methods.
-3.  When calling any of the [**IColumnData**](icolumndata.md) methods, fill an [**SColumnSetID**](scolumnsetid.md) structure to specify the ID of the column set on which the particular action is performed. If the snap-in does not support the CCF\_COLUMN\_SET\_ID clipboard format, the column set ID is the node type GUID of the scope item that owns the list view. If the clipboard format is supported, the ID of the column set is the same one supplied to MMC in the snap-in's [**IDataObject::GetData**](_ole_idataobject_getdata) implementation.
+1.  The [**IColumnData**](/windows/win32/Mmc/nn-mmc-icolumndata?branch=master) interface can be queried from the [**IConsole2**](/windows/win32/Mmc/nn-mmc-iconsole2?branch=master) passed into [**IComponent::Initialize**](/windows/win32/Mmc/nf-mmc-icomponent-initialize?branch=master) during the component's creation.
+2.  To retrieve and set the current width, order, and hidden status of columns in a column set, use the [**GetColumnConfigData**](/windows/win32/Mmc/nf-mmc-icolumndata-getcolumnconfigdata?branch=master) and [**SetColumnConfigData**](/windows/win32/Mmc/nf-mmc-icolumndata-setcolumnconfigdata?branch=master) methods. To retrieve and set the sorted column and sorting direction for columns in a column set, use the [**GetColumnSortData**](/windows/win32/Mmc/nf-mmc-icolumndata-getcolumnsortdata?branch=master) and [**SetColumnSortData**](/windows/win32/Mmc/nf-mmc-icolumndata-setcolumnsortdata?branch=master) methods.
+3.  When calling any of the [**IColumnData**](/windows/win32/Mmc/nn-mmc-icolumndata?branch=master) methods, fill an [**SColumnSetID**](/windows/win32/Mmc/ns-mmc-_scolumnsetid?branch=master) structure to specify the ID of the column set on which the particular action is performed. If the snap-in does not support the CCF\_COLUMN\_SET\_ID clipboard format, the column set ID is the node type GUID of the scope item that owns the list view. If the clipboard format is supported, the ID of the column set is the same one supplied to MMC in the snap-in's [**IDataObject::GetData**](_ole_idataobject_getdata) implementation.
 
 ## Related topics
 

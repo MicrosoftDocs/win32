@@ -13,7 +13,7 @@ ms.technology: desktop
 
 The following structure is used with window stations and desktops:
 
--   [**USEROBJECTFLAGS**](userobjectflags-str.md)
+-   [**USEROBJECTFLAGS**](/windows/win32/Winuser/ns-winuser-taguserobjectflags?branch=master)
 
  
 

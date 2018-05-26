@@ -93,7 +93,7 @@ When a dialog box uses the [DS\_SETFONT](dlgbox.about_dialog_boxes#templates) st
 [**DLGTEMPLATE**](dlgbox.dlgtemplate)
 </dt> <dt>
 
-[**MAKELPARAM**](makelparam.md)
+[**MAKELPARAM**](/windows/win32/Winuser/nf-winuser-makelparam?branch=master)
 </dt> <dt>
 
 [**WM\_GETFONT**](wm-getfont.md)

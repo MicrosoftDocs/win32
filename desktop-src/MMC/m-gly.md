@@ -100,7 +100,7 @@ An interface that defines a user interface for applications that enable the user
 <span id="mmc_multiselection_data_object_gly"></span><span id="MMC_MULTISELECTION_DATA_OBJECT_GLY"></span>**multiselection data object**
 </dt> <dd>
 
-A data object that a snap-in creates when it receives the MMC\_MULTI\_SELECT\_COOKIE special cookie value in a call to its [**IComponent::QueryDataObject**](icomponent-querydataobject.md) method. MMC requests a multiselection data object during a multiple selection. This data object should supply the list of node types for all of the currently selected result items owned by the snap-in in the multiple selection.
+A data object that a snap-in creates when it receives the MMC\_MULTI\_SELECT\_COOKIE special cookie value in a call to its [**IComponent::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponent-querydataobject?branch=master) method. MMC requests a multiselection data object during a multiple selection. This data object should supply the list of node types for all of the currently selected result items owned by the snap-in in the multiple selection.
 
 </dd> </dl>
 

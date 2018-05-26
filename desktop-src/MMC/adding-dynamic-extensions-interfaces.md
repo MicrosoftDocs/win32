@@ -20,8 +20,8 @@ ms.author: windowssdkdev
 
 Dynamic namespace extensions require the use of the following interface and method:
 
--   [**IConsoleNameSpace2**](iconsolenamespace2.md)
-    -   [**IConsoleNameSpace2::AddExtension**](iconsolenamespace2-addextension.md)
+-   [**IConsoleNameSpace2**](/windows/win32/Mmc/nn-mmc-iconsolenamespace2?branch=master)
+    -   [**IConsoleNameSpace2::AddExtension**](/windows/win32/Mmc/nf-mmc-iconsolenamespace2-addextension?branch=master)
 
 Non-namespace dynamic extensions (context menu, property sheet, toolbar, taskpad) must support the following clipboard format in their [**IDataObject**](_ole_idataobject) implementation:
 

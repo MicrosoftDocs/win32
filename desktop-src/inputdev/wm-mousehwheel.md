@@ -126,7 +126,7 @@ The delta was set to 120 to allow Microsoft or other vendors to build finer-reso
 **Reference**
 </dt> <dt>
 
-[**GET\_KEYSTATE\_WPARAM**](get-keystate-wparam.md)
+[**GET\_KEYSTATE\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_keystate_wparam?branch=master)
 </dt> <dt>
 
 [**GET\_X\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)
@@ -135,7 +135,7 @@ The delta was set to 120 to allow Microsoft or other vendors to build finer-reso
 [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)
 </dt> <dt>
 
-[**GET\_WHEEL\_DELTA\_WPARAM**](get-wheel-delta-wparam.md)
+[**GET\_WHEEL\_DELTA\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_wheel_delta_wparam?branch=master)
 </dt> <dt>
 
 [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)
@@ -144,7 +144,7 @@ The delta was set to 120 to allow Microsoft or other vendors to build finer-reso
 [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659)
 </dt> <dt>
 
-[**mouse\_event**](mouse-event.md)
+[**mouse\_event**](/windows/win32/Winuser/nf-winuser-mouse_event?branch=master)
 </dt> <dt>
 
 **Conceptual**

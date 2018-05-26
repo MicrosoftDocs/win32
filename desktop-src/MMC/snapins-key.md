@@ -83,7 +83,7 @@ The NameStringIndirect value is not used prior to MMC 2.0. If NameStringIndirect
 <span id="About"></span><span id="about"></span><span id="ABOUT"></span>About
 </dt> <dd>
 
-REG\_SZ value. The string representation of the CLSID of the object that is created using the CoCreateInstance COM function to get an interface pointer to [**ISnapInAbout**](isnapinabout.md). The string must begin with an open curly brace ({) and end with a close curly brace (}).
+REG\_SZ value. The string representation of the CLSID of the object that is created using the CoCreateInstance COM function to get an interface pointer to [**ISnapInAbout**](/windows/win32/Mmc/nn-mmc-isnapinabout?branch=master). The string must begin with an open curly brace ({) and end with a close curly brace (}).
 
 The ISnapInAbout object is created when MMC must display the icon and/or description for the snap-in in the Add/Remove Snap-ins dialog box.
 

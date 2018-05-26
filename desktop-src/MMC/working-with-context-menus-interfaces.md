@@ -19,15 +19,15 @@ ms.author: windowssdkdev
 
 MMC provides snap-in developers with the following interfaces for working with context menus:
 
--   [**IExtendContextMenu**](iextendcontextmenu.md)
--   [**IContextMenuCallback**](icontextmenucallback.md)
--   [**IContextMenuProvider**](icontextmenuprovider.md)
+-   [**IExtendContextMenu**](/windows/win32/Mmc/nn-mmc-iextendcontextmenu?branch=master)
+-   [**IContextMenuCallback**](/windows/win32/Mmc/nn-mmc-icontextmenucallback?branch=master)
+-   [**IContextMenuProvider**](/windows/win32/Mmc/nn-mmc-icontextmenuprovider?branch=master)
 
 ## Other Context Menu Constructs
 
 The following structure is also used with context menus:
 
--   [**CONTEXTMENUITEM**](contextmenuitem.md)
+-   [**CONTEXTMENUITEM**](/windows/win32/Mmc/ns-mmc-_contextmenuitem?branch=master)
 
 ## Related topics
 

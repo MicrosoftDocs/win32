@@ -27,7 +27,7 @@ MMC 3.0 is included with the Windows and Windows Server operating systems.
 [Detecting the MMC Version Number](detecting-the-mmc-version-number.md)
 </dt> <dt>
 
-[**IMMCVersionInfo**](immcversioninfo.md)
+[**IMMCVersionInfo**](/windows/win32/Mmc/nn-mmc-immcversioninfo?branch=master)
 </dt> </dl>
 
  

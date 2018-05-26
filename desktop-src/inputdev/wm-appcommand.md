@@ -190,13 +190,13 @@ Unlike other windows messages, an application should return **TRUE** from this m
 [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
 </dt> <dt>
 
-[**GET\_APPCOMMAND\_LPARAM**](get-appcommand-lparam.md)
+[**GET\_APPCOMMAND\_LPARAM**](/windows/win32/Winuser/nf-winuser-get_appcommand_lparam?branch=master)
 </dt> <dt>
 
-[**GET\_DEVICE\_LPARAM**](get-device-lparam.md)
+[**GET\_DEVICE\_LPARAM**](/windows/win32/Winuser/nf-winuser-get_device_lparam?branch=master)
 </dt> <dt>
 
-[**GET\_KEYSTATE\_LPARAM**](get-keystate-lparam.md)
+[**GET\_KEYSTATE\_LPARAM**](/windows/win32/Winuser/nf-winuser-get_keystate_lparam?branch=master)
 </dt> <dt>
 
 [**ShellProc**](https://msdn.microsoft.com/library/windows/desktop/ms644991)

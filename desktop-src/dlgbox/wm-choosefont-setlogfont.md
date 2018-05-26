@@ -55,7 +55,7 @@ This message has no return value.
 
 ## Remarks
 
-When you call the [**ChooseFont**](choosefont.md) function to create a **Font** dialog box, you can use the **lpLogFont** member of the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure to specify a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure containing initial values for the dialog box. Use the **WM\_CHOOSEFONT\_SETLOGFONT** message to specify a **LOGFONT** structure with different values while the **Font** dialog box is open.
+When you call the [**ChooseFont**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) function to create a **Font** dialog box, you can use the **lpLogFont** member of the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure to specify a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure containing initial values for the dialog box. Use the **WM\_CHOOSEFONT\_SETLOGFONT** message to specify a **LOGFONT** structure with different values while the **Font** dialog box is open.
 
 Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**CFHookProc**](cfhookproc.md) hook procedure. The hook procedure can also send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages.
 
@@ -81,7 +81,7 @@ Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**C
 [**CFHookProc**](cfhookproc.md)
 </dt> <dt>
 
-[**ChooseFont**](choosefont.md)
+[**ChooseFont**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)
 </dt> <dt>
 
 [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)

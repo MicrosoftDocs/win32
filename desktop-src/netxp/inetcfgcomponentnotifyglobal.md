@@ -45,10 +45,10 @@ The following methods are listed in Vtable order:
 
 | INetCfgComponentNotifyGlobal method                                                                    | Description                                                                  |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [**GetSupportedNotifications**](inetcfgcomponentnotifyglobal-getsupportednotifications.md)<br/> | Retrieves the types of notifications required by a notify object.<br/> |
-| [**SysQueryBindingPath**](inetcfgcomponentnotifyglobal-sysquerybindingpath.md)<br/>             | Evaluates a pending binding path change.<br/>                          |
-| [**SysNotifyBindingPath**](inetcfgcomponentnotifyglobal-sysnotifybindingpath.md)<br/>           | Performs operations resulting from a binding path change.<br/>         |
-| [**SysNotifyComponent**](inetcfgcomponentnotifyglobal-sysnotifycomponent.md)<br/>               | Performs operations resulting from a component change.<br/>            |
+| [**GetSupportedNotifications**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentnotifyglobal-getsupportednotifications?branch=master)<br/> | Retrieves the types of notifications required by a notify object.<br/> |
+| [**SysQueryBindingPath**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentnotifyglobal-sysquerybindingpath?branch=master)<br/>             | Evaluates a pending binding path change.<br/>                          |
+| [**SysNotifyBindingPath**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentnotifyglobal-sysnotifybindingpath?branch=master)<br/>           | Performs operations resulting from a binding path change.<br/>         |
+| [**SysNotifyComponent**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentnotifyglobal-sysnotifycomponent?branch=master)<br/>               | Performs operations resulting from a component change.<br/>            |
 
 
 

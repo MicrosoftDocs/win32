@@ -25,24 +25,24 @@ When a user customizes a list view, the following occurs:
 
 1.  A snap-in is added to a console.
 2.  One scope item is selected.
-3.  The snap-in populates a list view, and uses [**IHeaderCtrl2**](iheaderctrl2.md) to add columns to the result pane.
+3.  The snap-in populates a list view, and uses [**IHeaderCtrl2**](/windows/win32/Mmc/nn-mmc-iheaderctrl2?branch=master) to add columns to the result pane.
 4.  The user can customize the list view by using the **Modify Columns** dialog box to change column order or visible/hidden status. MMC persists the new column configuration data based on the column set ID or the node type GUID, which depends on whether the snap-in supports **CCF\_COLUMN\_SET\_ID**.
 5.  If there is a change in the visible/hidden status of a column, MMC sends the snap-in an [**MMCN\_COLUMNS\_CHANGED**](mmcn-columns-changed.md) notification, which indicates the specific columns in the column set that are visible. The snap-in handles the notification by getting data for visible columns. Be aware that a snap-in can choose to update only the data of the visible columns, for example, when there is concern about the performance impact of populating data in hidden columns.
 
     Also, the snap-in can reject any user customizations by returning **E\_UNEXPECTED** in its [**MMCN\_COLUMNS\_CHANGED**](mmcn-columns-changed.md) notification handler. In this case, the snap-in is responsible for informing the user why it is refusing the changes, for example, by means of a message box.
 
-6.  MMC applies the new column configuration data to the result pane. Assume column A was previously hidden and now is made visible by the user. When that displays visible columns in the result pane, MMC calls the [**IComponent::GetDisplayInfo**](icomponent-getdisplayinfo.md) method to get data for column A. Because the snap-in already has fetched data for the column (in the last Step), the snap-in is ready to present the data when the method is called.
+6.  MMC applies the new column configuration data to the result pane. Assume column A was previously hidden and now is made visible by the user. When that displays visible columns in the result pane, MMC calls the [**IComponent::GetDisplayInfo**](/windows/win32/Mmc/nf-mmc-icomponent-getdisplayinfo?branch=master) method to get data for column A. Because the snap-in already has fetched data for the column (in the last Step), the snap-in is ready to present the data when the method is called.
 
 ## Applying Persisted Data to a List View
 
 After [customizing a list view](#customizing-a-list-view) or [saving and reloading a console file](#saving-and-reloading-a-console-file), persisted column configuration data is applied to the list view of a selected scope item as follows:
 
-1.  MMC calls [**IComponentData::QueryDataObject**](icomponentdata-querydataobject.md) to request a data object for the list view of the selected scope item. MMC then calls the data object's [**GetData**](_ole_idataobject_getdata) method to request the column set ID in [**CCF\_COLUMN\_SET\_ID**](ccf-column-set-id.md) format.
-2.  If the snap-in does not support **CCF\_COLUMN\_SET\_ID**, MMC calls [**IComponentData::QueryDataObject**](icomponentdata-querydataobject.md) to request a data object for the selected scope item and then queries it for the item's node type **GUID**.
-3.  MMC maintains a navigational history of the result pane. For each scope item in the history, MMC stores the view type and view options specified by [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) when the result pane was originally displayed during the course of the current console session.
+1.  MMC calls [**IComponentData::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponentdata-querydataobject?branch=master) to request a data object for the list view of the selected scope item. MMC then calls the data object's [**GetData**](_ole_idataobject_getdata) method to request the column set ID in [**CCF\_COLUMN\_SET\_ID**](ccf-column-set-id.md) format.
+2.  If the snap-in does not support **CCF\_COLUMN\_SET\_ID**, MMC calls [**IComponentData::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponentdata-querydataobject?branch=master) to request a data object for the selected scope item and then queries it for the item's node type **GUID**.
+3.  MMC maintains a navigational history of the result pane. For each scope item in the history, MMC stores the view type and view options specified by [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master) when the result pane was originally displayed during the course of the current console session.
 
-    -   MMC notifies the snap-in with [**MMCN\_RESTORE\_VIEW**](mmcn-restore-view.md) with the stored view type and view options (which include the parameters of [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md)).
-    -   If the snap-in accepts the [**MMCN\_RESTORE\_VIEW**](mmcn-restore-view.md) notification (by handling the notification and returning **S\_OK** in the handler), MMC sets the view; otherwise it calls the snap-in's [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) method.
+    -   MMC notifies the snap-in with [**MMCN\_RESTORE\_VIEW**](mmcn-restore-view.md) with the stored view type and view options (which include the parameters of [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master)).
+    -   If the snap-in accepts the [**MMCN\_RESTORE\_VIEW**](mmcn-restore-view.md) notification (by handling the notification and returning **S\_OK** in the handler), MMC sets the view; otherwise it calls the snap-in's [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master) method.
 
 4.  If MMC has column configuration data for the column set ID (or node type **GUID**) returned by the snap-in, the following things happen:
 
@@ -54,7 +54,7 @@ After [customizing a list view](#customizing-a-list-view) or [saving and reloadi
 
         If the numbers do not match, this means that the snap-in has added or deleted columns from the column set without persisting this new data. MMC does not apply the column configuration data, and throws it away. For more information, see [IHeaderCtrl2 and Column Persistence](iheaderctrl2-and-column-persistence.md).
 
-5.  If MMC does not have column configuration data for the column set ID (or node type **GUID**) returned by the snap-in, this means that the list view is still in its original state. That is, its column configuration data has not been changed by either the user or the snap-in since it was first displayed. In this case, MMC still calls [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md), which it normally does when the user selects an item in the scope pane.
+5.  If MMC does not have column configuration data for the column set ID (or node type **GUID**) returned by the snap-in, this means that the list view is still in its original state. That is, its column configuration data has not been changed by either the user or the snap-in since it was first displayed. In this case, MMC still calls [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master), which it normally does when the user selects an item in the scope pane.
 6.  The snap-in inserts list view items and returns from [**MMCN\_SHOW**](mmcn-show.md).
 7.  MMC uses the sort data to sort on the specified columns.
 
@@ -64,7 +64,7 @@ During the saving and reloading of a console file, column configuration data is 
 
 1.  After [customizing a list view](#customizing-a-list-view), the user saves the console. MMC requests a data object for the scope item and calls the data object's [**IDataObject::GetData**](_ole_idataobject_getdata) method with the **CCF\_COLUMN\_SET\_ID** format. The snap-in provides the ID of the column set in the result pane.
 
-    If the snap-in does not support **CCF\_COLUMN\_SET\_ID**, MMC calls [**IComponentData::QueryDataObject**](icomponentdata-querydataobject.md) to request a data object for the selected scope item and then queries it for the item's node type **GUID**.
+    If the snap-in does not support **CCF\_COLUMN\_SET\_ID**, MMC calls [**IComponentData::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponentdata-querydataobject?branch=master) to request a data object for the selected scope item and then queries it for the item's node type **GUID**.
 
 2.  The console is closed. The selection of the scope item is preserved when the console file is saved.
 3.  The console file is reloaded.

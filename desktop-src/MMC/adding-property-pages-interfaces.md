@@ -19,9 +19,9 @@ ms.author: windowssdkdev
 
 MMC provides snap-in developers with the following interfaces for working with property pages:
 
--   [**IExtendPropertySheet2**](iextendpropertysheet2.md)
--   [**IPropertySheetProvider**](ipropertysheetprovider.md)
--   [**IPropertySheetCallback**](ipropertysheetcallback.md)
+-   [**IExtendPropertySheet2**](/windows/win32/Mmc/nn-mmc-iextendpropertysheet2?branch=master)
+-   [**IPropertySheetProvider**](/windows/win32/Mmc/nn-mmc-ipropertysheetprovider?branch=master)
+-   [**IPropertySheetCallback**](/windows/win32/Mmc/nn-mmc-ipropertysheetcallback?branch=master)
 
 ## Other Property Page Constructs
 
@@ -30,10 +30,10 @@ The following constructs are also used for working with property pages:
 -   [**MMCN\_PROPERTY\_CHANGE**](mmcn-property-change.md) notification
 -   [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure
 -   [**CreatePropertySheetPage**](_win32_createpropertysheetpage_cpp) API function
--   [**MMCFreeNotifyHandle**](mmcfreenotifyhandle.md) function
--   [**MMCPropertyChangeNotify**](mmcpropertychangenotify.md) function
--   [**MMCPropertyHelp**](mmcpropertyhelp.md) function
--   [**MMCPropPageCallback**](mmcproppagecallback.md) function
+-   [**MMCFreeNotifyHandle**](/windows/win32/Mmc/nf-mmc-mmcfreenotifyhandle?branch=master) function
+-   [**MMCPropertyChangeNotify**](/windows/win32/Mmc/nf-mmc-mmcpropertychangenotify?branch=master) function
+-   [**MMCPropertyHelp**](/windows/win32/Mmc/nf-mmc-mmcpropertyhelp?branch=master) function
+-   [**MMCPropPageCallback**](/windows/win32/Mmc/nf-mmc-mmcproppagecallback?branch=master) function
 
 ## Related topics
 

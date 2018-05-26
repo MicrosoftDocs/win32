@@ -11,9 +11,9 @@ ms.technology: desktop
 
 # WM\_WINDOWPOSCHANGING message
 
-Sent to a window whose size, position, or place in the Z order is about to change as a result of a call to the [**SetWindowPos**](setwindowpos.md) function or another window-management function.
+Sent to a window whose size, position, or place in the Z order is about to change as a result of a call to the [**SetWindowPos**](/windows/win32/Winuser/nf-winuser-setwindowpos?branch=master) function or another window-management function.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -48,7 +48,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-For a window with the [**WS\_OVERLAPPED**](window-styles.md) or **WS\_THICKFRAME** style, the [**DefWindowProc**](defwindowproc.md) function sends the [**WM\_GETMINMAXINFO**](wm-getminmaxinfo.md) message to the window. This is done to validate the new size and position of the window and to enforce the [CS\_BYTEALIGNCLIENT](about-window-classes.md#class-styles) and CS\_BYTEALIGNWINDOW client styles. By not passing the **WM\_WINDOWPOSCHANGING** message to the **DefWindowProc** function, an application can override these defaults.
+For a window with the [**WS\_OVERLAPPED**](window-styles.md) or **WS\_THICKFRAME** style, the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function sends the [**WM\_GETMINMAXINFO**](wm-getminmaxinfo.md) message to the window. This is done to validate the new size and position of the window and to enforce the [CS\_BYTEALIGNCLIENT](about-window-classes.md#class-styles) and CS\_BYTEALIGNWINDOW client styles. By not passing the **WM\_WINDOWPOSCHANGING** message to the **DefWindowProc** function, an application can override these defaults.
 
 While this message is being processed, modifying any of the values in [**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master) affects the window's new size, position, or place in the Z order. An application can prevent changes to the window by setting or clearing the appropriate bits in the **flags** member of **WINDOWPOS**.
 
@@ -71,13 +71,13 @@ While this message is being processed, modifying any of the values in [**WINDOWP
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](defwindowproc.md)
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
 </dt> <dt>
 
-[**EndDeferWindowPos**](enddeferwindowpos.md)
+[**EndDeferWindowPos**](/windows/win32/Winuser/nf-winuser-enddeferwindowpos?branch=master)
 </dt> <dt>
 
-[**SetWindowPos**](setwindowpos.md)
+[**SetWindowPos**](/windows/win32/Winuser/nf-winuser-setwindowpos?branch=master)
 </dt> <dt>
 
 [**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master)

@@ -11,17 +11,17 @@ ms.technology: desktop
 
 # Window Macros
 
--   [**GET\_X\_LPARAM**](get-x-lparam.md)
--   [**GET\_Y\_LPARAM**](get-y-lparam.md)
+-   [**GET\_X\_LPARAM**](/windows/win32/Windowsx/nf-windowsx-get_x_lparam?branch=master)
+-   [**GET\_Y\_LPARAM**](/windows/win32/Windowsx/nf-windowsx-get_y_lparam?branch=master)
 -   [**HIBYTE**](hibyte.md)
 -   [**HIWORD**](/windows/win32/Windef/nf-ntintsafe-hiword?branch=master)
 -   [**LOBYTE**](lobyte.md)
 -   [**LOWORD**](/windows/win32/Windef/nf-ntintsafe-loword?branch=master)
 -   [**MAKELONG**](makelong.md)
--   [**MAKELPARAM**](makelparam.md)
--   [**MAKELRESULT**](makelresult.md)
+-   [**MAKELPARAM**](/windows/win32/Winuser/nf-winuser-makelparam?branch=master)
+-   [**MAKELRESULT**](/windows/win32/Winuser/nf-winuser-makelresult?branch=master)
 -   [**MAKEWORD**](makeword.md)
--   [**MAKEWPARAM**](makewparam.md)
+-   [**MAKEWPARAM**](/windows/win32/Winuser/nf-winuser-makewparam?branch=master)
 
  
 

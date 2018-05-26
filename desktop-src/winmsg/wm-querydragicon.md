@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent to a minimized (iconic) window. The window is about to be dragged by the user but does not have an icon defined for its class. An application can return a handle to an icon or cursor. The system displays this cursor or icon while the user drags the icon.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -50,7 +50,7 @@ An application should return a handle to a cursor or icon that the system is to 
 
 When the user drags the icon of a window without a class icon, the system replaces the icon with a default cursor. If the application requires a different cursor to be displayed during dragging, it must return a handle to the cursor or icon compatible with the display driver's resolution. If an application returns a handle to a color cursor or icon, the system converts the cursor or icon to black and white. The application can call the [**LoadCursor**](menurc.loadcursor) or [**LoadIcon**](menurc.loadicon) function to load a cursor or icon from the resources in its executable (.exe) file and to retrieve this handle.
 
-If a dialog box procedure handles this message, it should cast the desired return value to a **BOOL** and return the value directly. The **DWL\_MSGRESULT** value set by the [**SetWindowLong**](setwindowlong.md) function is ignored.
+If a dialog box procedure handles this message, it should cast the desired return value to a **BOOL** and return the value directly. The **DWL\_MSGRESULT** value set by the [**SetWindowLong**](/windows/win32/Winuser/nf-winuser-setwindowlonga?branch=master) function is ignored.
 
 ## Requirements
 

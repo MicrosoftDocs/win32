@@ -39,13 +39,13 @@ This section describes how the system provides raw input to your application and
 
 | Name                                                                 | Description                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DefRawInputProc**](defrawinputproc.md)                           | Calls the default raw input procedure to provide default processing for any raw input messages that an application does not process. This function ensures that every message is processed. [**DefRawInputProc**](defrawinputproc.md) is called with the same parameters received by the window procedure. <br/> |
-| [**GetRawInputBuffer**](getrawinputbuffer.md)                       | Performs a buffered read of the raw input data.<br/>                                                                                                                                                                                                                                                              |
-| [**GetRawInputData**](getrawinputdata.md)                           | Gets the raw input from the specified device.<br/>                                                                                                                                                                                                                                                                |
-| [**GetRawInputDeviceInfo**](getrawinputdeviceinfo.md)               | Gets information about the raw input device.<br/>                                                                                                                                                                                                                                                                 |
-| [**GetRawInputDeviceList**](getrawinputdevicelist.md)               | Enumerates the raw input devices attached to the system. <br/>                                                                                                                                                                                                                                                    |
-| [**GetRegisteredRawInputDevices**](getregisteredrawinputdevices.md) | Gets the information about the raw input devices for the current application.<br/>                                                                                                                                                                                                                                |
-| [**RegisterRawInputDevices**](registerrawinputdevices.md)           | Registers the devices that supply the raw input data.<br/>                                                                                                                                                                                                                                                        |
+| [**DefRawInputProc**](/windows/win32/Winuser/nf-winuser-defrawinputproc?branch=master)                           | Calls the default raw input procedure to provide default processing for any raw input messages that an application does not process. This function ensures that every message is processed. [**DefRawInputProc**](/windows/win32/Winuser/nf-winuser-defrawinputproc?branch=master) is called with the same parameters received by the window procedure. <br/> |
+| [**GetRawInputBuffer**](/windows/win32/Winuser/nf-winuser-getrawinputbuffer?branch=master)                       | Performs a buffered read of the raw input data.<br/>                                                                                                                                                                                                                                                              |
+| [**GetRawInputData**](/windows/win32/Winuser/nf-winuser-getrawinputdata?branch=master)                           | Gets the raw input from the specified device.<br/>                                                                                                                                                                                                                                                                |
+| [**GetRawInputDeviceInfo**](/windows/win32/Winuser/nf-winuser-getrawinputdeviceinfoa?branch=master)               | Gets information about the raw input device.<br/>                                                                                                                                                                                                                                                                 |
+| [**GetRawInputDeviceList**](/windows/win32/Winuser/nf-winuser-getrawinputdevicelist?branch=master)               | Enumerates the raw input devices attached to the system. <br/>                                                                                                                                                                                                                                                    |
+| [**GetRegisteredRawInputDevices**](/windows/win32/Winuser/nf-winuser-getregisteredrawinputdevices?branch=master) | Gets the information about the raw input devices for the current application.<br/>                                                                                                                                                                                                                                |
+| [**RegisterRawInputDevices**](/windows/win32/Winuser/nf-winuser-registerrawinputdevices?branch=master)           | Registers the devices that supply the raw input data.<br/>                                                                                                                                                                                                                                                        |
 
 
 
@@ -57,8 +57,8 @@ This section describes how the system provides raw input to your application and
 
 | Name                                                            | Description                                                                                                 |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| [**GET\_RAWINPUT\_CODE\_WPARAM**](get-rawinput-code-wparam.md) | Gets the input code from *wParam* in [**WM\_INPUT**](wm-input.md).<br/>                              |
-| [**NEXTRAWINPUTBLOCK**](nextrawinputblock.md)                  | Gets the location of the next structure in an array of [**RAWINPUT**](rawinput.md) structures. <br/> |
+| [**GET\_RAWINPUT\_CODE\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_rawinput_code_wparam?branch=master) | Gets the input code from *wParam* in [**WM\_INPUT**](wm-input.md).<br/>                              |
+| [**NEXTRAWINPUTBLOCK**](/windows/win32/Winuser/nf-winuser-nextrawinputblock?branch=master)                  | Gets the location of the next structure in an array of [**RAWINPUT**](/windows/win32/Winuser/nf-winuser-defrawinputproc?branch=master) structures. <br/> |
 
 
 
@@ -83,17 +83,17 @@ This section describes how the system provides raw input to your application and
 
 | Name                                                            | Description                                                                            |
 |-----------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [**RAWHID**](rawhid.md)                                        | Describes the format of the raw input from a Human Interface Device (HID). <br/> |
-| [**RAWINPUT**](rawinput.md)                                    | Contains the raw input from a device. <br/>                                      |
-| [**RAWINPUTDEVICE**](rawinputdevice.md)                        | Defines information for the raw input devices. <br/>                             |
-| [**RAWINPUTDEVICELIST**](rawinputdevicelist.md)                | Contains information about a raw input device.<br/>                              |
-| [**RAWINPUTHEADER**](rawinputheader.md)                        | Contains the header information that is part of the raw input data. <br/>        |
-| [**RAWKEYBOARD**](rawkeyboard.md)                              | Contains information about the state of the keyboard. <br/>                      |
-| [**RAWMOUSE**](rawmouse.md)                                    | Contains information about the state of the mouse. <br/>                         |
-| [**RID\_DEVICE\_INFO**](rid-device-info.md)                    | Defines the raw input data coming from any device. <br/>                         |
-| [**RID\_DEVICE\_INFO\_HID**](rid-device-info-hid.md)           | Defines the raw input data coming from the specified HID. <br/>                  |
-| [**RID\_DEVICE\_INFO\_KEYBOARD**](rid-device-info-keyboard.md) | Defines the raw input data coming from the specified keyboard. <br/>             |
-| [**RID\_DEVICE\_INFO\_MOUSE**](rid-device-info-mouse.md)       | Defines the raw input data coming from the specified mouse.<br/>                 |
+| [**RAWHID**](/windows/win32/Winuser/ns-winuser-tagrawhid?branch=master)                                        | Describes the format of the raw input from a Human Interface Device (HID). <br/> |
+| [**RAWINPUT**](/windows/win32/Winuser/nf-winuser-defrawinputproc?branch=master)                                    | Contains the raw input from a device. <br/>                                      |
+| [**RAWINPUTDEVICE**](/windows/win32/Winuser/nf-winuser-getrawinputdeviceinfoa?branch=master)                        | Defines information for the raw input devices. <br/>                             |
+| [**RAWINPUTDEVICELIST**](/windows/win32/Winuser/nf-winuser-getrawinputdevicelist?branch=master)                | Contains information about a raw input device.<br/>                              |
+| [**RAWINPUTHEADER**](/windows/win32/Winuser/ns-winuser-tagrawinputheader?branch=master)                        | Contains the header information that is part of the raw input data. <br/>        |
+| [**RAWKEYBOARD**](/windows/win32/Winuser/ns-winuser-tagrawkeyboard?branch=master)                              | Contains information about the state of the keyboard. <br/>                      |
+| [**RAWMOUSE**](/windows/win32/Winuser/ns-winuser-tagrawmouse?branch=master)                                    | Contains information about the state of the mouse. <br/>                         |
+| [**RID\_DEVICE\_INFO**](/windows/win32/Winuser/ns-winuser-tagrid_device_info?branch=master)                    | Defines the raw input data coming from any device. <br/>                         |
+| [**RID\_DEVICE\_INFO\_HID**](/windows/win32/Winuser/ns-winuser-tagrid_device_info_hid?branch=master)           | Defines the raw input data coming from the specified HID. <br/>                  |
+| [**RID\_DEVICE\_INFO\_KEYBOARD**](/windows/win32/Winuser/ns-winuser-tagrid_device_info_keyboard?branch=master) | Defines the raw input data coming from the specified keyboard. <br/>             |
+| [**RID\_DEVICE\_INFO\_MOUSE**](/windows/win32/Winuser/ns-winuser-tagrid_device_info_mouse?branch=master)       | Defines the raw input data coming from the specified mouse.<br/>                 |
 
 
 

@@ -32,7 +32,7 @@
 ### [Using Application Directory Partitions](using-application-directory-partitions.md)
 ## [Active Directory Lightweight Directory Services Reference](active-directory-lightweight-directory-services-reference.md)
 ### [Directory Services API Element Differences](directory-services-api-element-differences.md)
-#### [DsBindByInstance](dsbindbyinstance.md)
+#### [DsBindByInstance](/windows/win32/Ntdsapi/nf-ntdsapi-dsbindbyinstancea?branch=master)
 ### [ADSI Element Differences](adsi-element-differences.md)
 ### [LDAP API Element Differences](ldap-api-element-differences.md)
 ### [System.DirectoryServices API Element Differences](system-directoryservices-api-element-differences.md)

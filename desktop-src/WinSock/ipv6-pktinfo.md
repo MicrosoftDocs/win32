@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # IPV6\_PKTINFO socket option
 
-The IPV6\_PKTINFO socket option allows an application to enable or disable the return of packet information by the [**WSARecvMsg**](wsarecvmsg-2.md) function on an IPv6 socket..
+The IPV6\_PKTINFO socket option allows an application to enable or disable the return of packet information by the [**WSARecvMsg**](/windows/win32/Mswsock/nc-mswsock-lpfn_wsarecvmsg?branch=master) function on an IPv6 socket..
 
 To query the status of this socket option, call the [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) function. To set this option, call the [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function with the following parameters.
 
@@ -112,15 +112,15 @@ If the operation fails, a value of SOCKET\_ERROR is returned and a specific erro
 
 ## Remarks
 
-The [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) function called with the IPV6\_PKTINFO socket option allows an application to determine if packet information is to be returned by the [**WSARecvMsg**](wsarecvmsg-2.md)function for an IPv6 socket.
+The [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) function called with the IPV6\_PKTINFO socket option allows an application to determine if packet information is to be returned by the [**WSARecvMsg**](/windows/win32/Mswsock/nc-mswsock-lpfn_wsarecvmsg?branch=master)function for an IPv6 socket.
 
-The [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function called with the IPV6\_PKTINFO socket option allows an application to enable or disable the return of packet information by the [**WSARecvMsg**](wsarecvmsg-2.md) function. The IPV6\_PKTINFO option for a socket is disabled (set to **FALSE**) by default.
+The [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function called with the IPV6\_PKTINFO socket option allows an application to enable or disable the return of packet information by the [**WSARecvMsg**](/windows/win32/Mswsock/nc-mswsock-lpfn_wsarecvmsg?branch=master) function. The IPV6\_PKTINFO option for a socket is disabled (set to **FALSE**) by default.
 
-When this socket option is enabled on an IPv6 socket of type **SOCK\_DGRAM** or **SOCK\_RAW**, the [**WSARecvMsg**](wsarecvmsg-2.md) function returns packet information in the [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure pointed to by the *lpMsg* parameter. One of the control data objects in the returned **WSAMSG** structure will contain an [**in6\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in6_pktinfo?branch=master) structure used to store received packet address information.
+When this socket option is enabled on an IPv6 socket of type **SOCK\_DGRAM** or **SOCK\_RAW**, the [**WSARecvMsg**](/windows/win32/Mswsock/nc-mswsock-lpfn_wsarecvmsg?branch=master) function returns packet information in the [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure pointed to by the *lpMsg* parameter. One of the control data objects in the returned **WSAMSG** structure will contain an [**in6\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in6_pktinfo?branch=master) structure used to store received packet address information.
 
-For datagrams received by the [**WSARecvMsg**](wsarecvmsg-2.md) function over IPv6, the **Control** member of the [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure received will contain a [**WSABUF**](/windows/win32/ws2def/ns-ws2def-_wsabuf?branch=master) structure that contains a **WSACMSGHDR** structure. The **cmsg\_level** member of this **WSACMSGHDR** structure would contain **IPPROTO\_IPV6**, the **cmsg\_type** member of this structure would contain **IPV6\_PKTINFO**, and the **cmsg\_data** member would contain an [**in6\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in6_pktinfo?branch=master) structure used to store received IPv6 packet address information. The IPv6 address in the **in6\_pktinfo** structure is the IPv6 address from which the packet was received.
+For datagrams received by the [**WSARecvMsg**](/windows/win32/Mswsock/nc-mswsock-lpfn_wsarecvmsg?branch=master) function over IPv6, the **Control** member of the [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure received will contain a [**WSABUF**](/windows/win32/ws2def/ns-ws2def-_wsabuf?branch=master) structure that contains a **WSACMSGHDR** structure. The **cmsg\_level** member of this **WSACMSGHDR** structure would contain **IPPROTO\_IPV6**, the **cmsg\_type** member of this structure would contain **IPV6\_PKTINFO**, and the **cmsg\_data** member would contain an [**in6\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in6_pktinfo?branch=master) structure used to store received IPv6 packet address information. The IPv6 address in the **in6\_pktinfo** structure is the IPv6 address from which the packet was received.
 
-For a dual-stack datagram socket, if an application requires the [**WSARecvMsg**](wsarecvmsg-2.md) function to return packet information in a [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure for datagrams received over IPv4, then [IP\_PKTINFO](ip-pktinfo.md) socket option must be set to true on the socket. If only the IPV6\_PKTINFO option is set to true on the socket, packet information will be provided for datagrams received over IPv6 but may not be provided for datagrams received over IPv4.
+For a dual-stack datagram socket, if an application requires the [**WSARecvMsg**](/windows/win32/Mswsock/nc-mswsock-lpfn_wsarecvmsg?branch=master) function to return packet information in a [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure for datagrams received over IPv4, then [IP\_PKTINFO](ip-pktinfo.md) socket option must be set to true on the socket. If only the IPV6\_PKTINFO option is set to true on the socket, packet information will be provided for datagrams received over IPv6 but may not be provided for datagrams received over IPv4.
 
 Note that the *Ws2ipdef.h* header file is automatically included in *Ws2tcpip.h*, and should never be used directly.
 
@@ -164,7 +164,7 @@ Note that the *Ws2ipdef.h* header file is automatically included in *Ws2tcpip.h*
 [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master)
 </dt> <dt>
 
-[**WSARecvMsg**](wsarecvmsg-2.md)
+[**WSARecvMsg**](/windows/win32/Mswsock/nc-mswsock-lpfn_wsarecvmsg?branch=master)
 </dt> </dl>
 
  

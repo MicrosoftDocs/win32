@@ -23,10 +23,10 @@ The following structures are introduced with MMC 2.0.
 
 | Structure name                                            | Purpose                                                                         |
 |-----------------------------------------------------------|---------------------------------------------------------------------------------|
-| [**CONTEXTMENUITEM2**](contextmenuitem2.md)              | Used by the [**IContextMenuCallback2**](icontextmenucallback2.md) interface.   |
-| [**MMC\_EXT\_VIEW\_DATA**](mmc-ext-view-data.md)         | Used by the [**IViewExtensionCallback**](iviewextensioncallback.md) interface. |
-| [**MMC\_SNAPIN\_PROPERTY**](mmc-snapin-property.md)      | Used by the [**ISnapinProperties**](isnapinproperties.md) interface.           |
-| [**RESULT\_VIEW\_TYPE\_INFO**](result-view-type-info.md) | Used by the [**IComponent2**](icomponent2.md) interface.                       |
+| [**CONTEXTMENUITEM2**](/windows/win32/Mmc/ns-mmc-_contextmenuitem2?branch=master)              | Used by the [**IContextMenuCallback2**](/windows/win32/Mmc/nn-mmc-icontextmenucallback2?branch=master) interface.   |
+| [**MMC\_EXT\_VIEW\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_ext_view_data?branch=master)         | Used by the [**IViewExtensionCallback**](/windows/win32/Mmc/nn-mmc-iviewextensioncallback?branch=master) interface. |
+| [**MMC\_SNAPIN\_PROPERTY**](/windows/win32/Mmcobj/ns-mmcobj-_mmc_snapin_property?branch=master)      | Used by the [**ISnapinProperties**](/windows/win32/Mmcobj/nn-mmcobj-isnapinproperties?branch=master) interface.           |
+| [**RESULT\_VIEW\_TYPE\_INFO**](/windows/win32/Mmc/ns-mmc-_result_view_type_info?branch=master) | Used by the [**IComponent2**](/windows/win32/Mmc/nn-mmc-icomponent2?branch=master) interface.                       |
 
 
 

@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # Canceling a Network Connection
 
-To cancel a connection to a network resource, an application can call the [**WNetCancelConnection2**](wnetcancelconnection2.md) function, as shown in the following example.
+To cancel a connection to a network resource, an application can call the [**WNetCancelConnection2**](/windows/win32/Winnetwk/nf-winnetwk-wnetcancelconnection2a?branch=master) function, as shown in the following example.
 
 The call to **WNetCancelConnection2** specifies that a network connection should no longer be persistent. The sample calls an application-defined error handler to process errors, and the [**TextOut**](https://msdn.microsoft.com/library/windows/desktop/dd145133) function for printing.
 
@@ -50,7 +50,7 @@ printf("Connection closed for z: drive.\n");
 
 
 
-The [**WNetCancelConnection**](wnetcancelconnection.md) function is supported for compatibility with earlier versions of Windows for Workgroups. For new applications, use [**WNetCancelConnection2**](wnetcancelconnection2.md).
+The [**WNetCancelConnection**](/windows/win32/Winnetwk/nf-winnetwk-wnetcancelconnection2a?branch=master) function is supported for compatibility with earlier versions of Windows for Workgroups. For new applications, use [**WNetCancelConnection2**](/windows/win32/Winnetwk/nf-winnetwk-wnetcancelconnection2a?branch=master).
 
 For more information about using an application-defined error handler, see [Retrieving Network Errors](retrieving-network-errors.md).
 

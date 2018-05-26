@@ -21,7 +21,7 @@ The topics in this section provide the reference specifications for [Input Sourc
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Enumerations](enumerations.md)<br/>                       | The topics in this section provide the reference specifications for [Input Source Identification](input-source-identification-portal.md) enumerations.<br/> |
 | [Functions](functions.md)<br/>                             | The topics in this section provide the reference specifications for [Input Source Identification](input-source-identification-portal.md) functions.<br/>    |
-| [**INPUT\_MESSAGE\_SOURCE**](input-message-source.md)<br/> | Contains information about the source of the input message.<br/>                                                                                             |
+| [**INPUT\_MESSAGE\_SOURCE**](/windows/win32/winuser/ns-winuser-taginput_message_source?branch=master)<br/> | Contains information about the source of the input message.<br/>                                                                                             |
 
 
 

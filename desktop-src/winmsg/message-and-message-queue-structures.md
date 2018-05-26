@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # Message Structures
 
--   [**BSMINFO**](bsminfo.md)
+-   [**BSMINFO**](/windows/win32/Winuser/ns-winuser-bsminfo?branch=master)
 -   [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master)
 
  

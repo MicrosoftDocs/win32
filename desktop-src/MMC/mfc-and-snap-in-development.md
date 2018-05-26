@@ -32,9 +32,9 @@ AFX_MANAGE_STATE(AfxGetStaticModuleState( ))
 
 
 
-For an operating system call, MFC does this automatically. Because MMC's property sheet is not an MFC CPropertySheet object, the operating system call due to the callback is in the wrong module state. As a result, you must verify that the module state is correctly set during the page creation. This is the purpose of the [**MMCPropPageCallback**](mmcproppagecallback.md) function declared in the Mmc.idl file. After the module state has been set, the only AFX\_MANAGE\_STATE calls that must be made are those exposed by the COM interfaces implemented by the snap-in (for example, [**IExtendPropertySheet2::CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md)).
+For an operating system call, MFC does this automatically. Because MMC's property sheet is not an MFC CPropertySheet object, the operating system call due to the callback is in the wrong module state. As a result, you must verify that the module state is correctly set during the page creation. This is the purpose of the [**MMCPropPageCallback**](/windows/win32/Mmc/nf-mmc-mmcproppagecallback?branch=master) function declared in the Mmc.idl file. After the module state has been set, the only AFX\_MANAGE\_STATE calls that must be made are those exposed by the COM interfaces implemented by the snap-in (for example, [**IExtendPropertySheet2::CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md)).
 
-The [**MMCPropPageCallback**](mmcproppagecallback.md) function is declared as follows.
+The [**MMCPropPageCallback**](/windows/win32/Mmc/nf-mmc-mmcproppagecallback?branch=master) function is declared as follows.
 
 
 ```C++
@@ -45,11 +45,11 @@ STDAPI MMCPropPageCallback(
 
 
 
-The vpsp argument is the pointer to a Windows [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure. By default, MFC specifies its own callback function in the pfnCallback member of the structure. Therefore, for each page you create derived from the MFC class CPropertyPage, you must call [**MMCPropPageCallback**](mmcproppagecallback.md) with a pointer to the page's callback.
+The vpsp argument is the pointer to a Windows [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure. By default, MFC specifies its own callback function in the pfnCallback member of the structure. Therefore, for each page you create derived from the MFC class CPropertyPage, you must call [**MMCPropPageCallback**](/windows/win32/Mmc/nf-mmc-mmcproppagecallback?branch=master) with a pointer to the page's callback.
 
-Be aware that [**MMCPropPageCallback**](mmcproppagecallback.md) should not be called by snap-ins that statically link MFC libraries. A call to this function by such a snap-in will not link correctly.
+Be aware that [**MMCPropPageCallback**](/windows/win32/Mmc/nf-mmc-mmcproppagecallback?branch=master) should not be called by snap-ins that statically link MFC libraries. A call to this function by such a snap-in will not link correctly.
 
-For each page derived from CPropertyPage, call [**MMCPropPageCallback**](mmcproppagecallback.md) with a pointer to the page callback. The following list contains the recommended guidelines:
+For each page derived from CPropertyPage, call [**MMCPropPageCallback**](/windows/win32/Mmc/nf-mmc-mmcproppagecallback?branch=master) with a pointer to the page callback. The following list contains the recommended guidelines:
 
 -   All pages for a particular property sheet must use the same callback pointer.
 -   If you replace the MFC callback with your own, your callback must call the MFC callback.

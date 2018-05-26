@@ -47,7 +47,7 @@ MMCCtrl.GetFirstTask( _
 *szGroupText* \[in\]
 </dt> <dd>
 
-A string that contains the group name that identifies the taskpad. The group name is the string that follows the hash (\#) in the string passed in the *ppViewType* parameter when MMC called [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) to display the taskpad. If no group name was specified, *szGroupText* is an empty string.
+A string that contains the group name that identifies the taskpad. The group name is the string that follows the hash (\#) in the string passed in the *ppViewType* parameter when MMC called [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master) to display the taskpad. If no group name was specified, *szGroupText* is an empty string.
 
 Be aware that the group name is stored in the hash property of the location object of the taskpad's HTML page. See the following example.
 

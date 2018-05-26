@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent to a child window when the user clicks the window's title bar or when the window is activated, moved, or sized.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -65,10 +65,10 @@ If an application processes this message, it should return zero.
 **Reference**
 </dt> <dt>
 
-[**MoveWindow**](movewindow.md)
+[**MoveWindow**](/windows/win32/Winuser/nf-winuser-movewindow?branch=master)
 </dt> <dt>
 
-[**SetWindowPos**](setwindowpos.md)
+[**SetWindowPos**](/windows/win32/Winuser/nf-winuser-setwindowpos?branch=master)
 </dt> <dt>
 
 **Conceptual**

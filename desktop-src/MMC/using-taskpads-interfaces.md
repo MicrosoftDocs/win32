@@ -20,32 +20,32 @@ ms.author: windowssdkdev
 Taskpads require the implementation of the following interfaces and methods:
 
 -   [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master)
-    -   [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md)
--   [**IExtendTaskPad**](iextendtaskpad.md)
-    -   [**IExtendTaskPad::EnumTasks**](iextendtaskpad-enumtasks.md)
-    -   [**IExtendTaskPad::GetBackground**](iextendtaskpad-getbackground.md)
-    -   [**IExtendTaskPad::GetDescriptiveText**](iextendtaskpad-getdescriptivetext.md)
-    -   [**IExtendTaskPad::GetListPadInfo**](iextendtaskpad-getlistpadinfo.md)
-    -   [**IExtendTaskPad::GetTitle**](iextendtaskpad-gettitle.md)
-    -   [**IExtendTaskPad::TaskNotify**](iextendtaskpad-tasknotify.md)
--   [**IEnumTASK**](ienumtask.md)
-    -   [**IEnumTASK::Next**](ienumtask-next.md)
-    -   [**IEnumTASK::Reset**](ienumtask-reset.md)
+    -   [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master)
+-   [**IExtendTaskPad**](/windows/win32/Mmc/nn-mmc-iextendtaskpad?branch=master)
+    -   [**IExtendTaskPad::EnumTasks**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-enumtasks?branch=master)
+    -   [**IExtendTaskPad::GetBackground**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-getbackground?branch=master)
+    -   [**IExtendTaskPad::GetDescriptiveText**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-getdescriptivetext?branch=master)
+    -   [**IExtendTaskPad::GetListPadInfo**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-getlistpadinfo?branch=master)
+    -   [**IExtendTaskPad::GetTitle**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-gettitle?branch=master)
+    -   [**IExtendTaskPad::TaskNotify**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-tasknotify?branch=master)
+-   [**IEnumTASK**](/windows/win32/Mmc/nn-mmc-ienumtask?branch=master)
+    -   [**IEnumTASK::Next**](/windows/win32/Mmc/nf-mmc-ienumtask-next?branch=master)
+    -   [**IEnumTASK::Reset**](/windows/win32/Mmc/nf-mmc-ienumtask-reset?branch=master)
 
 ## Other Constructs
 
 Taskpads use the following structures:
 
--   [**MMC\_LISTPAD\_INFO**](mmc-listpad-info.md)
--   [**MMC\_TASK**](mmc-task.md)
--   [**MMC\_TASK\_DISPLAY\_BITMAP**](mmc-task-display-bitmap.md)
--   [**MMC\_TASK\_DISPLAY\_OBJECT**](mmc-task-display-object.md)
--   [**MMC\_TASK\_DISPLAY\_SYMBOL**](mmc-task-display-symbol.md)
+-   [**MMC\_LISTPAD\_INFO**](/windows/win32/Mmc/ns-mmc-_mmc_listpad_info?branch=master)
+-   [**MMC\_TASK**](/windows/win32/Mmc/ne-mmc-_mmc_task_display_type?branch=master)
+-   [**MMC\_TASK\_DISPLAY\_BITMAP**](/windows/win32/Mmc/ns-mmc-_mmc_task_display_bitmap?branch=master)
+-   [**MMC\_TASK\_DISPLAY\_OBJECT**](/windows/win32/Mmc/ns-mmc-_mmc_task_display_object?branch=master)
+-   [**MMC\_TASK\_DISPLAY\_SYMBOL**](/windows/win32/Mmc/ns-mmc-_mmc_task_display_symbol?branch=master)
 
 Taskpads use the following enumerated types:
 
--   [**MMC\_ACTION\_TYPE**](mmc-action-type.md)
--   [**MMC\_TASK\_DISPLAY\_TYPE**](mmc-task-display-type.md)
+-   [**MMC\_ACTION\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_action_type?branch=master)
+-   [**MMC\_TASK\_DISPLAY\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_task_display_type?branch=master)
 
 Taskpads use the following notification:
 
@@ -60,7 +60,7 @@ MMC has the following ActiveX® controls that are used on taskpad HTML pages:
 <span id="ListPad_control"></span><span id="listpad_control"></span><span id="LISTPAD_CONTROL"></span>[ListPad control](listpad-control.md)
 </dt> <dd>
 
-Displays a list-view control that contains items from an [**IResultData**](iresultdata.md) result list. Used on list view taskpads only.
+Displays a list-view control that contains items from an [**IResultData**](/windows/win32/Mmc/nn-mmc-iresultdata?branch=master) result list. Used on list view taskpads only.
 
 </dd> <dt>
 

@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # MMCN\_REMOVE\_CHILDREN message
 
-The **MMCN\_REMOVE\_CHILDREN** notification message is sent to the snap-in's [**IComponentData::Notify**](icomponentdata-notify.md) method to inform the snap-in that it must delete all the child items (the entire subtree) it has added below the specified item.
+The **MMCN\_REMOVE\_CHILDREN** notification message is sent to the snap-in's [**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master) method to inform the snap-in that it must delete all the child items (the entire subtree) it has added below the specified item.
 
 ## Parameters
 
@@ -92,7 +92,7 @@ The snap-in is only required to release its own resources for the deleted child 
 
 <dl> <dt>
 
-[**IComponentData::Notify**](icomponentdata-notify.md)
+[**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master)
 </dt> </dl>
 
  

@@ -69,7 +69,7 @@ GUID associated with a particular node type. Snap-ins must register the node typ
 <span id="mmc_notification_or_notification_message__gly"></span><span id="MMC_NOTIFICATION_OR_NOTIFICATION_MESSAGE__GLY"></span>**notification (or notification message)**
 </dt> <dd>
 
-How MMC informs a snap-in that it must perform an action, usually in response to a user action, such as selecting a scope item or a context menu item. MMC sends notification messages to the snap-in's [**IComponentData::Notify**](icomponentdata-notify.md), [**IComponent::Notify**](icomponent-notify.md), or [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md) methods, depending on the notification.
+How MMC informs a snap-in that it must perform an action, usually in response to a user action, such as selecting a scope item or a context menu item. MMC sends notification messages to the snap-in's [**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master), [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master), or [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master) methods, depending on the notification.
 
 </dd> </dl>
 

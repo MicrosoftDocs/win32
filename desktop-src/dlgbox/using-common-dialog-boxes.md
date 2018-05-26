@@ -61,11 +61,11 @@ if (ChooseColor(&amp;cc)==TRUE)
 
 ## Choosing a Font
 
-This topic describes sample code that displays a **Font** dialog box so that a user can choose the attributes of a font. The sample code first initializes a [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure, and then calls the [**ChooseFont**](choosefont.md) function to display the dialog box.
+This topic describes sample code that displays a **Font** dialog box so that a user can choose the attributes of a font. The sample code first initializes a [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure, and then calls the [**ChooseFont**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) function to display the dialog box.
 
 This example sets the **CF\_SCREENFONTS** flag to specify that the dialog box should display only screen fonts. It sets the **CF\_EFFECTS** flag to display controls that allow the user to select strikeout, underline, and color options.
 
-If [**ChooseFont**](choosefont.md) returns **TRUE**, indicating that the user clicked the **OK** button, the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure contains information that describes the font and font attributes selected by the user, including the members of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure pointed to by the **lpLogFont** member. The **rgbColors** member contains the selected text color. The sample code uses this information to set the font and text color for the device context associated with the owner window.
+If [**ChooseFont**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) returns **TRUE**, indicating that the user clicked the **OK** button, the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure contains information that describes the font and font attributes selected by the user, including the members of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure pointed to by the **lpLogFont** member. The **rgbColors** member contains the selected text color. The sample code uses this information to set the font and text color for the device context associated with the owner window.
 
 
 ```

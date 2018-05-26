@@ -42,7 +42,7 @@ MMCTask.ScriptLanguage
 
 ## Property value
 
-The returned property is a String that represents the script language specified at the beginning of the string specified in the szScript member of the MMC\_TASK structure returned in the [**IEnumTASK::Next**](ienumtask-next.md) method. If no script language is specified, the default language is JavaScript.
+The returned property is a String that represents the script language specified at the beginning of the string specified in the szScript member of the MMC\_TASK structure returned in the [**IEnumTASK::Next**](/windows/win32/Mmc/nf-mmc-ienumtask-next?branch=master) method. If no script language is specified, the default language is JavaScript.
 
 ## Remarks
 

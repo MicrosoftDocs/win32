@@ -45,9 +45,9 @@ The following methods are listed in Vtable order:
 
 | INetCfgClassSetup method                                                  | Description                                                                                                            |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| [**SelectAndInstall**](inetcfgclasssetup-selectandinstall.md)<br/> | Displays a dialog that a user can use to select a network component of a particular class for installation.<br/> |
-| [**Install**](inetcfgclasssetup-install.md)<br/>                   | Informs a class of network components to install the component specified by an identifier.<br/>                  |
-| [**DeInstall**](inetcfgclasssetup-deinstall.md)<br/>               | Removes the specified network component from the registry.<br/>                                                  |
+| [**SelectAndInstall**](/windows/win32/netcfgx/nf-netcfgx-inetcfgclasssetup-selectandinstall?branch=master)<br/> | Displays a dialog that a user can use to select a network component of a particular class for installation.<br/> |
+| [**Install**](/windows/win32/netcfgx/nf-netcfgx-inetcfgclasssetup-install?branch=master)<br/>                   | Informs a class of network components to install the component specified by an identifier.<br/>                  |
+| [**DeInstall**](/windows/win32/netcfgx/nf-netcfgx-inetcfgclasssetup-deinstall?branch=master)<br/>               | Removes the specified network component from the registry.<br/>                                                  |
 
 
 
@@ -55,7 +55,7 @@ The following methods are listed in Vtable order:
 
 ### Comments
 
-If an application did not already call [**INetCfgLock::AcquireWriteLock**](inetcfglock-acquirewritelock.md) to provide a client control over network configuration, the methods of INetCfgClassSetup return NETCFG\_E\_NO\_WRITE\_LOCK.
+If an application did not already call [**INetCfgLock::AcquireWriteLock**](/windows/win32/netcfgx/nf-netcfgx-inetcfglock-acquirewritelock?branch=master) to provide a client control over network configuration, the methods of INetCfgClassSetup return NETCFG\_E\_NO\_WRITE\_LOCK.
 
 Calls to any **INetCfgClassSetup** methods within a notify object's implementation of any of the following interface methods could return E\_FAIL:
 
@@ -79,7 +79,7 @@ Notify objects call the **QueryInterface** method of the [**INetCfgClass**](inet
 
 ### See Also
 
-[**INetCfgClass**](inetcfgclass.md), [INetCfgComponentNotifyBinding](inetcfgcomponentnotifybinding.md), [**INetCfgComponentNotifyGlobal**](inetcfgcomponentnotifyglobal.md), [**INetCfgComponentPropertyUi**](inetcfgcomponentpropertyui.md), [**INetCfgComponentSetup**](inetcfgcomponentsetup.md), [**INetCfgLock::AcquireWriteLock**](inetcfglock-acquirewritelock.md)
+[**INetCfgClass**](inetcfgclass.md), [INetCfgComponentNotifyBinding](inetcfgcomponentnotifybinding.md), [**INetCfgComponentNotifyGlobal**](inetcfgcomponentnotifyglobal.md), [**INetCfgComponentPropertyUi**](inetcfgcomponentpropertyui.md), [**INetCfgComponentSetup**](inetcfgcomponentsetup.md), [**INetCfgLock::AcquireWriteLock**](/windows/win32/netcfgx/nf-netcfgx-inetcfglock-acquirewritelock?branch=master)
 
 
 ## Requirements

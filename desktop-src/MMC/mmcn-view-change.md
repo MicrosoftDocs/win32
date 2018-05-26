@@ -72,7 +72,7 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 ## Remarks
 
-This notification is generated when the snap-in ( [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) or [**IComponentData**](icomponentdata.md)) calls [**IConsole2::UpdateAllViews**](iconsole2-updateallviews.md).
+This notification is generated when the snap-in ( [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) or [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master)) calls [**IConsole2::UpdateAllViews**](iconsole2-updateallviews.md).
 
 ## Requirements
 
@@ -90,7 +90,7 @@ This notification is generated when the snap-in ( [**IComponent**](/windows/win3
 
 <dl> <dt>
 
-[**IComponent::Notify**](icomponent-notify.md)
+[**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
 </dt> <dt>
 
 [**IConsole::UpdateAllViews**](iconsole2-updateallviews.md)

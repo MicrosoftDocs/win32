@@ -19,9 +19,9 @@ ms.author: windowssdkdev
 
 The following macros are available for determining whether a data object or cookie is of a special type:
 
-[**IS\_SPECIAL\_COOKIE**](is-special-cookie.md)
+[**IS\_SPECIAL\_COOKIE**](/windows/win32/Mmc/nf-mmc-is_special_cookie?branch=master)
 
-[**IS\_SPECIAL\_DATAOBJECT**](is-special-dataobject.md)
+[**IS\_SPECIAL\_DATAOBJECT**](/windows/win32/Mmc/nf-mmc-is_special_dataobject?branch=master)
 
  
 

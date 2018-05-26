@@ -43,7 +43,7 @@ Property ListViewMode As ListViewMode
 
 ## Property value
 
-The list view's mode, as one of the following [**ListViewMode**](listviewmode.md) enumerated types.
+The list view's mode, as one of the following [**ListViewMode**](/windows/win32/MmcObj/ne-mmcobj-listviewmode?branch=master) enumerated types.
 
 <dt>
 
@@ -152,7 +152,7 @@ objView.ListViewMode = ListMode_Large_Icons
 
 <dl> <dt>
 
-[**ListViewMode**](listviewmode.md)
+[**ListViewMode**](/windows/win32/MmcObj/ne-mmcobj-listviewmode?branch=master)
 </dt> </dl>
 
  

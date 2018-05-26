@@ -19,7 +19,7 @@ ms.author: windowssdkdev
 
 ## To implement a standard taskpad
 
-1.  Implement a mechanism for storing the selected view type (standard list view or taskpad). This allows a standard list view or the appropriate taskpad to be loaded when MMC calls [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) to display the result pane for your snap-in.
+1.  Implement a mechanism for storing the selected view type (standard list view or taskpad). This allows a standard list view or the appropriate taskpad to be loaded when MMC calls [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master) to display the result pane for your snap-in.
 
     The recommended method is to create a member variable in your [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) object. In the CComponent class below, the **m\_ViewType** member stores the view type.
 
@@ -51,15 +51,15 @@ ms.author: windowssdkdev
 3.  Implement access to the taskpads. There are three ways to do this:
     -   Add one or more taskpad menu items to the **View** menu. You can add a single menu item to use it as an additional view type option on an item in the scope pane. You can use multiple menu items if you want access to specific taskpads, or if an item has multiple taskpads.
 
-        Be aware that MMC calls the [**IExtendContextMenu::AddMenuItems**](iextendcontextmenu-addmenuitems.md) method implemented by the [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) that owns the view to allow it to add items to the **View** menu.
+        Be aware that MMC calls the [**IExtendContextMenu::AddMenuItems**](/windows/win32/Mmc/nf-mmc-iextendcontextmenu-addmenuitems?branch=master) method implemented by the [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) that owns the view to allow it to add items to the **View** menu.
 
     -   Add tasks that link to other taskpads.
     -   Use only taskpad views.
 
-4.  If your snap-in uses context menus to switch to taskpad view, or if a taskpad task links to a taskpad on another item, the snap-in must set the view type member to the appropriate taskpad and then call the [**IConsole2::SelectScopeItem**](iconsole2-selectscopeitem.md) method. This forces a call to [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) to load the appropriate taskpad.
-5.  Handle selection of a taskpad in [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md).
+4.  If your snap-in uses context menus to switch to taskpad view, or if a taskpad task links to a taskpad on another item, the snap-in must set the view type member to the appropriate taskpad and then call the [**IConsole2::SelectScopeItem**](iconsole2-selectscopeitem.md) method. This forces a call to [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master) to load the appropriate taskpad.
+5.  Handle selection of a taskpad in [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master).
 
-    For a taskpad view that uses MMC taskpad templates, ppViewType should point to the address of a string that contains the resource path to the taskpad template and a group name that identifies the taskpad. Be aware that MMC passes the group name in calls to [**IExtendTaskPad**](iextendtaskpad.md) methods to enable the snap-in to identify the particular taskpad that is being displayed (this is important if the snap-in has multiple taskpads).
+    For a taskpad view that uses MMC taskpad templates, ppViewType should point to the address of a string that contains the resource path to the taskpad template and a group name that identifies the taskpad. Be aware that MMC passes the group name in calls to [**IExtendTaskPad**](/windows/win32/Mmc/nn-mmc-iextendtaskpad?branch=master) methods to enable the snap-in to identify the particular taskpad that is being displayed (this is important if the snap-in has multiple taskpads).
 
     The string should have the form **res://filepath/template\#groupname**.
 
@@ -90,23 +90,23 @@ res://c:\\windows\\system32\\mmc.exe/default.htm#tpad1
 
 For a taskpad view that uses a custom HTML page, ppViewType should point to the address of a string that contains the resource path to the custom taskpad's HTML file and a group name that identifies the taskpad. The string has the same form as the string for an MMC taskpad template — except the filepath should specify the path to the snap-in's DLL that stores the custom HTML page as a resource.
 
-1.  Implement the [**IExtendTaskPad**](iextendtaskpad.md) interface on your snap-in's **IComponent** object.
+1.  Implement the [**IExtendTaskPad**](/windows/win32/Mmc/nn-mmc-iextendtaskpad?branch=master) interface on your snap-in's **IComponent** object.
 
-    If your snap-in owns the item that displays the taskpad, [**IExtendTaskPad**](iextendtaskpad.md) is used by MMC to set up the taskpad, to get a pointer to the [**IEnumTASK**](ienumtask.md) interface, and to send notifications from the taskpad to your snap-in.
+    If your snap-in owns the item that displays the taskpad, [**IExtendTaskPad**](/windows/win32/Mmc/nn-mmc-iextendtaskpad?branch=master) is used by MMC to set up the taskpad, to get a pointer to the [**IEnumTASK**](/windows/win32/Mmc/nn-mmc-ienumtask?branch=master) interface, and to send notifications from the taskpad to your snap-in.
 
-    If the taskpad is a list view taskpad, MMC calls [**IExtendTaskPad::GetListPadInfo**](iextendtaskpad-getlistpadinfo.md) to get the title text for the list control, text for an optional button, and the command ID passed to [**IExtendTaskPad::TaskNotify**](iextendtaskpad-tasknotify.md) when the button is clicked.
+    If the taskpad is a list view taskpad, MMC calls [**IExtendTaskPad::GetListPadInfo**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-getlistpadinfo?branch=master) to get the title text for the list control, text for an optional button, and the command ID passed to [**IExtendTaskPad::TaskNotify**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-tasknotify?branch=master) when the button is clicked.
 
-    MMC calls the [**IExtendTaskPad::EnumTasks**](iextendtaskpad-enumtasks.md) method to get a pointer to the [**IEnumTASK**](ienumtask.md) interface of an object that specifies the tasks your snap-in must add to the taskpad. If a taskpad extension snap-in has been added to your snap-in, MMC gets a pointer to the [**IExtendTaskPad**](iextendtaskpad.md) interface on that snap-in and calls the **IExtendTaskPad::EnumTasks** method to get a pointer to the **IEnumTASK** interface for that snap-in.
+    MMC calls the [**IExtendTaskPad::EnumTasks**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-enumtasks?branch=master) method to get a pointer to the [**IEnumTASK**](/windows/win32/Mmc/nn-mmc-ienumtask?branch=master) interface of an object that specifies the tasks your snap-in must add to the taskpad. If a taskpad extension snap-in has been added to your snap-in, MMC gets a pointer to the [**IExtendTaskPad**](/windows/win32/Mmc/nn-mmc-iextendtaskpad?branch=master) interface on that snap-in and calls the **IExtendTaskPad::EnumTasks** method to get a pointer to the **IEnumTASK** interface for that snap-in.
 
-    MMC calls the [**IExtendTaskPad::TaskNotify**](iextendtaskpad-tasknotify.md) method to notify the snap-in when a task or a list view button has been clicked. The list view button applies only to list view taskpads — it is the optional button specified in the [**IExtendTaskPad::GetListPadInfo**](iextendtaskpad-getlistpadinfo.md) method. The command ID for the specific task or list view button is passed as a VARIANT.
+    MMC calls the [**IExtendTaskPad::TaskNotify**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-tasknotify?branch=master) method to notify the snap-in when a task or a list view button has been clicked. The list view button applies only to list view taskpads — it is the optional button specified in the [**IExtendTaskPad::GetListPadInfo**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-getlistpadinfo?branch=master) method. The command ID for the specific task or list view button is passed as a VARIANT.
 
-2.  Implement the [**IEnumTASK**](ienumtask.md) interface. MMC calls methods on this interface to get the tasks for the taskpad.
+2.  Implement the [**IEnumTASK**](/windows/win32/Mmc/nn-mmc-ienumtask?branch=master) interface. MMC calls methods on this interface to get the tasks for the taskpad.
 
-    MMC calls the [**IEnumTASK::Next**](ienumtask-next.md) method to iterate the tasks. Each task is returned as an [**MMC\_TASK**](mmc-task.md) structure.
+    MMC calls the [**IEnumTASK::Next**](/windows/win32/Mmc/nf-mmc-ienumtask-next?branch=master) method to iterate the tasks. Each task is returned as an [**MMC\_TASK**](/windows/win32/Mmc/ne-mmc-_mmc_task_display_type?branch=master) structure.
 
-3.  If the taskpad is a list view taskpad, handle the [**MMCN\_LISTPAD**](mmcn-listpad.md) notification in [**IComponent::Notify**](icomponent-notify.md).
+3.  If the taskpad is a list view taskpad, handle the [**MMCN\_LISTPAD**](mmcn-listpad.md) notification in [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master).
 
-    When a list view taskpad is displayed, MMC clears the items in the result pane, attaches the list control used in the taskpad, and sends this notification with the arg set to **TRUE**. The snap-in must handle this notification by populating the list with items using the [**IResultData**](iresultdata.md) or [**IResultOwnerData**](iresultownerdata.md) interfaces.
+    When a list view taskpad is displayed, MMC clears the items in the result pane, attaches the list control used in the taskpad, and sends this notification with the arg set to **TRUE**. The snap-in must handle this notification by populating the list with items using the [**IResultData**](/windows/win32/Mmc/nn-mmc-iresultdata?branch=master) or [**IResultOwnerData**](/windows/win32/Mmc/nn-mmc-iresultownerdata?branch=master) interfaces.
 
     When the view is switched from the list view taskpad to another view, MMC sends this notification with the arg set to **FALSE**. When the snap-in handles this notification, it can free any resources used to populate the list.
 

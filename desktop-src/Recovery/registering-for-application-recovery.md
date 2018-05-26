@@ -23,11 +23,11 @@ This section provides details on implementing a recovery feature in your applica
 
 ## Recovering when an application experiences an unhandled exception or stops responding
 
-To register a recovery callback, call the [**RegisterApplicationRecoveryCallback**](registerapplicationrecoverycallback.md) function. [Windows Error Reporting (WER)](https://msdn.microsoft.com/library/windows/desktop/bb513641) calls your recovery callback before the application exits due to an unhandled exception or the application not responding.
+To register a recovery callback, call the [**RegisterApplicationRecoveryCallback**](/windows/win32/Winbase/nf-winbase-registerapplicationrecoverycallback?branch=master) function. [Windows Error Reporting (WER)](https://msdn.microsoft.com/library/windows/desktop/bb513641) calls your recovery callback before the application exits due to an unhandled exception or the application not responding.
 
 You use the recovery callback to try to save data and state information before the application terminates. You could then use the saved data and state information when the application is restarted.
 
-During the recovery process, you must call the [**ApplicationRecoveryInProgress**](applicationrecoveryinprogress.md) function within the specified ping interval; otherwise, the recovery process is terminated. Calling **ApplicationRecoveryInProgress** lets WER know that you are still actively recovering data. When the recovery process is complete, call the [**ApplicationRecoveryFinished**](applicationrecoveryfinished.md) function. Note that the **ApplicationRecoveryFinished** function should be the last call you make before exiting because the function immediately terminates the application.
+During the recovery process, you must call the [**ApplicationRecoveryInProgress**](/windows/win32/Winbase/nf-winbase-applicationrecoveryinprogress?branch=master) function within the specified ping interval; otherwise, the recovery process is terminated. Calling **ApplicationRecoveryInProgress** lets WER know that you are still actively recovering data. When the recovery process is complete, call the [**ApplicationRecoveryFinished**](/windows/win32/Winbase/nf-winbase-applicationrecoveryfinished?branch=master) function. Note that the **ApplicationRecoveryFinished** function should be the last call you make before exiting because the function immediately terminates the application.
 
 You should consider periodically saving temporary copies of the data and state information during the normal course of the application process. Periodically saving the data may save time in the recovery process.
 

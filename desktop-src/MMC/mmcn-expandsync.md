@@ -27,7 +27,7 @@ ms.author: windowssdkdev
 
 The **MMCN\_EXPANDSYNC** notification is introduced in MMC 1.1.
 
-The **MMCN\_EXPANDSYNC** notification message is sent to the snap-in's [**IComponentData**](icomponentdata.md) implementation when MMC requires a scope item to be expanded synchronously.
+The **MMCN\_EXPANDSYNC** notification message is sent to the snap-in's [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) implementation when MMC requires a scope item to be expanded synchronously.
 
 At certain times (for example, when a console file is reloaded with a scope item expanded), MMC requires a scope item to be synchronously expanded and sends the snap-in the **MMCN\_EXPANDSYNC** notification. Usually, MMC sends the [**MMCN\_EXPAND**](mmcn-expand.md) notification when a item is expanded or collapsed.
 
@@ -52,7 +52,7 @@ Not used.
 *param* \[in\]
 </dt> <dd>
 
-A pointer to an [**MMC\_EXPANDSYNC\_STRUCT**](mmc-expandsync-struct.md) structure.
+A pointer to an [**MMC\_EXPANDSYNC\_STRUCT**](/windows/win32/Mmc/ns-mmc-_mmc_expandsync_struct?branch=master) structure.
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 ## Remarks
 
-If the snap-in normally responds to [**MMCN\_EXPAND**](mmcn-expand.md) by expanding the scope item specified by *lpDataObject* asynchronously (that is, by spawning a thread to handle the expansion), the snap-in must also handle this notification. When the snap-in receives **MMCN\_EXPANDSYNC**, it must expand the scope item before returning and set the **bHandled** member of [**MMC\_EXPANDSYNC\_STRUCT**](mmc-expandsync-struct.md) to **TRUE**.
+If the snap-in normally responds to [**MMCN\_EXPAND**](mmcn-expand.md) by expanding the scope item specified by *lpDataObject* asynchronously (that is, by spawning a thread to handle the expansion), the snap-in must also handle this notification. When the snap-in receives **MMCN\_EXPANDSYNC**, it must expand the scope item before returning and set the **bHandled** member of [**MMC\_EXPANDSYNC\_STRUCT**](/windows/win32/Mmc/ns-mmc-_mmc_expandsync_struct?branch=master) to **TRUE**.
 
 If the snap-in always synchronously expands the scope item specified by *lpDataObject*, the snap-in can ignore this notification for this item and instead handle the [**MMCN\_EXPAND**](mmcn-expand.md) notification. The default value for **bHandled** is **FALSE**. If the snap-in does not handle **MMCN\_EXPANDSYNC** or returns with **bHandled** = **FALSE**, MMC will send an **MMCN\_EXPAND** notification to the snap-in.
 
@@ -96,10 +96,10 @@ If the snap-in always synchronously expands the scope item specified by *lpDataO
 
 <dl> <dt>
 
-[**IComponentData::Notify**](icomponentdata-notify.md)
+[**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master)
 </dt> <dt>
 
-[**IConsoleNameSpace2**](iconsolenamespace2.md)
+[**IConsoleNameSpace2**](/windows/win32/Mmc/nn-mmc-iconsolenamespace2?branch=master)
 </dt> <dt>
 
 [**MMCN\_EXPAND**](mmcn-expand.md)

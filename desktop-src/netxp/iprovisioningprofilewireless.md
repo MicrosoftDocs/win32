@@ -43,7 +43,7 @@ The following methods are listed in vtable order:
 
 | IProvisioningProfileWireless method                                            | Description                                                                                                                 |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| [**CreateProfile**](iprovisioningprofilewireless-createprofile.md)<br/> | Enables the dynamic configuration of a new profile in the preferred profile list using XML-formatted information<br/> |
+| [**CreateProfile**](/windows/win32/netprov/nf-netprov-iprovisioningprofilewireless-createprofile?branch=master)<br/> | Enables the dynamic configuration of a new profile in the preferred profile list using XML-formatted information<br/> |
 
 
 

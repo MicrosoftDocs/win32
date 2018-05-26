@@ -28,12 +28,12 @@ For messages that need only be displayed when a snap-in is selected, the best ch
 
 Typically, the message OCX should be used to inform the user of any problems the snap-in encounters when enumerating and that displays items in the result pane of the selected scope item.
 
-The [**IMessageView**](imessageview.md) interface allows snap-ins to interact with the message OCX control. Its methods can be used to set the text and icon of the error message displayed by the OCX control.
+The [**IMessageView**](/windows/win32/Mmc/nn-mmc-imessageview?branch=master) interface allows snap-ins to interact with the message OCX control. Its methods can be used to set the text and icon of the error message displayed by the OCX control.
 
 **To use the MMC message OCX control**
 
-1.  If a snap-in wants to display a message (error message or other) for a particular scope item, it should call [**IConsole2::SelectScopeItem**](iconsole2-selectscopeitem.md) to select the item and force a call to its [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) method.
-2.  Handle selection of the OCX view in the [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) method.
+1.  If a snap-in wants to display a message (error message or other) for a particular scope item, it should call [**IConsole2::SelectScopeItem**](iconsole2-selectscopeitem.md) to select the item and force a call to its [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master) method.
+2.  Handle selection of the OCX view in the [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master) method.
 
     For the MMC message OCX control, the *ppViewType* parameter should be computed with the following:
 
@@ -43,11 +43,11 @@ The [**IMessageView**](imessageview.md) interface allows snap-ins to interact wi
 
     
 
-    The [**StringFromCLSID**](_com_stringfromclsid) function allocates the buffer and formats the string in the correct manner required by [**GetResultViewType**](icomponent-getresultviewtype.md).
+    The [**StringFromCLSID**](_com_stringfromclsid) function allocates the buffer and formats the string in the correct manner required by [**GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master).
 
-3.  Handle the [**MMCN\_SHOW**](mmcn-show.md) notification message sent to the snap-in's [**IComponent::Notify**](icomponent-notify.md) implementation. To obtain the message OCX control's [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface pointer, call [**IConsole2::QueryResultView**](iconsole2-queryresultview.md) and query for the [**IMessageView**](imessageview.md) interface.
+3.  Handle the [**MMCN\_SHOW**](mmcn-show.md) notification message sent to the snap-in's [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) implementation. To obtain the message OCX control's [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface pointer, call [**IConsole2::QueryResultView**](iconsole2-queryresultview.md) and query for the [**IMessageView**](/windows/win32/Mmc/nn-mmc-imessageview?branch=master) interface.
 
-    Using the OCX control's [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface pointer, call the methods of the [**IMessageView**](imessageview.md) interface to modify the text and icon of the message. Be aware that the snap-in can delete the text strings and icon immediately after the calls are made to **IMessageView** methods.
+    Using the OCX control's [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface pointer, call the methods of the [**IMessageView**](/windows/win32/Mmc/nn-mmc-imessageview?branch=master) interface to modify the text and icon of the message. Be aware that the snap-in can delete the text strings and icon immediately after the calls are made to **IMessageView** methods.
 
     Upon deselection of the result pane, the *arg* parameter of MMCN\_SHOW is set to **FALSE**, indicating that the OCX view is being torn down. At this time, the snap-in can do any necessary clean-up.
 

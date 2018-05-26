@@ -19,8 +19,8 @@ The topics in this section provide the reference specifications for [Pointer Dev
 
 | Topic                                                                          | Description                                     |
 |--------------------------------------------------------------------------------|-------------------------------------------------|
-| [**POINTER\_DEVICE\_CURSOR\_TYPE**](pointer-device-cursor-type.md)<br/> | Identifies the cursor types.<br/>         |
-| [**POINTER\_DEVICE\_TYPE**](pointer-device-type.md)<br/>                | Identifies the pointer device types.<br/> |
+| [**POINTER\_DEVICE\_CURSOR\_TYPE**](/windows/win32/Winuser/ne-winuser-tagpointer_device_cursor_type?branch=master)<br/> | Identifies the cursor types.<br/>         |
+| [**POINTER\_DEVICE\_TYPE**](/windows/win32/Winuser/ne-winuser-tagpointer_device_type?branch=master)<br/>                | Identifies the pointer device types.<br/> |
 
 
 

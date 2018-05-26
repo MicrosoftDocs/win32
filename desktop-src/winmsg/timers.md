@@ -33,9 +33,9 @@ A timer is an internal routine that repeatedly measures a specified interval, in
 
 | Name                           | Description                                                                                                                                                                                                                                                              |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**KillTimer**](killtimer.md) | Destroys the specified timer. <br/>                                                                                                                                                                                                                                |
+| [**KillTimer**](/windows/win32/Winuser/nf-winuser-killtimer?branch=master) | Destroys the specified timer. <br/>                                                                                                                                                                                                                                |
 | [**SetTimer**](/windows/win32/Winuser/nf-ndis-ndismsettimer?branch=master)   | Creates a timer with the specified time-out value.<br/>                                                                                                                                                                                                            |
-| [*TimerProc*](timerproc.md)   | An application-defined callback function that processes [**WM\_TIMER**](wm-timer.md) messages. The **TIMERPROC** type defines a pointer to this callback function. [*TimerProc*](timerproc.md) is a placeholder for the application-defined function name. <br/> |
+| [*TimerProc*](/windows/win32/Winuser/nc-winuser-timerproc?branch=master)   | An application-defined callback function that processes [**WM\_TIMER**](wm-timer.md) messages. The **TIMERPROC** type defines a pointer to this callback function. [*TimerProc*](/windows/win32/Winuser/nc-winuser-timerproc?branch=master) is a placeholder for the application-defined function name. <br/> |
 
 
 
@@ -47,7 +47,7 @@ A timer is an internal routine that repeatedly measures a specified interval, in
 
 | Name                          | Description                                                                                                                                                                                     |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WM\_TIMER**](wm-timer.md) | Posted to the installing thread's message queue when a timer expires. The message is posted by the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function. <br/> |
+| [**WM\_TIMER**](wm-timer.md) | Posted to the installing thread's message queue when a timer expires. The message is posted by the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](/windows/win32/Winuser/nf-winuser-peekmessagea?branch=master) function. <br/> |
 
 
 

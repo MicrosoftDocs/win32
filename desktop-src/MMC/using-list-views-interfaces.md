@@ -19,14 +19,14 @@ ms.author: windowssdkdev
 
 The MMC SDK specifies a number of interfaces and other language constructs for working with list views. The following interfaces are available:
 
--   [**IColumnData**](icolumndata.md)
--   [**IConsoleVerb**](iconsoleverb.md)
--   [**IHeaderCtrl2**](iheaderctrl2.md)
--   [**IImageList**](iimagelist.md)
--   [**IResultData**](iresultdata.md)
--   [**IResultDataCompare**](iresultdatacompare.md)
--   [**IResultDataCompareEx**](iresultdatacompareex.md)
--   [**IResultOwnerData**](iresultownerdata.md) (for virtual list views)
+-   [**IColumnData**](/windows/win32/Mmc/nn-mmc-icolumndata?branch=master)
+-   [**IConsoleVerb**](/windows/win32/Mmc/nn-mmc-iconsoleverb?branch=master)
+-   [**IHeaderCtrl2**](/windows/win32/Mmc/nn-mmc-iheaderctrl2?branch=master)
+-   [**IImageList**](/windows/win32/Mmc/nn-mmc-iimagelist?branch=master)
+-   [**IResultData**](/windows/win32/Mmc/nn-mmc-iresultdata?branch=master)
+-   [**IResultDataCompare**](/windows/win32/Mmc/nn-mmc-iresultdatacompare?branch=master)
+-   [**IResultDataCompareEx**](/windows/win32/Mmc/nn-mmc-iresultdatacompareex?branch=master)
+-   [**IResultOwnerData**](/windows/win32/Mmc/nn-mmc-iresultownerdata?branch=master) (for virtual list views)
 
 For more information about these interfaces, see [Using List Views](using-list-views.md) and refer to their detailed descriptions in the Reference section of the MMC SDK.
 
@@ -44,17 +44,17 @@ The MMC SDK specifies a number of notifications for working with list views. Her
 
 The following enumeration types are the most common types used with list views. For a complete listing of all enumeration types, see [MMC Enumerations](mmc-enumerations.md) in the Reference section of the MMC SDK.
 
--   [**MMC\_BUTTON\_STATE**](mmc-button-state.md)
--   [**MMC\_CONSOLE\_VERB**](mmc-console-verb.md)
--   [**MMC\_FILTER\_CHANGE\_CODE**](mmc-filter-change-code.md)
--   [**MMC\_FILTER\_TYPE**](mmc-filter-type.md)
--   [**MMC\_NOTIFY\_TYPE**](mmc-notify-type.md)
--   [**MMC\_RESULT\_VIEW\_STYLE**](mmc-result-view-style.md)
+-   [**MMC\_BUTTON\_STATE**](/windows/win32/Mmc/ne-mmc-_mmc_button_state?branch=master)
+-   [**MMC\_CONSOLE\_VERB**](/windows/win32/Mmc/ne-mmc-_mmc_console_verb?branch=master)
+-   [**MMC\_FILTER\_CHANGE\_CODE**](/windows/win32/Mmc/ne-mmc-_mmc_filter_change_code?branch=master)
+-   [**MMC\_FILTER\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_filter_type?branch=master)
+-   [**MMC\_NOTIFY\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_notify_type?branch=master)
+-   [**MMC\_RESULT\_VIEW\_STYLE**](/windows/win32/Mmc/ne-mmc-_mmc_result_view_style?branch=master)
 
 The following structures are the most common ones used with list views. See [MMC Structures](console-structures.md) in the Reference section of the MMC SDK for a complete listing.
 
--   [**MMC\_RESTORE\_VIEW**](mmc-restore-view.md)
--   [**RESULTDATAITEM**](resultdataitem.md)
+-   [**MMC\_RESTORE\_VIEW**](/windows/win32/Mmc/ns-mmc-_mmc_restore_view?branch=master)
+-   [**RESULTDATAITEM**](/windows/win32/Mmc/ns-mmc-_resultdataitem?branch=master)
 
 ## Related topics
 

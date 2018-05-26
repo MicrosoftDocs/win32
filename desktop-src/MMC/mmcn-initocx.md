@@ -76,7 +76,7 @@ When an OCX is created for the first time, and must be initialized, the snap-in 
 
 ### Note
 
-If a snap-in implements [**IComponent2**](icomponent2.md) and uses an OCX for the result pane, then the **MMCN\_INITOCX** notification will not be sent; instead, the snap-in should initialize the OCX during the call to [**IComponent2::GetResultViewType2**](icomponent2-getresultviewtype2.md).
+If a snap-in implements [**IComponent2**](/windows/win32/Mmc/nn-mmc-icomponent2?branch=master) and uses an OCX for the result pane, then the **MMCN\_INITOCX** notification will not be sent; instead, the snap-in should initialize the OCX during the call to [**IComponent2::GetResultViewType2**](/windows/win32/Mmc/nf-mmc-icomponent2-getresultviewtype2?branch=master).
 
 ## Requirements
 

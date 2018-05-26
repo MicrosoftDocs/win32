@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # MMCN\_EXPAND message
 
-The **MMCN\_EXPAND** notification message is sent to the snap-in's [**IComponentData**](icomponentdata.md) implementation when a scope item must be expanded or collapsed.
+The **MMCN\_EXPAND** notification message is sent to the snap-in's [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) implementation when a scope item must be expanded or collapsed.
 
 ## Parameters
 
@@ -74,7 +74,7 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 MMC sends the **MMCN\_EXPAND** notification the first time it must display a scope item's children in either the scope or result pane. The notification is not sent each time the item is visually expanded or collapsed.
 
-On receipt of this notification the snap-in should enumerate the children (subcontainers only) of the specified scope item, if any, using [**IConsoleNameSpace2**](iconsolenamespace2.md) methods. Subsequently, if a new item is added to or deleted from this scope object through some external means, that item should also be added to or deleted from the console's namespace using **IConsoleNameSpace2** methods.
+On receipt of this notification the snap-in should enumerate the children (subcontainers only) of the specified scope item, if any, using [**IConsoleNameSpace2**](/windows/win32/Mmc/nn-mmc-iconsolenamespace2?branch=master) methods. Subsequently, if a new item is added to or deleted from this scope object through some external means, that item should also be added to or deleted from the console's namespace using **IConsoleNameSpace2** methods.
 
 ## Requirements
 
@@ -92,10 +92,10 @@ On receipt of this notification the snap-in should enumerate the children (subco
 
 <dl> <dt>
 
-[**IComponentData::Notify**](icomponentdata-notify.md)
+[**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master)
 </dt> <dt>
 
-[**IConsoleNameSpace2**](iconsolenamespace2.md)
+[**IConsoleNameSpace2**](/windows/win32/Mmc/nn-mmc-iconsolenamespace2?branch=master)
 </dt> </dl>
 
  

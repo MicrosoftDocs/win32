@@ -17,7 +17,7 @@ The following are the Hardware Counter Profiling (HCP) structures.
 
 | Structure                                                | Description                                                                            |
 |----------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [**HARDWARE\_COUNTER\_DATA**](hardware-counter-data.md) | Contains the hardware counter value.<br/>                                        |
+| [**HARDWARE\_COUNTER\_DATA**](/windows/win32/Winnt/ns-winnt-_hardware_counter_data?branch=master) | Contains the hardware counter value.<br/>                                        |
 | [**PERFORMANCE\_DATA**](/windows/win32/Winnt/ns-wdm-_resource_performance_data?branch=master)            | Contains the thread profiling and hardware counter data that you requested.<br/> |
 
 

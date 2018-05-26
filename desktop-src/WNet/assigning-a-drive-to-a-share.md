@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # Assigning a Drive to a Share
 
-The following example demonstrates how to connect a drive letter to a remote server share with a call to the [**WNetAddConnection2**](wnetaddconnection2.md) function. The sample informs the user whether or not the call was successful.
+The following example demonstrates how to connect a drive letter to a remote server share with a call to the [**WNetAddConnection2**](/windows/win32/Winnetwk/nf-winnetwk-wnetaddconnection2a?branch=master) function. The sample informs the user whether or not the call was successful.
 
 To test the following code sample, perform the following steps:
 

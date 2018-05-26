@@ -16,13 +16,13 @@ ms.technology: desktop
 -   [Virtual DOS Machine Debug](virtual-dos-machine-debug.md)
 -   [**SymbolServer**](/windows/win32/DbgHelp/?branch=master)
 -   [*SymbolServerCallback*](/windows/win32/DbgHelp/nc-dbghelp-psymbolservercallbackproc?branch=master)
--   [**SymbolServerClose**](symbolserverclose.md)
+-   [**SymbolServerClose**](/windows/win32/DbgHelp/nc-dbghelp-psymbolservercloseproc?branch=master)
 -   [**SymbolServerGetOptionData**](/windows/win32/DbgHelp/?branch=master)
--   [**SymbolServerGetOptions**](symbolservergetoptions.md)
+-   [**SymbolServerGetOptions**](/windows/win32/DbgHelp/nc-dbghelp-psymbolservergetoptionsproc?branch=master)
 -   [**SymbolServerIsStore**](/windows/win32/DbgHelp/?branch=master)
 -   [**SymbolServerPingWEx**](/windows/win32/DbgHelp/?branch=master)
 -   [**SymbolServerSetHttpAuthHeader**](/windows/win32/DbgHelp/?branch=master)
--   [**SymbolServerSetOptions**](symbolserversetoptions.md)
+-   [**SymbolServerSetOptions**](/windows/win32/DbgHelp/nc-dbghelp-psymbolserversetoptionsproc?branch=master)
 -   [**SymbolServerStoreFile**](/windows/win32/DbgHelp/?branch=master)
 
  

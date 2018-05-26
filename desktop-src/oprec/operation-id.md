@@ -48,16 +48,16 @@ Each application has a dedicated **OPERATION\_ID** namespace. If two application
 [Operation Recorder](-operation-portal.md)
 </dt> <dt>
 
-[**OperationStart**](operationstart.md)
+[**OperationStart**](/windows/win32/WinBase/nf-winbase-operationstart?branch=master)
 </dt> <dt>
 
-[**OperationEnd**](operationend.md)
+[**OperationEnd**](/windows/win32/WinBase/nf-winbase-operationend?branch=master)
 </dt> <dt>
 
-[**\_OPERATION\_START\_PARAMETERS**](operation-start-parameters.md)
+[**\_OPERATION\_START\_PARAMETERS**](/windows/win32/WinBase/ns-winbase-_operation_start_parameters?branch=master)
 </dt> <dt>
 
-[**\_OPERATION\_END\_PARAMETERS**](operation-end-parameters.md)
+[**\_OPERATION\_END\_PARAMETERS**](/windows/win32/WinBase/ns-winbase-_operation_end_parameters?branch=master)
 </dt> </dl>
 
  

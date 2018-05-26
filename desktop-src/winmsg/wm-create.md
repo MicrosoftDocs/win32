@@ -11,9 +11,9 @@ ms.technology: desktop
 
 # WM\_CREATE message
 
-Sent when an application requests that a window be created by calling the [**CreateWindowEx**](createwindowex.md) or [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) function. (The message is sent before the function returns.) The window procedure of the new window receives this message after the window is created, but before the window becomes visible.
+Sent when an application requests that a window be created by calling the [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master) or [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) function. (The message is sent before the function returns.) The window procedure of the new window receives this message after the window is created, but before the window becomes visible.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -36,7 +36,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**CREATESTRUCT**](createstruct.md) structure that contains information about the window being created.
+A pointer to a [**CREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagclientcreatestruct?branch=master) structure that contains information about the window being created.
 
 </dd> </dl>
 
@@ -44,7 +44,7 @@ A pointer to a [**CREATESTRUCT**](createstruct.md) structure that contains infor
 
 Type: **LRESULT**
 
-If an application processes this message, it should return zero to continue creation of the window. If the application returns –1, the window is destroyed and the [**CreateWindowEx**](createwindowex.md) or [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) function returns a **NULL** handle.
+If an application processes this message, it should return zero to continue creation of the window. If the application returns –1, the window is destroyed and the [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master) or [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) function returns a **NULL** handle.
 
 ## Requirements
 
@@ -68,10 +68,10 @@ If an application processes this message, it should return zero to continue crea
 [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master)
 </dt> <dt>
 
-[**CreateWindowEx**](createwindowex.md)
+[**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master)
 </dt> <dt>
 
-[**CREATESTRUCT**](createstruct.md)
+[**CREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagclientcreatestruct?branch=master)
 </dt> <dt>
 
 [**WM\_NCCREATE**](wm-nccreate.md)

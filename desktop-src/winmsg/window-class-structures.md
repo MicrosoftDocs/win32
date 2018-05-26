@@ -11,8 +11,8 @@ ms.technology: desktop
 
 # Window Class Structures
 
--   [**WNDCLASS**](wndclass.md)
--   [**WNDCLASSEX**](wndclassex.md)
+-   [**WNDCLASS**](/windows/win32/Winuser/ns-winuser-tagwndclassa?branch=master)
+-   [**WNDCLASSEX**](/windows/win32/Winuser/ns-winuser-tagwndclassexa?branch=master)
 
  
 

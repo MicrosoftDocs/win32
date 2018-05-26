@@ -100,14 +100,14 @@ A section of the [*toolbar*](t-gly.md#mmc-toolbar-gly) that contains the [*toolb
 <span id="mmc_special_cookie_gly"></span><span id="MMC_SPECIAL_COOKIE_GLY"></span>**special cookie**
 </dt> <dd>
 
-A non-standard [*cookie*](c-gly.md#mmc-cookie-gly) that MMC sends to the snap-in's [**IComponent::QueryDataObject**](icomponent-querydataobject.md) method. Special cookies are not associated with scope and result items, and their values are determined by MMC.
+A non-standard [*cookie*](c-gly.md#mmc-cookie-gly) that MMC sends to the snap-in's [**IComponent::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponent-querydataobject?branch=master) method. Special cookies are not associated with scope and result items, and their values are determined by MMC.
 
 </dd> <dt>
 
 <span id="mmc_special_data_object_gly"></span><span id="MMC_SPECIAL_DATA_OBJECT_GLY"></span>**special data object**
 </dt> <dd>
 
-A non-standard [*data object*](d-gly.md#mmc-data-object-gly) that MMC sends to the snap-in's [**IComponent::Notify**](icomponent-notify.md) or [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md) methods.
+A non-standard [*data object*](d-gly.md#mmc-data-object-gly) that MMC sends to the snap-in's [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) or [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master) methods.
 
 </dd> <dt>
 

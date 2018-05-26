@@ -26,7 +26,7 @@ Now, there are situations in which a snap-in may want to change the display attr
 
 To change a static node's attributes when loading a snap-in, the snap-in must support the [**CCF\_SNAPIN\_PRELOADS**](ccf-snapin-preloads.md) clipboard format and also handle the [**MMCN\_PRELOAD**](mmcn-preload.md) notification.
 
-When saving a console file, MMC calls [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere) on each loaded snap-in using the CCF\_SNAPIN\_PRELOADS clipboard format. If the snap-in handles the clipboard format and returns **TRUE**, MMC calls the [**IComponentData::Notify**](icomponentdata-notify.md) method of the snap-in with the [**MMCN\_PRELOAD**](mmcn-preload.md) notification the next time the snap-in is loaded from the saved console file. If the snap-in does not support CCF\_SNAPIN\_PRELOADS, MMC uses the static node's cached icon and display name instead.
+When saving a console file, MMC calls [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere) on each loaded snap-in using the CCF\_SNAPIN\_PRELOADS clipboard format. If the snap-in handles the clipboard format and returns **TRUE**, MMC calls the [**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master) method of the snap-in with the [**MMCN\_PRELOAD**](mmcn-preload.md) notification the next time the snap-in is loaded from the saved console file. If the snap-in does not support CCF\_SNAPIN\_PRELOADS, MMC uses the static node's cached icon and display name instead.
 
 ## Related topics
 

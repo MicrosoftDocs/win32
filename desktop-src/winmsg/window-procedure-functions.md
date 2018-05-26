@@ -13,9 +13,9 @@ ms.technology: desktop
 
 ## In This Section
 
--   [**CallWindowProc**](callwindowproc.md)
--   [**DefWindowProc**](defwindowproc.md)
--   [*WindowProc*](windowproc.md)
+-   [**CallWindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master)
+-   [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
+-   [*WindowProc*](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master)
 
  
 

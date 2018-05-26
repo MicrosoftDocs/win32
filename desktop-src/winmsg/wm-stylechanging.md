@@ -11,9 +11,9 @@ ms.technology: desktop
 
 # WM\_STYLECHANGING message
 
-Sent to a window when the [**SetWindowLong**](setwindowlong.md) function is about to change one or more of the window's styles.
+Sent to a window when the [**SetWindowLong**](/windows/win32/Winuser/nf-winuser-setwindowlonga?branch=master) function is about to change one or more of the window's styles.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -47,7 +47,7 @@ Indicates whether the window's styles or extended window styles are changing. Th
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**STYLESTRUCT**](stylestruct.md) structure that contains the proposed new styles for the window. An application can examine the styles and, if necessary, change them.
+A pointer to a [**STYLESTRUCT**](/windows/win32/Winuser/ns-winuser-tagstylestruct?branch=master) structure that contains the proposed new styles for the window. An application can examine the styles and, if necessary, change them.
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ An application should return zero if it processes this message.
 **Reference**
 </dt> <dt>
 
-[**STYLESTRUCT**](stylestruct.md)
+[**STYLESTRUCT**](/windows/win32/Winuser/ns-winuser-tagstylestruct?branch=master)
 </dt> <dt>
 
 [**WM\_STYLECHANGED**](wm-stylechanged.md)

@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent to a window to retrieve a handle to the large or small icon associated with a window. The system displays the large icon in the ALT+TAB dialog, and the small icon in the window caption.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -56,15 +56,15 @@ The DPI of the icon being retrieved. This can be used to provide different icons
 
 Type: **HICON**
 
-The return value is a handle to the large or small icon, depending on the value of *wParam*. When an application receives this message, it can return a handle to a large or small icon, or pass the message to the [**DefWindowProc**](defwindowproc.md) function.
+The return value is a handle to the large or small icon, depending on the value of *wParam*. When an application receives this message, it can return a handle to a large or small icon, or pass the message to the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function.
 
 ## Remarks
 
-When an application receives this message, it can return a handle to a large or small icon, or pass the message to [**DefWindowProc**](defwindowproc.md).
+When an application receives this message, it can return a handle to a large or small icon, or pass the message to [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master).
 
-[**DefWindowProc**](defwindowproc.md) returns a handle to the large or small icon associated with the window, depending on the value of *wParam*.
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) returns a handle to the large or small icon associated with the window, depending on the value of *wParam*.
 
-A window that has no icon explicitly set (with **WM\_SETICON**) uses the icon for the registered window class, and in this case [**DefWindowProc**](defwindowproc.md) will return 0 for a **WM\_GETICON** message. If sending a **WM\_GETICON** message to a window returns 0, next try calling the [**GetClassLongPtr**](getclasslongptr.md) function for the window. If that returns 0 then try the [**LoadIcon**](menurc.loadicon) function.
+A window that has no icon explicitly set (with **WM\_SETICON**) uses the icon for the registered window class, and in this case [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) will return 0 for a **WM\_GETICON** message. If sending a **WM\_GETICON** message to a window returns 0, next try calling the [**GetClassLongPtr**](/windows/win32/Winuser/nf-winuser-getclasslongptra?branch=master) function for the window. If that returns 0 then try the [**LoadIcon**](menurc.loadicon) function.
 
 ## Requirements
 
@@ -85,7 +85,7 @@ A window that has no icon explicitly set (with **WM\_SETICON**) uses the icon fo
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](defwindowproc.md)
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
 </dt> <dt>
 
 [**WM\_SETICON**](wm-seticon.md)

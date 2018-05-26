@@ -19,8 +19,8 @@ The topics in this section provide the reference specifications for [Input Sourc
 
 | Topic                                                                        | Description                                                |
 |------------------------------------------------------------------------------|------------------------------------------------------------|
-| [**INPUT\_MESSAGE\_DEVICE\_TYPE**](input-message-device-type.md)<br/> | The type of device that sent the input message.<br/> |
-| [**INPUT\_MESSAGE\_ORIGIN\_ID**](input-message-origin-id.md)<br/>     | The ID of the input message source.<br/>             |
+| [**INPUT\_MESSAGE\_DEVICE\_TYPE**](/windows/win32/winuser/ne-winuser-taginput_message_device_type?branch=master)<br/> | The type of device that sent the input message.<br/> |
+| [**INPUT\_MESSAGE\_ORIGIN\_ID**](/windows/win32/winuser/ne-winuser-taginput_message_origin_id?branch=master)<br/>     | The ID of the input message source.<br/>             |
 
 
 

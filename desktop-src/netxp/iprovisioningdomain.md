@@ -46,8 +46,8 @@ The following methods are listed in vtable order:
 
 | IProvisioningDomain method                            | Description                                                                                             |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [**Add**](iprovisioningdomain-add.md)<br/>     | Adds XML files to the WPS provisioning store for a WISP domain<br/>                               |
-| [**Query**](iprovisioningdomain-query.md)<br/> | Queries the WPS provisioning store for XML data from any WISP domain and/or language version<br/> |
+| [**Add**](/windows/win32/netprov/nf-netprov-iprovisioningdomain-add?branch=master)<br/>     | Adds XML files to the WPS provisioning store for a WISP domain<br/>                               |
+| [**Query**](/windows/win32/netprov/nf-netprov-iprovisioningdomain-query?branch=master)<br/> | Queries the WPS provisioning store for XML data from any WISP domain and/or language version<br/> |
 
 
 

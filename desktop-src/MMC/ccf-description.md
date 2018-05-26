@@ -27,13 +27,13 @@ ms.author: windowssdkdev
 
 Introduced in MMC 2.0, the CCF\_DESCRIPTION clipboard format is provided by snap-ins using the [Extended View extension](using-the-extended-view-extension.md). A node that supports this clipboard format will have a text-string displayed in the Extended View description area.
 
-Be aware that CCF\_DESCRIPTION is also the name of a property recognized by the Extended View extension. Instead of supporting CCF\_DESCRIPTION as a clipboard format, a snap-in can support the CCF\_DESCRIPTION property by implementing the [**INodeProperties**](inodeproperties.md) interface.
+Be aware that CCF\_DESCRIPTION is also the name of a property recognized by the Extended View extension. Instead of supporting CCF\_DESCRIPTION as a clipboard format, a snap-in can support the CCF\_DESCRIPTION property by implementing the [**INodeProperties**](/windows/win32/Mmc/nn-mmc-inodeproperties?branch=master) interface.
 
 ## Data Format
 
 A string that represents text appearing in the Extended View description area. The data must be plain text and should represent a description of the item selected. Be aware that the Extended View extension automatically provides the name of the selected item, so the text your snap-in provides for CCF\_DESCRIPTION does not require a name.
 
-If the Extended View is unable to retrieve the CCF\_DESCRIPTION property using the [**INodeProperties**](inodeproperties.md) interface, then the Extended View queries for the CCF\_DESCRIPTION clipboard format using the HGLOBAL medium in a call to [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere). If this medium is not supported, then the Extended View will query for the CCF\_DESCRIPTION clipboard format using the IStream medium in a call to **IDataObject::GetDataHere**.
+If the Extended View is unable to retrieve the CCF\_DESCRIPTION property using the [**INodeProperties**](/windows/win32/Mmc/nn-mmc-inodeproperties?branch=master) interface, then the Extended View queries for the CCF\_DESCRIPTION clipboard format using the HGLOBAL medium in a call to [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere). If this medium is not supported, then the Extended View will query for the CCF\_DESCRIPTION clipboard format using the IStream medium in a call to **IDataObject::GetDataHere**.
 
 ## Remarks
 

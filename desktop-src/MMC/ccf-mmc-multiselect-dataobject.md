@@ -37,7 +37,7 @@ Use the **IDataObject::GetData** method to retrieve data using this clipboard fo
 
 If the data object is a multiselect snap-ins data object, the value 1 is passed with a return of S\_OK. If the data object is not a multiselect snap-ins data object, the value 0 is passed with a return of S\_OK. In addition, if DATA\_E\_FORMATETC is returned, the snap-in is not a multiselect snap-ins data object.
 
-Be aware that a multiselect snap-ins data object is a data object that contains the array of pointers to the multiselection data objects of each snap-in represented in the set of selected items in the result pane. The data for a multiselect snap-ins data object can be retrieved using **IDataObject::GetData** using the [**CCF\_MULTI\_SELECT\_SNAPINS**](ccf-multi-select-snapins.md) clipboard format, whose data format is the [**SMMCDataObjects**](smmcdataobjects.md) structure.
+Be aware that a multiselect snap-ins data object is a data object that contains the array of pointers to the multiselection data objects of each snap-in represented in the set of selected items in the result pane. The data for a multiselect snap-ins data object can be retrieved using **IDataObject::GetData** using the [**CCF\_MULTI\_SELECT\_SNAPINS**](ccf-multi-select-snapins.md) clipboard format, whose data format is the [**SMMCDataObjects**](/windows/win32/Mmc/ns-mmc-_smmcdataobjects?branch=master) structure.
 
 ## Requirements
 
@@ -58,7 +58,7 @@ Be aware that a multiselect snap-ins data object is a data object that contains 
 [**CCF\_MULTI\_SELECT\_SNAPINS**](ccf-multi-select-snapins.md)
 </dt> <dt>
 
-[**SMMCDataObjects**](smmcdataobjects.md)
+[**SMMCDataObjects**](/windows/win32/Mmc/ns-mmc-_smmcdataobjects?branch=master)
 </dt> <dt>
 
 [Multiselection](multiselection.md)

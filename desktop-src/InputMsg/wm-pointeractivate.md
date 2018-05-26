@@ -41,7 +41,7 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 
 Contains the pointer identifier and additional information. Use the following macros to retrieve this information.
 
-[**GET\_POINTERID\_WPARAM**](get-pointerid-wparam.md)(wParam): pointer identifier
+[**GET\_POINTERID\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_pointerid_wparam?branch=master)(wParam): pointer identifier
 
 [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)(wParam): hit-test value returned from processing the [**WM\_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618) message.
 

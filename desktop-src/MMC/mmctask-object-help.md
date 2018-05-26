@@ -42,7 +42,7 @@ MMCTask.Help
 
 ## Property value
 
-The returned property is the string specified in the **szHelpString** member of the [**MMC\_TASK**](mmc-task.md) structure returned in the **IEnumTASK::Next** method.
+The returned property is the string specified in the **szHelpString** member of the [**MMC\_TASK**](/windows/win32/Mmc/ne-mmc-_mmc_task_display_type?branch=master) structure returned in the **IEnumTASK::Next** method.
 
 ## Remarks
 

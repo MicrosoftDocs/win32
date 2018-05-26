@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # MMCN\_BTN\_CLICK message
 
-The **MMCN\_BTN\_CLICK** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master), [**IComponentData**](icomponentdata.md), or [**IExtendControlbar**](iextendcontrolbar.md) implementation when a user clicks a toolbar button.
+The **MMCN\_BTN\_CLICK** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master), [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master), or [**IExtendControlbar**](/windows/win32/Mmc/nn-mmc-iextendcontrolbar?branch=master) implementation when a user clicks a toolbar button.
 
 ## Parameters
 
@@ -34,21 +34,21 @@ The **MMCN\_BTN\_CLICK** notification message is sent to the snap-in's [**ICompo
 *lpDataObject* \[in\]
 </dt> <dd>
 
-For [**IComponent::Notify**](icomponent-notify.md) or [**IComponentData::Notify**](icomponentdata-notify.md), the pointer to the data object of the currently selected scope or result item. Not used by [**IExtendControlBar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md).
+For [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) or [**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master), the pointer to the data object of the currently selected scope or result item. Not used by [**IExtendControlBar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master).
 
 </dd> <dt>
 
 *arg* 
 </dt> <dd>
 
-For [**IComponent::Notify**](icomponent-notify.md) or [**IComponentData::Notify**](icomponentdata-notify.md), this parameter must be 0 (zero). For [**IExtendControlBar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md), this parameter is the data object of the currently selected scope or result item.
+For [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) or [**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master), this parameter must be 0 (zero). For [**IExtendControlBar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master), this parameter is the data object of the currently selected scope or result item.
 
 </dd> <dt>
 
 *param* \[in\]
 </dt> <dd>
 
-For [**IComponent::Notify**](icomponent-notify.md) or [**IComponentData::Notify**](icomponentdata-notify.md), this parameter is the verb that was selected (one of the [**MMC\_CONSOLE\_VERB**](mmc-console-verb.md) enumerations). For [**IExtendControlBar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md), this parameter is the snap-in-defined command ID of the selected toolbar button.
+For [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) or [**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master), this parameter is the verb that was selected (one of the [**MMC\_CONSOLE\_VERB**](/windows/win32/Mmc/ne-mmc-_mmc_console_verb?branch=master) enumerations). For [**IExtendControlBar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master), this parameter is the snap-in-defined command ID of the selected toolbar button.
 
 </dd> </dl>
 
@@ -90,13 +90,13 @@ For a custom view (custom OCX or webpage) for which the MMC\_VERB\_PROPERTIES ve
 
 <dl> <dt>
 
-[**IComponent::Notify**](icomponent-notify.md)
+[**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
 </dt> <dt>
 
-[**IComponentData::Notify**](icomponentdata-notify.md)
+[**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master)
 </dt> <dt>
 
-[**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md)
+[**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master)
 </dt> </dl>
 
  

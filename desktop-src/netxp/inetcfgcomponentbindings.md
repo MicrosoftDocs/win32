@@ -45,14 +45,14 @@ The following methods are listed in Vtable order:
 
 | INetCfgComponentBindings method                                                                  | Description                                                                                            |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [**BindTo**](inetcfgcomponentbindings-bindto.md)<br/>                                     | Activates all binding paths that are shared with a specific component.<br/>                      |
-| [**UnbindFrom**](inetcfgcomponentbindings-unbindfrom.md)<br/>                             | Inactivates all binding paths that are shared with a specific component.<br/>                    |
-| [**SupportsBindingInterface**](inetcfgcomponentbindings-supportsbindinginterface.md)<br/> | Verifies whether a component supports either an upper-edge or lower-edge binding interface.<br/> |
-| [**IsBoundTo**](inetcfgcomponentbindings-isboundto.md)<br/>                               | Verifies whether at least one binding path shared with a specific component is activated.<br/>   |
-| [**IsBindableTo**](inetcfgcomponentbindings-isbindableto.md)<br/>                         | Verifies whether at least one binding path shared with a specific component exists.<br/>         |
-| [**EnumBindingPaths**](inetcfgcomponentbindings-enumbindingpaths.md)<br/>                 | Retrieves an enumeration of a collection of the component's binding paths.<br/>                  |
-| [**MoveBefore**](inetcfgcomponentbindings-movebefore.md)<br/>                             | Sets the order of two binding paths so one comes before the other.<br/>                          |
-| [**MoveAfter**](inetcfgcomponentbindings-moveafter.md)<br/>                               | Sets the order of two binding paths so one comes after the other.<br/>                           |
+| [**BindTo**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-bindto?branch=master)<br/>                                     | Activates all binding paths that are shared with a specific component.<br/>                      |
+| [**UnbindFrom**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-unbindfrom?branch=master)<br/>                             | Inactivates all binding paths that are shared with a specific component.<br/>                    |
+| [**SupportsBindingInterface**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-supportsbindinginterface?branch=master)<br/> | Verifies whether a component supports either an upper-edge or lower-edge binding interface.<br/> |
+| [**IsBoundTo**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-isboundto?branch=master)<br/>                               | Verifies whether at least one binding path shared with a specific component is activated.<br/>   |
+| [**IsBindableTo**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-isbindableto?branch=master)<br/>                         | Verifies whether at least one binding path shared with a specific component exists.<br/>         |
+| [**EnumBindingPaths**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-enumbindingpaths?branch=master)<br/>                 | Retrieves an enumeration of a collection of the component's binding paths.<br/>                  |
+| [**MoveBefore**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-movebefore?branch=master)<br/>                             | Sets the order of two binding paths so one comes before the other.<br/>                          |
+| [**MoveAfter**](/windows/win32/netcfgx/nf-netcfgx-inetcfgcomponentbindings-moveafter?branch=master)<br/>                               | Sets the order of two binding paths so one comes after the other.<br/>                           |
 
 
 

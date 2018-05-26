@@ -92,16 +92,16 @@ After the user's changes to the filter operator have been handled by the snap-in
 
 <dl> <dt>
 
-[**IComponent::Notify**](icomponent-notify.md)
+[**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
 </dt> <dt>
 
-[**IHeaderCtrl2**](iheaderctrl2.md)
+[**IHeaderCtrl2**](/windows/win32/Mmc/nn-mmc-iheaderctrl2?branch=master)
 </dt> <dt>
 
 [**MMCN\_FILTER\_CHANGE**](mmcn-filter-change.md)
 </dt> <dt>
 
-[**MMC\_FILTER\_CHANGE\_CODE**](mmc-filter-change-code.md)
+[**MMC\_FILTER\_CHANGE\_CODE**](/windows/win32/Mmc/ne-mmc-_mmc_filter_change_code?branch=master)
 </dt> <dt>
 
 [Adding Filtered Views](adding-filtered-views.md)

@@ -19,7 +19,7 @@ ms.author: windowssdkdev
 
 MMC provides snap-in developers with the following interface for working with column persistence:
 
--   [**IColumnData**](icolumndata.md)
+-   [**IColumnData**](/windows/win32/Mmc/nn-mmc-icolumndata?branch=master)
 
 ## Other Constructs
 
@@ -30,14 +30,14 @@ MMC defines the following notification and clipboard format for working with col
 
 MMC defines four structures to be used for accessing column configuration data:
 
--   [**MMC\_COLUMN\_DATA**](mmc-column-data.md)
--   [**MMC\_COLUMN\_SET\_DATA**](mmc-column-set-data.md)
--   [**MMC\_SORT\_DATA**](mmc-sort-data.md)
--   [**MMC\_SORT\_SET\_DATA**](mmc-sort-set-data.md)
+-   [**MMC\_COLUMN\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_column_data?branch=master)
+-   [**MMC\_COLUMN\_SET\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_column_set_data?branch=master)
+-   [**MMC\_SORT\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_sort_data?branch=master)
+-   [**MMC\_SORT\_SET\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_sort_set_data?branch=master)
 
 MMC also defines the following structure for use with the [**MMCN\_COLUMNS\_CHANGED**](mmcn-columns-changed.md) notification:
 
--   [**MMC\_VISIBLE\_COLUMNS**](mmc-visible-columns.md)
+-   [**MMC\_VISIBLE\_COLUMNS**](/windows/win32/Mmc/ns-mmc-_mmc_visible_columns?branch=master)
 
 ## Related topics
 

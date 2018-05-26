@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # MMCN\_PROPERTY\_CHANGE message
 
-The **MMCN\_PROPERTY\_CHANGE** notification message is sent to the snap-in's [**IComponentData**](icomponentdata.md) or [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation, whichever created the property pages, when the snap-in uses the [**MMCPropertyChangeNotify**](mmcpropertychangenotify.md) function to notify its views of changes.
+The **MMCN\_PROPERTY\_CHANGE** notification message is sent to the snap-in's [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) or [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation, whichever created the property pages, when the snap-in uses the [**MMCPropertyChangeNotify**](/windows/win32/Mmc/nf-mmc-mmcpropertychangenotify?branch=master) function to notify its views of changes.
 
 ## Parameters
 
@@ -48,7 +48,7 @@ This value is **NULL** because a data object is not required.
 *param* 
 </dt> <dd>
 
-This is the parameter passed to [**MMCPropertyChangeNotify**](mmcpropertychangenotify.md).
+This is the parameter passed to [**MMCPropertyChangeNotify**](/windows/win32/Mmc/nf-mmc-mmcpropertychangenotify?branch=master).
 
 </dd> </dl>
 
@@ -86,13 +86,13 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 <dl> <dt>
 
-[**IComponent::Notify**](icomponent-notify.md)
+[**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
 </dt> <dt>
 
-[**IComponentData::Notify**](icomponentdata-notify.md)
+[**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master)
 </dt> <dt>
 
-[**MMCPropertyChangeNotify**](mmcpropertychangenotify.md)
+[**MMCPropertyChangeNotify**](/windows/win32/Mmc/nf-mmc-mmcpropertychangenotify?branch=master)
 </dt> </dl>
 
  

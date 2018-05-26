@@ -28,7 +28,7 @@ ms.author: windowssdkdev
 
 The MMCListPadInfo object represents a label and a button for the ListPad control to be added to the taskpad page. It should be used on list view taskpads only.
 
-An MMCListPadInfo object is returned by the GetListPadInfo method of the MMCCtrl control. The MMCListPadInfo object's properties represent the members of the MMC\_LISTPAD\_INFO structure passed in the [**IExtendTaskPad::GetListPadInfo**](iextendtaskpad-getlistpadinfo.md) method that MMC called when it retrieved the information for that task during the setup of the taskpad. The MMCListPadInfo object also has one additional property that represents the snap-in CLSID.
+An MMCListPadInfo object is returned by the GetListPadInfo method of the MMCCtrl control. The MMCListPadInfo object's properties represent the members of the MMC\_LISTPAD\_INFO structure passed in the [**IExtendTaskPad::GetListPadInfo**](/windows/win32/Mmc/nf-mmc-iextendtaskpad-getlistpadinfo?branch=master) method that MMC called when it retrieved the information for that task during the setup of the taskpad. The MMCListPadInfo object also has one additional property that represents the snap-in CLSID.
 
 The MMC list view taskpad templates use the MMCListPadInfo object. To create a custom list view taskpad that has a label and button specified for the snap-in, the taskpad's HTML page should use the [**GetListPadInfo**](getlistpadinfo.md) method to retrieve the MMCListPadInfo object and add the label and button to the page.
 

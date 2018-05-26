@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent to a window after its size has changed.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -64,7 +64,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-If the [**SetScrollPos**](_win32_SetScrollPos) or [**MoveWindow**](movewindow.md) function is called for a child window as a result of the **WM\_SIZE** message, the *bRedraw* or *bRepaint* parameter should be nonzero to cause the window to be repainted.
+If the [**SetScrollPos**](_win32_SetScrollPos) or [**MoveWindow**](/windows/win32/Winuser/nf-winuser-movewindow?branch=master) function is called for a child window as a result of the **WM\_SIZE** message, the *bRedraw* or *bRepaint* parameter should be nonzero to cause the window to be repainted.
 
 Although the width and height of a window are 32-bit values, the *lParam* parameter contains only the low-order 16 bits of each.
 
@@ -93,7 +93,7 @@ Although the width and height of a window are 32-bit values, the *lParam* parame
 [**LOWORD**](/windows/win32/Windef/nf-ntintsafe-loword?branch=master)
 </dt> <dt>
 
-[**MoveWindow**](movewindow.md)
+[**MoveWindow**](/windows/win32/Winuser/nf-winuser-movewindow?branch=master)
 </dt> <dt>
 
 **Conceptual**

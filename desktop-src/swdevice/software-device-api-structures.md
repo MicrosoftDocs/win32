@@ -22,7 +22,7 @@ This section describes Software Device API structures.
 | [**DEVPROPCOMPKEY**](devpropcompkey.md)<br/>                  | Describes a compound key for a device property.<br/>             |
 | [**DEVPROPERTY**](devproperty.md)<br/>                        | Describes a property for a software device.<br/>                 |
 | [**DEVPROPKEY**](devpropkey.md)<br/>                          | Describes a key for a device property.<br/>                      |
-| [**SW\_DEVICE\_CREATE\_INFO**](sw-device-create-info.md)<br/> | Describes info that PnP uses to create the software device.<br/> |
+| [**SW\_DEVICE\_CREATE\_INFO**](/windows/win32/Swdevicedef/ns-swdevicedef-_sw_device_create_info?branch=master)<br/> | Describes info that PnP uses to create the software device.<br/> |
 
 
 

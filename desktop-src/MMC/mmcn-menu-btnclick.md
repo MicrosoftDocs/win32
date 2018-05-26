@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # MMCN\_MENU\_BTNCLICK message
 
-The **MMCN\_MENU\_BTNCLICK** notification message is sent to the snap-in [**IExtendControlbar**](iextendcontrolbar.md) interface when the user clicks a snap-in defined menu button.
+The **MMCN\_MENU\_BTNCLICK** notification message is sent to the snap-in [**IExtendControlbar**](/windows/win32/Mmc/nn-mmc-iextendcontrolbar?branch=master) interface when the user clicks a snap-in defined menu button.
 
 ## Parameters
 
@@ -48,7 +48,7 @@ The data object for a currently selected scope or result item.
 *param* \[in\]
 </dt> <dd>
 
-A pointer to a [**MENUBUTTONDATA**](menubuttondata.md) structure.
+A pointer to a [**MENUBUTTONDATA**](/windows/win32/Mmc/ns-mmc-_menubuttondata?branch=master) structure.
 
 </dd> </dl>
 
@@ -72,7 +72,7 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 ## Remarks
 
-The **idCommand** member of the [**MENUBUTTONDATA**](menubuttondata.md) structure holds the user-specified command ID of the menu item that was clicked. The **x** and **y** members of this structure specify the position, if any, at which the snap-in's context menu is to be displayed.
+The **idCommand** member of the [**MENUBUTTONDATA**](/windows/win32/Mmc/ns-mmc-_menubuttondata?branch=master) structure holds the user-specified command ID of the menu item that was clicked. The **x** and **y** members of this structure specify the position, if any, at which the snap-in's context menu is to be displayed.
 
 The snap-in should display a context menu at the specified position and perform the required tracking and item selection processing.
 
@@ -92,10 +92,10 @@ The snap-in should display a context menu at the specified position and perform 
 
 <dl> <dt>
 
-[**IMenuButton**](imenubutton.md)
+[**IMenuButton**](/windows/win32/Mmc/nn-mmc-imenubutton?branch=master)
 </dt> <dt>
 
-[**IMenuButton::SetButtonState**](imenubutton-setbuttonstate.md)
+[**IMenuButton::SetButtonState**](/windows/win32/Mmc/nf-mmc-imenubutton-setbuttonstate?branch=master)
 </dt> </dl>
 
  

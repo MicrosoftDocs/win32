@@ -21,9 +21,9 @@ This feature is introduced in MMC version 1.1.
 
 MMC specifies two **Expand** methods that allow you to programmatically expand a scope item.
 
-The [**IConsole2::Expand**](iconsole2-expand.md) method enables the snap-in to expand or collapse an item in the scope pane of a particular view. This method is the programmatic equivalent of the user clicking the plus or minus sign to expand or collapse an item in the scope pane. Be aware that each MDI window within the console represents a different view.
+The [**IConsole2::Expand**](/windows/win32/Mmc/nf-mmc-iconsole2-expand?branch=master) method enables the snap-in to expand or collapse an item in the scope pane of a particular view. This method is the programmatic equivalent of the user clicking the plus or minus sign to expand or collapse an item in the scope pane. Be aware that each MDI window within the console represents a different view.
 
-The [**IConsoleNamespace2::Expand**](iconsolenamespace2-expand.md) method enables the snap-in to expand an item in the namespace without visibly expanding it in the scope pane. Use this method to expand a specified item for the purpose of inserting the child items beneath that item. The method does not expand the item in any views.
+The [**IConsoleNamespace2::Expand**](/windows/win32/Mmc/nf-mmc-iconsolenamespace2-expand?branch=master) method enables the snap-in to expand an item in the namespace without visibly expanding it in the scope pane. Use this method to expand a specified item for the purpose of inserting the child items beneath that item. The method does not expand the item in any views.
 
  
 

@@ -23,7 +23,7 @@ It is not necessary to implement the method of this interface. It is implemented
 
 ### When to Use
 
-The network configuration subsystem can supply **INetLanConnectionUiInfo** to a notify object when the subsystem calls the object's [**INetCfgComponentPropertyUi::SetContext**](inetcfgcomponentpropertyui-setcontext.md) method. The network configuration subsystem supplies **INetLanConnectionUiInfo** as a pointer to an **IUnknown** interface. The notify object can call the **QueryInterface** method to determine if the supplied **IUnknown** supports **INetLanConnectionUiInfo**. **SetContext**can use the method of **INetLanConnectionUiInfo** to retrieve the context in which to display properties for the network component that owns the notify object.
+The network configuration subsystem can supply **INetLanConnectionUiInfo** to a notify object when the subsystem calls the object's [**INetCfgComponentPropertyUi::SetContext**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentpropertyui-setcontext?branch=master) method. The network configuration subsystem supplies **INetLanConnectionUiInfo** as a pointer to an **IUnknown** interface. The notify object can call the **QueryInterface** method to determine if the supplied **IUnknown** supports **INetLanConnectionUiInfo**. **SetContext**can use the method of **INetLanConnectionUiInfo** to retrieve the context in which to display properties for the network component that owns the notify object.
 
 ### Methods
 
@@ -45,7 +45,7 @@ The following methods are listed in Vtable order:
 
 | INetLanConnectionUiInfo method                                            | Description                                                  |
 |---------------------------------------------------------------------------|--------------------------------------------------------------|
-| [**GetDeviceGuid**](inetlanconnectionuiinfo-getdeviceguid.md)<br/> | Retrieves a pointer to the GUID for a LAN device.<br/> |
+| [**GetDeviceGuid**](/windows/win32/netcfgn/nf-netcfgn-inetlanconnectionuiinfo-getdeviceguid?branch=master)<br/> | Retrieves a pointer to the GUID for a LAN device.<br/> |
 
 
 
@@ -53,7 +53,7 @@ The following methods are listed in Vtable order:
 
 ### See Also
 
-[**INetCfgComponentPropertyUi::SetContext**](inetcfgcomponentpropertyui-setcontext.md)
+[**INetCfgComponentPropertyUi::SetContext**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentpropertyui-setcontext?branch=master)
 
 
 ## Requirements

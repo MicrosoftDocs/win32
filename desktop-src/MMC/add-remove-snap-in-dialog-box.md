@@ -23,9 +23,9 @@ The console identifies snap-ins by the information you make available through th
 
 The Add/Remove Snap-in dialog box presents a list of available snap-in components. The dialog box relies on complete and accurate entries in the system registry. Accordingly, snap-ins should be self-registering and should complete this task as part of the installation sequence.
 
-Snap-in developers are encouraged to implement the [**ISnapinAbout**](isnapinabout.md) interface to provide MMC with a snap-in's About information. This information is only displayed in the Add/Remove Snap-in dialog box.
+Snap-in developers are encouraged to implement the [**ISnapinAbout**](/windows/win32/Mmc/nn-mmc-isnapinabout?branch=master) interface to provide MMC with a snap-in's About information. This information is only displayed in the Add/Remove Snap-in dialog box.
 
-When a snap-in is added using the Add/Remove Snap-in dialog box, the console requests the snap-in to optionally display a configuration wizard for gathering settings during the insertion process. This is done by calling the snap-in's [**IComponentData::QueryDataObject**](icomponentdata-querydataobject.md) method with the CCT\_SNAPIN\_MANAGER as the value for the types parameter.
+When a snap-in is added using the Add/Remove Snap-in dialog box, the console requests the snap-in to optionally display a configuration wizard for gathering settings during the insertion process. This is done by calling the snap-in's [**IComponentData::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponentdata-querydataobject?branch=master) method with the CCT\_SNAPIN\_MANAGER as the value for the types parameter.
 
  
 

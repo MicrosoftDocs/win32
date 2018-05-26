@@ -15,10 +15,10 @@ The following structures are used in Windows networking:
 
 <dl>
 
-[**CONNECTDLGSTRUCT**](connectdlgstruct-str.md)  
-[**DISCDLGSTRUCT**](discdlgstruct-str.md)  
+[**CONNECTDLGSTRUCT**](/windows/win32/Winnetwk/ns-winnetwk-_connectdlgstructa?branch=master)  
+[**DISCDLGSTRUCT**](/windows/win32/Winnetwk/ns-winnetwk-_discdlgstructa?branch=master)  
 [**NETCONNECTINFOSTRUCT**](/windows/win32/Winnetwk/ns-winnetwk-_netconnectinfostruct?branch=master)  
-[**NETINFOSTRUCT**](netinfostruct-str.md)  
+[**NETINFOSTRUCT**](/windows/win32/Winnetwk/ns-winnetwk-_netinfostruct?branch=master)  
 [**NETRESOURCE**](/windows/win32/Winnetwk/ns-winnetwk-_netresourcea?branch=master)  
 [**REMOTE\_NAME\_INFO**](/windows/win32/Winnetwk/ns-winnetwk-_remote_name_infoa?branch=master)  
 [**UNIVERSAL\_NAME\_INFO**](/windows/win32/Winnetwk/ns-winnetwk-_universal_name_infoa?branch=master)  

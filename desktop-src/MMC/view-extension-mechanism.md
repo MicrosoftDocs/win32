@@ -19,9 +19,9 @@ View extension snap-ins can be used to add user-interface elements to an existin
 
 A standard view will remain in the tab selector as long as it is not replaced by an extended view or hidden by a custom taskpad. An extended view can specify that it is replacing the standard view when the extended view is added.
 
-A view extension snap-in implements a single interface, [**IExtendView**](iextendview.md), which contains a single method, [**IExtendView::GetViews**](iextendview-getviews.md). When MMC calls the view extension's IExtendView::GetViews method, MMC provides a pointer to an [**IViewExtensionCallback**](iviewextensioncallback.md) interface. The view extension calls the [**IViewExtensionCallback::AddView**](iviewextensioncallback-addview.md) method to add a view to the node.
+A view extension snap-in implements a single interface, [**IExtendView**](/windows/win32/Mmc/nn-mmc-iextendview?branch=master), which contains a single method, [**IExtendView::GetViews**](/windows/win32/Mmc/nf-mmc-iextendview-getviews?branch=master). When MMC calls the view extension's IExtendView::GetViews method, MMC provides a pointer to an [**IViewExtensionCallback**](/windows/win32/Mmc/nn-mmc-iviewextensioncallback?branch=master) interface. The view extension calls the [**IViewExtensionCallback::AddView**](/windows/win32/Mmc/nf-mmc-iviewextensioncallback-addview?branch=master) method to add a view to the node.
 
-The view extension can call the IViewExtensionCallback::AddView method multiple times to add multiple views. The IViewExtensionCallback::AddView method uses a pointer to an [**MMC\_EXT\_VIEW\_DATA**](mmc-ext-view-data.md) structure, which has the following definition.
+The view extension can call the IViewExtensionCallback::AddView method multiple times to add multiple views. The IViewExtensionCallback::AddView method uses a pointer to an [**MMC\_EXT\_VIEW\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_ext_view_data?branch=master) structure, which has the following definition.
 
 
 ```C++
@@ -47,13 +47,13 @@ Be aware that MMC's **Back**/ **Forward** buttons are not connected to the DHTML
 
 <dl> <dt>
 
-[**IExtendView**](iextendview.md)
+[**IExtendView**](/windows/win32/Mmc/nn-mmc-iextendview?branch=master)
 </dt> <dt>
 
-[**IViewExtensionCallback**](iviewextensioncallback.md)
+[**IViewExtensionCallback**](/windows/win32/Mmc/nn-mmc-iviewextensioncallback?branch=master)
 </dt> <dt>
 
-[**MMC\_EXT\_VIEW\_DATA**](mmc-ext-view-data.md)
+[**MMC\_EXT\_VIEW\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_ext_view_data?branch=master)
 </dt> <dt>
 
 [**View Object**](view-object.md)

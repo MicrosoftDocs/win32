@@ -27,7 +27,7 @@ The **CCF\_AUTOPROF\_CONTEXT** clipboard format provides the context of the oper
 
 ## Data Format
 
-The data provided by this clipboard format is an integer defining the context of the operation. The possible values are defined in the [**DATA\_OBJECT\_TYPES**](data-object-types.md) enumeration.
+The data provided by this clipboard format is an integer defining the context of the operation. The possible values are defined in the [**DATA\_OBJECT\_TYPES**](/windows/win32/Mmc/ne-mmc-_data_object_types?branch=master) enumeration.
 
 ## Remarks
 

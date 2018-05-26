@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # CCF\_NODEID2 clipboard format
 
-The CCF\_NODEID2 clipboard format replaces the [**CCF\_NODEID**](ccf-nodeid.md) format in MMC 1.2. The CCF\_NODEID2 format uses an [**SNodeID2**](snodeid2.md) structure.
+The CCF\_NODEID2 clipboard format replaces the [**CCF\_NODEID**](ccf-nodeid.md) format in MMC 1.2. The CCF\_NODEID2 format uses an [**SNodeID2**](/windows/win32/Mmc/ns-mmc-_snodeid2?branch=master) structure.
 
 CCF\_NODEID2 behaves in the same way as the [**CCF\_NODEID**](ccf-nodeid.md) format. The format enables a snap-in to specify the node ID for the selected enumerated item in the scope pane. MMC uses this node ID to identify the selected item and select that item when a console file is reopened. This format can also be used to specify that an item should not be restored when the console file is reopened.
 
@@ -33,7 +33,7 @@ If the CCF\_NODEID2 clipboard format is supported by a data object, the [**CCF\_
 
 ## Data Format
 
-[**SNodeID2**](snodeid2.md) structure. Be aware that returning cBytes=0 is illegal for CCF\_NODEID2. The [**CCF\_NODEID**](ccf-nodeid.md) format permitted SNodeID.cBytes to be zero to designate that the item should not be persisted. In the **SNodeID2** structure, this is indicated by setting SNodeID2.dwFlags to **MMC\_NODEID\_SLOW\_RETRIEVAL**.
+[**SNodeID2**](/windows/win32/Mmc/ns-mmc-_snodeid2?branch=master) structure. Be aware that returning cBytes=0 is illegal for CCF\_NODEID2. The [**CCF\_NODEID**](ccf-nodeid.md) format permitted SNodeID.cBytes to be zero to designate that the item should not be persisted. In the **SNodeID2** structure, this is indicated by setting SNodeID2.dwFlags to **MMC\_NODEID\_SLOW\_RETRIEVAL**.
 
 ## Remarks
 

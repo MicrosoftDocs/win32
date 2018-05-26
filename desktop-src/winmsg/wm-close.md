@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent as a signal that a window or an application should terminate.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -48,9 +48,9 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-An application can prompt the user for confirmation, prior to destroying a window, by processing the **WM\_CLOSE** message and calling the [**DestroyWindow**](destroywindow.md) function only if the user confirms the choice.
+An application can prompt the user for confirmation, prior to destroying a window, by processing the **WM\_CLOSE** message and calling the [**DestroyWindow**](/windows/win32/Winuser/nf-winuser-destroywindow?branch=master) function only if the user confirms the choice.
 
-By default, the [**DefWindowProc**](defwindowproc.md) function calls the [**DestroyWindow**](destroywindow.md) function to destroy the window.
+By default, the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function calls the [**DestroyWindow**](/windows/win32/Winuser/nf-winuser-destroywindow?branch=master) function to destroy the window.
 
 ## Requirements
 
@@ -71,10 +71,10 @@ By default, the [**DefWindowProc**](defwindowproc.md) function calls the [**Dest
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](defwindowproc.md)
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
 </dt> <dt>
 
-[**DestroyWindow**](destroywindow.md)
+[**DestroyWindow**](/windows/win32/Winuser/nf-winuser-destroywindow?branch=master)
 </dt> <dt>
 
 **Conceptual**

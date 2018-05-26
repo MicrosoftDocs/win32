@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent prior to the [**WM\_CREATE**](wm-create.md) message when a window is first created.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -36,7 +36,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to the [**CREATESTRUCT**](createstruct.md) structure that contains information about the window being created. The members of **CREATESTRUCT** are identical to the parameters of the [**CreateWindowEx**](createwindowex.md) function.
+A pointer to the [**CREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagclientcreatestruct?branch=master) structure that contains information about the window being created. The members of **CREATESTRUCT** are identical to the parameters of the [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master) function.
 
 </dd> </dl>
 
@@ -44,7 +44,7 @@ A pointer to the [**CREATESTRUCT**](createstruct.md) structure that contains inf
 
 Type: **LRESULT**
 
-If an application processes this message, it should return **TRUE** to continue creation of the window. If the application returns **FALSE**, the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](createwindowex.md) function will return a **NULL** handle.
+If an application processes this message, it should return **TRUE** to continue creation of the window. If the application returns **FALSE**, the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master) function will return a **NULL** handle.
 
 ## Requirements
 
@@ -68,13 +68,13 @@ If an application processes this message, it should return **TRUE** to continue 
 [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master)
 </dt> <dt>
 
-[**CreateWindowEx**](createwindowex.md)
+[**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master)
 </dt> <dt>
 
-[**DefWindowProc**](defwindowproc.md)
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
 </dt> <dt>
 
-[**CREATESTRUCT**](createstruct.md)
+[**CREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagclientcreatestruct?branch=master)
 </dt> <dt>
 
 [**WM\_CREATE**](wm-create.md)

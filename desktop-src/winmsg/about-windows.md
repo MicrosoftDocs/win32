@@ -43,7 +43,7 @@ When you start the system, it automatically creates the desktop window. The *des
 
 The desktop window uses a bitmap to paint the background of the screen. The pattern created by the bitmap is called the *desktop wallpaper*. By default, the desktop window uses the bitmap from a .bmp file specified in the registry as the desktop wallpaper.
 
-The [**GetDesktopWindow**](getdesktopwindow.md) function returns a handle to the desktop window.
+The [**GetDesktopWindow**](/windows/win32/Winuser/nf-winuser-getdesktopwindow?branch=master) function returns a handle to the desktop window.
 
 A system configuration application, such as a Control Panel item, changes the desktop wallpaper by using the [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function with the *wAction* parameter set to **SPI\_SETDESKWALLPAPER** and the *lpvParam* parameter specifying a bitmap file name. **SystemParametersInfo** then loads the bitmap from the specified file, uses the bitmap to paint the background of the screen, and enters the new file name in the registry.
 
@@ -113,11 +113,11 @@ Every window belongs to a window class. An application must register a window cl
 
 A *window name* is a text string that identifies a window for the user. A main window, dialog box, or message box typically displays its window name in its title bar, if present. A control may display its window name, depending on the control's class. For example, buttons, edit controls, and static controls displays their window names within the rectangle occupied by the control. However, controls such as list boxes and combo boxes do not display their window names.
 
-To change the window name after creating a window, use the [**SetWindowText**](setwindowtext.md) function . This function uses the [**GetWindowTextLength**](getwindowtextlength.md) and [**GetWindowText**](getwindowtext.md) functions to retrieve the current window-name string from the window.
+To change the window name after creating a window, use the [**SetWindowText**](/windows/win32/Winuser/nf-winuser-setwindowtexta?branch=master) function . This function uses the [**GetWindowTextLength**](/windows/win32/Winuser/nf-winuser-getwindowtextlengtha?branch=master) and [**GetWindowText**](/windows/win32/Winuser/nf-winuser-getwindowtexta?branch=master) functions to retrieve the current window-name string from the window.
 
 ### Window Style
 
-Every window has one or more window styles. A window style is a named constant that defines an aspect of the window's appearance and behavior that is not specified by the window's class. An application usually sets window styles when creating windows. It can also set the styles after creating a window by using the [**SetWindowLong**](setwindowlong.md) function.
+Every window has one or more window styles. A window style is a named constant that defines an aspect of the window's appearance and behavior that is not specified by the window's class. An application usually sets window styles when creating windows. It can also set the styles after creating a window by using the [**SetWindowLong**](/windows/win32/Winuser/nf-winuser-setwindowlonga?branch=master) function.
 
 The system and, to some extent, the window procedure for the class, interpret the window styles.
 
@@ -136,33 +136,33 @@ For lists of styles that can be used by windows, see the following topics:
 
 ### Extended Window Style
 
-Every window can optionally have one or more extended window styles. An *extended window style* is a named constant that defines an aspect of the window's appearance and behavior that is not specified by the window class or the other window styles. An application usually sets extended window styles when creating windows. It can also set the styles after creating a window by using the [**SetWindowLong**](setwindowlong.md) function.
+Every window can optionally have one or more extended window styles. An *extended window style* is a named constant that defines an aspect of the window's appearance and behavior that is not specified by the window class or the other window styles. An application usually sets extended window styles when creating windows. It can also set the styles after creating a window by using the [**SetWindowLong**](/windows/win32/Winuser/nf-winuser-setwindowlonga?branch=master) function.
 
-For more information, see [**CreateWindowEx**](createwindowex.md).
+For more information, see [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master).
 
 ### Position
 
 A window's position is defined as the coordinates of its upper left corner. These coordinates, sometimes called window coordinates, are always relative to the upper left corner of the screen or, for a child window, the upper left corner of the parent window's client area. For example, a top-level window having the coordinates (10,10) is placed 10 pixels to the right of the upper left corner of the screen and 10 pixels down from it. A child window having the coordinates (10,10) is placed 10 pixels to the right of the upper left corner of its parent window's client area and 10 pixels down from it.
 
-The [**WindowFromPoint**](windowfrompoint.md) function retrieves a handle to the window occupying a particular point on the screen. Similarly, the [**ChildWindowFromPoint**](childwindowfrompoint.md) and [**ChildWindowFromPointEx**](childwindowfrompointex.md) functions retrieve a handle to the child window occupying a particular point in the parent window's client area. Although **ChildWindowFromPointEx** can ignore invisible, disabled, and transparent child windows, **ChildWindowFromPoint** cannot.
+The [**WindowFromPoint**](/windows/win32/Winuser/nf-winuser-childwindowfrompoint?branch=master) function retrieves a handle to the window occupying a particular point on the screen. Similarly, the [**ChildWindowFromPoint**](/windows/win32/Winuser/nf-winuser-childwindowfrompoint?branch=master) and [**ChildWindowFromPointEx**](/windows/win32/Winuser/nf-winuser-childwindowfrompointex?branch=master) functions retrieve a handle to the child window occupying a particular point in the parent window's client area. Although **ChildWindowFromPointEx** can ignore invisible, disabled, and transparent child windows, **ChildWindowFromPoint** cannot.
 
 ### Size
 
 A window's size (width and height) is given in pixels. A window can have zero width or height. If an application sets a window's width and height to zero, the system sets the size to the default minimum window size. To discover the default minimum window size, an application uses the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function with the **SM\_CXMIN** and **SM\_CYMIN** flags.
 
-An application may need to create a window with a client area of a particular size. The [**AdjustWindowRect**](adjustwindowrect.md) and [**AdjustWindowRectEx**](adjustwindowrectex.md) functions calculate the required size of a window based on the desired size of the client area. The application can pass the resulting size values to the [**CreateWindowEx**](createwindowex.md) function.
+An application may need to create a window with a client area of a particular size. The [**AdjustWindowRect**](/windows/win32/Winuser/nf-winuser-adjustwindowrect?branch=master) and [**AdjustWindowRectEx**](/windows/win32/Winuser/nf-winuser-adjustwindowrectex?branch=master) functions calculate the required size of a window based on the desired size of the client area. The application can pass the resulting size values to the [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master) function.
 
 An application can size a window so that it is extremely large; however, it should not size a window so that it is larger than the screen. Before setting a window's size, the application should check the width and height of the screen by using [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) with the **SM\_CXSCREEN** and **SM\_CYSCREEN** flags.
 
 ### Parent or Owner Window Handle
 
-A window can have a parent window. A window that has a parent is called a *child window*. The *parent window* provides the coordinate system used for positioning a child window. Having a parent window affects aspects of a window's appearance; for example, a child window is clipped so that no part of the child window can appear outside the borders of its parent window. A window that has no parent, or whose parent is the desktop window, is called a *top-level window*. An application uses the [**EnumWindows**](enumwindows.md) function to obtain a handle to each of its top-level windows. **EnumWindows** passes the handle to each top-level window, in turn, to an application-defined callback function, [**EnumWindowsProc**](enumwindowsproc.md).
+A window can have a parent window. A window that has a parent is called a *child window*. The *parent window* provides the coordinate system used for positioning a child window. Having a parent window affects aspects of a window's appearance; for example, a child window is clipped so that no part of the child window can appear outside the borders of its parent window. A window that has no parent, or whose parent is the desktop window, is called a *top-level window*. An application uses the [**EnumWindows**](/windows/win32/Winuser/nf-winuser-enumwindows?branch=master) function to obtain a handle to each of its top-level windows. **EnumWindows** passes the handle to each top-level window, in turn, to an application-defined callback function, [**EnumWindowsProc**](enumwindowsproc.md).
 
 A window can own, or be owned by, another window. An owned window always appears in front of its owner window, is hidden when its owner window is minimized, and is destroyed when its owner window is destroyed. For more information, see [Owned Windows](window-features.md#owned-windows).
 
 ### Menu Handle or Child-Window Identifier
 
-A child window can have a *child-window* identifier, a unique, application-defined value associated with the child window. Child-window identifiers are especially useful in applications that create multiple child windows. When creating a child window, an application specifies the identifier of the child window. After creating the window, the application can change the window's identifier by using the [**SetWindowLong**](setwindowlong.md) function, or it can retrieve the identifier by using the [**GetWindowLong**](getwindowlong.md) function.
+A child window can have a *child-window* identifier, a unique, application-defined value associated with the child window. Child-window identifiers are especially useful in applications that create multiple child windows. When creating a child window, an application specifies the identifier of the child window. After creating the window, the application can change the window's identifier by using the [**SetWindowLong**](/windows/win32/Winuser/nf-winuser-setwindowlonga?branch=master) function, or it can retrieve the identifier by using the [**GetWindowLong**](/windows/win32/Winuser/nf-winuser-getwindowlonga?branch=master) function.
 
 Every window, except a child window, can have a menu. An application can include a menu by providing a menu handle either when registering the window's class or when creating the window.
 
@@ -178,13 +178,13 @@ Every window can have application-defined creation data associated with it. When
 
 After creating a window, the creation function returns a *window handle* that uniquely identifies the window. A window handle has the **HWND** data type; an application must use this type when declaring a variable that holds a window handle. An application uses this handle in other functions to direct their actions to the window.
 
-An application can use the [**FindWindow**](findwindow.md) function to discover whether a window with the specified class name or window name exists in the system. If such a window exists, **FindWindow** returns a handle to the window. To limit the search to the child windows of a particular application, use the [**FindWindowEx**](findwindowex.md) function.
+An application can use the [**FindWindow**](/windows/win32/Winuser/nf-winuser-findwindowa?branch=master) function to discover whether a window with the specified class name or window name exists in the system. If such a window exists, **FindWindow** returns a handle to the window. To limit the search to the child windows of a particular application, use the [**FindWindowEx**](/windows/win32/Winuser/nf-winuser-findwindowexa?branch=master) function.
 
-The [**IsWindow**](iswindow.md) function determines whether a window handle identifies a valid, existing window. There are special constants that can replace a window handle in certain functions. For example, an application can use **HWND\_BROADCAST** in the [**SendMessage**](sendmessage.md) and [**SendMessageTimeout**](sendmessagetimeout.md) functions, or **HWND\_DESKTOP** in the [**MapWindowPoints**](https://msdn.microsoft.com/library/windows/desktop/dd145046) function.
+The [**IsWindow**](/windows/win32/Winuser/nf-winuser-iswindow?branch=master) function determines whether a window handle identifies a valid, existing window. There are special constants that can replace a window handle in certain functions. For example, an application can use **HWND\_BROADCAST** in the [**SendMessage**](/windows/win32/Winuser/nf-winuser-insendmessage?branch=master) and [**SendMessageTimeout**](/windows/win32/Winuser/nf-winuser-sendmessagetimeouta?branch=master) functions, or **HWND\_DESKTOP** in the [**MapWindowPoints**](https://msdn.microsoft.com/library/windows/desktop/dd145046) function.
 
 ## Window Creation
 
-To create application windows, use the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](createwindowex.md) function. You must provide the information required to define the window attributes. **CreateWindowEx** has a parameter, *dwExStyle*, that **CreateWindow** does not have; otherwise, the functions are identical. In fact, **CreateWindow** simply calls **CreateWindowEx** with the *dwExStyle* parameter set to zero. For this reason, the remainder of this overview refers only to **CreateWindowEx**.
+To create application windows, use the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master) function. You must provide the information required to define the window attributes. **CreateWindowEx** has a parameter, *dwExStyle*, that **CreateWindow** does not have; otherwise, the functions are identical. In fact, **CreateWindow** simply calls **CreateWindowEx** with the *dwExStyle* parameter set to zero. For this reason, the remainder of this overview refers only to **CreateWindowEx**.
 
 This section contains the following topics:
 
@@ -199,17 +199,17 @@ This section contains the following topics:
 
 ### Main Window Creation
 
-Every Windows-based application must have [**WinMain**](winmain.md) as its entry point function. **WinMain** performs a number of tasks, including registering the window class for the main window and creating the main window. **WinMain** registers the main window class by calling the [**RegisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibregisterclassdevice?branch=master) function, and it creates the main window by calling the [**CreateWindowEx**](createwindowex.md) function.
+Every Windows-based application must have [**WinMain**](/windows/win32/Winbase/nf-winbase-winmain?branch=master) as its entry point function. **WinMain** performs a number of tasks, including registering the window class for the main window and creating the main window. **WinMain** registers the main window class by calling the [**RegisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibregisterclassdevice?branch=master) function, and it creates the main window by calling the [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master) function.
 
-Your [**WinMain**](winmain.md) function can also limit your application to a single instance. Create a named mutex using the [**CreateMutex**](https://msdn.microsoft.com/library/windows/desktop/ms682411) function. If [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns **ERROR\_ALREADY\_EXISTS**, another instance of your application exists (it created the mutex) and you should exit **WinMain**.
+Your [**WinMain**](/windows/win32/Winbase/nf-winbase-winmain?branch=master) function can also limit your application to a single instance. Create a named mutex using the [**CreateMutex**](https://msdn.microsoft.com/library/windows/desktop/ms682411) function. If [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns **ERROR\_ALREADY\_EXISTS**, another instance of your application exists (it created the mutex) and you should exit **WinMain**.
 
-The system does not automatically display the main window after creating it; instead, an application must use the [**ShowWindow**](showwindow.md) function to display the main window. After creating the main window, the application's [**WinMain**](winmain.md) function calls **ShowWindow**, passing it two parameters: a handle to the main window and a flag specifying whether the main window should be minimized or maximized when it is first displayed. Normally, the flag can be set to any of the constants beginning with the SW\_ prefix. However, when **ShowWindow** is called to display the application's main window, the flag must be set to **SW\_SHOWDEFAULT**. This flag tells the system to display the window as directed by the program that started the application.
+The system does not automatically display the main window after creating it; instead, an application must use the [**ShowWindow**](/windows/win32/Winuser/nf-winuser-showwindow?branch=master) function to display the main window. After creating the main window, the application's [**WinMain**](/windows/win32/Winbase/nf-winbase-winmain?branch=master) function calls **ShowWindow**, passing it two parameters: a handle to the main window and a flag specifying whether the main window should be minimized or maximized when it is first displayed. Normally, the flag can be set to any of the constants beginning with the SW\_ prefix. However, when **ShowWindow** is called to display the application's main window, the flag must be set to **SW\_SHOWDEFAULT**. This flag tells the system to display the window as directed by the program that started the application.
 
-If a window class was registered with the Unicode version of [**RegisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibregisterclassdevice?branch=master), the window receives only Unicode messages. To determine whether a window uses the Unicode character set or not, call [**IsWindowUnicode**](iswindowunicode.md).
+If a window class was registered with the Unicode version of [**RegisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibregisterclassdevice?branch=master), the window receives only Unicode messages. To determine whether a window uses the Unicode character set or not, call [**IsWindowUnicode**](/windows/win32/Winuser/nf-winuser-iswindowunicode?branch=master).
 
 ### Window-Creation Messages
 
-When creating any window, the system sends messages to the window procedure for the window. The system sends the [**WM\_NCCREATE**](wm-nccreate.md) message after creating the window's nonclient area and the [**WM\_CREATE**](wm-create.md) message after creating the client area. The window procedure receives both messages before the system displays the window. Both messages include a pointer to a [**CREATESTRUCT**](createstruct.md) structure that contains all the information specified in the [**CreateWindowEx**](createwindowex.md) function. Typically, the window procedure performs initialization tasks upon receiving these messages.
+When creating any window, the system sends messages to the window procedure for the window. The system sends the [**WM\_NCCREATE**](wm-nccreate.md) message after creating the window's nonclient area and the [**WM\_CREATE**](wm-create.md) message after creating the client area. The window procedure receives both messages before the system displays the window. Both messages include a pointer to a [**CREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagclientcreatestruct?branch=master) structure that contains all the information specified in the [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master) function. Typically, the window procedure performs initialization tasks upon receiving these messages.
 
 When creating a child window, the system sends the [**WM\_PARENTNOTIFY**](https://msdn.microsoft.com/library/windows/desktop/hh454920) message to the parent window after sending the [**WM\_NCCREATE**](wm-nccreate.md) and [**WM\_CREATE**](wm-create.md) messages. It also sends other messages while creating a window. The number and order of these messages depend on the window class and style and on the function used to create the window. These messages are described in other topics in this help file.
 
@@ -217,11 +217,11 @@ When creating a child window, the system sends the [**WM\_PARENTNOTIFY**](https:
 
 A Windows-based application can have multiple threads of execution, and each thread can create windows. The thread that creates a window must contain the code for its window procedure.
 
-An application can use the [**EnumThreadWindows**](enumthreadwindows.md) function to enumerate the windows created by a particular thread. This function passes the handle to each thread window, in turn, to an application-defined callback function, [**EnumThreadWndProc**](enumthreadwndproc.md).
+An application can use the [**EnumThreadWindows**](/windows/win32/Winuser/nf-winuser-enumthreadwindows?branch=master) function to enumerate the windows created by a particular thread. This function passes the handle to each thread window, in turn, to an application-defined callback function, [**EnumThreadWndProc**](enumthreadwndproc.md).
 
-The [**GetWindowThreadProcessId**](getwindowthreadprocessid.md) function returns the identifier of the thread that created a particular window.
+The [**GetWindowThreadProcessId**](/windows/win32/Winuser/nf-winuser-getwindowthreadprocessid?branch=master) function returns the identifier of the thread that created a particular window.
 
-To set the show state of a window created by another thread, use the [**ShowWindowAsync**](showwindowasync.md) function.
+To set the show state of a window created by another thread, use the [**ShowWindowAsync**](/windows/win32/Winuser/nf-winuser-showwindowasync?branch=master) function.
 
  
 

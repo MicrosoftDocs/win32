@@ -11,19 +11,19 @@ ms.technology: desktop
 
 # Window Structures
 
--   [**ALTTABINFO**](alttabinfo.md)
--   [**CHANGEFILTERSTRUCT**](changefilterstruct.md)
--   [**CLIENTCREATESTRUCT**](clientcreatestruct.md)
--   [**CREATESTRUCT**](createstruct.md)
--   [**GUITHREADINFO**](guithreadinfo.md)
--   [**MINMAXINFO**](minmaxinfo.md)
--   [**NCCALCSIZE\_PARAMS**](nccalcsize-params.md)
--   [**STYLESTRUCT**](stylestruct.md)
--   [**TITLEBARINFO**](titlebarinfo.md)
--   [**TITLEBARINFOEX**](titlebarinfoex.md)
--   [**UPDATELAYEREDWINDOWINFO**](updatelayeredwindowinfo.md)
--   [**WINDOWINFO**](windowinfo.md)
--   [**WINDOWPLACEMENT**](windowplacement.md)
+-   [**ALTTABINFO**](/windows/win32/Winuser/nf-winuser-getalttabinfoa?branch=master)
+-   [**CHANGEFILTERSTRUCT**](/windows/win32/Winuser/ns-winuser-tagchangefilterstruct?branch=master)
+-   [**CLIENTCREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagclientcreatestruct?branch=master)
+-   [**CREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagclientcreatestruct?branch=master)
+-   [**GUITHREADINFO**](/windows/win32/Winuser/nf-winuser-getguithreadinfo?branch=master)
+-   [**MINMAXINFO**](/windows/win32/Winuser/ns-winuser-tagminmaxinfo?branch=master)
+-   [**NCCALCSIZE\_PARAMS**](/windows/win32/Winuser/ns-winuser-tagnccalcsize_params?branch=master)
+-   [**STYLESTRUCT**](/windows/win32/Winuser/ns-winuser-tagstylestruct?branch=master)
+-   [**TITLEBARINFO**](/windows/win32/Winuser/nf-winuser-gettitlebarinfo?branch=master)
+-   [**TITLEBARINFOEX**](/windows/win32/Winuser/ns-winuser-tagtitlebarinfoex?branch=master)
+-   [**UPDATELAYEREDWINDOWINFO**](/windows/win32/Winuser/ns-winuser-tagupdatelayeredwindowinfo?branch=master)
+-   [**WINDOWINFO**](/windows/win32/Winuser/nf-winuser-getwindowinfo?branch=master)
+-   [**WINDOWPLACEMENT**](/windows/win32/Winuser/nf-winuser-getwindowplacement?branch=master)
 -   [**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master)
 
  

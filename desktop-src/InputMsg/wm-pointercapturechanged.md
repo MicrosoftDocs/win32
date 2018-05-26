@@ -39,7 +39,7 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 *wParam* 
 </dt> <dd>
 
-Contains information about the input pointer that is being lost. Use [**GET\_POINTERID\_WPARAM**](get-pointerid-wparam.md) to get the pointer ID.
+Contains information about the input pointer that is being lost. Use [**GET\_POINTERID\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_pointerid_wparam?branch=master) to get the pointer ID.
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ A window should use this notification to stop processing subsequent messages and
 
 Typically, if a window receives the **WM\_POINTERCAPTURECHANGED** notification, no subsequent notifications related to the input pointer are received. Because of this, do not depend on paired notifications such as [**WM\_POINTERENTER**](wm-pointerenter.md) and [**WM\_POINTERLEAVE**](wm-pointerleave.md).
 
-**WM\_POINTERCAPTURECHANGED** does not include [**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master) data. Other than the [**POINTER\_FLAG\_CAPTURECHANGED**](pointer-flags-contants.md) flag being set, the data returned by [**GetPointerInfo**](getpointerinfo.md) (or any variant) is identical to that returned prior to the notification.
+**WM\_POINTERCAPTURECHANGED** does not include [**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master) data. Other than the [**POINTER\_FLAG\_CAPTURECHANGED**](pointer-flags-contants.md) flag being set, the data returned by [**GetPointerInfo**](/windows/win32/Winuser/nf-winuser-getpointerinfo?branch=master) (or any variant) is identical to that returned prior to the notification.
 
 If the application does not process this notification, [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) may generate one or more [**WM\_GESTURE**](https://msdn.microsoft.com/library/windows/desktop/dd353242) messages or, if a gesture is not recognized, **DefWindowProc** may generate mouse input.
 

@@ -21,7 +21,7 @@ Every node type implies one or more clipboard formats that a [data object](data-
 
 All clipboard formats supported by snap-ins (stand-alone or extension) must be registered. You can do this by using the Windows [**RegisterClipboardFormat**](_win32_registerclipboardformat_cpp) function.
 
-Snap-ins must include support for the following four clipboard formats in all data objects that they provide to MMC as a result of calls to [**IComponentData::QueryDataObject**](icomponentdata-querydataobject.md) or [**IComponent::QueryDataObject**](icomponent-querydataobject.md):
+Snap-ins must include support for the following four clipboard formats in all data objects that they provide to MMC as a result of calls to [**IComponentData::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponentdata-querydataobject?branch=master) or [**IComponent::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponent-querydataobject?branch=master):
 
 CCF\_NODETYPE
 

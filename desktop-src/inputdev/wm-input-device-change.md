@@ -57,7 +57,7 @@ This parameter can be one of the following values.
 *lParam* 
 </dt> <dd>
 
-The handle to the raw input device. Call [**GetRawInputDeviceInfo**](getrawinputdeviceinfo.md) to get more information regarding the device.
+The handle to the raw input device. Call [**GetRawInputDeviceInfo**](/windows/win32/Winuser/nf-winuser-getrawinputdeviceinfoa?branch=master) to get more information regarding the device.
 
 </dd> </dl>
 

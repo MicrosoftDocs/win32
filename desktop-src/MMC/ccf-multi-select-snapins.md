@@ -29,7 +29,7 @@ The CCF\_MULTI\_SELECT\_SNAPINS clipboard format enables MMC to pass a list of m
 
 ## Data Format
 
-[**SMMCDataObjects**](smmcdataobjects.md) structure.
+[**SMMCDataObjects**](/windows/win32/Mmc/ns-mmc-_smmcdataobjects?branch=master) structure.
 
 ## Remarks
 
@@ -53,7 +53,7 @@ If there are n snap-ins whose objects are selected in the result pane, these n d
 
 <dl> <dt>
 
-[**SMMCDataObjects**](smmcdataobjects.md)
+[**SMMCDataObjects**](/windows/win32/Mmc/ns-mmc-_smmcdataobjects?branch=master)
 </dt> <dt>
 
 [Multiselection](multiselection.md)

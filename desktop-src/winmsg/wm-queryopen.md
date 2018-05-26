@@ -13,7 +13,7 @@ ms.technology: desktop
 
 Sent to an icon when the user requests that the window be restored to its previous size and position.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -48,7 +48,7 @@ If the icon can be opened, an application that processes this message should ret
 
 ## Remarks
 
-By default, the [**DefWindowProc**](defwindowproc.md) function returns **TRUE**.
+By default, the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function returns **TRUE**.
 
 While processing this message, the application should not perform any action that would cause an activation or focus change (for example, creating a dialog box).
 
@@ -71,7 +71,7 @@ While processing this message, the application should not perform any action tha
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](defwindowproc.md)
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
 </dt> <dt>
 
 **Conceptual**

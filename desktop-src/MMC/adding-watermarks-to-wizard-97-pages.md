@@ -19,7 +19,7 @@ ms.author: windowssdkdev
 
 This feature is introduced in MMC 1.1.
 
-By implementing [**IExtendPropertySheet2::GetWatermarks**](iextendpropertysheet2-getwatermarks.md), you can specify the bitmaps used for the watermark on [*Welcome*](w-gly.md#mmc-welcome-page-gly) and [*Completion pages*](c-gly.md#mmc-completion-page-gly) and the header on interior pages.
+By implementing [**IExtendPropertySheet2::GetWatermarks**](/windows/win32/Mmc/nf-mmc-iextendpropertysheet2-getwatermarks?branch=master), you can specify the bitmaps used for the watermark on [*Welcome*](w-gly.md#mmc-welcome-page-gly) and [*Completion pages*](c-gly.md#mmc-completion-page-gly) and the header on interior pages.
 
 By setting the pszHeaderTitle and pszHeaderSubTitle members of the [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure, you can specify the header title and subtitle text for interior wizard pages.
 

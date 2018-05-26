@@ -17,13 +17,13 @@ ms.author: windowssdkdev
 
 # Adding Required Extensions
 
-Required extensions are extension snap-ins that are automatically added to the primary snap-in when the primary snap-in is loaded. By implementing the [**IRequiredExtensions**](irequiredextensions.md) interface, a snap-in specifies the list of required extensions that MMC should load when that snap-in is loaded.
+Required extensions are extension snap-ins that are automatically added to the primary snap-in when the primary snap-in is loaded. By implementing the [**IRequiredExtensions**](/windows/win32/Mmc/nn-mmc-irequiredextensions?branch=master) interface, a snap-in specifies the list of required extensions that MMC should load when that snap-in is loaded.
 
 Required extensions are added to all instances of the primary snap-in. In addition, required extensions cannot be removed programmatically or through the [Add/Remove Snap-in dialog box](add-remove-snap-in-dialog-box.md).
 
 Required extensions are persisted in the console file, but at each session the snap-in is queried for the list. Only required extensions specified by the latest query are used.
 
-The snap-in can specify that all registered extension snap-ins should be added by implementing the [**IRequiredExtensions::EnableAllExtensions**](irequiredextensions-enableallextensions.md) method. The snap-in can specify a specific list of registered extension snap-ins to be added by implementing the [**IRequiredExtensions::GetFirstExtension**](irequiredextensions-getfirstextension.md) and [**IRequiredExtensions::GetNextExtension**](irequiredextensions-getnextextension.md) methods.
+The snap-in can specify that all registered extension snap-ins should be added by implementing the [**IRequiredExtensions::EnableAllExtensions**](/windows/win32/Mmc/nf-mmc-irequiredextensions-enableallextensions?branch=master) method. The snap-in can specify a specific list of registered extension snap-ins to be added by implementing the [**IRequiredExtensions::GetFirstExtension**](/windows/win32/Mmc/nf-mmc-irequiredextensions-getfirstextension?branch=master) and [**IRequiredExtensions::GetNextExtension**](/windows/win32/Mmc/nf-mmc-irequiredextensions-getnextextension?branch=master) methods.
 
 ## Related topics
 

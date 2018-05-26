@@ -11,10 +11,10 @@ ms.technology: desktop
 
 # MDI Functions
 
--   [**CreateMDIWindow**](createmdiwindow.md)
--   [**DefFrameProc**](defframeproc.md)
--   [**DefMDIChildProc**](defmdichildproc.md)
--   [**TranslateMDISysAccel**](translatemdisysaccel.md)
+-   [**CreateMDIWindow**](/windows/win32/Winuser/nf-winuser-createmdiwindowa?branch=master)
+-   [**DefFrameProc**](/windows/win32/Winuser/nf-winuser-defframeproca?branch=master)
+-   [**DefMDIChildProc**](/windows/win32/Winuser/nf-winuser-defmdichildproca?branch=master)
+-   [**TranslateMDISysAccel**](/windows/win32/Winuser/nf-winuser-translatemdisysaccel?branch=master)
 
  
 

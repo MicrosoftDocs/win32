@@ -23,7 +23,7 @@ This section describes the structures that a SAN service provider uses. These st
 [**WSAPROTOCOLCHAIN**](/windows/win32/winsock2/ns-winsock2-_wsaprotocolchain?branch=master)  
 [**WSAPROTOCOL\_INFOW**](/windows/win32/winsock2/ns-winsock2-_wsaprotocol_infow?branch=master)  
 [**WSATHREADID**](/windows/win32/ws2spi/ns-ws2spi-_wsathreadid?branch=master)  
-[**WSPDATA**](wspdata.md)  
+[**WSPDATA**](/windows/win32/ws2spi/ns-ws2spi-wspdata?branch=master)  
 [**WSPPROC\_TABLE**](/windows/win32/ws2spi/ns-ws2spi-_wspproc_table?branch=master)  
 </dl>
 

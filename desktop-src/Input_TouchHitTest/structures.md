@@ -24,8 +24,8 @@ The topics in this section provide the reference specifications for [Touch Hit T
 
 | Topic                                                                                                   | Description                                                                                                                                                                               |
 |---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TOUCH\_HIT\_TESTING\_INPUT**](touch-hit-testing-input.md)<br/>                                | Contains information about the touch contact area reported by the touch digitizer.<br/>                                                                                             |
-| [**TOUCH\_HIT\_TESTING\_PROXIMITY\_EVALUATION**](touch-hit-testing-proximity-evaluation.md)<br/> | Contains the hit test score that indicates whether the object is the likely target of the touch contact area, relative to other objects that intersect the touch contact area.<br/> |
+| [**TOUCH\_HIT\_TESTING\_INPUT**](/windows/win32/winuser/ns-winuser-tagtouch_hit_testing_input?branch=master)<br/>                                | Contains information about the touch contact area reported by the touch digitizer.<br/>                                                                                             |
+| [**TOUCH\_HIT\_TESTING\_PROXIMITY\_EVALUATION**](/windows/win32/winuser/ns-winuser-tagtouch_hit_testing_proximity_evaluation?branch=master)<br/> | Contains the hit test score that indicates whether the object is the likely target of the touch contact area, relative to other objects that intersect the touch contact area.<br/> |
 
 
 

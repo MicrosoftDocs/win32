@@ -37,43 +37,43 @@ The following items are new in MMC version 1.2.
 
 ## New Interfaces
 
-[**IColumnData**](icolumndata.md)
+[**IColumnData**](/windows/win32/Mmc/nn-mmc-icolumndata?branch=master)
 
-[**IHeaderCtrl2**](iheaderctrl2.md)
+[**IHeaderCtrl2**](/windows/win32/Mmc/nn-mmc-iheaderctrl2?branch=master)
 
-[**IMessageView**](imessageview.md)
+[**IMessageView**](/windows/win32/Mmc/nn-mmc-imessageview?branch=master)
 
-[**IResultDataCompareEx**](iresultdatacompareex.md)
+[**IResultDataCompareEx**](/windows/win32/Mmc/nn-mmc-iresultdatacompareex?branch=master)
 
 ## New Structures
 
-[**MMC\_COLUMN\_DATA**](mmc-column-data.md)
+[**MMC\_COLUMN\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_column_data?branch=master)
 
-[**MMC\_COLUMN\_SET\_DATA**](mmc-column-set-data.md)
+[**MMC\_COLUMN\_SET\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_column_set_data?branch=master)
 
-[**MMC\_FILTERDATA**](mmc-filterdata.md)
+[**MMC\_FILTERDATA**](/windows/win32/Mmc/ns-mmc-_mmc_filterdata?branch=master)
 
-[**MMC\_SORT\_DATA**](mmc-sort-data.md)
+[**MMC\_SORT\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_sort_data?branch=master)
 
-[**MMC\_SORT\_SET\_DATA**](mmc-sort-set-data.md)
+[**MMC\_SORT\_SET\_DATA**](/windows/win32/Mmc/ns-mmc-_mmc_sort_set_data?branch=master)
 
-[**MMC\_VISIBLE\_COLUMNS**](mmc-visible-columns.md)
+[**MMC\_VISIBLE\_COLUMNS**](/windows/win32/Mmc/ns-mmc-_mmc_visible_columns?branch=master)
 
-[**RDCOMPARE**](rdcompare.md)
+[**RDCOMPARE**](/windows/win32/Mmc/ns-mmc-_rdcompare?branch=master)
 
 [**RDITEMHDR**](rditemhdr.md)
 
-[**SColumnSetID**](scolumnsetid.md)
+[**SColumnSetID**](/windows/win32/Mmc/ns-mmc-_scolumnsetid?branch=master)
 
-[**SNodeID2**](snodeid2.md)
+[**SNodeID2**](/windows/win32/Mmc/ns-mmc-_snodeid2?branch=master)
 
 ## New Enumerations
 
-[**IconIdentifier**](iconidentifier.md)
+[**IconIdentifier**](/windows/win32/Mmc/ne-mmc-tagiconidentifier?branch=master)
 
-[**MMC\_FILTER\_CHANGE\_CODE**](mmc-filter-change-code.md)
+[**MMC\_FILTER\_CHANGE\_CODE**](/windows/win32/Mmc/ne-mmc-_mmc_filter_change_code?branch=master)
 
-[**MMC\_FILTER\_TYPE**](mmc-filter-type.md)
+[**MMC\_FILTER\_TYPE**](/windows/win32/Mmc/ne-mmc-_mmc_filter_type?branch=master)
 
 ## New Notifications
 
@@ -91,9 +91,9 @@ The following items are new in MMC version 1.2.
 
 ## New View Options
 
-[**MMC\_VIEW\_OPTIONS\_EXCLUDE\_SCOPE\_ITEMS\_FROM\_LIST**](icomponent-getresultviewtype.md)
+[**MMC\_VIEW\_OPTIONS\_EXCLUDE\_SCOPE\_ITEMS\_FROM\_LIST**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master)
 
-[**MMC\_VIEW\_OPTIONS\_LEXICAL\_SORT**](icomponent-getresultviewtype.md)
+[**MMC\_VIEW\_OPTIONS\_LEXICAL\_SORT**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master)
 
  
 

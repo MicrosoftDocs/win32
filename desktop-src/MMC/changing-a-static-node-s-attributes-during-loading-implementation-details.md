@@ -20,7 +20,7 @@ ms.author: windowssdkdev
 ## To change a static node attribute when loading a snap-in
 
 1.  Support the [**CCF\_SNAPIN\_PRELOADS**](ccf-snapin-preloads.md) clipboard format. When saving a console file, MMC calls [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere) on each loaded snap-in using this clipboard format. In the snap-in handler for the clipboard format, return **TRUE**.
-2.  Handle the [**MMCN\_PRELOAD**](mmcn-preload.md) notification. MMC calls the [**IComponentData::Notify**](icomponentdata-notify.md) method of the snap-in with this notification when the snap-in is loaded from a saved console file. The lpDataObject value passed into the method call is a pointer to the static node's data object. The arg value passed into the call is the handle (an HSCOPEITEM) to the static node. The snap-in can use this handle to modify the attributes of the static node.
+2.  Handle the [**MMCN\_PRELOAD**](mmcn-preload.md) notification. MMC calls the [**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master) method of the snap-in with this notification when the snap-in is loaded from a saved console file. The lpDataObject value passed into the method call is a pointer to the static node's data object. The arg value passed into the call is the handle (an HSCOPEITEM) to the static node. The snap-in can use this handle to modify the attributes of the static node.
 
 ## Related topics
 

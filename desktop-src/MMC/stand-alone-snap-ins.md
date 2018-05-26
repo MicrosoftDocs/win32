@@ -17,9 +17,9 @@ ms.author: windowssdkdev
 
 # Stand-alone Snap-ins
 
-Stand-alone snap-ins must implement the [**IComponentData**](icomponentdata.md) interface. Additional interfaces must also be implemented, depending on the type of functionality you want the stand-alone snap-in to have. These requirements are described in detail in the sections of the Programmer's Guide that cover adding features such as different result pane views, toolbars, and property pages.
+Stand-alone snap-ins must implement the [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) interface. Additional interfaces must also be implemented, depending on the type of functionality you want the stand-alone snap-in to have. These requirements are described in detail in the sections of the Programmer's Guide that cover adding features such as different result pane views, toolbars, and property pages.
 
-Snap-in developers are also encouraged to implement the [**ISnapinAbout**](isnapinabout.md) interface in their stand-alone snap-ins.
+Snap-in developers are also encouraged to implement the [**ISnapinAbout**](/windows/win32/Mmc/nn-mmc-isnapinabout?branch=master) interface in their stand-alone snap-ins.
 
 Stand-alone snap-ins that add to their namespace node types that are extended by extension snap-ins have additional requirements. For more information, see [Requirements for Primary Snap-ins](requirements-for-primary-snap-ins.md).
 

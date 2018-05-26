@@ -55,7 +55,7 @@ The system maintains a variable that controls mouse speed—that is, the distanc
 
 ## Mouse Capture
 
-The system typically posts a mouse message to the window that contains the cursor hot spot when a mouse event occurs. An application can change this behavior by using the [**SetCapture**](setcapture.md) function to route mouse messages to a specific window. The window receives all mouse messages until the application calls the [**ReleaseCapture**](releasecapture.md) function or specifies another capture window, or until the user clicks a window created by another thread.
+The system typically posts a mouse message to the window that contains the cursor hot spot when a mouse event occurs. An application can change this behavior by using the [**SetCapture**](/windows/win32/Winuser/nf-winuser-setcapture?branch=master) function to route mouse messages to a specific window. The window receives all mouse messages until the application calls the [**ReleaseCapture**](/windows/win32/Winuser/nf-winuser-releasecapture?branch=master) function or specifies another capture window, or until the user clicks a window created by another thread.
 
 When the mouse capture changes, the system sends a [**WM\_CAPTURECHANGED**](wm-capturechanged.md) message to the window that is losing the mouse capture. The *lParam* parameter of the message specifies a handle to the window that is gaining the mouse capture.
 
@@ -63,7 +63,7 @@ Only the foreground window can capture mouse input. When a background window att
 
 Capturing mouse input is useful if a window must receive all mouse input, even when the cursor moves outside the window. For example, an application typically tracks the cursor position after a mouse button down event, following the cursor until a mouse button up event occurs. If an application has not captured mouse input and the user releases the mouse button outside the window, the window does not receive the button-up message.
 
-A thread can use the [**GetCapture**](getcapture.md) function to determine whether one of its windows has captured the mouse. If one of the thread's windows has captured the mouse, **GetCapture** retrieves a handle to the window.
+A thread can use the [**GetCapture**](/windows/win32/Winuser/nf-winuser-getcapture?branch=master) function to determine whether one of its windows has captured the mouse. If one of the thread's windows has captured the mouse, **GetCapture** retrieves a handle to the window.
 
 ## Mouse ClickLock
 
@@ -84,7 +84,7 @@ Applications can also support a mouse wheel. The mouse wheel can be pressed or r
 
 Applications can support application-command buttons. These buttons, called X buttons, are designed to allow easier access to an Internet browser, electronic mail, and media services. When an X button is pressed, a [**WM\_APPCOMMAND**](wm-appcommand.md) message is sent to your application. For more information, see the description in the **WM\_APPCOMMAND** message.
 
-An application can determine the number of buttons on the mouse by passing the **SM\_CMOUSEBUTTONS** value to the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function. To configure the mouse for a left-handed user, the application can use the [**SwapMouseButton**](swapmousebutton.md) function to reverse the meaning of the left and right mouse buttons. Passing the **SPI\_SETMOUSEBUTTONSWAP** value to the [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function is another way to reverse the meaning of the buttons. Note, however, that the mouse is a shared resource, so reversing the meaning of the buttons affects all applications.
+An application can determine the number of buttons on the mouse by passing the **SM\_CMOUSEBUTTONS** value to the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function. To configure the mouse for a left-handed user, the application can use the [**SwapMouseButton**](/windows/win32/Winuser/nf-winuser-swapmousebutton?branch=master) function to reverse the meaning of the left and right mouse buttons. Passing the **SPI\_SETMOUSEBUTTONSWAP** value to the [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function is another way to reverse the meaning of the buttons. Note, however, that the mouse is a shared resource, so reversing the meaning of the buttons affects all applications.
 
 ## XBUTTONs
 
@@ -105,10 +105,10 @@ The following support XBUTTON1 and XBUTTON2:
 
 The following APIs were modified to support these buttons:
 
--   [**mouse\_event**](mouse-event.md)
+-   [**mouse\_event**](/windows/win32/Winuser/nf-winuser-mouse_event?branch=master)
 -   [**ShellProc**](https://msdn.microsoft.com/library/windows/desktop/ms644991)
 -   [**MSLLHOOKSTRUCT**](https://msdn.microsoft.com/library/windows/desktop/ms644970)
--   [**MOUSEINPUT**](mouseinput.md)
+-   [**MOUSEINPUT**](/windows/win32/Winuser/ns-winuser-tagmouseinput?branch=master)
 -   [**WM\_PARENTNOTIFY**](https://msdn.microsoft.com/library/windows/desktop/hh454920)
 
 It is unlikely that a child window in a component application will be able to directly implement commands for the XBUTTON1 and XBUTTON2. So [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) sends a [**WM\_APPCOMMAND**](wm-appcommand.md) message to a window when an X button is clicked. **DefWindowProc** also sends the **WM\_APPCOMMAND** message to its parent window. This is similar to the way context menus are invoked with a right click—**DefWindowProc** sends a [**WM\_CONTEXTMENU**](https://msdn.microsoft.com/library/windows/desktop/ms647592) message to the menu and also sends it to its parent. Additionally, if **DefWindowProc** receives a **WM\_APPCOMMAND** message for a top-level window, it calls a shell hook with code HSHELL\_APPCOMMAND.
@@ -152,7 +152,7 @@ A window receives a client area mouse message when a mouse event occurs within t
 
  
 
-In addition, an application can call the [**TrackMouseEvent**](trackmouseevent.md) function to have the system send two other messages. It posts the [**WM\_MOUSEHOVER**](wm-mousehover.md) message when the cursor hovers over the client area for a certain time period. It posts the [**WM\_MOUSELEAVE**](wm-mouseleave.md) message when the cursor leaves the client area.
+In addition, an application can call the [**TrackMouseEvent**](/windows/win32/Winuser/nf-winuser-trackmouseevent?branch=master) function to have the system send two other messages. It posts the [**WM\_MOUSEHOVER**](wm-mousehover.md) message when the cursor hovers over the client area for a certain time period. It posts the [**WM\_MOUSELEAVE**](wm-mouseleave.md) message when the cursor leaves the client area.
 
 ### Message Parameters
 
@@ -180,7 +180,7 @@ The *wParam* parameter contains flags that indicate the status of the other mous
 
 The system generates a double-click message when the user clicks a mouse button twice in quick succession. When the user clicks a button, the system establishes a rectangle centered around the cursor hot spot. It also marks the time at which the click occurred. When the user clicks the same button a second time, the system determines whether the hot spot is still within the rectangle and calculates the time elapsed since the first click. If the hot spot is still within the rectangle and the elapsed time does not exceed the double-click time-out value, the system generates a double-click message.
 
-An application can get and set double-click time-out values by using the [**GetDoubleClickTime**](getdoubleclicktime.md) and [**SetDoubleClickTime**](setdoubleclicktime.md) functions, respectively. Alternatively, the application can set the double-click–time-out value by using the **SPI\_SETDOUBLECLICKTIME** flag with the [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function. It can also set the size of the rectangle that the system uses to detect double-clicks by passing the **SPI\_SETDOUBLECLKWIDTH** and **SPI\_SETDOUBLECLKHEIGHT** flags to **SystemParametersInfo**. Note, however, that setting the double-click–time-out value and rectangle affects all applications.
+An application can get and set double-click time-out values by using the [**GetDoubleClickTime**](/windows/win32/Winuser/nf-winuser-getdoubleclicktime?branch=master) and [**SetDoubleClickTime**](/windows/win32/Winuser/nf-winuser-setdoubleclicktime?branch=master) functions, respectively. Alternatively, the application can set the double-click–time-out value by using the **SPI\_SETDOUBLECLICKTIME** flag with the [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function. It can also set the size of the rectangle that the system uses to detect double-clicks by passing the **SPI\_SETDOUBLECLKWIDTH** and **SPI\_SETDOUBLECLKHEIGHT** flags to **SystemParametersInfo**. Note, however, that setting the double-click–time-out value and rectangle affects all applications.
 
 An application-defined window does not, by default, receive double-click messages. Because of the system overhead involved in generating double-click messages, these messages are generated only for windows belonging to classes that have the **CS\_DBLCLKS** class style. Your application must set this style when registering the window class. For more information, see [Window Classes](https://msdn.microsoft.com/library/windows/desktop/ms632596).
 

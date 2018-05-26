@@ -20,8 +20,8 @@ ms.author: windowssdkdev
 **To enable standard verbs**
 
 1.  Handle the [**MMCN\_SELECT**](mmcn-select.md) notification message, which MMC sends to indicate which item in the scope pane is currently selected.
-2.  In the notification handler, call the [**IConsole2::QueryConsoleVerb**](iconsole2-queryconsoleverb.md) method to request a pointer to the MMC [**IConsoleVerb**](iconsoleverb.md) interface implementation.
-3.  Use the returned interface pointer to call [**IConsoleVerb::SetVerbState**](iconsoleverb-setverbstate.md), one time for each standard verb to enable for the selected item. Also call other [**IConsoleVerb**](iconsoleverb.md) verbs as necessary.
+2.  In the notification handler, call the [**IConsole2::QueryConsoleVerb**](iconsole2-queryconsoleverb.md) method to request a pointer to the MMC [**IConsoleVerb**](/windows/win32/Mmc/nn-mmc-iconsoleverb?branch=master) interface implementation.
+3.  Use the returned interface pointer to call [**IConsoleVerb::SetVerbState**](/windows/win32/Mmc/nf-mmc-iconsoleverb-setverbstate?branch=master), one time for each standard verb to enable for the selected item. Also call other [**IConsoleVerb**](/windows/win32/Mmc/nn-mmc-iconsoleverb?branch=master) verbs as necessary.
 
 ## Related topics
 

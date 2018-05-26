@@ -17,7 +17,7 @@ ms.author: windowssdkdev
 
 # MMC Static Nodes
 
-A static node is a node in the MMC namespace that is present as long as the snap-in that provides it is loaded. Snap-ins must implement the [**IComponentData**](icomponentdata.md) interface to have static nodes in the tree. The first time a static node is accessed in an MMC console, MMC calls [**CoCreateInstance**](_com_cocreateinstance) to create an instance of the snap-in COM server that owns the static node in that console. Each static node in each console is associated with a different instance of a snap-in.
+A static node is a node in the MMC namespace that is present as long as the snap-in that provides it is loaded. Snap-ins must implement the [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) interface to have static nodes in the tree. The first time a static node is accessed in an MMC console, MMC calls [**CoCreateInstance**](_com_cocreateinstance) to create an instance of the snap-in COM server that owns the static node in that console. Each static node in each console is associated with a different instance of a snap-in.
 
 Only stand-alone snap-ins can have static nodes. Extension snap-ins can extend the static nodes of other snap-ins, but they never provide their own static nodes in any console in which they are loaded.
 

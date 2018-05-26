@@ -75,7 +75,7 @@ BOOL WINAPI InitializeApplication()
 
 ## Creating Frame and Child Windows
 
-After registering its window classes, an MDI application can create its windows. First, it creates its frame window by using the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](createwindowex.md) function. After creating its frame window, the application creates its client window, again by using **CreateWindow** or **CreateWindowEx**. The application should specify MDICLIENT as the client window's class name; **MDICLIENT** is a preregistered window class defined by the system. The *lpvParam* parameter of **CreateWindow** or **CreateWindowEx** should point to a [**CLIENTCREATESTRUCT**](clientcreatestruct.md) structure. This structure contains the members described in the following table:
+After registering its window classes, an MDI application can create its windows. First, it creates its frame window by using the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master) function. After creating its frame window, the application creates its client window, again by using **CreateWindow** or **CreateWindowEx**. The application should specify MDICLIENT as the client window's class name; **MDICLIENT** is a preregistered window class defined by the system. The *lpvParam* parameter of **CreateWindow** or **CreateWindowEx** should point to a [**CLIENTCREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagclientcreatestruct?branch=master) structure. This structure contains the members described in the following table:
 
 
 
@@ -123,7 +123,7 @@ Use the **WS\_CLIPCHILDREN** style to create the MDI client window to prevent th
 
 ## Writing the Main Message Loop
 
-The main message loop of an MDI application is similar to that of a non-MDI application handling accelerator keys. The difference is that the MDI message loop calls the [**TranslateMDISysAccel**](translatemdisysaccel.md) function before checking for application-defined accelerator keys or before dispatching the message.
+The main message loop of an MDI application is similar to that of a non-MDI application handling accelerator keys. The difference is that the MDI message loop calls the [**TranslateMDISysAccel**](/windows/win32/Winuser/nf-winuser-translatemdisysaccel?branch=master) function before checking for application-defined accelerator keys or before dispatching the message.
 
 The following example shows the message loop of a typical MDI application. Note that [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) can return -1 if there is an error.
 
@@ -152,11 +152,11 @@ while ((bRet = GetMessage(&amp;msg, (HWND) NULL, 0, 0)) != 0)
 
 
 
-The [**TranslateMDISysAccel**](translatemdisysaccel.md) function translates [**WM\_KEYDOWN**](inputdev.wm_keydown) messages into [**WM\_SYSCOMMAND**](menurc.wm_syscommand) messages and sends them to the active MDI child window. If the message is not an MDI accelerator message, the function returns **FALSE**, in which case the application uses the [**TranslateAccelerator**](menurc.translateaccelerator) function to determine whether any of the application-defined accelerator keys were pressed. If not, the loop dispatches the message to the appropriate window procedure.
+The [**TranslateMDISysAccel**](/windows/win32/Winuser/nf-winuser-translatemdisysaccel?branch=master) function translates [**WM\_KEYDOWN**](inputdev.wm_keydown) messages into [**WM\_SYSCOMMAND**](menurc.wm_syscommand) messages and sends them to the active MDI child window. If the message is not an MDI accelerator message, the function returns **FALSE**, in which case the application uses the [**TranslateAccelerator**](menurc.translateaccelerator) function to determine whether any of the application-defined accelerator keys were pressed. If not, the loop dispatches the message to the appropriate window procedure.
 
 ## Writing the Frame Window Procedure
 
-The window procedure for an MDI frame window is similar to that of a non–MDI application's main window. The difference is that a frame window procedure passes all messages it does not handle to the [**DefFrameProc**](defframeproc.md) function rather than to the [**DefWindowProc**](defwindowproc.md) function. In addition, the frame window procedure must also pass some messages that it does handle, including those listed in the following table.
+The window procedure for an MDI frame window is similar to that of a non–MDI application's main window. The difference is that a frame window procedure passes all messages it does not handle to the [**DefFrameProc**](/windows/win32/Winuser/nf-winuser-defframeproca?branch=master) function rather than to the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function. In addition, the frame window procedure must also pass some messages that it does handle, including those listed in the following table.
 
 
 
@@ -165,17 +165,17 @@ The window procedure for an MDI frame window is similar to that of a non–MDI a
 | [**WM\_COMMAND**](menurc.wm_command)     | Activates the MDI child window that the user chooses. This message is sent when the user chooses an MDI child window from the window menu of the MDI frame window. The window identifier accompanying this message identifies the MDI child window to be activated. |
 | [**WM\_MENUCHAR**](menurc.wm_menuchar)   | Opens the window menu of the active MDI child window when the user presses the ALT+ – (minus) key combination.                                                                                                                                                      |
 | [**WM\_SETFOCUS**](inputdev.wm_setfocus) | Passes the keyboard focus to the MDI client window, which in turn passes it to the active MDI child window.                                                                                                                                                         |
-| [**WM\_SIZE**](wm-size.md)              | Resizes the MDI client window to fit in the new frame window's client area. If the frame window procedure sizes the MDI client window to a different size, it should not pass the message to the [**DefWindowProc**](defwindowproc.md) function.                   |
+| [**WM\_SIZE**](wm-size.md)              | Resizes the MDI client window to fit in the new frame window's client area. If the frame window procedure sizes the MDI client window to a different size, it should not pass the message to the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function.                   |
 
 
 
  
 
-The frame window procedure in Multipad is called MPFrameWndProc. The handling of other messages by MPFrameWndProc is similar to that of non–MDI applications. [**WM\_COMMAND**](menurc.wm_command) messages in Multipad are handled by the locally defined CommandHandler function. For command messages Multipad does not handle, CommandHandler calls the [**DefFrameProc**](defframeproc.md) function. If Multipad does not use **DefFrameProc** by default, the user can't activate a child window from the window menu, because the **WM\_COMMAND** message sent by clicking the window's menu item would be lost.
+The frame window procedure in Multipad is called MPFrameWndProc. The handling of other messages by MPFrameWndProc is similar to that of non–MDI applications. [**WM\_COMMAND**](menurc.wm_command) messages in Multipad are handled by the locally defined CommandHandler function. For command messages Multipad does not handle, CommandHandler calls the [**DefFrameProc**](/windows/win32/Winuser/nf-winuser-defframeproca?branch=master) function. If Multipad does not use **DefFrameProc** by default, the user can't activate a child window from the window menu, because the **WM\_COMMAND** message sent by clicking the window's menu item would be lost.
 
 ## Writing the Child Window Procedure
 
-Like the frame window procedure, an MDI child window procedure uses a special function for processing messages by default. All messages that the child window procedure does not handle must be passed to the [**DefMDIChildProc**](defmdichildproc.md) function rather than to the [**DefWindowProc**](defwindowproc.md) function. In addition, some window-management messages must be passed to **DefMDIChildProc**, even if the application handles the message, in order for MDI to function correctly. Following are the messages the application must pass to **DefMDIChildProc**.
+Like the frame window procedure, an MDI child window procedure uses a special function for processing messages by default. All messages that the child window procedure does not handle must be passed to the [**DefMDIChildProc**](/windows/win32/Winuser/nf-winuser-defmdichildproca?branch=master) function rather than to the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function. In addition, some window-management messages must be passed to **DefMDIChildProc**, even if the application handles the message, in order for MDI to function correctly. Following are the messages the application must pass to **DefMDIChildProc**.
 
 
 
@@ -186,7 +186,7 @@ Like the frame window procedure, an MDI child window procedure uses a special fu
 | [**WM\_MENUCHAR**](menurc.wm_menuchar)        | Passes the message to the MDI frame window.                                                                                                                                                                                                               |
 | [**WM\_MOVE**](wm-move.md)                   | Recalculates MDI client scroll bars, if they are present.                                                                                                                                                                                                 |
 | [**WM\_SETFOCUS**](inputdev.wm_setfocus)      | Activates the child window, if it is not the active MDI child window.                                                                                                                                                                                     |
-| [**WM\_SIZE**](wm-size.md)                   | Performs operations necessary for changing the size of a window, especially for maximizing or restoring an MDI child window. Failing to pass this message to the [**DefMDIChildProc**](defmdichildproc.md) function produces highly undesirable results. |
+| [**WM\_SIZE**](wm-size.md)                   | Performs operations necessary for changing the size of a window, especially for maximizing or restoring an MDI child window. Failing to pass this message to the [**DefMDIChildProc**](/windows/win32/Winuser/nf-winuser-defmdichildproca?branch=master) function produces highly undesirable results. |
 | [**WM\_SYSCOMMAND**](menurc.wm_syscommand)    | Handles window (formerly known as system) menu commands: **SC\_NEXTWINDOW**, **SC\_PREVWINDOW**, **SC\_MOVE**, **SC\_SIZE**, and **SC\_MAXIMIZE**.                                                                                                        |
 
 
@@ -195,13 +195,13 @@ Like the frame window procedure, an MDI child window procedure uses a special fu
 
 ## Creating a Child Window
 
-To create an MDI child window, an application can either call the [**CreateMDIWindow**](createmdiwindow.md) function or send an [**WM\_MDICREATE**](wm-mdicreate.md) message to the MDI client window. (The application can use the [**CreateWindowEx**](createwindowex.md) function with the **WS\_EX\_MDICHILD** style to create MDI child windows.) A single-threaded MDI application can use either method to create a child window. A thread in a multithreaded MDI application must use the **CreateMDIWindow** or **CreateWindowEx** function to create a child window in a different thread.
+To create an MDI child window, an application can either call the [**CreateMDIWindow**](/windows/win32/Winuser/nf-winuser-createmdiwindowa?branch=master) function or send an [**WM\_MDICREATE**](wm-mdicreate.md) message to the MDI client window. (The application can use the [**CreateWindowEx**](/windows/win32/Winuser/nf-winuser-createwindowexa?branch=master) function with the **WS\_EX\_MDICHILD** style to create MDI child windows.) A single-threaded MDI application can use either method to create a child window. A thread in a multithreaded MDI application must use the **CreateMDIWindow** or **CreateWindowEx** function to create a child window in a different thread.
 
-The *lParam* parameter of a [**WM\_MDICREATE**](wm-mdicreate.md) message is a far pointer to an [**MDICREATESTRUCT**](mdicreatestruct.md) structure. The structure includes four dimension members: **x** and **y**, which indicate the horizontal and vertical positions of the window, and **cx** and **cy**, which indicate the horizontal and vertical extents of the window. Any of these members may be assigned explicitly by the application, or they may be set to **CW\_USEDEFAULT**, in which case the system selects a position, size, or both, according to a cascading algorithm. In any case, all four members must be initialized. Multipad uses **CW\_USEDEFAULT** for all dimensions.
+The *lParam* parameter of a [**WM\_MDICREATE**](wm-mdicreate.md) message is a far pointer to an [**MDICREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagmdicreatestructa?branch=master) structure. The structure includes four dimension members: **x** and **y**, which indicate the horizontal and vertical positions of the window, and **cx** and **cy**, which indicate the horizontal and vertical extents of the window. Any of these members may be assigned explicitly by the application, or they may be set to **CW\_USEDEFAULT**, in which case the system selects a position, size, or both, according to a cascading algorithm. In any case, all four members must be initialized. Multipad uses **CW\_USEDEFAULT** for all dimensions.
 
-The last member of the [**MDICREATESTRUCT**](mdicreatestruct.md) structure is the **style** member, which may contain style bits for the window. To create an MDI child window that can have any combination of window styles, specify the **MDIS\_ALLCHILDSTYLES** window style. When this style is not specified, an MDI child window has the **WS\_MINIMIZE**, **WS\_MAXIMIZE**, **WS\_HSCROLL**, and **WS\_VSCROLL** styles as default settings.
+The last member of the [**MDICREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagmdicreatestructa?branch=master) structure is the **style** member, which may contain style bits for the window. To create an MDI child window that can have any combination of window styles, specify the **MDIS\_ALLCHILDSTYLES** window style. When this style is not specified, an MDI child window has the **WS\_MINIMIZE**, **WS\_MAXIMIZE**, **WS\_HSCROLL**, and **WS\_VSCROLL** styles as default settings.
 
-Multipad creates its MDI child windows by using its locally defined AddFile function (located in the source file MPFILE.C). The AddFile function sets the title of the child window by assigning the **szTitle** member of the window's [**MDICREATESTRUCT**](mdicreatestruct.md) structure to either the name of the file being edited or to "Untitled." The **szClass** member is set to the name of the MDI child window class registered in Multipad's InitializeApplication function. The **hOwner** member is set to the application's instance handle.
+Multipad creates its MDI child windows by using its locally defined AddFile function (located in the source file MPFILE.C). The AddFile function sets the title of the child window by assigning the **szTitle** member of the window's [**MDICREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagmdicreatestructa?branch=master) structure to either the name of the file being edited or to "Untitled." The **szClass** member is set to the name of the MDI child window class registered in Multipad's InitializeApplication function. The **hOwner** member is set to the application's instance handle.
 
 The following example shows the AddFile function in Multipad.
 
@@ -270,7 +270,7 @@ TCHAR * pName;
 
 
 
-The pointer passed in the *lParam* parameter of the [**WM\_MDICREATE**](wm-mdicreate.md) message is passed to the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) function and appears as the first member in the [**CREATESTRUCT**](createstruct.md) structure, passed in the [**WM\_CREATE**](wm-create.md) message. In Multipad, the child window initializes itself during **WM\_CREATE** message processing by initializing document variables in its extra data and by creating the edit control's child window.
+The pointer passed in the *lParam* parameter of the [**WM\_MDICREATE**](wm-mdicreate.md) message is passed to the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) function and appears as the first member in the [**CREATESTRUCT**](/windows/win32/Winuser/ns-winuser-tagclientcreatestruct?branch=master) structure, passed in the [**WM\_CREATE**](wm-create.md) message. In Multipad, the child window initializes itself during **WM\_CREATE** message processing by initializing document variables in its extra data and by creating the edit control's child window.
 
  
 

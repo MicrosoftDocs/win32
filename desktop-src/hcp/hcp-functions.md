@@ -17,10 +17,10 @@ The following are the Hardware Counter Profiling (HCP) functions.
 
 | Function                                                   | Description                                                                         |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| [**DisableThreadProfiling**](disablethreadprofiling.md)   | Disables thread profiling.<br/>                                               |
-| [**EnableThreadProfiling**](enablethreadprofiling.md)     | Enables thread profiling on the specified thread.<br/>                        |
-| [**QueryThreadProfiling**](querythreadprofiling.md)       | Determines whether thread profiling is enabled for the specified thread.<br/> |
-| [**ReadThreadProfilingData**](readthreadprofilingdata.md) | Reads the specified profiling data associated with the thread.<br/>           |
+| [**DisableThreadProfiling**](/windows/win32/Winbase/nf-winbase-disablethreadprofiling?branch=master)   | Disables thread profiling.<br/>                                               |
+| [**EnableThreadProfiling**](/windows/win32/Winbase/nf-winbase-enablethreadprofiling?branch=master)     | Enables thread profiling on the specified thread.<br/>                        |
+| [**QueryThreadProfiling**](/windows/win32/Winbase/nf-winbase-querythreadprofiling?branch=master)       | Determines whether thread profiling is enabled for the specified thread.<br/> |
+| [**ReadThreadProfilingData**](/windows/win32/Winbase/nf-winbase-readthreadprofilingdata?branch=master) | Reads the specified profiling data associated with the thread.<br/>           |
 
 
 

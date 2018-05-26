@@ -19,7 +19,7 @@ ms.author: windowssdkdev
 
 In certain circumstances, the data object that MMC passes to the snap-in during a notification is a special type of data object instead of a pointer to an actual [**IDataObject**](_ole_idataobject) object.
 
-To determine whether the data object is a special data object, the snap-in can use the [**IS\_SPECIAL\_DATAOBJECT**](is-special-dataobject.md) macro. A return value of **TRUE** indicates that the data object is a special data object. Based on the return value, the snap-in can then handle the notification message appropriately.
+To determine whether the data object is a special data object, the snap-in can use the [**IS\_SPECIAL\_DATAOBJECT**](/windows/win32/Mmc/nf-mmc-is_special_dataobject?branch=master) macro. A return value of **TRUE** indicates that the data object is a special data object. Based on the return value, the snap-in can then handle the notification message appropriately.
 
 The special data object can take three values: DOBJ\_NULL, DOBJ\_CUSTOMOCX, and DOBJ\_CUSTOMWEB.
 
@@ -29,9 +29,9 @@ The DOBJ\_CUSTOMOCX value indicates that the result pane contains an OCX control
 
 MMC can pass DOBJ\_CUSTOMOCX or DOBJ\_CUSTOMWEB as the data object in the following methods with the following notifications:
 
--   [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md)
+-   [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master)
     -   [**MMCN\_BTN\_CLICK**](mmcn-btn-click.md)
--   [**IComponent::Notify**](icomponent-notify.md)
+-   [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
     -   [**MMCN\_BTN\_CLICK**](mmcn-btn-click.md) with *param* set to MMC\_VERB\_PROPERTIES
     -   [**MMCN\_DELETE**](mmcn-delete.md)
     -   [**MMCN\_PASTE**](mmcn-paste.md)

@@ -45,10 +45,10 @@ The following methods are listed in Vtable order:
 
 | IEnumNetCfgBindingInterface method                            | Description                                                                           |
 |---------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [**Next**](ienumnetcfgbindinginterface-next.md)<br/>   | Retrieves the next specified number of items in the enumeration sequence.<br/>  |
-| [**Skip**](ienumnetcfgbindinginterface-skip.md)<br/>   | Skips over the next specified number of items in the enumeration sequence.<br/> |
-| [**Reset**](ienumnetcfgbindinginterface-reset.md)<br/> | Resets the enumeration sequence to the beginning item.<br/>                     |
-| [**Clone**](ienumnetcfgbindinginterface-clone.md)<br/> | The **Clone**method is not implemented. Do not use it in your driver.<br/>      |
+| [**Next**](/windows/win32/netcfgx/nf-netcfgx-ienumnetcfgbindinginterface-next?branch=master)<br/>   | Retrieves the next specified number of items in the enumeration sequence.<br/>  |
+| [**Skip**](/windows/win32/netcfgx/nf-netcfgx-ienumnetcfgbindinginterface-skip?branch=master)<br/>   | Skips over the next specified number of items in the enumeration sequence.<br/> |
+| [**Reset**](/windows/win32/Netcfgx/nf-netcfgx-ienumnetcfgbindinginterface-reset?branch=master)<br/> | Resets the enumeration sequence to the beginning item.<br/>                     |
+| [**Clone**](/windows/win32/Netcfgx/nf-netcfgx-ienumnetcfgbindinginterface-clone?branch=master)<br/> | The **Clone**method is not implemented. Do not use it in your driver.<br/>      |
 
 
 
@@ -58,11 +58,11 @@ The following methods are listed in Vtable order:
 
 The IEnumNetCfgBindingInterface interface is a standard COM enumerator. To locate more information about COM enumerators and their methods, see the IEnum*XXXX* topic in the Microsoft Windows SDK.
 
-Notify objects call the [**INetCfgBindingPath::EnumBindingInterfaces**](inetcfgbindingpath-enumbindinginterfaces.md)method to obtain a pointer to **IEnumNetCfgBindingInterface**.
+Notify objects call the [**INetCfgBindingPath::EnumBindingInterfaces**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindingpath-enumbindinginterfaces?branch=master)method to obtain a pointer to **IEnumNetCfgBindingInterface**.
 
 ### See Also
 
-[**INetCfgBindingInterface**](inetcfgbindinginterface.md), [**INetCfgBindingPath::EnumBindingInterfaces**](inetcfgbindingpath-enumbindinginterfaces.md)
+[**INetCfgBindingInterface**](inetcfgbindinginterface.md), [**INetCfgBindingPath::EnumBindingInterfaces**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindingpath-enumbindinginterfaces?branch=master)
 
 
 ## Requirements

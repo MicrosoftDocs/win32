@@ -13,7 +13,7 @@ ms.technology: desktop
 
 The system automatically creates the interactive window station. When an interactive user logs on, the system associates the interactive window station with the user logon session. The system also creates the default input desktop for the interactive window station (Winsta0\\default). Processes started by the logged-on user are associated with the Winsta0\\default desktop.
 
-A process can use the [**CreateWindowStation**](createwindowstation.md) function to create a new window station, and the **CreateDesktop** or [**CreateDesktopEx**](createdesktopex.md) function to create a new desktop. The number of desktops that can be created is limited by the size of the system desktop heap. For more information, see [**CreateDesktop**](createdesktop.md).
+A process can use the [**CreateWindowStation**](/windows/win32/Winuser/nf-winuser-createwindowstationa?branch=master) function to create a new window station, and the **CreateDesktop** or [**CreateDesktopEx**](/windows/win32/Winuser/nf-winuser-createdesktopexa?branch=master) function to create a new desktop. The number of desktops that can be created is limited by the size of the system desktop heap. For more information, see [**CreateDesktop**](/windows/win32/Winuser/nf-winuser-createdesktopa?branch=master).
 
 When a noninteractive process such as a service application attempts to connect to a window station and no window station exists for the process logon session, the system attempts to create a window station and desktop for the session. The name of the created window station is based on the logon session identifier, and the desktop is named default, as described here:
 

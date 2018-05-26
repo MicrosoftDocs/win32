@@ -13,11 +13,11 @@ ms.technology: desktop
 
 ## In This Section
 
--   [**HARDWAREINPUT**](hardwareinput.md)
+-   [**HARDWAREINPUT**](/windows/win32/Winuser/ns-winuser-taghardwareinput?branch=master)
 -   [**INPUT**](/windows/win32/Winuser/nf-d3d10tokenizedprogramformat-decode_d3d10_sb_gs_input_primitive?branch=master)
--   [**KEYBDINPUT**](keybdinput.md)
--   [**LASTINPUTINFO**](lastinputinfo.md)
--   [**MOUSEINPUT**](mouseinput.md)
+-   [**KEYBDINPUT**](/windows/win32/Winuser/ns-winuser-tagkeybdinput?branch=master)
+-   [**LASTINPUTINFO**](/windows/win32/Winuser/nf-winuser-getlastinputinfo?branch=master)
+-   [**MOUSEINPUT**](/windows/win32/Winuser/ns-winuser-tagmouseinput?branch=master)
 
  
 

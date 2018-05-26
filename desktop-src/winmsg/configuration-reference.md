@@ -12,8 +12,8 @@ ms.technology: desktop
 
 The following functions can be used to control aspects of the configuration of display elements:
 
--   [**GetSystemMetrics**](getsystemmetrics.md)
--   [**SystemParametersInfo**](systemparametersinfo.md)
+-   [**GetSystemMetrics**](/windows/win32/Winuser/nf-winuser-getsystemmetrics?branch=master)
+-   [**SystemParametersInfo**](/windows/win32/Winuser/nf-winuser-systemparametersinfoa?branch=master)
 
  
 

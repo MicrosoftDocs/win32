@@ -42,7 +42,7 @@ MMCTask.ActionType
 
 ## Property value
 
-The **ActionType** property is the long integer specified in the eActionType member of the MMC\_TASK structure returned in the [**IEnumTASK::Next**](ienumtask-next.md) method.
+The **ActionType** property is the long integer specified in the eActionType member of the MMC\_TASK structure returned in the [**IEnumTASK::Next**](/windows/win32/Mmc/nf-mmc-ienumtask-next?branch=master) method.
 
 ## Remarks
 

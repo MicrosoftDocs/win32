@@ -83,7 +83,7 @@ objView.ScopeTreeVisible = 0
 
 <dl> <dt>
 
-[**ViewOptions**](viewoptions.md)
+[**ViewOptions**](/windows/win32/MmcObj/ne-mmcobj-viewoptions?branch=master)
 </dt> </dl>
 
  

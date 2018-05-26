@@ -55,7 +55,7 @@ This message does not return a value.
 
 ## Remarks
 
-The [**ChooseFont**](choosefont.md) function creates a **Font** dialog box. When the user closes the **Font** dialog box, the **ChooseFont** function returns information about the user's font selections in the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure. The **lpLogFont** member of the **CHOOSEFONT** structure is a pointer to a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure.
+The [**ChooseFont**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) function creates a **Font** dialog box. When the user closes the **Font** dialog box, the **ChooseFont** function returns information about the user's font selections in the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure. The **lpLogFont** member of the **CHOOSEFONT** structure is a pointer to a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure.
 
 Use the **WM\_CHOOSEFONT\_GETLOGFONT** message to get information about the user's current font selections while the **Font** dialog box is open. For example, if you enable the **Apply** button in the **Font** dialog box, send the message to get the font information to apply to the current text selection.
 
@@ -83,7 +83,7 @@ Typically, you enable a [*CFHookProc*](cfhookproc.md) hook procedure to process 
 [**CFHookProc**](cfhookproc.md)
 </dt> <dt>
 
-[**ChooseFont**](choosefont.md)
+[**ChooseFont**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)
 </dt> <dt>
 
 [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)

@@ -45,9 +45,9 @@ The following methods are listed in Vtable order:
 
 | INetCfgLock method                                                  | Description                                                                                |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [**AcquireWriteLock**](inetcfglock-acquirewritelock.md)<br/> | Requests a lock on network configuration for a particular client.<br/>               |
-| [**ReleaseWriteLock**](inetcfglock-releasewritelock.md)<br/> | Releases a previously obtained lock on network configuration.<br/>                   |
-| [**IsWriteLocked**](inetcfglock-iswritelocked.md)<br/>       | Indicates the name of the client that currently controls network configuration.<br/> |
+| [**AcquireWriteLock**](/windows/win32/netcfgx/nf-netcfgx-inetcfglock-acquirewritelock?branch=master)<br/> | Requests a lock on network configuration for a particular client.<br/>               |
+| [**ReleaseWriteLock**](/windows/win32/Netcfgx/nf-netcfgx-inetcfglock-releasewritelock?branch=master)<br/> | Releases a previously obtained lock on network configuration.<br/>                   |
+| [**IsWriteLocked**](/windows/win32/netcfgx/nf-netcfgx-inetcfglock-iswritelocked?branch=master)<br/>       | Indicates the name of the client that currently controls network configuration.<br/> |
 
 
 

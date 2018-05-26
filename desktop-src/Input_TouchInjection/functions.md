@@ -24,8 +24,8 @@ The topics in this section provide the reference specifications for [Touch Injec
 
 | Topic                                                                   | Description                                                                                                                                                        |
 |-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InitializeTouchInjection**](initializetouchinjection.md)<br/> | Configures the touch injection context for the calling application and initializes the maximum number of simultaneous contacts that the app can inject.<br/> |
-| [**InjectTouchInput**](injecttouchinput.md)<br/>                 | Simulates touch input.<br/>                                                                                                                                  |
+| [**InitializeTouchInjection**](/windows/win32/Winuser/nf-winuser-initializetouchinjection?branch=master)<br/> | Configures the touch injection context for the calling application and initializes the maximum number of simultaneous contacts that the app can inject.<br/> |
+| [**InjectTouchInput**](/windows/win32/Winuser/nf-winuser-injecttouchinput?branch=master)<br/>                 | Simulates touch input.<br/>                                                                                                                                  |
 
 
 

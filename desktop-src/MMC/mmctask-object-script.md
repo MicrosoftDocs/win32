@@ -42,7 +42,7 @@ MMCTask.Script
 
 ## Property value
 
-The returned property is the string specified in the szScript member of the [**MMC\_TASK**](mmc-task.md) structure returned in the [**IEnumTASK::Next**](ienumtask-next.md) method.
+The returned property is the string specified in the szScript member of the [**MMC\_TASK**](/windows/win32/Mmc/ne-mmc-_mmc_task_display_type?branch=master) structure returned in the [**IEnumTASK::Next**](/windows/win32/Mmc/nf-mmc-ienumtask-next?branch=master) method.
 
 ## Remarks
 

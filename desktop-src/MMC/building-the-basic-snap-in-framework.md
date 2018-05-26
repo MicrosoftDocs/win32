@@ -21,7 +21,7 @@ This section discusses how to build a basic snap-in in C++. You must implement t
 
 The two MMC-defined COM interfaces you must implement are:
 
--   [**IComponentData**](icomponentdata.md)
+-   [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master)
 -   [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master)
 
 The two standard COM interfaces you must implement are:

@@ -45,8 +45,8 @@ The following methods are listed in Vtable order:
 
 | INetCfgComponentNotifyBinding method                                                    | Description                                                                                                                |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [**QueryBindingPath**](inetcfgcomponentnotifybinding-querybindingpath.md)<br/>   | Evaluates a pending change in the binding path to which the notify object's component belongs.<br/>                  |
-| [**NotifyBindingPath**](inetcfgcomponentnotifybinding-notifybindingpath.md)<br/> | Performs operations resulting from a change in the binding path to which the notify object's component belongs.<br/> |
+| [**QueryBindingPath**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentnotifybinding-querybindingpath?branch=master)<br/>   | Evaluates a pending change in the binding path to which the notify object's component belongs.<br/>                  |
+| [**NotifyBindingPath**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentnotifybinding-notifybindingpath?branch=master)<br/> | Performs operations resulting from a change in the binding path to which the notify object's component belongs.<br/> |
 
 
 

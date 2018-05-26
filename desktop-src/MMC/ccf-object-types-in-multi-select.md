@@ -29,7 +29,7 @@ The CCF\_OBJECT\_TYPES\_IN\_MULTI\_SELECT clipboard format enables a snap-in to 
 
 ## Data Format
 
-[**SMMCObjectTypes**](smmcobjecttypes.md) structure. The structure contains the array of node type GUIDs that constitute the multiselection data object. A snap-in's multiselection data object has a list that contains each node type represented in the set of selected items for that particular snap-in in the result pane.
+[**SMMCObjectTypes**](/windows/win32/Mmc/ns-mmc-_smmcobjecttypes?branch=master) structure. The structure contains the array of node type GUIDs that constitute the multiselection data object. A snap-in's multiselection data object has a list that contains each node type represented in the set of selected items for that particular snap-in in the result pane.
 
 ## Remarks
 
@@ -51,10 +51,10 @@ During a multiselection operation, MMC calls **IComponent::QueryDataObject** to 
 
 <dl> <dt>
 
-[**IComponent::QueryDataObject**](icomponent-querydataobject.md)
+[**IComponent::QueryDataObject**](/windows/win32/Mmc/nf-mmc-icomponent-querydataobject?branch=master)
 </dt> <dt>
 
-[**SMMCObjectTypes**](smmcobjecttypes.md)
+[**SMMCObjectTypes**](/windows/win32/Mmc/ns-mmc-_smmcobjecttypes?branch=master)
 </dt> </dl>
 
  

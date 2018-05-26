@@ -29,7 +29,7 @@ In MMC 1.1 and later, the **CCF\_NODEID** clipboard format enables a snap-in to 
 
 ## Data Format
 
-[**SNodeID**](snodeid.md) structure. Return an **SNodeID** structure that contains the node ID for the scope item.
+[**SNodeID**](/windows/win32/Mmc/ns-mmc-_snodeid?branch=master) structure. Return an **SNodeID** structure that contains the node ID for the scope item.
 
 ## Remarks
 
@@ -45,7 +45,7 @@ When a console file (.msc) is saved, MMC persists some information about the sel
 
 The snap-in's [**IDataObject::GetData**](https://msdn.microsoft.com/library/windows/desktop/ms678431) method implementation can specify the node ID that should be persisted for that item so that MMC can identify and select the appropriate item when the .msc file is reopened. The snap-in should fill in the **SNodeID** structure and return **S\_OK** in the **IDataObject::GetData** method.
 
-The snap-in can also specify that an item should not be re-expanded when the console is reopened. To do this, set the **cBytes** member of the [**SNodeID**](snodeid.md) structure to 0 (zero) and return **S\_OK** in the [**IDataObject::GetData**](https://msdn.microsoft.com/library/windows/desktop/ms678431) method. Be aware that this setting not only keeps the selected item from being persisted but also prevents its parent item from automatically expanding when the console file is reopened.
+The snap-in can also specify that an item should not be re-expanded when the console is reopened. To do this, set the **cBytes** member of the [**SNodeID**](/windows/win32/Mmc/ns-mmc-_snodeid?branch=master) structure to 0 (zero) and return **S\_OK** in the [**IDataObject::GetData**](https://msdn.microsoft.com/library/windows/desktop/ms678431) method. Be aware that this setting not only keeps the selected item from being persisted but also prevents its parent item from automatically expanding when the console file is reopened.
 
 If the snap-in's [**IDataObject::GetData**](https://msdn.microsoft.com/library/windows/desktop/ms678431) method does not support the **CCF\_NODEID** clipboard format or if a FAILED **HRESULT** is returned by the **IDataObject::GetData** method, MMC uses the display name of the item as the node ID.
 

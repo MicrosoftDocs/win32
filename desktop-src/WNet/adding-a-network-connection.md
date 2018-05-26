@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # Adding a Network Connection
 
-To make a connection to a network resource described by a [**NETRESOURCE**](/windows/win32/Winnetwk/ns-winnetwk-_netresourcea?branch=master) structure, an application can call the [**WNetAddConnection2**](wnetaddconnection2.md), the [**WNetAddConnection3**](wnetaddconnection3.md), or the [**WNetUseConnection**](wnetuseconnection.md) function. The following example demonstrates use of the **WNetAddConnection2** function.
+To make a connection to a network resource described by a [**NETRESOURCE**](/windows/win32/Winnetwk/ns-winnetwk-_netresourcea?branch=master) structure, an application can call the [**WNetAddConnection2**](/windows/win32/Winnetwk/nf-winnetwk-wnetaddconnection2a?branch=master), the [**WNetAddConnection3**](/windows/win32/Winnetwk/nf-winnetwk-wnetaddconnection3a?branch=master), or the [**WNetUseConnection**](/windows/win32/Winnetwk/nf-winnetwk-wnetuseconnectiona?branch=master) function. The following example demonstrates use of the **WNetAddConnection2** function.
 
 The code sample calls the **WNetAddConnection2** function, specifying that the system should update the user's profile with the information, creating a "remembered" or persistent connection. The sample calls an application-defined error handler to process errors, and the [**TextOut**](https://msdn.microsoft.com/library/windows/desktop/dd145133) function for printing.
 
@@ -61,7 +61,7 @@ printf("Connected to the specified resource.\n");
 
 
 
-The [**WNetAddConnection**](wnetaddconnection.md) function is supported for compatibility with earlier versions of Windows for Workgroups. New applications should call the [**WNetAddConnection2**](wnetaddconnection2.md) function or the [**WNetAddConnection3**](wnetaddconnection3.md) function.
+The [**WNetAddConnection**](/windows/win32/Winnetwk/nf-winnetwk-wnetaddconnection2a?branch=master) function is supported for compatibility with earlier versions of Windows for Workgroups. New applications should call the [**WNetAddConnection2**](/windows/win32/Winnetwk/nf-winnetwk-wnetaddconnection2a?branch=master) function or the [**WNetAddConnection3**](/windows/win32/Winnetwk/nf-winnetwk-wnetaddconnection3a?branch=master) function.
 
 For more information about using an application-defined error handler, see [Retrieving Network Errors](retrieving-network-errors.md).
 

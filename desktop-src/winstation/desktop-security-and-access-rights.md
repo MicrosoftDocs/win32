@@ -13,11 +13,11 @@ ms.technology: desktop
 
 Security enables you to control access to desktop objects. For more information about security, see [Access-Control Model](https://msdn.microsoft.com/library/windows/desktop/aa374876).
 
-You can specify a [security descriptor](https://msdn.microsoft.com/library/windows/desktop/aa379563) for a desktop object when you call the [**CreateDesktop**](createdesktop.md) or [**CreateDesktopEx**](createdesktopex.md) function. If you specify NULL, the desktop gets a default security descriptor. The ACLs in the default security descriptor for a desktop come from its parent window station.
+You can specify a [security descriptor](https://msdn.microsoft.com/library/windows/desktop/aa379563) for a desktop object when you call the [**CreateDesktop**](/windows/win32/Winuser/nf-winuser-createdesktopa?branch=master) or [**CreateDesktopEx**](/windows/win32/Winuser/nf-winuser-createdesktopexa?branch=master) function. If you specify NULL, the desktop gets a default security descriptor. The ACLs in the default security descriptor for a desktop come from its parent window station.
 
 To get or set the security descriptor of a window station object, call the [**GetSecurityInfo**](https://msdn.microsoft.com/library/windows/desktop/aa446654) and [**SetSecurityInfo**](https://msdn.microsoft.com/library/windows/desktop/aa379588) functions.
 
-When you call the [**OpenDesktop**](opendesktop.md) or [**OpenInputDesktop**](openinputdesktop.md) function, the system checks the requested access rights against the object's security descriptor.
+When you call the [**OpenDesktop**](/windows/win32/Winuser/nf-winuser-opendesktopa?branch=master) or [**OpenInputDesktop**](/windows/win32/Winuser/nf-winuser-openinputdesktop?branch=master) function, the system checks the requested access rights against the object's security descriptor.
 
 The valid access rights for desktop objects include the [standard access rights](https://msdn.microsoft.com/library/windows/desktop/aa379607) and some object-specific access rights. The following table lists the standard access rights used by all objects.
 
@@ -46,7 +46,7 @@ The following table lists the object-specific access rights.
 | DESKTOP\_JOURNALPLAYBACK (0x0020L) | Required to perform journal playback on a desktop.                                          |
 | DESKTOP\_JOURNALRECORD (0x0010L)   | Required to perform journal recording on a desktop.                                         |
 | DESKTOP\_READOBJECTS (0x0001L)     | Required to read objects on the desktop.                                                    |
-| DESKTOP\_SWITCHDESKTOP (0x0100L)   | Required to activate the desktop using the [**SwitchDesktop**](switchdesktop.md) function. |
+| DESKTOP\_SWITCHDESKTOP (0x0100L)   | Required to activate the desktop using the [**SwitchDesktop**](/windows/win32/Winuser/nf-winuser-switchdesktop?branch=master) function. |
 | DESKTOP\_WRITEOBJECTS (0x0080L)    | Required to write objects on the desktop.                                                   |
 
 

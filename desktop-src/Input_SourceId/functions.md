@@ -19,8 +19,8 @@ The topics in this section provide the reference specifications for [Input Sourc
 
 | Topic                                                                           | Description                                                                                       |
 |---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [**GetCIMSSM**](getcimssm.md)<br/>                                       | Retrieves the source of the input message (GetCurrentInputMessageSourceInSendMessage).<br/> |
-| [**GetCurrentInputMessageSource**](getcurrentinputmessagesource.md)<br/> | Retrieves the source of the input message.<br/>                                             |
+| [**GetCIMSSM**](/windows/win32/winuser/nf-winuser-getcimssm?branch=master)<br/>                                       | Retrieves the source of the input message (GetCurrentInputMessageSourceInSendMessage).<br/> |
+| [**GetCurrentInputMessageSource**](/windows/win32/winuser/nf-winuser-getcurrentinputmessagesource?branch=master)<br/> | Retrieves the source of the input message.<br/>                                             |
 
 
 

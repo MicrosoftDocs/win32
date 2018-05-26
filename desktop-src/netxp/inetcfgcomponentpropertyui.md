@@ -45,12 +45,12 @@ The following methods are listed in Vtable order:
 
 | INetCfgComponentPropertyUi method                                                      | Description                                                                                                                                    |
 |----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**QueryPropertyUi**](inetcfgcomponentpropertyui-querypropertyui.md)<br/>       | Determines if the given context is appropriate for displaying properties for the component that owns the notify object.<br/>             |
-| [**SetContext**](inetcfgcomponentpropertyui-setcontext.md)<br/>                 | Directs the component's notify object to display the component's properties in the context of a particular binding path or adapter.<br/> |
-| [**MergePropPages**](inetcfgcomponentpropertyui-mergeproppages.md)<br/>         | Creates custom property pages and merges them into the component's default set.<br/>                                                     |
-| [**ValidateProperties**](inetcfgcomponentpropertyui-validateproperties.md)<br/> | Checks proposed changes for the component's properties.<br/>                                                                             |
-| [**ApplyProperties**](inetcfgcomponentpropertyui-applyproperties.md)<br/>       | Stores, in memory, proposed changes for the component's properties.<br/>                                                                 |
-| [**CancelProperties**](inetcfgcomponentpropertyui-cancelproperties.md)<br/>     | Disregards proposed changes for the component's properties.<br/>                                                                         |
+| [**QueryPropertyUi**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentpropertyui-querypropertyui?branch=master)<br/>       | Determines if the given context is appropriate for displaying properties for the component that owns the notify object.<br/>             |
+| [**SetContext**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentpropertyui-setcontext?branch=master)<br/>                 | Directs the component's notify object to display the component's properties in the context of a particular binding path or adapter.<br/> |
+| [**MergePropPages**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentpropertyui-mergeproppages?branch=master)<br/>         | Creates custom property pages and merges them into the component's default set.<br/>                                                     |
+| [**ValidateProperties**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentpropertyui-validateproperties?branch=master)<br/> | Checks proposed changes for the component's properties.<br/>                                                                             |
+| [**ApplyProperties**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentpropertyui-applyproperties?branch=master)<br/>       | Stores, in memory, proposed changes for the component's properties.<br/>                                                                 |
+| [**CancelProperties**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentpropertyui-cancelproperties?branch=master)<br/>     | Disregards proposed changes for the component's properties.<br/>                                                                         |
 
 
 

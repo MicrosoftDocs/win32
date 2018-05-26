@@ -58,7 +58,7 @@ The node to serve as the root of the added view.
 *ViewOptions* 
 </dt> <dd>
 
-This parameter can be one or more of the following [**ViewOptions**](viewoptions.md) enumeration types. These flags can be combined using a bitwise OR operation.
+This parameter can be one or more of the following [**ViewOptions**](/windows/win32/MmcObj/ne-mmcobj-viewoptions?branch=master) enumeration types. These flags can be combined using a bitwise OR operation.
 
 <dt>
 
@@ -142,7 +142,7 @@ objViews.Add objRoot, _
 
 <dl> <dt>
 
-[**ViewOptions**](viewoptions.md)
+[**ViewOptions**](/windows/win32/MmcObj/ne-mmcobj-viewoptions?branch=master)
 </dt> <dt>
 
 [**Views.Count**](views-count.md)

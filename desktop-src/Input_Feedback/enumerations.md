@@ -27,7 +27,7 @@ The topics in this section provide the reference specifications for [Input Feedb
 
 | Topic                                              | Description                                                        |
 |----------------------------------------------------|--------------------------------------------------------------------|
-| [**FEEDBACK\_TYPE**](feedback-type.md)<br/> | Specifies the visual feedback associated with an event.<br/> |
+| [**FEEDBACK\_TYPE**](/windows/win32/winuser/ne-winuser-tagfeedback_type?branch=master)<br/> | Specifies the visual feedback associated with an event.<br/> |
 
 
 

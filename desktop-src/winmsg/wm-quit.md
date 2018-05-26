@@ -11,7 +11,7 @@ ms.technology: desktop
 
 # WM\_QUIT message
 
-Indicates a request to terminate an application, and is generated when the application calls the [**PostQuitMessage**](postquitmessage.md) function. This message causes the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) function to return zero.
+Indicates a request to terminate an application, and is generated when the application calls the [**PostQuitMessage**](/windows/win32/Winuser/nf-winuser-postquitmessage?branch=master) function. This message causes the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) function to return zero.
 
 
 ```C++
@@ -27,7 +27,7 @@ Indicates a request to terminate an application, and is generated when the appli
 *wParam* 
 </dt> <dd>
 
-The exit code given in the [**PostQuitMessage**](postquitmessage.md) function.
+The exit code given in the [**PostQuitMessage**](/windows/win32/Winuser/nf-winuser-postquitmessage?branch=master) function.
 
 </dd> <dt>
 
@@ -46,9 +46,9 @@ This message does not have a return value because it causes the message loop to 
 
 ## Remarks
 
-The **WM\_QUIT** message is not associated with a window and therefore will never be received through a window's window procedure. It is retrieved only by the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) functions.
+The **WM\_QUIT** message is not associated with a window and therefore will never be received through a window's window procedure. It is retrieved only by the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](/windows/win32/Winuser/nf-winuser-peekmessagea?branch=master) functions.
 
-Do not post the **WM\_QUIT** message using the [**PostMessage**](postmessage.md) function; use [**PostQuitMessage**](postquitmessage.md).
+Do not post the **WM\_QUIT** message using the [**PostMessage**](/windows/win32/Winuser/nf-winuser-postmessagea?branch=master) function; use [**PostQuitMessage**](/windows/win32/Winuser/nf-winuser-postquitmessage?branch=master).
 
 ## Requirements
 
@@ -72,10 +72,10 @@ Do not post the **WM\_QUIT** message using the [**PostMessage**](postmessage.md)
 [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master)
 </dt> <dt>
 
-[**PeekMessage**](peekmessage.md)
+[**PeekMessage**](/windows/win32/Winuser/nf-winuser-peekmessagea?branch=master)
 </dt> <dt>
 
-[**PostQuitMessage**](postquitmessage.md)
+[**PostQuitMessage**](/windows/win32/Winuser/nf-winuser-postquitmessage?branch=master)
 </dt> <dt>
 
 **Conceptual**

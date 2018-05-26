@@ -45,10 +45,10 @@ The following methods are listed in Vtable order:
 
 | IEnumNetCfgComponent method                            | Description                                                                           |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [**Next**](ienumnetcfgcomponent-next.md)<br/>   | Retrieves the next specified number of items in the enumeration sequence.<br/>  |
-| [**Skip**](ienumnetcfgcomponent-skip.md)<br/>   | Skips over the next specified number of items in the enumeration sequence.<br/> |
-| [**Reset**](ienumnetcfgcomponent-reset.md)<br/> | Resets the enumeration sequence to the beginning item.<br/>                     |
-| [**Clone**](ienumnetcfgcomponent-clone.md)<br/> | The **Clone**method is not implemented. Do not use it in your driver.<br/>      |
+| [**Next**](/windows/win32/netcfgx/nf-netcfgx-ienumnetcfgcomponent-next?branch=master)<br/>   | Retrieves the next specified number of items in the enumeration sequence.<br/>  |
+| [**Skip**](/windows/win32/netcfgx/nf-netcfgx-ienumnetcfgcomponent-skip?branch=master)<br/>   | Skips over the next specified number of items in the enumeration sequence.<br/> |
+| [**Reset**](/windows/win32/Netcfgx/nf-netcfgx-ienumnetcfgcomponent-reset?branch=master)<br/> | Resets the enumeration sequence to the beginning item.<br/>                     |
+| [**Clone**](/windows/win32/Netcfgx/nf-netcfgx-ienumnetcfgcomponent-clone?branch=master)<br/> | The **Clone**method is not implemented. Do not use it in your driver.<br/>      |
 
 
 
@@ -58,11 +58,11 @@ The following methods are listed in Vtable order:
 
 The **IEnumNetCfgComponent**interface is a standard COM enumerator. To locate more information about COM enumerators and their methods, see the IEnum*XXXX* topic in the Microsoft Windows SDK.
 
-Notify objects call the [**INetCfgClass::EnumComponents**](inetcfgclass-enumcomponents.md)method to obtain a pointer to **IEnumNetCfgComponent**.
+Notify objects call the [**INetCfgClass::EnumComponents**](/windows/win32/netcfgx/nf-netcfgx-inetcfgclass-enumcomponents?branch=master)method to obtain a pointer to **IEnumNetCfgComponent**.
 
 ### See Also
 
-[**INetCfgClass::EnumComponents**](inetcfgclass-enumcomponents.md), [**INetCfgComponent**](inetcfgcomponent.md)
+[**INetCfgClass::EnumComponents**](/windows/win32/netcfgx/nf-netcfgx-inetcfgclass-enumcomponents?branch=master), [**INetCfgComponent**](inetcfgcomponent.md)
 
 
 ## Requirements

@@ -91,7 +91,7 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 
  
 
-To detect that the ALT key was pressed, check whether [**GetKeyState**](getkeystate.md) with **VK\_MENU** &lt; 0. Note, this must not be [**GetAsyncKeyState**](getasynckeystate.md).
+To detect that the ALT key was pressed, check whether [**GetKeyState**](/windows/win32/Winuser/nf-winuser-getkeystate?branch=master) with **VK\_MENU** &lt; 0. Note, this must not be [**GetAsyncKeyState**](/windows/win32/Winuser/nf-winuser-getasynckeystate?branch=master).
 
 ## Requirements
 
@@ -118,13 +118,13 @@ To detect that the ALT key was pressed, check whether [**GetKeyState**](getkeyst
 [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)
 </dt> <dt>
 
-[**GetCapture**](getcapture.md)
+[**GetCapture**](/windows/win32/Winuser/nf-winuser-getcapture?branch=master)
 </dt> <dt>
 
-[**GetKeyState**](getkeystate.md)
+[**GetKeyState**](/windows/win32/Winuser/nf-winuser-getkeystate?branch=master)
 </dt> <dt>
 
-[**SetCapture**](setcapture.md)
+[**SetCapture**](/windows/win32/Winuser/nf-winuser-setcapture?branch=master)
 </dt> <dt>
 
 [**WM\_LBUTTONDBLCLK**](wm-lbuttondblclk.md)

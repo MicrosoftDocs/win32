@@ -67,7 +67,7 @@ The return value is the virtual-key code and modifiers for the hot key, or **NUL
 
 ## Remarks
 
-These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](registerhotkey.md) function.
+These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](/windows/win32/Winuser/nf-winuser-registerhotkey?branch=master) function.
 
 ## Requirements
 
@@ -88,7 +88,7 @@ These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](reg
 **Reference**
 </dt> <dt>
 
-[**RegisterHotKey**](registerhotkey.md)
+[**RegisterHotKey**](/windows/win32/Winuser/nf-winuser-registerhotkey?branch=master)
 </dt> <dt>
 
 [**WM\_SETHOTKEY**](wm-sethotkey.md)

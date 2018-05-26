@@ -26,18 +26,18 @@ MMC enables a snap-in to add either standard wizard pages or Wizard 97 pages. Wi
 
 For more information about wizard pages, see the Windows SDK on MSDN. The rest of the discussion focuses on adding wizard pages to a snap-in using the interfaces and other constructs provided in the MMC SDK.
 
-The MMC interfaces used for adding wizard pages are the same as those used for [adding property pages](adding-property-pages.md). The [**IPropertySheetProvider**](ipropertysheetprovider.md) and [**IPropertySheetCallback**](ipropertysheetcallback.md) interfaces are implemented by MMC and are used to create and maintain property sheet objects. The [**IExtendPropertySheet2**](iextendpropertysheet2.md) interface is implemented by the snap-in.
+The MMC interfaces used for adding wizard pages are the same as those used for [adding property pages](adding-property-pages.md). The [**IPropertySheetProvider**](/windows/win32/Mmc/nn-mmc-ipropertysheetprovider?branch=master) and [**IPropertySheetCallback**](/windows/win32/Mmc/nn-mmc-ipropertysheetcallback?branch=master) interfaces are implemented by MMC and are used to create and maintain property sheet objects. The [**IExtendPropertySheet2**](/windows/win32/Mmc/nn-mmc-iextendpropertysheet2?branch=master) interface is implemented by the snap-in.
 
-In order for MMC to create the property sheet with wizard controls (a wizard), the snap-in must directly call the [**IPropertySheetProvider**](ipropertysheetprovider.md) interface and its [**CreatePropertySheet**](ipropertysheetprovider-createpropertysheet.md) method. The snap-in can also specify in the method call that the wizard use the Wizard 97 style.
+In order for MMC to create the property sheet with wizard controls (a wizard), the snap-in must directly call the [**IPropertySheetProvider**](/windows/win32/Mmc/nn-mmc-ipropertysheetprovider?branch=master) interface and its [**CreatePropertySheet**](/windows/win32/Mmc/nf-mmc-ipropertysheetprovider-createpropertysheet?branch=master) method. The snap-in can also specify in the method call that the wizard use the Wizard 97 style.
 
-In addition to the [**CreatePropertySheet**](ipropertysheetprovider-createpropertysheet.md) method, the [**IPropertySheetProvider**](ipropertysheetprovider.md) interface includes the following methods:
+In addition to the [**CreatePropertySheet**](/windows/win32/Mmc/nf-mmc-ipropertysheetprovider-createpropertysheet?branch=master) method, the [**IPropertySheetProvider**](/windows/win32/Mmc/nn-mmc-ipropertysheetprovider?branch=master) interface includes the following methods:
 
--   [**FindPropertySheet**](ipropertysheetprovider-findpropertysheet.md) determines whether a property sheet already exists for a particular scope or result item.
--   [**AddPrimaryPages**](ipropertysheetprovider-addprimarypages.md) collects pages from a primary snap-in.
--   [**AddExtensionPages**](ipropertysheetprovider-addextensionpages.md) collects pages from extension snap-ins.
--   [**Show**](ipropertysheetprovider-show.md) displays a specific property sheet frame.
+-   [**FindPropertySheet**](/windows/win32/Mmc/nf-mmc-ipropertysheetprovider-findpropertysheet?branch=master) determines whether a property sheet already exists for a particular scope or result item.
+-   [**AddPrimaryPages**](/windows/win32/Mmc/nf-mmc-ipropertysheetprovider-addprimarypages?branch=master) collects pages from a primary snap-in.
+-   [**AddExtensionPages**](/windows/win32/Mmc/nf-mmc-ipropertysheetprovider-addextensionpages?branch=master) collects pages from extension snap-ins.
+-   [**Show**](/windows/win32/Mmc/nf-mmc-ipropertysheetprovider-show?branch=master) displays a specific property sheet frame.
 
-To define wizard pages with watermarks and header bitmaps, snap-ins must implement the [**IExtendPropertySheet2**](iextendpropertysheet2.md) interface. The [**CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md) method defines the properties of one or more wizard pages using the [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure. The [**GetWatermarks**](iextendpropertysheet2-getwatermarks.md) method is used to specify the watermark and header bitmaps for the wizard. MMC calls the [**QueryPagesFor**](iextendpropertysheet2-querypagesfor.md) method to verify that a wizard page exists for a particular scope or result item when the user clicks the **Properties** context menu item.
+To define wizard pages with watermarks and header bitmaps, snap-ins must implement the [**IExtendPropertySheet2**](/windows/win32/Mmc/nn-mmc-iextendpropertysheet2?branch=master) interface. The [**CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md) method defines the properties of one or more wizard pages using the [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure. The [**GetWatermarks**](/windows/win32/Mmc/nf-mmc-iextendpropertysheet2-getwatermarks?branch=master) method is used to specify the watermark and header bitmaps for the wizard. MMC calls the [**QueryPagesFor**](iextendpropertysheet2-querypagesfor.md) method to verify that a wizard page exists for a particular scope or result item when the user clicks the **Properties** context menu item.
 
 ## Related topics
 

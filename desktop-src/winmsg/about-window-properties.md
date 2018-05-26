@@ -28,13 +28,13 @@ For more information about subclassing, see [Window Procedure Subclassing](about
 
 ## Assigning Window Properties
 
-The [**SetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-setpropertystream?branch=master) function assigns a window property and its string identifier to a window. The [**GetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-getpropertyattributes?branch=master) function retrieves the window property identified by the specified string. The [**RemoveProp**](removeprop.md) function destroys the association between a window and a window property but does not destroy the data itself. To destroy the data itself, use the appropriate function to free the handle that is returned by **RemoveProp**.
+The [**SetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-setpropertystream?branch=master) function assigns a window property and its string identifier to a window. The [**GetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-getpropertyattributes?branch=master) function retrieves the window property identified by the specified string. The [**RemoveProp**](/windows/win32/Winuser/nf-winuser-removepropa?branch=master) function destroys the association between a window and a window property but does not destroy the data itself. To destroy the data itself, use the appropriate function to free the handle that is returned by **RemoveProp**.
 
 ## Enumerating Window Properties
 
-The [**EnumProps**](enumprops.md) and [**EnumPropsEx**](enumpropsex.md) functions enumerate all of a window's properties by using an application-defined callback function. For more information about the callback function, see [*PropEnumProc*](propenumproc.md).
+The [**EnumProps**](/windows/win32/Winuser/nf-winuser-enumpropsa?branch=master) and [**EnumPropsEx**](/windows/win32/Winuser/nf-winuser-enumpropsexa?branch=master) functions enumerate all of a window's properties by using an application-defined callback function. For more information about the callback function, see [*PropEnumProc*](/windows/win32/Winuser/nc-winuser-propenumproca?branch=master).
 
-[**EnumPropsEx**](enumpropsex.md) includes an extra parameter for application-defined data used by the callback function. For more information about the callback function, see [*PropEnumProcEx*](propenumprocex.md).
+[**EnumPropsEx**](/windows/win32/Winuser/nf-winuser-enumpropsexa?branch=master) includes an extra parameter for application-defined data used by the callback function. For more information about the callback function, see [*PropEnumProcEx*](/windows/win32/Winuser/nc-winuser-propenumprocexa?branch=master).
 
  
 

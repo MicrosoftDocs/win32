@@ -19,11 +19,11 @@ ms.author: windowssdkdev
 
 This feature is introduced in MMC 1.1.
 
-A snap-in can dynamically add namespace extensions to any of its own scope items. To dynamically extend one of your snap-in's scope items, the snap-in simply calls the [**IConsoleNameSpace2::AddExtension**](iconsolenamespace2-addextension.md) method. Be aware that the **AddExtension** method only works for items that are directly owned by the snap-in making the **AddExtension** call.
+A snap-in can dynamically add namespace extensions to any of its own scope items. To dynamically extend one of your snap-in's scope items, the snap-in simply calls the [**IConsoleNameSpace2::AddExtension**](/windows/win32/Mmc/nf-mmc-iconsolenamespace2-addextension?branch=master) method. Be aware that the **AddExtension** method only works for items that are directly owned by the snap-in making the **AddExtension** call.
 
-In addition, [**AddExtension**](iconsolenamespace2-addextension.md) adds the extension (specified by the CLSID specified in the *lpClsid* parameter) to a particular instance of a scope item (which is specified by *hItem* parameter). It does not affect other scope items of that node type.
+In addition, [**AddExtension**](/windows/win32/Mmc/nf-mmc-iconsolenamespace2-addextension?branch=master) adds the extension (specified by the CLSID specified in the *lpClsid* parameter) to a particular instance of a scope item (which is specified by *hItem* parameter). It does not affect other scope items of that node type.
 
-A common place to add dynamic namespace extensions is in the [**MMCN\_EXPAND**](mmcn-expand.md) notification handler of the snap-in's [**IComponentData**](icomponentdata.md) object.
+A common place to add dynamic namespace extensions is in the [**MMCN\_EXPAND**](mmcn-expand.md) notification handler of the snap-in's [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) object.
 
 Be aware that the extension snap-in must be a namespace extension. In addition, the MMC registry entries for the primary snap-in and the extension snap-in must be set correctly. For details on setting MMC registry entries for namespace extensions, see [Extending a Primary Snap-in's Namespace](extending-a-primary-snap-ins-namespace.md).
 

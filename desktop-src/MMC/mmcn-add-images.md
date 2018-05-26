@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # MMCN\_ADD\_IMAGES message
 
-The **MMCN\_ADD\_IMAGES** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation to add images for the result pane. MMC provides a pointer to the [**IImageList**](iimagelist.md) interface when this notification message is sent to the snap-in.
+The **MMCN\_ADD\_IMAGES** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation to add images for the result pane. MMC provides a pointer to the [**IImageList**](/windows/win32/Mmc/nn-mmc-iimagelist?branch=master) interface when this notification message is sent to the snap-in.
 
 ## Parameters
 
@@ -41,7 +41,7 @@ A pointer to the data object of the currently selected scope item.
 *arg* 
 </dt> <dd>
 
-A pointer to the result pane image list ([**IImageList**](iimagelist.md)). This pointer is valid only while the specific **MMCN\_ADD\_IMAGES** notification is being processed and should not be stored for later use. Additionally, the snap-in must not call the Release method of IImageList because MMC must release it.
+A pointer to the result pane image list ([**IImageList**](/windows/win32/Mmc/nn-mmc-iimagelist?branch=master)). This pointer is valid only while the specific **MMCN\_ADD\_IMAGES** notification is being processed and should not be stored for later use. Additionally, the snap-in must not call the Release method of IImageList because MMC must release it.
 
 </dd> <dt>
 
@@ -90,16 +90,16 @@ The primary snap-in should add images for both folders and leaf items. Extension
 
 <dl> <dt>
 
-[**IComponent::Notify**](icomponent-notify.md)
+[**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
 </dt> <dt>
 
-[**IComponentData::Notify**](icomponentdata-notify.md)
+[**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master)
 </dt> <dt>
 
-[**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md)
+[**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master)
 </dt> <dt>
 
-[**IImageList**](iimagelist.md)
+[**IImageList**](/windows/win32/Mmc/nn-mmc-iimagelist?branch=master)
 </dt> </dl>
 
  

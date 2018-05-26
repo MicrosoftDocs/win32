@@ -45,9 +45,9 @@ The following methods are listed in Vtable order:
 
 | INetCfgBindingInterface method                                                    | Description                                                                                    |
 |-----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [**GetName**](inetcfgbindinginterface-getname.md)<br/>                     | Retrieves the name of a binding interface.<br/>                                          |
-| [**GetUpperComponent**](inetcfgbindinginterface-getuppercomponent.md)<br/> | Retrieves the network component connected to the upper part of a binding interface.<br/> |
-| [**GetLowerComponent**](inetcfgbindinginterface-getlowercomponent.md)<br/> | Retrieves the network component connected to the lower part of a binding interface.<br/> |
+| [**GetName**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindinginterface-getname?branch=master)<br/>                     | Retrieves the name of a binding interface.<br/>                                          |
+| [**GetUpperComponent**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindinginterface-getuppercomponent?branch=master)<br/> | Retrieves the network component connected to the upper part of a binding interface.<br/> |
+| [**GetLowerComponent**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindinginterface-getlowercomponent?branch=master)<br/> | Retrieves the network component connected to the lower part of a binding interface.<br/> |
 
 
 

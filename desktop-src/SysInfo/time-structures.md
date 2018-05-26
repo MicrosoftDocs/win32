@@ -17,7 +17,7 @@ The following structures are used with time.
 
 [**DYNAMIC\_TIME\_ZONE\_INFORMATION**](/windows/win32/WinBase/?branch=master)  
 [**FILETIME**](filetime-str.md)  
-[**SYSTEMTIME**](systemtime-str.md)  
+[**SYSTEMTIME**](/windows/win32/Winbase/?branch=master)  
 [**TIME\_ZONE\_INFORMATION**](/windows/win32/Winbase/?branch=master)  
 </dl>
 

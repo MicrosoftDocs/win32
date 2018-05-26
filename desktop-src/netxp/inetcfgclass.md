@@ -45,8 +45,8 @@ The following methods are listed in Vtable order:
 
 | INetCfgClass method                                              | Description                                                                                             |
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [**FindComponent**](inetcfgclass-findcomponent.md)<br/>   | Retrieves a network component belonging to a particular type.<br/>                                |
-| [**EnumComponents**](inetcfgclass-enumcomponents.md)<br/> | Retrieves an enumeration containing a collection of network components of a particular type.<br/> |
+| [**FindComponent**](/windows/win32/netcfgx/nf-netcfgx-inetcfgclass-findcomponent?branch=master)<br/>   | Retrieves a network component belonging to a particular type.<br/>                                |
+| [**EnumComponents**](/windows/win32/netcfgx/nf-netcfgx-inetcfgclass-enumcomponents?branch=master)<br/> | Retrieves an enumeration containing a collection of network components of a particular type.<br/> |
 
 
 
@@ -54,7 +54,7 @@ The following methods are listed in Vtable order:
 
 ### Comments
 
-Notify objects call the [**INetCfg::QueryNetCfgClass**](inetcfg-querynetcfgclass.md) method to obtain a pointer to a **INetCfgClass** interface.
+Notify objects call the [**INetCfg::QueryNetCfgClass**](/windows/win32/netcfgx/nf-netcfgx-inetcfg-querynetcfgclass?branch=master) method to obtain a pointer to a **INetCfgClass** interface.
 
 The classes of network components that notify objects can obtain are:
 
@@ -78,7 +78,7 @@ The classes of network components that notify objects can obtain are:
 
 ### See Also
 
-[**INetCfg::QueryNetCfgClass**](inetcfg-querynetcfgclass.md)
+[**INetCfg::QueryNetCfgClass**](/windows/win32/netcfgx/nf-netcfgx-inetcfg-querynetcfgclass?branch=master)
 
 
 ## Requirements

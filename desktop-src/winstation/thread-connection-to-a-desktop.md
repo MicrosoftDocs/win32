@@ -13,13 +13,13 @@ ms.technology: desktop
 
 After a process connects to a window station, the system assigns a desktop to the thread making the connection. The system determines the desktop to assign to the thread according to the following rules:
 
-1.  If the thread has called the [**SetThreadDesktop**](setthreaddesktop.md) function, it connects to the specified desktop.
-2.  If the thread did not call [**SetThreadDesktop**](setthreaddesktop.md), it connects to the desktop inherited from the parent process.
-3.  If the thread did not call [**SetThreadDesktop**](setthreaddesktop.md) and did not inherit a desktop, the system attempts to open for MAXIMUM\_ALLOWED access and connect to a desktop as follows:
+1.  If the thread has called the [**SetThreadDesktop**](/windows/win32/Winuser/nf-winuser-setthreaddesktop?branch=master) function, it connects to the specified desktop.
+2.  If the thread did not call [**SetThreadDesktop**](/windows/win32/Winuser/nf-winuser-setthreaddesktop?branch=master), it connects to the desktop inherited from the parent process.
+3.  If the thread did not call [**SetThreadDesktop**](/windows/win32/Winuser/nf-winuser-setthreaddesktop?branch=master) and did not inherit a desktop, the system attempts to open for MAXIMUM\_ALLOWED access and connect to a desktop as follows:
     -   If a desktop name was specified in the **lpDesktop** member of the [**STARTUPINFO**](https://msdn.microsoft.com/library/windows/desktop/ms686331) structure that was used when the process was created, the thread connects to the specified desktop.
     -   Otherwise, the thread connects to the default desktop of the window station to which the process connected.
 
-The desktop assigned during this connection process cannot be closed by calling the [**CloseDesktop**](closedesktop.md) function.
+The desktop assigned during this connection process cannot be closed by calling the [**CloseDesktop**](/windows/win32/Winuser/nf-winuser-closedesktop?branch=master) function.
 
 When a process is connecting to a desktop, the system searches the process's handle table for inherited handles. The system uses the first desktop handle it finds. If you want a child process to connect to a particular inherited desktop, you must ensure that the only the desired handle is marked inheritable. If a child process inherits multiple desktop handles, the results of the desktop connection are undefined.
 

@@ -22,9 +22,9 @@ The following code examples demonstrate how to perform the following tasks assoc
 
 The system does not automatically create a message queue for each thread. Instead, the system creates a message queue only for threads that perform operations which require a message queue. If the thread creates one or more windows, a message loop must be provided; this message loop retrieves messages from the thread's message queue and dispatches them to the appropriate window procedures.
 
-Because the system directs messages to individual windows in an application, a thread must create at least one window before starting its message loop. Most applications contain a single thread that creates windows. A typical application registers the window class for its main window, creates and shows the main window, and then starts its message loop — all in the [**WinMain**](winmain.md) function.
+Because the system directs messages to individual windows in an application, a thread must create at least one window before starting its message loop. Most applications contain a single thread that creates windows. A typical application registers the window class for its main window, creates and shows the main window, and then starts its message loop — all in the [**WinMain**](/windows/win32/Winbase/nf-winbase-winmain?branch=master) function.
 
-You create a message loop by using the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) and [**DispatchMessage**](dispatchmessage.md) functions. If your application must obtain character input from the user, include the [**TranslateMessage**](translatemessage.md) function in the loop. **TranslateMessage** translates virtual-key messages into character messages. The following example shows the message loop in the [**WinMain**](winmain.md) function of a simple Windows-based application.
+You create a message loop by using the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) and [**DispatchMessage**](/windows/win32/Winuser/nf-winuser-dispatchmessage?branch=master) functions. If your application must obtain character input from the user, include the [**TranslateMessage**](/windows/win32/Winuser/nf-winuser-translatemessage?branch=master) function in the loop. **TranslateMessage** translates virtual-key messages into character messages. The following example shows the message loop in the [**WinMain**](/windows/win32/Winbase/nf-winbase-winmain?branch=master) function of a simple Windows-based application.
 
 
 ```
@@ -103,7 +103,7 @@ int PASCAL WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
 
 
-The following example shows a message loop for a thread that uses accelerators and displays a modeless dialog box. When [**TranslateAccelerator**](menurc.translateaccelerator) or [**IsDialogMessage**](dlgbox.isdialogmessage) returns **TRUE** (indicating that the message has been processed), [**TranslateMessage**](translatemessage.md) and [**DispatchMessage**](dispatchmessage.md) are not called. The reason for this is that **TranslateAccelerator** and **IsDialogMessage** perform all necessary translating and dispatching of messages.
+The following example shows a message loop for a thread that uses accelerators and displays a modeless dialog box. When [**TranslateAccelerator**](menurc.translateaccelerator) or [**IsDialogMessage**](dlgbox.isdialogmessage) returns **TRUE** (indicating that the message has been processed), [**TranslateMessage**](/windows/win32/Winuser/nf-winuser-translatemessage?branch=master) and [**DispatchMessage**](/windows/win32/Winuser/nf-winuser-dispatchmessage?branch=master) are not called. The reason for this is that **TranslateAccelerator** and **IsDialogMessage** perform all necessary translating and dispatching of messages.
 
 
 ```
@@ -140,11 +140,11 @@ while( (bRet = GetMessage( &amp;msg, NULL, 0, 0 )) != 0)
 
 ## Examining a Message Queue
 
-Occasionally, an application needs to examine the contents of a thread's message queue from outside the thread's message loop. For example, if an application's window procedure performs a lengthy drawing operation, you may want the user to be able to interrupt the operation. Unless your application periodically examines the message queue during the operation for mouse and keyboard messages, it will not respond to user input until after the operation has completed. The reason for this is that the [**DispatchMessage**](dispatchmessage.md) function in the thread's message loop does not return until the window procedure finishes processing a message.
+Occasionally, an application needs to examine the contents of a thread's message queue from outside the thread's message loop. For example, if an application's window procedure performs a lengthy drawing operation, you may want the user to be able to interrupt the operation. Unless your application periodically examines the message queue during the operation for mouse and keyboard messages, it will not respond to user input until after the operation has completed. The reason for this is that the [**DispatchMessage**](/windows/win32/Winuser/nf-winuser-dispatchmessage?branch=master) function in the thread's message loop does not return until the window procedure finishes processing a message.
 
-You can use the [**PeekMessage**](peekmessage.md) function to examine a message queue during a lengthy operation. **PeekMessage** is similar to the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) function; both check a message queue for a message that matches the filter criteria and then copy the message to an [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) structure. The main difference between the two functions is that **GetMessage** does not return until a message matching the filter criteria is placed in the queue, whereas **PeekMessage** returns immediately regardless of whether a message is in the queue.
+You can use the [**PeekMessage**](/windows/win32/Winuser/nf-winuser-peekmessagea?branch=master) function to examine a message queue during a lengthy operation. **PeekMessage** is similar to the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) function; both check a message queue for a message that matches the filter criteria and then copy the message to an [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) structure. The main difference between the two functions is that **GetMessage** does not return until a message matching the filter criteria is placed in the queue, whereas **PeekMessage** returns immediately regardless of whether a message is in the queue.
 
-The following example shows how to use [**PeekMessage**](peekmessage.md) to examine a message queue for mouse clicks and keyboard input during a lengthy operation.
+The following example shows how to use [**PeekMessage**](/windows/win32/Winuser/nf-winuser-peekmessagea?branch=master) to examine a message queue for mouse clicks and keyboard input during a lengthy operation.
 
 
 ```
@@ -182,17 +182,17 @@ while (!fDone)
 
 
 
-Other functions, including [**GetQueueStatus**](getqueuestatus.md) and [**GetInputState**](getinputstate.md), also allow you to examine the contents of a thread's message queue. **GetQueueStatus** returns an array of flags that indicates the types of messages in the queue; using it is the fastest way to discover whether the queue contains any messages. **GetInputState** returns **TRUE** if the queue contains mouse or keyboard messages. Both of these functions can be used to determine whether the queue contains messages that need to be processed.
+Other functions, including [**GetQueueStatus**](/windows/win32/Winuser/nf-winuser-getqueuestatus?branch=master) and [**GetInputState**](/windows/win32/Winuser/nf-winuser-getinputstate?branch=master), also allow you to examine the contents of a thread's message queue. **GetQueueStatus** returns an array of flags that indicates the types of messages in the queue; using it is the fastest way to discover whether the queue contains any messages. **GetInputState** returns **TRUE** if the queue contains mouse or keyboard messages. Both of these functions can be used to determine whether the queue contains messages that need to be processed.
 
 ## Posting a Message
 
-You can post a message to a message queue by using the [**PostMessage**](postmessage.md) function. **PostMessage** places a message at the end of a thread's message queue and returns immediately, without waiting for the thread to process the message. The function's parameters include a window handle, a message identifier, and two message parameters. The system copies these parameters to an [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) structure, fills the **time** and **pt** members of the structure, and places the structure in the message queue.
+You can post a message to a message queue by using the [**PostMessage**](/windows/win32/Winuser/nf-winuser-postmessagea?branch=master) function. **PostMessage** places a message at the end of a thread's message queue and returns immediately, without waiting for the thread to process the message. The function's parameters include a window handle, a message identifier, and two message parameters. The system copies these parameters to an [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) structure, fills the **time** and **pt** members of the structure, and places the structure in the message queue.
 
-The system uses the window handle passed with the [**PostMessage**](postmessage.md) function to determine which thread message queue should receive the message. If the handle is **HWND\_TOPMOST**, the system posts the message to the thread message queues of all top-level windows.
+The system uses the window handle passed with the [**PostMessage**](/windows/win32/Winuser/nf-winuser-postmessagea?branch=master) function to determine which thread message queue should receive the message. If the handle is **HWND\_TOPMOST**, the system posts the message to the thread message queues of all top-level windows.
 
-You can use the [**PostThreadMessage**](postthreadmessage.md) function to post a message to a specific thread message queue. **PostThreadMessage** is similar to [**PostMessage**](postmessage.md), except the first parameter is a thread identifier rather than a window handle. You can retrieve the thread identifier by calling the [**GetCurrentThreadId**](base.getcurrentthreadid) function.
+You can use the [**PostThreadMessage**](/windows/win32/Winuser/nf-winuser-postthreadmessagea?branch=master) function to post a message to a specific thread message queue. **PostThreadMessage** is similar to [**PostMessage**](/windows/win32/Winuser/nf-winuser-postmessagea?branch=master), except the first parameter is a thread identifier rather than a window handle. You can retrieve the thread identifier by calling the [**GetCurrentThreadId**](base.getcurrentthreadid) function.
 
-Use the [**PostQuitMessage**](postquitmessage.md) function to exit a message loop. **PostQuitMessage** posts the [**WM\_QUIT**](wm-quit.md) message to the currently executing thread. The thread's message loop terminates and returns control to the system when it encounters the **WM\_QUIT** message. An application usually calls **PostQuitMessage** in response to the [**WM\_DESTROY**](wm-destroy.md) message, as shown in the following example.
+Use the [**PostQuitMessage**](/windows/win32/Winuser/nf-winuser-postquitmessage?branch=master) function to exit a message loop. **PostQuitMessage** posts the [**WM\_QUIT**](wm-quit.md) message to the currently executing thread. The thread's message loop terminates and returns control to the system when it encounters the **WM\_QUIT** message. An application usually calls **PostQuitMessage** in response to the [**WM\_DESTROY**](wm-destroy.md) message, as shown in the following example.
 
 
 ```
@@ -208,11 +208,11 @@ case WM_DESTROY:
 
 ## Sending a Message
 
-The [**SendMessage**](sendmessage.md) function is used to send a message directly to a window procedure. **SendMessage** calls a window procedure and waits for that procedure to process the message and return a result.
+The [**SendMessage**](/windows/win32/Winuser/nf-winuser-insendmessage?branch=master) function is used to send a message directly to a window procedure. **SendMessage** calls a window procedure and waits for that procedure to process the message and return a result.
 
 A message can be sent to any window in the system; all that is required is a window handle. The system uses the handle to determine which window procedure should receive the message.
 
-Before processing a message that may have been sent from another thread, a window procedure should first call the [**InSendMessage**](insendmessage.md) function. If this function returns **TRUE**, the window procedure should call [**ReplyMessage**](replymessage.md) before any function that causes the thread to yield control, as shown in the following example.
+Before processing a message that may have been sent from another thread, a window procedure should first call the [**InSendMessage**](/windows/win32/Winuser/nf-winuser-insendmessage?branch=master) function. If this function returns **TRUE**, the window procedure should call [**ReplyMessage**](/windows/win32/Winuser/nf-winuser-replymessage?branch=master) before any function that causes the thread to yield control, as shown in the following example.
 
 
 ```

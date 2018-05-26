@@ -27,7 +27,7 @@ ms.author: windowssdkdev
 
 The **MMCN\_CONTEXTHELP** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when the user requests help about a selected item by pressing the F1 key or **Help** button.
 
-A snap-in responds to **MMCN\_CONTEXTHELP** by that displays a Help topic for the particular context by calling the [**IDisplayHelp::ShowTopic**](idisplayhelp-showtopic.md) method.
+A snap-in responds to **MMCN\_CONTEXTHELP** by that displays a Help topic for the particular context by calling the [**IDisplayHelp::ShowTopic**](/windows/win32/Mmc/nf-mmc-idisplayhelp-showtopic?branch=master) method.
 
 ## Parameters
 
@@ -76,7 +76,7 @@ The snap-in does not handle the notification message. MMC displays a default top
 
 If the snap-in handles the **MMCN\_CONTEXTHELP** notification, MMC expects the snap-in to specify a Help topic for the selected item. Consequently, in the notification handler for **MMCN\_CONTEXTHELP** notification, the snap-in has two options:
 
--   It can call [**IDisplayHelp::ShowTopic**](idisplayhelp-showtopic.md) or [*MMCPropertyHelp*](mmcpropertyhelp.md) to specify the Help topic and then return **S\_OK** to indicate success. Be aware that the snap-in should only return **S\_OK** if it specifies a Help topic. If the snap-in returns **S\_OK** without specifying a Help topic, no Help topic will be displayed.
+-   It can call [**IDisplayHelp::ShowTopic**](/windows/win32/Mmc/nf-mmc-idisplayhelp-showtopic?branch=master) or [*MMCPropertyHelp*](/windows/win32/Mmc/nf-mmc-mmcpropertyhelp?branch=master) to specify the Help topic and then return **S\_OK** to indicate success. Be aware that the snap-in should only return **S\_OK** if it specifies a Help topic. If the snap-in returns **S\_OK** without specifying a Help topic, no Help topic will be displayed.
 -   It can return **S\_FALSE** to the notification. MMC then brings up the table of contents with the default MMC topic selected.
 
 ## Requirements

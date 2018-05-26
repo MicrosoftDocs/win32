@@ -16,7 +16,7 @@ ms.technology: desktop
 -   [*CCHookProc*](/windows/win32/Commdlg/?branch=master)
 -   [*CFHookProc*](cfhookproc.md)
 -   [**ChooseColor**](choosecolor.md)
--   [**ChooseFont**](choosefont.md)
+-   [**ChooseFont**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)
 -   [**CommDlgExtendedError**](/windows/win32/Commdlg/nf-commdlg-commdlgextendederror?branch=master)
 -   [**FindText**](/windows/win32/Commdlg/nf-commdlg-findtexta?branch=master)
 -   [*FRHookProc*](frhookproc.md)

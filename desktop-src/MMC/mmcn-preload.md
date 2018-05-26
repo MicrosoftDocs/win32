@@ -27,7 +27,7 @@ ms.author: windowssdkdev
 
 The **MMCN\_PRELOAD** notification is introduced in MMC 1.1.
 
-The **MMCN\_PRELOAD** notification message is sent to the snap-in's [**IComponentData**](icomponentdata.md) implementation if the snap-in returned **TRUE** when MMC called [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere) with the [**CCF\_SNAPIN\_PRELOADS**](ccf-snapin-preloads.md) format.
+The **MMCN\_PRELOAD** notification message is sent to the snap-in's [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) implementation if the snap-in returned **TRUE** when MMC called [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere) with the [**CCF\_SNAPIN\_PRELOADS**](ccf-snapin-preloads.md) format.
 
 ## Parameters
 
@@ -74,7 +74,7 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 ## Remarks
 
-When a console file is saved, MMC calls [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere) on each loaded snap-in using the CCF\_SNAPIN\_PRELOADS clipboard format. If the snap-in handles the [**CCF\_SNAPIN\_PRELOADS**](ccf-snapin-preloads.md) clipboard format and returns **TRUE**, MMC calls the [**IComponentData::Notify**](icomponentdata-notify.md) method of the snap-in with the **MMCN\_PRELOAD** notification when the snap-in's parent is first selected. If a preload is not requested, MMC does not load a snap-in until the snap-in's static node is selected. Until then MMC displays a cached icon and name for the snap-in's static node.
+When a console file is saved, MMC calls [**IDataObject::GetDataHere**](_ole_idataobject_getdatahere) on each loaded snap-in using the CCF\_SNAPIN\_PRELOADS clipboard format. If the snap-in handles the [**CCF\_SNAPIN\_PRELOADS**](ccf-snapin-preloads.md) clipboard format and returns **TRUE**, MMC calls the [**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master) method of the snap-in with the **MMCN\_PRELOAD** notification when the snap-in's parent is first selected. If a preload is not requested, MMC does not load a snap-in until the snap-in's static node is selected. Until then MMC displays a cached icon and name for the snap-in's static node.
 
 The preloaded snap-in can handle this notification by performing any actions required before it displays its static node or its child items (for example, a dynamic name for an item based on context such as a file name or computer name).
 
@@ -94,7 +94,7 @@ The preloaded snap-in can handle this notification by performing any actions req
 
 <dl> <dt>
 
-[**IComponentData::Notify**](icomponentdata-notify.md)
+[**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master)
 </dt> <dt>
 
 [**CCF\_SNAPIN\_PRELOADS**](ccf-snapin-preloads.md)

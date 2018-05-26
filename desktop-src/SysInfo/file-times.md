@@ -25,7 +25,7 @@ To set the file times for a file, use the [**SetFileTime**](/windows/win32/FileA
 
 If you plan to modify file times for specified files, you can convert a date and time of day to a file time by using the [**SystemTimeToFileTime**](/windows/win32/Winbase/?branch=master) function. You can also obtain the system time in a [**FILETIME**](filetime-str.md) structure by calling the [**GetSystemTimeAsFileTime**](/windows/win32/Winbase/?branch=master) function.
 
-To make a file time easy to display to a user, use the [**FileTimeToSystemTime**](/windows/win32/FileAPI/?branch=master) function. **FileTimeToSystemTime** converts the file time and copies the month, day, year, and time of day from the file time to a [**SYSTEMTIME**](systemtime-str.md) structure.
+To make a file time easy to display to a user, use the [**FileTimeToSystemTime**](/windows/win32/FileAPI/?branch=master) function. **FileTimeToSystemTime** converts the file time and copies the month, day, year, and time of day from the file time to a [**SYSTEMTIME**](/windows/win32/Winbase/?branch=master) structure.
 
 ## File Times and Daylight Saving Time
 

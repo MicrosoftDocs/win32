@@ -13,10 +13,10 @@ ms.technology: desktop
 
 ## In This Section
 
--   [**KillTimer**](killtimer.md)
--   [**SetCoalescableTimer**](setcoalescabletimer.md)
+-   [**KillTimer**](/windows/win32/Winuser/nf-winuser-killtimer?branch=master)
+-   [**SetCoalescableTimer**](/windows/win32/Winuser/nf-winuser-setcoalescabletimer?branch=master)
 -   [**SetTimer**](/windows/win32/Winuser/nf-ndis-ndismsettimer?branch=master)
--   [*TimerProc*](timerproc.md)
+-   [*TimerProc*](/windows/win32/Winuser/nc-winuser-timerproc?branch=master)
 
  
 

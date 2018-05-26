@@ -43,9 +43,9 @@ The following methods are listed in Vtable order:
 
 | INetCfgComponentUpperEdge method                                                                        | Description                                                                 |
 |---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| [**GetInterfaceIdsForAdapter**](inetcfgcomponentupperedge-getinterfaceidsforadapter.md)<br/>     | Retrieves interfaces associated with a specific network adapter.<br/> |
-| [**AddInterfacesToAdapter**](inetcfgcomponentupperedge-addinterfacestoadapter.md)<br/>           | Adds interfaces to a specific network adapter.<br/>                   |
-| [**RemoveInterfacesFromAdapter**](inetcfgcomponentupperedge-removeinterfacesfromadapter.md)<br/> | Removes interfaces from a specific network adapter.<br/>              |
+| [**GetInterfaceIdsForAdapter**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentupperedge-getinterfaceidsforadapter?branch=master)<br/>     | Retrieves interfaces associated with a specific network adapter.<br/> |
+| [**AddInterfacesToAdapter**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentupperedge-addinterfacestoadapter?branch=master)<br/>           | Adds interfaces to a specific network adapter.<br/>                   |
+| [**RemoveInterfacesFromAdapter**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentupperedge-removeinterfacesfromadapter?branch=master)<br/> | Removes interfaces from a specific network adapter.<br/>              |
 
 
 

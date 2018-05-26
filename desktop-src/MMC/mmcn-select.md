@@ -25,7 +25,7 @@ ms.author: windowssdkdev
 
 # MMCN\_SELECT message
 
-The **MMCN\_SELECT** notification message is sent to the snap-in's [**IComponent::Notify**](icomponent-notify.md) or [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md) method when an item is selected in either the scope pane or result pane.
+The **MMCN\_SELECT** notification message is sent to the snap-in's [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) or [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master) method when an item is selected in either the scope pane or result pane.
 
 ## Parameters
 
@@ -34,7 +34,7 @@ The **MMCN\_SELECT** notification message is sent to the snap-in's [**IComponent
 *lpDataObject* \[in\]
 </dt> <dd>
 
-For [**IComponent::Notify**](icomponent-notify.md), this parameter is a pointer to the data object of the currently selected/deselected scope pane or result item. For [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md), this parameter is not used.
+For [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master), this parameter is a pointer to the data object of the currently selected/deselected scope pane or result item. For [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master), this parameter is not used.
 
 </dd> <dt>
 
@@ -45,11 +45,11 @@ BOOL *bScope* = (BOOL) LOWORD(*arg*);
 
 BOOL *bSelect* = (BOOL) HIWORD(*arg*);
 
-For [**IComponent::Notify**](icomponent-notify.md), *bScope* is **TRUE** if the selected item is a scope item, or **FALSE** if the selected item is a result item. For *bScope* = **TRUE**, MMC does not provide information about whether the scope item is selected in the scope pane or in the result pane.
+For [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master), *bScope* is **TRUE** if the selected item is a scope item, or **FALSE** if the selected item is a result item. For *bScope* = **TRUE**, MMC does not provide information about whether the scope item is selected in the scope pane or in the result pane.
 
-For [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md), *bScope* is **TRUE** if an item in the scope pane is selected, or **FALSE** if an item in the result pane is selected.
+For [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master), *bScope* is **TRUE** if an item in the scope pane is selected, or **FALSE** if an item in the result pane is selected.
 
-For either [**IComponent::Notify**](icomponent-notify.md) or [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md), *bSelect* is **TRUE** if the item is selected, or **FALSE** if the item is deselected.
+For either [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) or [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master), *bSelect* is **TRUE** if the item is selected, or **FALSE** if the item is deselected.
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ For either [**IComponent::Notify**](icomponent-notify.md) or [**IExtendControlba
 
 LPDATAOBJECT *pDataobject* = (LPDATAOBJECT)*param*;
 
-For [**IComponent::Notify**](icomponent-notify.md), this parameter is not used. For [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md), *pDataobject* is the data object of the item being selected or deselected.
+For [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master), this parameter is not used. For [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master), *pDataobject* is the data object of the item being selected or deselected.
 
 </dd> </dl>
 
@@ -82,13 +82,13 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 ## Remarks
 
-When an [**IComponent::Notify**](icomponent-notify.md) method receives the **MMCN\_SELECT** notification it should update the standard verbs.
+When an [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) method receives the **MMCN\_SELECT** notification it should update the standard verbs.
 
-When an [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md) method receives the **MMCN\_SELECT** notification it should update the custom toolbars. On select, it should detach unused toolbars and attach new ones as required. On deselect, to minimize flashing, it should not detach toolbars; it is best to disable them, but doing nothing on deselect is also acceptable.
+When an [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master) method receives the **MMCN\_SELECT** notification it should update the custom toolbars. On select, it should detach unused toolbars and attach new ones as required. On deselect, to minimize flashing, it should not detach toolbars; it is best to disable them, but doing nothing on deselect is also acceptable.
 
 Snap-ins should have the ability to create and attach toolbars when they receive a selection notification, regardless of whether the item is in the scope pane or result pane.
 
-For snap-ins that have a custom result pane (OCX or web), MMC sends the **MMCN\_SELECT** or [**MMCN\_DESELECT\_ALL**](mmcn-deselect-all.md) notification with a special data object (**DOBJ\_CUSTOMOCX** or **DOBJ\_CUSTOMWEB**) when the result pane is selected or deselected. The notification is sent to the snap-in's [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md) and [**IComponent::Notify**](icomponent-notify.md) method. The only way for snap-ins to identify the corresponding scope item is to use the cookie (of the scope item) cached during [**MMCN\_SHOW**](mmcn-show.md).
+For snap-ins that have a custom result pane (OCX or web), MMC sends the **MMCN\_SELECT** or [**MMCN\_DESELECT\_ALL**](mmcn-deselect-all.md) notification with a special data object (**DOBJ\_CUSTOMOCX** or **DOBJ\_CUSTOMWEB**) when the result pane is selected or deselected. The notification is sent to the snap-in's [**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master) and [**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master) method. The only way for snap-ins to identify the corresponding scope item is to use the cookie (of the scope item) cached during [**MMCN\_SHOW**](mmcn-show.md).
 
 ## Requirements
 
@@ -106,10 +106,10 @@ For snap-ins that have a custom result pane (OCX or web), MMC sends the **MMCN\_
 
 <dl> <dt>
 
-[**IComponent::Notify**](icomponent-notify.md)
+[**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
 </dt> <dt>
 
-[**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md)
+[**IExtendControlbar::ControlbarNotify**](/windows/win32/Mmc/nf-mmc-iextendcontrolbar-controlbarnotify?branch=master)
 </dt> </dl>
 
  

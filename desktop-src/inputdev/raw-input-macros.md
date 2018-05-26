@@ -13,8 +13,8 @@ ms.technology: desktop
 
 ## In This Section
 
--   [**GET\_RAWINPUT\_CODE\_WPARAM**](get-rawinput-code-wparam.md)
--   [**NEXTRAWINPUTBLOCK**](nextrawinputblock.md)
+-   [**GET\_RAWINPUT\_CODE\_WPARAM**](/windows/win32/Winuser/nf-winuser-get_rawinput_code_wparam?branch=master)
+-   [**NEXTRAWINPUTBLOCK**](/windows/win32/Winuser/nf-winuser-nextrawinputblock?branch=master)
 
  
 

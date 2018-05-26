@@ -11,11 +11,11 @@ ms.technology: desktop
 
 # WM\_NCDESTROY message
 
-Notifies a window that its nonclient area is being destroyed. The [**DestroyWindow**](destroywindow.md) function sends the **WM\_NCDESTROY** message to the window following the [**WM\_DESTROY**](wm-destroy.md) message.[**WM\_DESTROY**](wm-destroy.md) is used to free the allocated memory object associated with the window.
+Notifies a window that its nonclient area is being destroyed. The [**DestroyWindow**](/windows/win32/Winuser/nf-winuser-destroywindow?branch=master) function sends the **WM\_NCDESTROY** message to the window following the [**WM\_DESTROY**](wm-destroy.md) message.[**WM\_DESTROY**](wm-destroy.md) is used to free the allocated memory object associated with the window.
 
 The **WM\_NCDESTROY** message is sent after the child windows have been destroyed. In contrast, [**WM\_DESTROY**](wm-destroy.md) is sent before the child windows are destroyed.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -71,7 +71,7 @@ This message frees any memory internally allocated for the window.
 **Reference**
 </dt> <dt>
 
-[**DestroyWindow**](destroywindow.md)
+[**DestroyWindow**](/windows/win32/Winuser/nf-winuser-destroywindow?branch=master)
 </dt> <dt>
 
 [**WM\_DESTROY**](wm-destroy.md)

@@ -246,7 +246,7 @@
 #### [Time Structures](time-structures.md)
 ##### [DYNAMIC_TIME_ZONE_INFORMATION](/windows/win32/WinBase/?branch=master)
 ##### [FILETIME](filetime-str.md)
-##### [SYSTEMTIME](systemtime-str.md)
+##### [SYSTEMTIME](/windows/win32/Winbase/?branch=master)
 ##### [TIME_ZONE_INFORMATION](/windows/win32/Winbase/?branch=master)
 #### [Time Messages](time-messages.md)
 ##### [WM_TIMECHANGE](wm-timechange.md)

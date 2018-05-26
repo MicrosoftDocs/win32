@@ -74,11 +74,11 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 ## Remarks
 
-When a list view taskpad is displayed, MMC clears the items in the result pane, attaches the list control used in the taskpad, and sends this notification with arg set to **TRUE**. The snap-in must handle this notification by populating the list with items using the [**IResultData**](iresultdata.md) or [**IResultOwnerData**](iresultownerdata.md) interface.
+When a list view taskpad is displayed, MMC clears the items in the result pane, attaches the list control used in the taskpad, and sends this notification with arg set to **TRUE**. The snap-in must handle this notification by populating the list with items using the [**IResultData**](/windows/win32/Mmc/nn-mmc-iresultdata?branch=master) or [**IResultOwnerData**](/windows/win32/Mmc/nn-mmc-iresultownerdata?branch=master) interface.
 
 When the view is switched from the list view taskpad to another view, MMC sends this notification with arg set to **FALSE**. When the snap-in handles this notification, it can free the resources (if any) used to populate the list.
 
-When the snap-in receives the **MMCN\_LISTPAD** notification with arg set to **TRUE**, it should query for the [**IImageList**](iimagelist.md) interface and use it to add images to the list view on the taskpad. The snap-in can call the [**IConsole2::QueryResultImageList**](iconsole2-queryresultimagelist.md) method to get an IImageList interface pointer.
+When the snap-in receives the **MMCN\_LISTPAD** notification with arg set to **TRUE**, it should query for the [**IImageList**](/windows/win32/Mmc/nn-mmc-iimagelist?branch=master) interface and use it to add images to the list view on the taskpad. The snap-in can call the [**IConsole2::QueryResultImageList**](iconsole2-queryresultimagelist.md) method to get an IImageList interface pointer.
 
 ## Requirements
 
@@ -96,7 +96,7 @@ When the snap-in receives the **MMCN\_LISTPAD** notification with arg set to **T
 
 <dl> <dt>
 
-[**IComponent::Notify**](icomponent-notify.md)
+[**IComponent::Notify**](/windows/win32/Mmc/nf-mmc-icomponent-notify?branch=master)
 </dt> </dl>
 
  

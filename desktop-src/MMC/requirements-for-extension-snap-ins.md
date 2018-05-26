@@ -18,7 +18,7 @@ ms.author: windowssdkdev
 
 # Requirements for Extension Snap-ins
 
-Extension snap-ins are COM in-process DLLs that implement and expose MMC interfaces such as [**IExtendContextMenu**](iextendcontextmenu.md) and [**IExtendControlbar**](iextendcontrolbar.md).
+Extension snap-ins are COM in-process DLLs that implement and expose MMC interfaces such as [**IExtendContextMenu**](/windows/win32/Mmc/nn-mmc-iextendcontextmenu?branch=master) and [**IExtendControlbar**](/windows/win32/Mmc/nn-mmc-iextendcontrolbar?branch=master).
 
 Extension snap-ins have three requirements:
 

@@ -23,7 +23,7 @@ The Computer Management snap-in can be retargeted by the user. Accordingly, Comp
 
     Because there is currently no instance of your extension snap-in under the Computer Management console root node, MMC creates an instance of your extension. MMC then uses the CLSID of your extension to associate the extension instance with the console root node.
 
-4.  Your extension's [**IComponentData::Notify**](icomponentdata-notify.md) method receives an [**MMCN\_EXPAND**](mmcn-expand.md) notification.
+4.  Your extension's [**IComponentData::Notify**](/windows/win32/Mmc/nf-mmc-icomponentdata-notify?branch=master) method receives an [**MMCN\_EXPAND**](mmcn-expand.md) notification.
 
     The [**MMCN\_EXPAND**](mmcn-expand.md) notification includes the data object for the System Tools scope item. Using the data object, your extension calls the IDataObject::GetDataHere method to retrieve the [**MMC\_SNAPIN\_MACHINE\_NAME**](mmc-snapin-machine-name.md) clipboard format. The MMC\_SNAPIN\_MACHINE\_NAME clipboard format provides the machine name of the targeted computer. Your extension should store the machine name with your child scope items.
 
@@ -33,7 +33,7 @@ The Computer Management snap-in can be retargeted by the user. Accordingly, Comp
 
 6.  Your extension's IComponentData::Notify method receives an [**MMCN\_REMOVE\_CHILDREN**](mmcn-remove-children.md) notification. Your extension should destroy all resources for the subtree that your extension added under the System Tools scope item.
 
-    MMC removes the items from the scope pane, so your snap-in is not required to call [**IConsoleNameSpace2::DeleteItem**](iconsolenamespace2-deleteitem.md). Be aware that your [**IComponentData**](icomponentdata.md) instance is not released — MMC uses this instance for the lifetime of the Computer Management console root node.
+    MMC removes the items from the scope pane, so your snap-in is not required to call [**IConsoleNameSpace2::DeleteItem**](iconsolenamespace2-deleteitem.md). Be aware that your [**IComponentData**](/windows/win32/Mmc/nn-mmc-icomponentdata?branch=master) instance is not released — MMC uses this instance for the lifetime of the Computer Management console root node.
 
 7.  MMC creates a new System Tools scope item, targeted at the new computer.
 

@@ -31,7 +31,7 @@ A data type that specifies a socket descriptor used by send and receive requests
 
 ## Remarks
 
-The Winsock registered I/O extensions operate primarily on a **RIO\_RQ** object rather than a socket. An application obtains a **RIO\_RQ** for an existing socket using the [**RIOCreateRequestQueue**](riocreaterequestqueue.md) function. The input socket must have been created by calling the [**WSASocket**](/windows/win32/Winsock2/nf-winsock2-wsasocketa?branch=master) function with the **WSA\_FLAG\_RIO** flag set in the *dwFlags* parameter.
+The Winsock registered I/O extensions operate primarily on a **RIO\_RQ** object rather than a socket. An application obtains a **RIO\_RQ** for an existing socket using the [**RIOCreateRequestQueue**](/windows/win32/Mswsock/nc-mswsock-lpfn_riocreaterequestqueue?branch=master) function. The input socket must have been created by calling the [**WSASocket**](/windows/win32/Winsock2/nf-winsock2-wsasocketa?branch=master) function with the **WSA\_FLAG\_RIO** flag set in the *dwFlags* parameter.
 
 After obtaining a **RIO\_RQ** object, the underlying socket descriptor remains valid. An application may continue to use the underlying socket to set and query socket options, issue IOCTLs and ultimately close the socket.
 
@@ -58,22 +58,22 @@ The [**RIO\_RQ**](riocqueue.md) typedef is defined in the *Mswsockdef.h* header 
 
 <dl> <dt>
 
-[**RIOCreateRequestQueue**](riocreaterequestqueue.md)
+[**RIOCreateRequestQueue**](/windows/win32/Mswsock/nc-mswsock-lpfn_riocreaterequestqueue?branch=master)
 </dt> <dt>
 
-[**RIOReceive**](rioreceive.md)
+[**RIOReceive**](/windows/win32/Mswsock/nc-mswsock-lpfn_rioreceive?branch=master)
 </dt> <dt>
 
-[**RIOReceiveEx**](rioreceiveex.md)
+[**RIOReceiveEx**](/windows/win32/Mswsock/nc-mswsock-lpfn_rioreceiveex?branch=master)
 </dt> <dt>
 
-[**RIOResizeRequestQueue**](rioresizerequestqueue.md)
+[**RIOResizeRequestQueue**](/windows/win32/Mswsock/nc-mswsock-lpfn_rioresizerequestqueue?branch=master)
 </dt> <dt>
 
-[**RIOSend**](riosend.md)
+[**RIOSend**](/windows/win32/Mswsock/nc-mswsock-lpfn_riosend?branch=master)
 </dt> <dt>
 
-[**RIOSendEx**](riosendex.md)
+[**RIOSendEx**](/windows/win32/Mswsock/nc-mswsock-lpfn_riosendex?branch=master)
 </dt> <dt>
 
 [**WSASocket**](/windows/win32/Winsock2/nf-winsock2-wsasocketa?branch=master)

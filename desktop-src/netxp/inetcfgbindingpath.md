@@ -45,14 +45,14 @@ The following methods are listed in Vtable order:
 
 | INetCfgBindingPath method                                                            | Description                                                                                            |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [**IsSamePathAs**](inetcfgbindingpath-issamepathas.md)<br/>                   | Verifies if the specified binding path is the same as this binding path.<br/>                    |
-| [**IsSubPathOf**](inetcfgbindingpath-issubpathof.md)<br/>                     | Verifies if this binding path is a subpath of the specified binding path.<br/>                   |
-| [**IsEnabled**](inetcfgbindingpath-isenabled.md)<br/>                         | Retrieves the current state of a binding path.<br/>                                              |
-| [**Enable**](inetcfgbindingpath-enable.md)<br/>                               | Sets the state of a binding path to enabled or disabled.<br/>                                    |
-| [**GetPathToken**](inetcfgbindingpath-getpathtoken.md)<br/>                   | Retrieves the identifier of a binding path that is unique across operating system reboots.<br/>  |
-| [**GetOwner**](inetcfgbindingpath-getowner.md)<br/>                           | Retrieves the network component that owns a binding path.<br/>                                   |
-| [**GetDepth**](inetcfgbindingpath-getdepth.md)<br/>                           | Retrieves the number of network components contained in a binding path.<br/>                     |
-| [**EnumBindingInterfaces**](inetcfgbindingpath-enumbindinginterfaces.md)<br/> | Retrieves an enumeration of a collection of binding interfaces contained in a binding path.<br/> |
+| [**IsSamePathAs**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindingpath-issamepathas?branch=master)<br/>                   | Verifies if the specified binding path is the same as this binding path.<br/>                    |
+| [**IsSubPathOf**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindingpath-issubpathof?branch=master)<br/>                     | Verifies if this binding path is a subpath of the specified binding path.<br/>                   |
+| [**IsEnabled**](/windows/win32/Netcfgx/nf-netcfgx-inetcfgbindingpath-isenabled?branch=master)<br/>                         | Retrieves the current state of a binding path.<br/>                                              |
+| [**Enable**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindingpath-enable?branch=master)<br/>                               | Sets the state of a binding path to enabled or disabled.<br/>                                    |
+| [**GetPathToken**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindingpath-getpathtoken?branch=master)<br/>                   | Retrieves the identifier of a binding path that is unique across operating system reboots.<br/>  |
+| [**GetOwner**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindingpath-getowner?branch=master)<br/>                           | Retrieves the network component that owns a binding path.<br/>                                   |
+| [**GetDepth**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindingpath-getdepth?branch=master)<br/>                           | Retrieves the number of network components contained in a binding path.<br/>                     |
+| [**EnumBindingInterfaces**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindingpath-enumbindinginterfaces?branch=master)<br/> | Retrieves an enumeration of a collection of binding interfaces contained in a binding path.<br/> |
 
 
 
@@ -62,7 +62,7 @@ The following methods are listed in Vtable order:
 
 A binding path consists of a string of network components that are connected together by binding interfaces. The component at the top of the binding path owns the path.
 
-Starting with Windows 10, there is a change in how a binding path is reported as enabled or disabled. Prior to Windows 10, for a binding path such as C → B → A, disabling B → A by calling [**INetCfgBindingPath::Enable(FALSE)**](inetcfgbindingpath-enable.md) would not report C → B → A as disabled by **INetCfgBindingPath::Enable**. To have it reported as disabled, you must also call [**INetCfg::Apply**](inetcfg-apply.md). Starting with Windows 10, you call **INetCfgBindingPath::Enable(FALSE)** to disable B → A, which results in C → B → A being reported as disabled.
+Starting with Windows 10, there is a change in how a binding path is reported as enabled or disabled. Prior to Windows 10, for a binding path such as C → B → A, disabling B → A by calling [**INetCfgBindingPath::Enable(FALSE)**](/windows/win32/netcfgx/nf-netcfgx-inetcfgbindingpath-enable?branch=master) would not report C → B → A as disabled by **INetCfgBindingPath::Enable**. To have it reported as disabled, you must also call [**INetCfg::Apply**](/windows/win32/Netcfgx/nf-netcfgx-inetcfg-apply?branch=master). Starting with Windows 10, you call **INetCfgBindingPath::Enable(FALSE)** to disable B → A, which results in C → B → A being reported as disabled.
 
 ## Requirements
 

@@ -45,10 +45,10 @@ The following methods are listed in Vtable order:
 
 | INetCfgComponentControl method                                                          | Description                                                                                                 |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| [**Initialize**](inetcfgcomponentcontrol-initialize.md)<br/>                     | Initializes the network component's notify object.<br/>                                               |
-| [**ApplyRegistryChanges**](inetcfgcomponentcontrol-applyregistrychanges.md)<br/> | Applies to the registry changes made to the network component's configuration.<br/>                   |
-| [**ApplyPnpChanges**](inetcfgcomponentcontrol-applypnpchanges.md)<br/>           | Informs the notify object of the network component that it can configure its component's driver.<br/> |
-| [**CancelChanges**](inetcfgcomponentcontrol-cancelchanges.md)<br/>               | Disregards proposed changes for the network component's configuration.<br/>                           |
+| [**Initialize**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentcontrol-initialize?branch=master)<br/>                     | Initializes the network component's notify object.<br/>                                               |
+| [**ApplyRegistryChanges**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentcontrol-applyregistrychanges?branch=master)<br/> | Applies to the registry changes made to the network component's configuration.<br/>                   |
+| [**ApplyPnpChanges**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentcontrol-applypnpchanges?branch=master)<br/>           | Informs the notify object of the network component that it can configure its component's driver.<br/> |
+| [**CancelChanges**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentcontrol-cancelchanges?branch=master)<br/>               | Disregards proposed changes for the network component's configuration.<br/>                           |
 
 
 

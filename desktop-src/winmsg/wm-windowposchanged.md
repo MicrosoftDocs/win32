@@ -11,9 +11,9 @@ ms.technology: desktop
 
 # WM\_WINDOWPOSCHANGED message
 
-Sent to a window whose size, position, or place in the Z order has changed as a result of a call to the [**SetWindowPos**](setwindowpos.md) function or another window-management function.
+Sent to a window whose size, position, or place in the Z order has changed as a result of a call to the [**SetWindowPos**](/windows/win32/Winuser/nf-winuser-setwindowpos?branch=master) function or another window-management function.
 
-A window receives this message through its [**WindowProc**](windowproc.md) function.
+A window receives this message through its [**WindowProc**](/windows/win32/Winuser/nf-winuser-callwindowproca?branch=master) function.
 
 
 ```C++
@@ -48,7 +48,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-By default, the [**DefWindowProc**](defwindowproc.md) function sends the [**WM\_SIZE**](wm-size.md) and [**WM\_MOVE**](wm-move.md) messages to the window. The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**. It is more efficient to perform any move or size change processing during the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
+By default, the [**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master) function sends the [**WM\_SIZE**](wm-size.md) and [**WM\_MOVE**](wm-move.md) messages to the window. The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**. It is more efficient to perform any move or size change processing during the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 
 ## Requirements
 
@@ -69,13 +69,13 @@ By default, the [**DefWindowProc**](defwindowproc.md) function sends the [**WM\_
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](defwindowproc.md)
+[**DefWindowProc**](/windows/win32/Winuser/nf-winuser-defwindowproca?branch=master)
 </dt> <dt>
 
-[**EndDeferWindowPos**](enddeferwindowpos.md)
+[**EndDeferWindowPos**](/windows/win32/Winuser/nf-winuser-enddeferwindowpos?branch=master)
 </dt> <dt>
 
-[**SetWindowPos**](setwindowpos.md)
+[**SetWindowPos**](/windows/win32/Winuser/nf-winuser-setwindowpos?branch=master)
 </dt> <dt>
 
 [**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master)

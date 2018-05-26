@@ -11,12 +11,12 @@ ms.technology: desktop
 
 # Window Property Functions
 
--   [**EnumProps**](enumprops.md)
--   [**EnumPropsEx**](enumpropsex.md)
+-   [**EnumProps**](/windows/win32/Winuser/nf-winuser-enumpropsa?branch=master)
+-   [**EnumPropsEx**](/windows/win32/Winuser/nf-winuser-enumpropsexa?branch=master)
 -   [**GetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-getpropertyattributes?branch=master)
--   [*PropEnumProc*](propenumproc.md)
--   [*PropEnumProcEx*](propenumprocex.md)
--   [**RemoveProp**](removeprop.md)
+-   [*PropEnumProc*](/windows/win32/Winuser/nc-winuser-propenumproca?branch=master)
+-   [*PropEnumProcEx*](/windows/win32/Winuser/nc-winuser-propenumprocexa?branch=master)
+-   [**RemoveProp**](/windows/win32/Winuser/nf-winuser-removepropa?branch=master)
 -   [**SetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-setpropertystream?branch=master)
 
  

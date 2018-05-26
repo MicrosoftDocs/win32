@@ -17,8 +17,8 @@ The enumeration and structure discussed in this section might be required to cre
 
 <dl>
 
-[**OBO\_TOKEN**](obo-token.md)  
-[**OBO\_TOKEN\_TYPE**](obo-token-type.md)  
+[**OBO\_TOKEN**](/windows/win32/netcfgx/ne-netcfgx-tagobo_token_type?branch=master)  
+[**OBO\_TOKEN\_TYPE**](/windows/win32/netcfgx/ne-netcfgx-tagobo_token_type?branch=master)  
 </dl>
 
  

@@ -67,7 +67,7 @@ Used in a Visual Basic snap-in to represent an object that defines the propertie
 
 For MMC 1.2. A feature that persists column customization and sorting parameters as the user moves between scope items in the scope pane.
 
-MMC also allows snap-ins to view and modify persisted column customization and sorting parameters (also called [*column configuration data*](#mmc-column-configuration-data-gly)) by using the [**IColumnData**](icolumndata.md) interface.
+MMC also allows snap-ins to view and modify persisted column customization and sorting parameters (also called [*column configuration data*](#mmc-column-configuration-data-gly)) by using the [**IColumnData**](/windows/win32/Mmc/nn-mmc-icolumndata?branch=master) interface.
 
 </dd> <dt>
 

@@ -28,7 +28,7 @@ ms.author: windowssdkdev
 
 The MMCTask object represents a task to be added to the taskpad.
 
-An MMCTask object is returned by the GetFirstTask and GetNextTask methods of the MMCCtrl control. The MMCTask object's properties represent the members of the MMC\_TASK structure passed in the [**IEnumTASK::Next**](ienumtask-next.md) method that MMC called when it retrieved the information for that task during the setup of the taskpad. The MMCTask object also has one additional property that represents the snap-in's CLSID.
+An MMCTask object is returned by the GetFirstTask and GetNextTask methods of the MMCCtrl control. The MMCTask object's properties represent the members of the MMC\_TASK structure passed in the [**IEnumTASK::Next**](/windows/win32/Mmc/nf-mmc-ienumtask-next?branch=master) method that MMC called when it retrieved the information for that task during the setup of the taskpad. The MMCTask object also has one additional property that represents the snap-in's CLSID.
 
 The MMC taskpad templates use the MMCTask object. To create a custom taskpad that communicates with the snap-in, the taskpad's HTML page should use the GetFirstTask and GetNextTask methods to retrieve the MMCTask objects for all the tasks and add them to the page.
 

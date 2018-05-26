@@ -23,7 +23,7 @@ It is not necessary to implement the method of this interface. It is implemented
 
 ### When to Use
 
-The network configuration subsystem supplies **INetCfgPnpReconfigCallback** to a notify object when the subsystem calls the object's [**INetCfgComponentControl::ApplyPnpChanges**](inetcfgcomponentcontrol-applypnpchanges.md) method. **ApplyPnpChanges**can use the method of **INetCfgPnpReconfigCallback** to send configuration information to the driver of the network component that owns the object. A notify object is not required to use **INetCfgPnpReconfigCallback**.
+The network configuration subsystem supplies **INetCfgPnpReconfigCallback** to a notify object when the subsystem calls the object's [**INetCfgComponentControl::ApplyPnpChanges**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentcontrol-applypnpchanges?branch=master) method. **ApplyPnpChanges**can use the method of **INetCfgPnpReconfigCallback** to send configuration information to the driver of the network component that owns the object. A notify object is not required to use **INetCfgPnpReconfigCallback**.
 
 ### Methods
 
@@ -45,7 +45,7 @@ The following methods are listed in Vtable order:
 
 | INetCfgPnpReconfigCallback method                                                | Description                                                                                                  |
 |----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [**SendPnpReconfig**](inetcfgpnpreconfigcallback-sendpnpreconfig.md)<br/> | Sends configuration information to the driver of the network component that owns a notify object.<br/> |
+| [**SendPnpReconfig**](/windows/win32/netcfgn/nf-netcfgn-inetcfgpnpreconfigcallback-sendpnpreconfig?branch=master)<br/> | Sends configuration information to the driver of the network component that owns a notify object.<br/> |
 
 
 
@@ -53,11 +53,11 @@ The following methods are listed in Vtable order:
 
 ### Comments
 
-The network configuration subsystem calls **ApplyPnpChanges**after calling the [**INetCfgComponentControl::ApplyRegistryChanges**](inetcfgcomponentcontrol-applyregistrychanges.md)method and after drivers and services for a network component have started. The component's notify object can use the **INetCfgPnpReconfigCallback** interface that **ApplyPnpChanges**provides to send configuration information to the component's driver. This driver must be either a TDI provider or an NDIS miniport driver. Using **INetCfgPnpReconfigCallback** is optional, but recommended to avoid requiring a user to reboot the operating system to implement changes to the configuration.
+The network configuration subsystem calls **ApplyPnpChanges**after calling the [**INetCfgComponentControl::ApplyRegistryChanges**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentcontrol-applyregistrychanges?branch=master)method and after drivers and services for a network component have started. The component's notify object can use the **INetCfgPnpReconfigCallback** interface that **ApplyPnpChanges**provides to send configuration information to the component's driver. This driver must be either a TDI provider or an NDIS miniport driver. Using **INetCfgPnpReconfigCallback** is optional, but recommended to avoid requiring a user to reboot the operating system to implement changes to the configuration.
 
 ### See Also
 
-[**INetCfgComponentControl::ApplyPnpChanges**](inetcfgcomponentcontrol-applypnpchanges.md), [**INetCfgComponentControl::ApplyRegistryChanges**](inetcfgcomponentcontrol-applyregistrychanges.md)
+[**INetCfgComponentControl::ApplyPnpChanges**](/windows/win32/netcfgn/nf-netcfgn-inetcfgcomponentcontrol-applypnpchanges?branch=master), [**INetCfgComponentControl::ApplyRegistryChanges**](/windows/win32/Netcfgn/nf-netcfgn-inetcfgcomponentcontrol-applyregistrychanges?branch=master)
 
 
 ## Requirements

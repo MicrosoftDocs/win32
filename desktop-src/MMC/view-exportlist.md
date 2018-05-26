@@ -58,7 +58,7 @@ The name of the export file.
 *exportoptions* 
 </dt> <dd>
 
-This parameter can be one or more of the following [**ExportListOptions**](exportlistoptions.md) values. These flags can be combined using a bitwise OR operation.
+This parameter can be one or more of the following [**ExportListOptions**](/windows/win32/MmcObj/ne-mmcobj-exportlistoptions?branch=master) values. These flags can be combined using a bitwise OR operation.
 
 <dt>
 
@@ -141,7 +141,7 @@ objView.ExportList "D:\output.txt", _
 
 <dl> <dt>
 
-[**ExportListOptions**](exportlistoptions.md)
+[**ExportListOptions**](/windows/win32/MmcObj/ne-mmcobj-exportlistoptions?branch=master)
 </dt> </dl>
 
  

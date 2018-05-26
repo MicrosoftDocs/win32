@@ -19,7 +19,7 @@ ms.author: windowssdkdev
 
 MMC provides snap-in developers with the following interface methods for working with OCX controls:
 
--   [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md)
+-   [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master)
 -   [**IConsole2::QueryResultView**](iconsole2-queryresultview.md)
 
 ## Other Constructs
@@ -29,8 +29,8 @@ MMC defines the following additional constructs for working with OCX controls:
 -   [**MMCN\_INITOCX**](mmcn-initocx.md) notification
 -   [**MMCN\_BTN\_CLICK**](mmcn-btn-click.md) notification
 -   [**MMCN\_RESTORE\_VIEW**](mmcn-restore-view.md) notification
--   MMC\_VIEW\_OPTIONS\_CREATENEW view option (see [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md))
--   [**IS\_SPECIAL\_DATAOBJECT**](is-special-dataobject.md) macro
+-   MMC\_VIEW\_OPTIONS\_CREATENEW view option (see [**IComponent::GetResultViewType**](/windows/win32/Mmc/nf-mmc-icomponent-getresultviewtype?branch=master))
+-   [**IS\_SPECIAL\_DATAOBJECT**](/windows/win32/Mmc/nf-mmc-is_special_dataobject?branch=master) macro
 
 ## Related topics
 
